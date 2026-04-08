@@ -5,3 +5,7 @@ rag_data.zip
 # RAG Database (FAISS)
 Knowledge_Base/
 setup_rag_2.py
+session_config.json
+hdmozi_dump*.html
+test_hdmozi.py
+__pycache__/

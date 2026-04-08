@@ -1,0 +1,7 @@
+video_downloader_github.db
+video_downloader_github_compressed.index
+setup_rag.py
+rag_data.zip
+# RAG Database (FAISS)
+Knowledge_Base/
+setup_rag_2.py

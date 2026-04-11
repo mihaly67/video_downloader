@@ -1,3 +1,4 @@
+import os
 import json
 import re
 import time
@@ -102,11 +103,13 @@ def sniffer_poc(url):
 
         browser.close()
 
-        # Eredmények mentése fájlba
-        with open("session_config.json", "w", encoding="utf-8") as f:
+        # Eredmények mentése fájlba (most már az src/sniffer mappába generálja)
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        config_path = os.path.join(script_dir, "session_config.json")
+        with open(config_path, "w", encoding="utf-8") as f:
             json.dump(session_data, f, indent=4, ensure_ascii=False)
 
-        print("[*] Eredmény elmentve a session_config.json fájlba.")
+        print(f"[*] Eredmény elmentve a {config_path} fájlba.")
         return session_data
 
 if __name__ == "__main__":

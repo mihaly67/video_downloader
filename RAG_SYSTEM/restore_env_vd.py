@@ -49,7 +49,7 @@ except ImportError:
 # Mivel a RAG fájlok a script mellett, a RAG_SYSTEM mappában kell landoljanak:
 ENVIRONMENT_RESOURCES = {
     "VIDEO_DOWNLOADER_RAG": {
-        "id": "1tcUZPbhnL4zMyTple4I5Nsc9A5Yl3xYq",
+        "id": "1g2GwjUs4_-Gb6dvGEv8XJaNgAcMQb6-e", # Alapértelmezett, ha nincs env, de ez valójában a repo list link. Kicserélve az új drive id-re a környezetváltozóból vagy defaultból:
         "file": "video_downloader_knowledge.zip",
         "extract_to": os.path.dirname(os.path.abspath(__file__)),
         "check_file": "video_downloader_github.db",
@@ -57,6 +57,17 @@ ENVIRONMENT_RESOURCES = {
         "preserve_dir": False
     }
 }
+
+# Dinamikusan felülírjuk az ID-t a környezeti változó alapján
+env_rag_id = os.environ.get("video_downloader_RAG")
+if env_rag_id:
+    # Ha teljes URL-t kaptunk, kiszedjük az ID-t
+    if "id=" in env_rag_id:
+        ENVIRONMENT_RESOURCES["VIDEO_DOWNLOADER_RAG"]["id"] = env_rag_id.split("id=")[1].split("&")[0]
+    elif "/d/" in env_rag_id:
+        ENVIRONMENT_RESOURCES["VIDEO_DOWNLOADER_RAG"]["id"] = env_rag_id.split("/d/")[1].split("/")[0]
+    else:
+        ENVIRONMENT_RESOURCES["VIDEO_DOWNLOADER_RAG"]["id"] = env_rag_id
 
 def log(msg, color=Fore.GREEN):
     print(f"{color}{msg}{Style.RESET_ALL}")

@@ -14,10 +14,10 @@ def main():
     parser.add_argument("--neighborhood", action="store_true", help="Keresse ki a megelőző és következő ROWID-t is a teljes kontextushoz")
     args = parser.parse_args()
 
-    # Itt mondjuk meg, hol van a kicsomagolt adatbázis (ezt a restore_env_vd.py hozza létre)
-    db_dir = "Knowledge_Base/RAG_DB"
+    # Mivel minden egy könyvtárban (RAG_SYSTEM) lesz futtatva:
+    db_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # A fájlnevek a ZIP fájl tartalmának megfelelően
+    # A fájlnevek az új struktúra szerint
     index_path = os.path.join(db_dir, "video_downloader_github_compressed.index")
     sqlite_path = os.path.join(db_dir, "video_downloader_github.db")
     model_name = "all-MiniLM-L6-v2"
@@ -58,53 +58,35 @@ def main():
 
         if idx == -1: continue
 
-        # Metaadat szűrés SQL-ben. A Video Downloader adatbázisnál is feltételezzük a 'source' és 'content' oszlopokat a 'swat_data' táblában.
-        # Ha esetleg más lenne a táblanév (pl. 'rag_data'), akkor ezt itt át kell írni.
-        # Jelenleg a korábbi swat_data struktúrát feltételezzük.
-        try:
-            if args.source:
-                cursor.execute("SELECT id, source, content FROM swat_data WHERE id=? AND source LIKE ?", (idx, f"%{args.source}%"))
-            else:
-                cursor.execute("SELECT id, source, content FROM swat_data WHERE id=?", (idx,))
+        # Dinamikus táblanév és oszlop ellenőrzés (támogatja az új 'rag_data/filepath' és a régi 'swat_data/source' sémát is)
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+        tables = [t[0] for t in cursor.fetchall() if t[0] != "sqlite_sequence"]
+        table_name = "rag_data" if "rag_data" in tables else ("swat_data" if "swat_data" in tables else (tables[0] if tables else None))
 
-            row = cursor.fetchone()
-            if row:
-                db_id, source, content = row
-                results.append({
-                    "id": db_id,
-                    "distance": dist,
-                    "source": source,
-                    "content": content
-                })
-                if len(results) >= args.limit:
-                    break
-        except sqlite3.OperationalError:
-            # Fallback, ha a tábla neve nem swat_data
-             print("⚠️ Hiba az adatbázis lekérdezésekor. Ellenőrzöm a tábla nevét...")
-             cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-             tables = cursor.fetchall()
-             if tables:
-                 table_name = tables[0][0]
-                 print(f"✅ Használt tábla neve: {table_name}")
-                 if args.source:
-                    cursor.execute(f"SELECT id, source, content FROM {table_name} WHERE id=? AND source LIKE ?", (idx, f"%{args.source}%"))
-                 else:
-                    cursor.execute(f"SELECT id, source, content FROM {table_name} WHERE id=?", (idx,))
+        if not table_name:
+            print("❌ Error: Nem található adatokat tartalmazó tábla az SQLite adatbázisban.")
+            sys.exit(1)
 
-                 row = cursor.fetchone()
-                 if row:
-                     db_id, source, content = row
-                     results.append({
-                         "id": db_id,
-                         "distance": dist,
-                         "source": source,
-                         "content": content
-                     })
-                     if len(results) >= args.limit:
-                         break
-             else:
-                 print("❌ Üres az adatbázis!")
-                 break
+        cursor.execute(f"PRAGMA table_info({table_name});")
+        columns = [col[1] for col in cursor.fetchall()]
+        source_col = "filepath" if "filepath" in columns else "source"
+
+        if args.source:
+            cursor.execute(f"SELECT id, {source_col}, content FROM {table_name} WHERE id=? AND {source_col} LIKE ?", (idx, f"%{args.source}%"))
+        else:
+            cursor.execute(f"SELECT id, {source_col}, content FROM {table_name} WHERE id=?", (idx,))
+
+        row = cursor.fetchone()
+        if row:
+            db_id, source_val, content_val = row
+            results.append({
+                "id": db_id,
+                "distance": dist,
+                "source": source_val,
+                "content": content_val
+            })
+            if len(results) >= args.limit:
+                break
 
 
     print("\n" + "="*50)
@@ -121,16 +103,12 @@ def main():
             if args.neighborhood:
                 print("--- [ELŐZŐ KONTEXTUS (ROWID-1)] ---")
                 try:
-                    cursor.execute("SELECT content FROM swat_data WHERE id=?", (res['id'] - 1,))
+                    cursor.execute(f"SELECT content FROM {table_name} WHERE id=?", (res['id'] - 1,))
                     prev_row = cursor.fetchone()
                     if prev_row:
                         print(prev_row[0][:300] + "...\n")
-                except sqlite3.OperationalError:
-                     # Fallback table_name
-                     cursor.execute(f"SELECT content FROM {table_name} WHERE id=?", (res['id'] - 1,))
-                     prev_row = cursor.fetchone()
-                     if prev_row:
-                         print(prev_row[0][:300] + "...\n")
+                except Exception as e:
+                     print(f"[Hiba az előző kontextus lekérésekor: {e}]")
 
             print("--- [CÉL KONTEXTUS] ---")
             print(res['content'] + "\n")
@@ -138,16 +116,12 @@ def main():
             if args.neighborhood:
                 print("--- [KÖVETKEZŐ KONTEXTUS (ROWID+1)] ---")
                 try:
-                    cursor.execute("SELECT content FROM swat_data WHERE id=?", (res['id'] + 1,))
+                    cursor.execute(f"SELECT content FROM {table_name} WHERE id=?", (res['id'] + 1,))
                     next_row = cursor.fetchone()
                     if next_row:
                         print(next_row[0][:300] + "...\n")
-                except sqlite3.OperationalError:
-                    # Fallback table_name
-                     cursor.execute(f"SELECT content FROM {table_name} WHERE id=?", (res['id'] + 1,))
-                     next_row = cursor.fetchone()
-                     if next_row:
-                         print(next_row[0][:300] + "...\n")
+                except Exception as e:
+                     print(f"[Hiba a következő kontextus lekérésekor: {e}]")
 
             print("="*50)
 

@@ -46,11 +46,12 @@ except ImportError:
     class Style: BRIGHT=""
 
 # --- KONFIGURÁCIÓ ---
+# Mivel a RAG fájlok a script mellett, a RAG_SYSTEM mappában kell landoljanak:
 ENVIRONMENT_RESOURCES = {
     "VIDEO_DOWNLOADER_RAG": {
         "id": "1tcUZPbhnL4zMyTple4I5Nsc9A5Yl3xYq",
-        "file": "video_downloader_RAG.zip",
-        "extract_to": "Knowledge_Base/RAG_DB",
+        "file": "video_downloader_knowledge.zip",
+        "extract_to": os.path.dirname(os.path.abspath(__file__)),
         "check_file": "video_downloader_github.db",
         "type": "zip",
         "preserve_dir": False

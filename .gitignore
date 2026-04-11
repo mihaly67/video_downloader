@@ -9,3 +9,7 @@ session_config.json
 hdmozi_dump*.html
 test_hdmozi.py
 __pycache__/
+RAG_SYSTEM/*.db
+RAG_SYSTEM/*.index
+RAG_SYSTEM/*.zip
+RAG_SYSTEM/*.jsonl

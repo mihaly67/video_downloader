@@ -22,6 +22,9 @@ A fenti logika alapján a projekt könyvtárszerkezete a következő (amelyet a 
 ├── agents.md                    # Jules (az Agent) belső működési protokollja
 ├── PROJECT_ARCHITECTURE.md      # EZ A DOKUMENTUM: Az architekturális terv
 │
+├── HANDOVER/                    # Session Átadási Jelentések (Handover Reportok)
+│   └── Session_handover_...md   # A korábbi munkafázisok dokumentációi
+│
 ├── src/                         # A Python kódok fő gyökere
 │   ├── sniffer/                 # A "Hálózati Felderítő" (Phase 1)
 │   │   ├── __init__.py

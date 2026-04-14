@@ -13,6 +13,7 @@ Minden környezet telepítése automatikusan történik a `restore_env_vd.py` sc
 - `numpy`
 - `pandas`
 - `colorama`
+- `playwright` (A Google Drive korlátozások megkerüléséhez)
 
 ### Végrehajtás
 Futtasd a következő parancsot ebből a mappából (`RAG_SYSTEM`):
@@ -23,6 +24,7 @@ python3 restore_env_vd.py
 
 **Eredmény:**
 A script letölti és kicsomagolja maga mellé a RAG-ot (`video_downloader_github_compressed.index` és a `video_downloader_github.db` fájlokat).
+A rendszer tartalmaz egy Playwright alapú letöltés-visszaállító logikát is. Ha a letöltendő fájl túl nagy (jelenleg 136 MB) és a Google Drive feldobja a "Virus scan warning" figyelmeztetést, a script automatikusan egy láthatatlan (headless) böngészőt indít, és azzal húzza le az adatbázist.
 *(Megjegyzés: A RAG adatbázis fájlok automatikusan a `.gitignore` fájlhoz adódnak, így nem kerülnek a Git tárolóba.)*
 
 ## RAG Építés (Új adatbázis generálása)
@@ -46,16 +48,22 @@ A kódbázis megértéséhez és specifikus funkciók kereséséhez **kötelező
 python3 rag_interrogator.py --query "How to download video using aria2c"
 ```
 
-**2. Keresés forrás szerinti szűréssel (Hibrid Szűrő Taktika):**
-A `--source` paraméterrel szűrhetsz adott fájltípusokra vagy fájlnevekre, hogy csökkentsd a hamis pozitív találatok számát.
+**2. Keresés fájl szerinti szűréssel (Hibrid Szűrő Taktika):**
+A `--filepath` paraméterrel szűrhetsz adott fájltípusokra vagy fájlnevekre, hogy csökkentsd a hamis pozitív találatok számát. (Megjegyzés: kompatibilis az új és a régi SQLite sémákkal is.)
 ```bash
-python3 rag_interrogator.py --query "download initialization" --source ".py" --limit 10
+python3 rag_interrogator.py --query "download initialization" --filepath ".py" --limit 10
 ```
 
 **3. Szomszédság lekérdezése (Teljes Kontextus):**
-Ha a kapott kódrészlet nem tartalmazza például a szükséges `import` nyilatkozatokat vagy a kontextust, a `--neighborhood` jelzővel a script visszaadja a RAG adatbázis előző és következő blokkját is.
+Ha a kapott kódrészlet nem tartalmazza például a szükséges `import` nyilatkozatokat vagy a kontextust, a `--neighborhood <szám>` paraméterrel a script visszaadja a RAG adatbázis megadott számú előző és következő blokkját is.
 ```bash
-python3 rag_interrogator.py --query "config loader class" --neighborhood
+python3 rag_interrogator.py --query "config loader class" --neighborhood 1
+```
+
+**4. Kaszkád Rekonstrukció (Deep Drill):**
+Ha megtaláltál egy specifikus fájlt a RAG-ban, de a teljes kódjára vagy kíváncsi (nem csak a kiragadott sorokra), használd az `--expand_file` paramétert! Ez sorrendben összefűzi a fájlhoz tartozó összes rekordot az adatbázisból.
+```bash
+python3 rag_interrogator.py --query "flet yt-dlp" --limit 1 --expand_file
 ```
 
 ## További Információk

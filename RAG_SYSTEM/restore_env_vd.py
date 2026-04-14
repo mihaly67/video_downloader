@@ -40,14 +40,18 @@ def install_dependencies():
 install_dependencies()
 
 try:
-    import gdown
-    import asyncio
     from colorama import Fore, Style, init
-    from playwright.async_api import async_playwright
     init(autoreset=True)
 except ImportError:
     class Fore: GREEN=""; RED=""; YELLOW=""; CYAN=""; RESET=""
     class Style: BRIGHT=""
+
+try:
+    import gdown
+    import asyncio
+    from playwright.async_api import async_playwright
+except ImportError:
+    pass
 
 # --- KONFIGURÁCIÓ ---
 # Mivel a RAG fájlok a script mellett, a RAG_SYSTEM mappában kell landoljanak:

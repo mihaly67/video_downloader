@@ -57,7 +57,7 @@ except ImportError:
 # Mivel a RAG fájlok a script mellett, a RAG_SYSTEM mappában kell landoljanak:
 ENVIRONMENT_RESOURCES = {
     "VIDEO_DOWNLOADER_RAG": {
-        "id": "1g2GwjUs4_-Gb6dvGEv8XJaNgAcMQb6-e", # Alapértelmezett, ha nincs env, de ez valójában a repo list link. Kicserélve az új drive id-re a környezetváltozóból vagy defaultból:
+        "id": "14axP0bV62AehyynYSswpN9apfAcwly4M", # A legújabb kibővített RAG adatbázis (136 MB)
         "file": "video_downloader_knowledge.zip",
         "extract_to": os.path.dirname(os.path.abspath(__file__)),
         "check_file": "video_downloader_github.db",

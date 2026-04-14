@@ -119,7 +119,7 @@ def main():
             print(f"    🏷️ KATEGÓRIA: {res['category']} | 📦 REPO: {res['repo']} | 📏 TÁVOLSÁG: {res['distance']:.4f} | 🔑 CÉL-ROWID: {res['id']}")
             print("-" * 80)
 
-            table_name = "rag_data" if is_new_schema else "swat_data"
+            # a `table_name` már fent be lett állítva a `is_new_schema` vagy a fallback alapján
 
             # ---------------------------------------------------------
             # 1. KASZKÁD / EXPAND_FILE MÓD (A teljes fájl visszaállítása)

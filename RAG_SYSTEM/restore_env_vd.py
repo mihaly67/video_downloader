@@ -145,7 +145,8 @@ def process_resource(key, config):
     if not os.path.exists(zip_name):
         log(f"   📥 Letöltés: {zip_name} (ID: {drive_id})...", Fore.CYAN)
         try:
-            gdown.download(id=drive_id, output=zip_name, quiet=False, fuzzy=True)
+            # Removed fuzzy=True because it's not supported in newer versions
+            gdown.download(id=drive_id, output=zip_name, quiet=False)
         except Exception as e:
             log(f"   ❌ Letöltési hiba: {e}", Fore.RED)
             return

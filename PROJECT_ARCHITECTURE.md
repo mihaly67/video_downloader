@@ -29,11 +29,14 @@ A fenti logika alapján a projekt könyvtárszerkezete a következő (amelyet a 
 │   ├── sniffer/                 # A "Hálózati Felderítő" (Phase 1)
 │   │   ├── __init__.py
 │   │   ├── sniffer_poc.py       # A Playwright-alapú manifeszt-elkapó szkript
-│   │   └── stealth_utils.py     # (Későbbi) Bot-védelem elkerülését segítő logika
+│   │   ├── stealth_utils.py     # Bot-védelem elkerülését segítő logika
+│   │   ├── proxy/               # Közbeékelődés (pl. mitmproxy/selenium-wire) logikák TLS/SSL esetekhez
+│   │   └── deobfuscator/        # JS AST parserek és WASM visszafejtők az AES kulcsok megszerzéséhez
 │   │
 │   ├── core/                    # A "Nyers Letöltő" (Phase 2)
 │   │   ├── __init__.py
-│   │   └── downloader.py        # yt-dlp API integráció (Progress Hookokkal)
+│   │   ├── downloader.py        # yt-dlp API integráció (Progress Hookokkal)
+│   │   └── queue_manager/       # Letöltés-sorozat és párhuzamosítás (szálak) kezelése
 │   │
 │   ├── processor/               # A "Műtő" (Phase 3)
 │   │   ├── __init__.py
@@ -41,12 +44,13 @@ A fenti logika alapján a projekt könyvtárszerkezete a következő (amelyet a 
 │   │
 │   ├── ui/                      # Az "Irányítóterem" (Phase 4)
 │   │   ├── __init__.py
-│   │   └── flet_app.py          # A Flet grafikus felület belépési pontja
+│   │   ├── flet_app.py          # A Flet grafikus felület belépési pontja
+│   │   └── state/               # Aszinkron Flet állapotkezelés (State, Event Emitterek a yt-dlp-hez)
 │   │
 │   └── utils/                   # Globális segédprogramok
 │       ├── __init__.py
 │       ├── config_manager.py    # A session_config.json és egyéb configok olvasója
-│       └── drm_detector.py      # Widevine/PlayReady PSSH és MPD analízis
+│       └── drm_detector.py      # Widevine/PlayReady PSSH kinyerés és MPD analízis
 │
 ├── RAG_SYSTEM/                  # A RAG tudásbázis építő és vallató szkriptjei (Kész)
 │   ├── RAG_SETUP.md

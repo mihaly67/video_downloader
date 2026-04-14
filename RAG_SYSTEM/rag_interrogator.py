@@ -54,23 +54,23 @@ def main():
 
     results = []
 
+    # Dinamikus table name lekérés függetlenül az is_new_schema checktől (hogy a table_name globálisan elérhető legyen)
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = [t[0] for t in cursor.fetchall() if t[0] != "sqlite_sequence"]
+    table_name = "rag_data" if "rag_data" in tables else ("swat_data" if "swat_data" in tables else (tables[0] if tables else None))
+
+    if not table_name:
+        print("❌ Error: Nem található adatokat tartalmazó tábla az SQLite adatbázisban.")
+        sys.exit(1)
+
+    cursor.execute(f"PRAGMA table_info({table_name});")
+    columns = [col[1] for col in cursor.fetchall()]
+    source_col = "filepath" if "filepath" in columns else "source"
+
     # SQL alapok a séma függvényében
     if is_new_schema:
         sql_base = "SELECT id, 'Unknown', 'Unknown', filepath, content FROM rag_data WHERE id=?"
     else:
-        # Check if the table swat_data or something else exists
-        cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
-        tables = [t[0] for t in cursor.fetchall() if t[0] != "sqlite_sequence"]
-        table_name = "rag_data" if "rag_data" in tables else ("swat_data" if "swat_data" in tables else (tables[0] if tables else None))
-
-        if not table_name:
-            print("❌ Error: Nem található adatokat tartalmazó tábla az SQLite adatbázisban.")
-            sys.exit(1)
-
-        cursor.execute(f"PRAGMA table_info({table_name});")
-        columns = [col[1] for col in cursor.fetchall()]
-        source_col = "filepath" if "filepath" in columns else "source"
-
         sql_base = f"SELECT id, 'Unknown', 'Unknown', {source_col}, content FROM {table_name} WHERE id=?"
 
     sql_params = []

@@ -63,7 +63,16 @@ ENVIRONMENT_RESOURCES = {
         "check_file": "video_downloader_github.db",
         "type": "zip",
         "preserve_dir": False
+    },
+    "RAG_buider_agents_skill_dev_RAG": {
+        "id": "1hNl4JYrms427u94H48kpkb39OJ5C5AhN",
+        "file": "rag_builder_agents_skill_dev_rag.zip",
+        "extract_to": os.path.dirname(os.path.abspath(__file__)),
+        "check_file": "RAG_CHATBOT_CSV_DATA_LLM_github.db",
+        "type": "zip",
+        "preserve_dir": False
     }
+
 }
 
 # Dinamikusan felülírjuk az ID-t a környezeti változó alapján
@@ -76,6 +85,15 @@ if env_rag_id:
         ENVIRONMENT_RESOURCES["VIDEO_DOWNLOADER_RAG"]["id"] = env_rag_id.split("/d/")[1].split("/")[0]
     else:
         ENVIRONMENT_RESOURCES["VIDEO_DOWNLOADER_RAG"]["id"] = env_rag_id
+
+env_builder_id = os.environ.get("RAG_buider_agents_skill_dev_RAG")
+if env_builder_id:
+    if "id=" in env_builder_id:
+        ENVIRONMENT_RESOURCES["RAG_buider_agents_skill_dev_RAG"]["id"] = env_builder_id.split("id=")[1].split("&")[0]
+    elif "/d/" in env_builder_id:
+        ENVIRONMENT_RESOURCES["RAG_buider_agents_skill_dev_RAG"]["id"] = env_builder_id.split("/d/")[1].split("/")[0]
+    else:
+        ENVIRONMENT_RESOURCES["RAG_buider_agents_skill_dev_RAG"]["id"] = env_builder_id
 
 def log(msg, color=Fore.GREEN):
     print(f"{color}{msg}{Style.RESET_ALL}")
@@ -252,6 +270,30 @@ def main():
 
     update_gitignore()
     print(f"\n{Fore.GREEN}✅ KÖRNYEZET KÉSZ. RAG RENDSZER AKTÍV.{Style.RESET_ALL}")
+
+
+    # Automatikus memória indítás
+    print(f"\n{Fore.YELLOW}🧠 Agent Memory Manager inicializálása...{Style.RESET_ALL}")
+    memory_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "agent_memory_manager.py")
+    if os.path.exists(memory_script):
+        try:
+            subprocess.run([sys.executable, memory_script, "--action", "start_session"])
+        except Exception as e:
+            print(f"{Fore.RED}❌ Hiba az Agent Memory indításakor: {e}{Style.RESET_ALL}")
+    else:
+        print(f"{Fore.YELLOW}⚠️ Az Agent Memory Manager nem található a várt helyen: {memory_script}{Style.RESET_ALL}")
+
+    # Heartbeat indítása háttérben
+    print(f"\n{Fore.YELLOW}💓 Agent Heartbeat (Keep-Alive Daemon) indítása...{Style.RESET_ALL}")
+    heartbeat_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "heartbeat.py")
+    if os.path.exists(heartbeat_script):
+        try:
+            subprocess.Popen([sys.executable, heartbeat_script], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except Exception as e:
+            print(f"{Fore.RED}❌ Hiba a Heartbeat indításakor: {e}{Style.RESET_ALL}")
+    else:
+        print(f"{Fore.YELLOW}⚠️ A Heartbeat script nem található a várt helyen: {heartbeat_script}{Style.RESET_ALL}")
+
 
 if __name__ == "__main__":
     main()

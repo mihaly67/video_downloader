@@ -13,3 +13,4 @@ RAG_SYSTEM/*.db
 RAG_SYSTEM/*.index
 RAG_SYSTEM/*.zip
 RAG_SYSTEM/*.jsonl
+ENVIRONMENT_SETUP/.agent_heartbeat

@@ -271,6 +271,7 @@ def main():
     update_gitignore()
     print(f"\n{Fore.GREEN}✅ KÖRNYEZET KÉSZ. RAG RENDSZER AKTÍV.{Style.RESET_ALL}")
 
+
     # Automatikus memória indítás
     print(f"\n{Fore.YELLOW}🧠 Agent Memory Manager inicializálása...{Style.RESET_ALL}")
     memory_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "agent_memory_manager.py")
@@ -281,6 +282,18 @@ def main():
             print(f"{Fore.RED}❌ Hiba az Agent Memory indításakor: {e}{Style.RESET_ALL}")
     else:
         print(f"{Fore.YELLOW}⚠️ Az Agent Memory Manager nem található a várt helyen: {memory_script}{Style.RESET_ALL}")
+
+    # Heartbeat indítása háttérben
+    print(f"\n{Fore.YELLOW}💓 Agent Heartbeat (Keep-Alive Daemon) indítása...{Style.RESET_ALL}")
+    heartbeat_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "heartbeat.py")
+    if os.path.exists(heartbeat_script):
+        try:
+            subprocess.Popen([sys.executable, heartbeat_script], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except Exception as e:
+            print(f"{Fore.RED}❌ Hiba a Heartbeat indításakor: {e}{Style.RESET_ALL}")
+    else:
+        print(f"{Fore.YELLOW}⚠️ A Heartbeat script nem található a várt helyen: {heartbeat_script}{Style.RESET_ALL}")
+
 
 if __name__ == "__main__":
     main()

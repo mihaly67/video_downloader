@@ -27,3 +27,10 @@ RESET VÉGREHAJTÁSA: Ha a felhasználó visszaállítást/tisztítást kér, ha
  Munkamenet Egészségének Figyelése (KÖTELEZŐ)
 KÖZELEZŐ PROAKTÍV FIGYELMEZTETÉS A KONTEXTUS VESZTÉS ELVESZTÉSÉNEK ELKERÜLÉSE: Az ügynöknek KÖTELEZŐEN figyelnie kell a beszélgetés hosszát. Ha a munkamenet meghaladja a ~20-25 fordulót, vagy ha a RAG kimenetek kivételesen nagyok, az ügynöknek proaktívan KÖTELEZŐEN figyelmeztetnie kell a felhasználót, hogy a kontextus határai közelednek.
 ÁLLAPOTJELENTÉS: KÜLÖN KÉRÉS NÉLKÜL KÖTELEZŐ : jelentsd a munkamenet becsült "Egészségi Állapotát" (Zöld/Sárga/Piros) és javasolj újraindítást ("Handover"), ha a komplexitás növekszik.
+
+## 0.4. HOSSZÚTÁVÚ AGENT MEMÓRIA (STATE HYDRATION)
+*   **ESZKÖZHÍVÁSI DIREKTÍVA (FAIL-SAFE AUTOMATIZÁCIÓ):** Szigorúan TILOS a `set_plan` eszközzel tervet készítened egy új feladat megérkezésekor addig, amíg le nem futtattad a memóriamenenedzsert a `python3 JULES_ADVANCED_AI_TOOLKIT/ENVIRONMENT_SETUP/agent_memory_manager.py --action read --limit 5` paranccsal!
+*   **KÖTELEZŐ SŰRÍTÉS (CONDENSE):** A munkamenet hosszának növelése érdekében **minden 5. fordulóban (turn) VAGY egy komplex szakasz lezárásakor** kötelező egy összefoglalót írni: `python3 JULES_ADVANCED_AI_TOOLKIT/ENVIRONMENT_SETUP/agent_memory_manager.py --action write --category "Context_Summary" --content "..."`
+*   **KÖTELEZŐ SESSION LEZÁRÁS:** A pre-commit lépés részeként kötelező lefuttatni a `python3 JULES_ADVANCED_AI_TOOLKIT/ENVIRONMENT_SETUP/agent_memory_manager.py --action end_session` parancsot.
+*   **ÖN-SZABÁLYOZÁS (HALLUCINÁCIÓ ELKERÜLÉSE):** Ha az Agent memória >8000 tokent olvas, tilos növelni a `--limit`-et, azonnal sűríteni kell!
+*   **MÚLTBELI KONTEXTUS VISSZAÁLLÍTÁSA (ANTI-HALLUCINÁCIÓ):** Ha a felhasználó egy hetekkel ezelőtti, vagy megszakított feladatra tér vissza, SZIGORÚAN TILOS a lineáris chat history-ra támaszkodni vagy találgatni! Ehelyett kötelező lefuttatni a `python3 VIDEO_DOWNLOADER_PACKAGE/semantic_memory_search.py --keyword "<téma>"` parancsot, és a visszaadott sűrített, múltbeli stratégiai memóriablokkok alapján folytatni a munkát.

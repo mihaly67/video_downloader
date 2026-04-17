@@ -283,6 +283,7 @@ def main():
     else:
         print(f"{Fore.YELLOW}⚠️ Az Agent Memory Manager nem található a várt helyen: {memory_script}{Style.RESET_ALL}")
 
+
     # Heartbeat indítása háttérben
     print(f"\n{Fore.YELLOW}💓 Agent Heartbeat (Keep-Alive Daemon) indítása...{Style.RESET_ALL}")
     heartbeat_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "heartbeat.py")
@@ -293,6 +294,18 @@ def main():
             print(f"{Fore.RED}❌ Hiba a Heartbeat indításakor: {e}{Style.RESET_ALL}")
     else:
         print(f"{Fore.YELLOW}⚠️ A Heartbeat script nem található a várt helyen: {heartbeat_script}{Style.RESET_ALL}")
+
+    # Health Check futtatása
+    print(f"\n{Fore.YELLOW}🩺 Agent System Health Check ellenőrzése...{Style.RESET_ALL}")
+    checker_script = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "agent_health_checker.py")
+    if os.path.exists(checker_script):
+        try:
+            subprocess.run([sys.executable, checker_script])
+        except Exception as e:
+            print(f"{Fore.RED}❌ Hiba a Health Check futtatásakor: {e}{Style.RESET_ALL}")
+    else:
+        print(f"{Fore.YELLOW}⚠️ A Health Check script nem található a várt helyen: {checker_script}{Style.RESET_ALL}")
+
 
 
 if __name__ == "__main__":

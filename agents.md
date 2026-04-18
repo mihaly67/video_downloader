@@ -50,7 +50,7 @@ A felhős LLM platformok (DevBox, Cloudflare, Docker) azonnal lelövik a munkame
 ## 5. AGENT MEMÓRIA ÉS ANTI-HALLUCINÁCIÓ (STATE HYDRATION)
 Egy 100-500 fordulós beszélgetés végére a memóriád (Context Window) betelik vagy összezavarodik. Ezt az `ENVIRONMENT_SETUP/agent_memory_manager.py` és a hozzá tartozó `.jsonl` fájl védi ki.
 
-*   **IDŐNKÉNTI HEALTH CHECK:** Minden nagyobb kódolási blokk végén (vagy ha bizonytalan a rendszer állapota) KÖTELEZŐ JELLEGGEL futtasd le a terminálban a `python3 ENVIRONMENT_SETUP/agent_health_checker.py` parancsot! A háttérdémon "néma" marad és csak a `ENVIRONMENT_SETUP/agent_daemon.log`-ba ír, hogy ne zavarja a kódolást.
+*   **IDŐNKÉNTI HEALTH CHECK:** Minden nagyobb kódolási blokk végén (vagy ha bizonytalan a rendszer állapota) KÖTELEZŐ JELLEGGEL futtasd le a terminálban a `python3 ENVIRONMENT_SETUP/agent_health_checker.py` parancsot! A háttérdémon kimenete folyamatosan frissíti a terminált, jelezve a szívverést.
 
 ---
 

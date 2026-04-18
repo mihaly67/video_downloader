@@ -290,7 +290,8 @@ def main():
     if os.path.exists(heartbeat_script):
         try:
 
-            subprocess.Popen([sys.executable, heartbeat_script])
+            log_file = open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "ENVIRONMENT_SETUP", "agent_daemon.log"), "w")
+            subprocess.Popen([sys.executable, heartbeat_script], stdout=log_file, stderr=log_file)
         except Exception as e:
             print(f"{Fore.RED}❌ Hiba a Heartbeat indításakor: {e}{Style.RESET_ALL}")
     else:

@@ -25,11 +25,13 @@ Kereséshez kötelező a `python3 RAG_SYSTEM/rag_interrogator.py` parancsot hasz
 
 ## 3. PROJEKT ARCHITEKTÚRA ÉS KÜLDETÉS (WORKFLOW)
 A cél egy olyan asztali alkalmazás létrehozása (Flet), amely képes bármilyen videómegosztó portálról videókat kinyerni és letölteni.
+A `CORE_DOWNLOADER_ARCHITEKTURA.md` alapján a projekt a "Transzplantációs stratégia" mentén épül fel, hibrid letöltő motort használva:
+
 **A 4 fázisú Workflow:**
 1. **Sniffer (Playwright Stealth):** URL megnyitása, hálózati forgalom elemzése, szegmensek/manifeszt fájlok kinyerése (.m3u8, .mpd). El kell menteni a fejlécet (Referer, Cookie, User-Agent).
-2. **Motor (yt-dlp API):** A letöltést a `yt_dlp.YoutubeDL` Python osztály végzi (nem CLI hívás), real-time progress hook küldésével.
-3. **Konvertáló (FFmpeg):** Fájlok összefűzése, HLS/DASH kezelés, post-processing.
-4. **Felület (Flet GUI):** Sötét módú, letisztult UI (TextField, ProgressBar, ListView történet).
+2. **Motor (yt-dlp API, `src/core/downloader.py`):** A letöltést a `yt_dlp.YoutubeDL` Python osztály végzi (nem CLI hívás). A Session Injector beinjektálja a Sniffer által generált fejléceket.
+3. **Queue Manager (`src/core/queue_manager/`):** Aszinkron szálkezeléssel felügyeli a párhuzamos letöltéseket, megelőzve a hálózati összeomlást.
+4. **Felület és Event Emitter (Flet GUI):** A `yt-dlp` progress hook-jára építve a downloader egy Event objektumot dob a Flet UI felé, ami fagyásmentesen, lazán csatolva frissíti a ProgressBar-t.
 
 **Biztonsági Előírások:**
 * **403 Forbidden:** Referer/Cookie hiány ellenőrzése.

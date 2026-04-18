@@ -16,11 +16,14 @@ def check_health():
     current_time = time.time()
 
     # 1. Daemon ellenőrzés
+
     if os.path.exists(heartbeat_file):
         hb_age = current_time - os.path.getmtime(heartbeat_file)
         if hb_age < 30:
             print(f"✅ DAEMON: A Keep-Alive Daemon aktív (Utolsó szívverés: {int(hb_age)} mp-e).")
+            print(f"   ℹ️ A folyamatos logokat itt találod: ENVIRONMENT_SETUP/agent_daemon.log")
         else:
+
             print(f"❌ DAEMON: A Keep-Alive Daemon HALOTT vagy LEFAGYOTT! (Utolsó szívverés: {int(hb_age)} mp-e).")
             print("👉 Indítsd újra a `restore_env_pv.py` szkriptet!")
     else:

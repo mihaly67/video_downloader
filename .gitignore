@@ -14,3 +14,4 @@ RAG_SYSTEM/*.index
 RAG_SYSTEM/*.zip
 RAG_SYSTEM/*.jsonl
 ENVIRONMENT_SETUP/.agent_heartbeat
+RAG_SYSTEM/supervisor.log

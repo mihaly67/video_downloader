@@ -16,13 +16,22 @@ def run_daemon():
 
     try:
         while True:
-            # 10 másodpercenként frissítjük a fájl módosítási idejét (I/O event)
+
+            # Szívverés fájl frissítése
             with open(keepalive_file, "w") as f:
                 f.write(str(time.time()))
 
-            # Flusholjuk a standard kimenetet is, ha esetleg a logoló ezt figyeli
+            # Memória frissességének ellenőrzése
+            memory_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Knowledge_Base", "agent_memory.jsonl")
+            if os.path.exists(memory_file):
+                last_modified = os.path.getmtime(memory_file)
+                if (time.time() - last_modified) > (15 * 60):  # 15 perc
+                    print(f"\n🚨 [SUPERVISOR ALERT] AZ AGENT ELFELEJTETTE ÍRNI A MEMÓRIÁT! 🚨")
+                    print(f"👉 KÖTELEZŐ AKCIÓ: Futtasd az agent_memory_manager.py --action write parancsot!\n", flush=True)
+
             print(f"💓 [Keep-Alive] Updated .agent_heartbeat at {time.strftime('%H:%M:%S')}", flush=True)
             sys.stdout.flush()
+
 
             time.sleep(10)
     except KeyboardInterrupt:

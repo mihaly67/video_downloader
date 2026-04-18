@@ -21,6 +21,7 @@ def run_daemon():
                 f.write(str(time.time()))
 
             # Flusholjuk a standard kimenetet is, ha esetleg a logoló ezt figyeli
+            print(f"💓 [Keep-Alive] Updated .agent_heartbeat at {time.strftime('%H:%M:%S')}", flush=True)
             sys.stdout.flush()
 
             time.sleep(10)

@@ -13,9 +13,9 @@ def run_autonomous_scout():
     hogy "mi mire való". Kigyűjti a fájlokat, azok README leírásait,
     vagy az osztályok docstringjeit.
     """
-    print("🤖 AUTONÓM FELDERÍTŐ INDÍTÁSA (Deep Drill a Videó Restauráló RAG-on)...")
+    print("🤖 AUTONÓM FELDERÍTŐ INDÍTÁSA (Deep Drill a Video Downloader RAG-on)...")
 
-    db_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "RAG_SYSTEM", "RAG_CHATBOT_CSV_DATA_LLM_github.db")
+    db_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "RAG_SYSTEM", "video_downloader_github.db")
 
     if not os.path.exists(db_path):
         print(f"❌ Adatbázis nem található: {db_path}")
@@ -75,7 +75,7 @@ def run_autonomous_scout():
     # Jelentés építése
     out_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Knowledge_Base", "KNOWLEDGE_MAPS")
     os.makedirs(out_dir, exist_ok=True)
-    report_file = os.path.join(out_dir, "rag_chatbot_csv_data_deep_drill.md")
+    report_file = os.path.join(out_dir, "video_downloader_deep_drill.md")
 
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write("# 🔬 AUTONÓM MÉLYFÚRÁS (Deep Drill Report)\n")
@@ -94,7 +94,7 @@ def run_autonomous_scout():
                 if desc:
                     f.write(f"  - 📄 `{filepath}`: *{desc}*\n")
                     file_count += 1
-                elif "inference" in filepath or "model" in filepath or "pipeline" in filepath or "train" in filepath:
+                elif "downloader" in filepath or "extract" in filepath or "queue" in filepath or "ffmpeg" in filepath or "playwright" in filepath or "gui" in filepath:
                      f.write(f"  - 📄 `{filepath}`: (Fő feldolgozó / logikai modul)\n")
                      file_count += 1
 
@@ -106,7 +106,7 @@ def run_autonomous_scout():
     print(f"\n✅ Autonóm Felderítés befejezve. A teljes térkép a KNOWLEDGE_MAPS mappában: {report_file}")
 
     # Memória írás (Sűrítve)
-    write_memory("Auto_Scout_Report", f"A video restauráló RAG mélyfúrása lefutott. {len(repo_insights)} repository-t elemeztem ki, a teljes jelentés (fájl szintű leírásokkal) a KNOWLEDGE_MAPS/rag_chatbot_csv_data_deep_drill.md fájlban van.")
+    write_memory("Auto_Scout_Report", f"A video downloader RAG mélyfúrása lefutott. {len(repo_insights)} repository-t elemeztem ki, a teljes jelentés (fájl szintű leírásokkal) a KNOWLEDGE_MAPS/video_downloader_deep_drill.md fájlban van.")
 
 if __name__ == "__main__":
     run_autonomous_scout()

@@ -1,0 +1,6897 @@
+# 🔬 AUTONÓM MÉLYFÚRÁS (Deep Drill Report)
+Adatbázis: video_downloader_github.db
+
+## 📦 REPO: Bento4-master
+**Funkció / Leírás:** ### Mac OSX and iOS using XCode Open the XCode project file Build/Targets/universal-apple-macosx/Bento4.xcodeproj and build
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `Bento4-master/Build/Targets/x86-microsoft-win32-vs2010/Build.py`: *Visual Studio 2005 Build Script  $Id: Build.py 172 2008-07-22 18:26:24Z julien $*
+  - 📄 `Bento4-master/Build/Targets/x86_64-microsoft-win32-vs2015/Build.py`: *Visual Studio 2005 Build Script  $Id: Build.py 172 2008-07-22 18:26:24Z julien $*
+  - 📄 `Bento4-master/Build/Targets/x86_64-microsoft-win32-vs2019/Build.py`: *Visual Studio 2005 Build Script  $Id: Build.py 172 2008-07-22 18:26:24Z julien $*
+  - 📄 `Bento4-master/Documents/MkDocs/src/documentation/mp4extract.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `Bento4-master/Test/Tools/MakeSignedAttributes.py`: *Example usage: python MakeSignedAttributes.py attr.priv attr.cert 1:2:http://blabla.com/foo.xml 2:2:http://blabla.com/bar.xml*
+  - 📄 `Bento4-master/tasks/__init__.py`: *Tasks for Bento4*
+  - 📄 `Bento4-master/tasks/doc.py`: *Tasks to build the Bento4 documentation*
+
+----------------------------------------
+
+## 📦 REPO: CustomTkinter-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `CustomTkinter-master/customtkinter/__init__.py`: *possible values: light, dark, system*
+  - 📄 `CustomTkinter-master/customtkinter/windows/ctk_input_dialog.py`: *Dialog with extra window, message, entry widget, cancel and ok button.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/ctk_tk.py`: *Main app window with dark titlebar on Windows and macOS.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/ctk_toplevel.py`: *Toplevel window with dark titlebar on Windows and macOS.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/appearance_mode/appearance_mode_base_class.py`: *Super-class that manages the appearance mode. Methods:      - destroy() must be called when sub-class is destroyed     - _set_appearance_mode() abstractmethod, gets called when appearance mode changes...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/core_rendering/ctk_canvas.py`: *Canvas with additional functionality to draw antialiased circles on Windows/Linux.      Call .init_font_character_mapping() at program start to load the correct character     dictionary according to t...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/core_rendering/draw_engine.py`: *This is the core of the CustomTkinter library where all the drawing on the tkinter.Canvas happens.     A year of experimenting and trying out different drawing methods have led to the current state of...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/core_widget_classes/ctk_base_class.py`: *Base class of every CTk widget, handles the dimensions, bg_color,         appearance_mode changes, scaling, bg changes of master if master is not a CTk widget*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/core_widget_classes/dropdown_menu.py`: *pass font to tkinter widgets with applied font scaling*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_button.py`: *Button with rounded corners, border, hover effect, image support, click command and textvariable.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_checkbox.py`: *Checkbox with rounded corners, border, variable support and hover effect.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_combobox.py`: *Combobox with dropdown menu, rounded corners, border, variable support.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_entry.py`: *Entry with rounded corners, border, textvariable support, focus and placeholder.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_frame.py`: *Frame with rounded corners and border.     Default foreground colors are set according to theme.     To make the frame transparent set fg_color=None.     For detailed information check out the documen...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_label.py`: *Label with rounded corners. Default is fg_color=None (transparent fg_color).     For detailed information check out the documentation.      state argument will probably be removed because it has no ef...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_optionmenu.py`: *Optionmenu with rounded corners, dropdown menu, variable support, command.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_progressbar.py`: *Progressbar with rounded corners, border, variable support,     indeterminate mode, vertical orientation.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_radiobutton.py`: *Radiobutton with rounded corners, border, label, variable support, command.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_scrollbar.py`: *Scrollbar with rounded corners, configurable spacing.     Connect to scrollable widget by passing .set() method and set command attribute.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_segmented_button.py`: *Segmented button with corner radius, border width, variable support.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_slider.py`: *Slider with rounded corners, border, number of steps, variable support, vertical orientation.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_switch.py`: *Switch with rounded corners, border, label, command, variable support.     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_tabview.py`: *Tabview...     For detailed information check out the documentation.*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/ctk_textbox.py`: *Textbox with x and y scrollbars, rounded corners, and all text features of tkinter.Text widget.     Scrollbars only appear when they are needed. Text is wrapped on line end by default,     set wrap='n...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/font/ctk_font.py`: *Font object with size in pixel, independent of scaling.     To get scaled tuple representation use create_scaled_tuple() method.      family	The font family name as a string.     size	The font height ...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/font/font_manager.py`: *Function taken from: https://stackoverflow.com/questions/11993290/truly-custom-font-in-tkinter/30631309#30631309*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/image/ctk_image.py`: *Class to store one or two PIl.Image.Image objects and display size independent of scaling:      light_image: PIL.Image.Image for light mode     dark_image: PIL.Image.Image for dark mode     size: tupl...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/scaling/scaling_base_class.py`: *Super-class that manages the scaling values and callbacks.     Works for widgets and windows, type must be set in init method with     scaling_type attribute. Methods:      - _set_scaling() abstractme...*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/scaling/scaling_tracker.py`: *make process DPI aware, customtkinter elements will get scaled automatically,             only gets activated when CTk object is created*
+  - 📄 `CustomTkinter-master/customtkinter/windows/widgets/utility/utility_functions.py`: *remove and create new dict with key value pairs of dictionary, where key is in valid_keys*
+  - 📄 `CustomTkinter-master/test/manual_integration_tests/test_all_widgets_with_colors.py`: *gets called by self.slider_1*
+
+----------------------------------------
+
+## 📦 REPO: EasyOCR-master
+**Funkció / Leírás:** # Unit Test ##Description This module contains unit test for EasyOCR. ## Usage This module can be used as a typical python module. One python wrapper script and on ipython notebook are provided. ### Python script (*recommneded*) The script can be called with (assuming calling from `EasyOCR/`);
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `EasyOCR-master/easyocr/DBNet/backbones/resnet.py`: *3x3 convolution with padding*
+  - 📄 `EasyOCR-master/easyocr/craft.py`: *Copyright (c) 2019-present NAVER Corp. MIT License*
+  - 📄 `EasyOCR-master/easyocr/craft_utils.py`: *Copyright (c) 2019-present NAVER Corp. MIT License*
+  - 📄 `EasyOCR-master/easyocr/easyocr.py`: *Create an EasyOCR Reader          Parameters:             lang_list (list): Language codes (ISO 639) for languages to be recognized during analysis.              gpu (bool): Enable GPU support (defaul...*
+  - 📄 `EasyOCR-master/easyocr/imgproc.py`: *Copyright (c) 2019-present NAVER Corp. MIT License*
+  - 📄 `EasyOCR-master/easyocr/model/model.py`: *FeatureExtraction*
+  - 📄 `EasyOCR-master/easyocr/model/modules.py`: *input : visual feature [batch_size x T x input_size]         output : contextual feature [batch_size x T x output_size]*
+  - 📄 `EasyOCR-master/easyocr/model/vgg_model.py`: *FeatureExtraction*
+  - 📄 `EasyOCR-master/easyocr/utils.py`: *Convert between text-label and text-index*
+  - 📄 `EasyOCR-master/setup.py`: *End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution*
+  - 📄 `EasyOCR-master/trainer/craft/data/dataset.py`: *Make region, affinity scores using pseudo character-level GT bounding box         word_level_char_bbox's shape : [word_num, [char_num_in_one_word, 4, 2]]         :rtype region_score: np.float32       ...*
+  - 📄 `EasyOCR-master/trainer/craft/data/gaussian.py`: *Using the bbox, standard 2D gaussian map, returns Transformed 2d Gaussian map*
+  - 📄 `EasyOCR-master/trainer/craft/data/imgproc.py`: *Copyright (c) 2019-present NAVER Corp. MIT License*
+  - 📄 `EasyOCR-master/trainer/craft/metrics/eval_det_iou.py`: *cite from: PaddleOCR, github: https://github.com/PaddlePaddle/PaddleOCR PaddleOCR reference from : https://github.com/MhLiao/DB/blob/3c32b808d4412680310d3d28eeb6a2d5bf1566c5/concern/icdar2015_eval/det...*
+  - 📄 `EasyOCR-master/trainer/craft/model/craft.py`: *Copyright (c) 2019-present NAVER Corp. MIT License*
+  - 📄 `EasyOCR-master/trainer/craft/utils/craft_utils.py`: *auxilary functions*
+  - 📄 `EasyOCR-master/trainer/craft/utils/util.py`: *final options*
+  - 📄 `EasyOCR-master/trainer/dataset.py`: *Modulate the data ratio in the batch.         For example, when select_data is "MJ-ST" and batch_ratio is "0.5-0.5",         the 50% of the batch is filled with MJ and the other 50% of the batch is fi...*
+  - 📄 `EasyOCR-master/trainer/model.py`: *Transformation*
+  - 📄 `EasyOCR-master/trainer/modules/feature_extraction.py`: *FeatureExtractor of CRNN (https://arxiv.org/pdf/1507.05717.pdf)*
+  - 📄 `EasyOCR-master/trainer/modules/prediction.py`: *input:             batch_H : contextual_feature H = hidden state of encoder. [batch_size x num_steps x num_classes]             text : the text-index of each image. [batch_size x (max_length+1)]. +1 f...*
+  - 📄 `EasyOCR-master/trainer/modules/sequence_modeling.py`: *input : visual feature [batch_size x T x input_size]         output : contextual feature [batch_size x T x output_size]*
+  - 📄 `EasyOCR-master/trainer/modules/transformation.py`: *Rectification Network of RARE, namely TPS based STN*
+  - 📄 `EasyOCR-master/trainer/test.py`: *validation or evaluation*
+  - 📄 `EasyOCR-master/trainer/train.py`: *dataset preparation*
+  - 📄 `EasyOCR-master/trainer/utils.py`: *Convert between text-label and text-index*
+
+----------------------------------------
+
+## 📦 REPO: FFmpeg-Builds-master
+**Funkció / Leírás:** # FFmpeg Static Auto-Builds Static Windows (x86_64) and Linux (x86_64) Builds of ffmpeg master and latest release branch. Windows builds are targetting Windows 7 and newer, provided UCRT is installed. The minimum supported version is Windows 10 22H2, no guarantees on anything older. Linux builds are targetting RHEL/CentOS 8 (glibc-2.28 + linux-4.18) and anything more recent. ## Auto-Builds
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: FFmpeg-master
+**Funkció / Leírás:** FFmpeg README ============= FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata. ## Libraries * `libavcodec` provides implementation of a wider range of codecs. * `libavformat` implements streaming protocols, container formats and basic I/O access.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `FFmpeg-master/doc/examples/extract_mvs.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/doc/ffmpeg.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_dec.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_demux.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_enc.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_filter.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_hw.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_mux.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_mux.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_mux_init.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_opt.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_sched.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_sched.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/ffmpeg_utils.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/sync_queue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/sync_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/thread_queue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/fftools/thread_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavcodec/audio_frame_queue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavcodec/audio_frame_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavcodec/bsf/extract_extradata.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavcodec/bsf/hapqa_extract.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/bufferqueue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/dnn/queue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/dnn/queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/dnn/safe_queue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/dnn/safe_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/framequeue.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/framequeue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/vf_extractplanes.c`: (Fő feldolgozó / logikai modul)
+  - 📄 `FFmpeg-master/libavfilter/vf_guided.c`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: FletX-master
+**Funkció / Leírás:** #-quick-start">Quick Start</a> •     <a href="#-features">Features</a> •     <a href="#-showcase">Showcase</a> •     <a href="https://alldotpy.github.io/FletX/">Docs</a> •     <a href="https://discord.gg/GRez7BTZVy">Discord</a> </p>
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `FletX-master/fletx/__init__.py`: *FletX - A lightweight dependency injection framework inspired by GetX for Flet applications.*
+  - 📄 `FletX-master/fletx/__main__.py`: *MAIN ENTRY POINT FOR FLETX CLI This module serves as the main entry point for the FletX CLI. It handles command-line arguments, initializes the command registry, and executes the specified command.*
+  - 📄 `FletX-master/fletx/app.py`: *FletX main entry point*
+  - 📄 `FletX-master/fletx/cli/__init__.py`: *FletX CLI - A command-line tool for managing Flet projects with GetX-like architecture.*
+  - 📄 `FletX-master/fletx/cli/commands/base.py`: *Registry for all commands in the FletX CLI.     This class is responsible for storing and managing all available commands.     It provides methods to register new commands and retrieve existing ones.*
+  - 📄 `FletX-master/fletx/cli/commands/check.py`: *Command to check version compatibility between FletX and Flet.*
+  - 📄 `FletX-master/fletx/cli/commands/generate.py`: *Command to generate FletX components (controllers, views, services, etc.).*
+  - 📄 `FletX-master/fletx/cli/commands/newproject.py`: *Command to create new FletX projects.*
+  - 📄 `FletX-master/fletx/cli/commands/runproject.py`: *Command to run FletX projects.*
+  - 📄 `FletX-master/fletx/cli/commands/testproject.py`: *Run tests for the FletX project using pytest.*
+  - 📄 `FletX-master/fletx/cli/templates/__init__.py`: *Template management system for FletX CLI. Handles template loading, processing, and generation.*
+  - 📄 `FletX-master/fletx/cli/templates/project/app/components/reactive_text.py`: *My Reactive Text Widget*
+  - 📄 `FletX-master/fletx/cli/templates/project/app/controllers/counter.py`: *Counter page Controller*
+  - 📄 `FletX-master/fletx/core/concurency/config.py`: *Possible state of a worker*
+  - 📄 `FletX-master/fletx/core/concurency/event_loop.py`: *Singleton managing the global event loop for FletX applications.     Ensures all components use the same event loop.*
+  - 📄 `FletX-master/fletx/core/concurency/worker.py`: *Parallel worker system. Similar to Qt's QRunnable but more flexible and type-safe*
+  - 📄 `FletX-master/fletx/core/controller.py`: *Base Controller for FletX. fletx.core.controller module that provides a basic implementation for controllers in FletX, allowing to manage interactions between views and data models, and to facilitate ...*
+  - 📄 `FletX-master/fletx/core/di.py`: *Dependency Injection System. fletx.core.di module that provides a dependency injection  system to manage dependencies between application components,  allowing to create modular, flexible, and maintai...*
+  - 📄 `FletX-master/fletx/core/effects.py`: *Effect and Hook Management (React-style)  FletX.core.effects module that provides effect and hook management inspired by React, allowing to create side effects, manage component lifecycles,  and share...*
+  - 📄 `FletX-master/fletx/core/factory.py`: *FletX - FletX Widget Registry*
+  - 📄 `FletX-master/fletx/core/http.py`: *FletX - Advanced Async/Sync HTTP Client for API requests*
+  - 📄 `FletX-master/fletx/core/page.py`: *FletX - Enhanced Core Page module. Advanced page with integrated controller, effects, and reactivity management A page that incorporates advanced features such as controller, effects, and reactivity m...*
+  - 📄 `FletX-master/fletx/core/route_config.py`: *Route Configuration and Registration. Route configuration and registration module for FletX,  allowing to define and manage application routes, including nested routes,  parameters, and security guard...*
+  - 📄 `FletX-master/fletx/core/router.py`: *Routing System for FletX  A routing system for the FletX Framework, enabling efficient and organized  navigation between different pages and screens of the application.*
+  - 📄 `FletX-master/fletx/core/routing/config.py`: *Advanced Route Configuration for FletX  Enhanced route configuration system supporting nested routes,  module routing, and complex route hierarchies.*
+  - 📄 `FletX-master/fletx/core/routing/guards.py`: *Route Guard System  This module defines a base interface for implementing route guards. Route guards are used to control access to specific routes based on custom logic (e.g., authentication, permissi...*
+  - 📄 `FletX-master/fletx/core/routing/middleware.py`: *Navigation Middleware  This module provides a middleware system to intercept navigation events and perform custom logic before and after route changes.*
+  - 📄 `FletX-master/fletx/core/routing/models.py`: *Route information     Contains detailed information about a specific route,     such as its path, parameters etc...*
+  - 📄 `FletX-master/fletx/core/routing/router.py`: *FletX Main Router System  Advanced routing system with support for nested routes, dynamic routing, navigation with data, history management, guards, middleware, and transitions. Integrates with Flet's...*
+  - 📄 `FletX-master/fletx/core/routing/transitions.py`: *Page Transition Management  This module defines various transition types and logic for animating UI changes when navigating between routes in a Flet app.*
+  - 📄 `FletX-master/fletx/core/services.py`: *Possible state of a FleX Service*
+  - 📄 `FletX-master/fletx/core/state.py`: *Reactive State Management System (inspired by GetX). A state management system that uses a reactive approach to manage data and application states, inspired by the GetX library.*
+  - 📄 `FletX-master/fletx/core/types.py`: *FletX Core Types and Interfaces.  This module defines the core types, interfaces, and data structures used throughout the FletX system.*
+  - 📄 `FletX-master/fletx/core/widget.py`: *Base Widget for FletX  The base widget for FletX is a fundamental component that serves  as a template for all other widgets. It provides a basic structure  for creating custom widgets and offers comm...*
+  - 📄 `FletX-master/fletx/decorators/controllers.py`: *Decorators for Controllers  Used to inject controllers into pages or widgets,  these decorators add features such as registration,  validation, security, etc. to controllers.*
+  - 📄 `FletX-master/fletx/decorators/effects.py`: *Effect Decorator*
+  - 📄 `FletX-master/fletx/decorators/reactive.py`: *Decorators for reactivity.  These decorators enable reactive programming patterns by automatically  tracking dependencies and updating components when underlying data changes, facilitating seamless UI...*
+  - 📄 `FletX-master/fletx/decorators/route.py`: *Decorators for route registration.  These decorators simplify the process of associating URL routes with  their corresponding page handlers, enabling clear and concise routing  definitions within the ...*
+  - 📄 `FletX-master/fletx/decorators/widgets.py`: *Advanced Reactive Widget Decorators for FletX  This module provides advanced decorators for creating reactive widgets with custom bindings, transformations, and lifecycle callbacks.*
+  - 📄 `FletX-master/fletx/navigation/__init__.py`: *Get the global router instance.*
+  - 📄 `FletX-master/fletx/utils/__init__.py`: *Gets a logger from the global context*
+  - 📄 `FletX-master/fletx/utils/context.py`: *Global context of the application.  This context holds shared state and configuration accessible throughout the lifecycle of the application, enabling consistent data management and coordination betwe...*
+  - 📄 `FletX-master/fletx/utils/exceptions.py`: *FletX Exceptions  These exceptions provide better error handling and user feedback.*
+  - 📄 `FletX-master/fletx/utils/logger.py`: *Logging system for FletX*
+  - 📄 `FletX-master/fletx/utils/version_checker.py`: *Version compatibility checker for FletX and Flet packages.*
+  - 📄 `FletX-master/fletx/widgets/obx.py`: *ObX Widget - Reactive Builder for FletX*
+  - 📄 `FletX-master/tests/test_check_command.py`: *Tests for the fletx check command.*
+  - 📄 `FletX-master/tests/test_fletxapp.py`: *Test FletXApp initialization with default values.*
+  - 📄 `FletX-master/tests/test_fletxpage.py`: *Concrete implementation of FletXPage for testing.*
+  - 📄 `FletX-master/tests/test_routing_config.py`: *Unit tests for FletX Routing Configuration Module*
+  - 📄 `FletX-master/tests/test_routing_guards.py`: *Unit tests for FletX Route Guard System*
+  - 📄 `FletX-master/tests/test_routing_middleware.py`: *Unit tests for FletX Route Middleware System*
+  - 📄 `FletX-master/tests/test_routing_models.py`: *Unit tests for FletX Routing Models*
+  - 📄 `FletX-master/tests/test_routing_router.py`: *Unit tests for FletX Router System*
+  - 📄 `FletX-master/tests/test_routing_transitions.py`: *Unit tests for FletX Route Transitions*
+
+----------------------------------------
+
+## 📦 REPO: GDownloader-main
+**Funkció / Leírás:** # GDownloader A user-friendly graphical user interface (GUI) for [yt-dlp](https://github.com/yt-dlp/yt-dlp), [gallery-dl](https://github.com/mikf/gallery-dl) and [spotDL](https://github.com/spotDL/spotify-downloader) written in Java. ## Overview GDownloader enables you to batch download YouTube videos and playlists with a simple CTRL+C.\ It supports various platforms such as Crunchyroll, Twitch, X/Twitter, Spotify, and all other platforms supported by yt-dlp and gallery-dl. ## Features
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `GDownloader-main/ffmpeg_test.bat`: (Fő feldolgozó / logikai modul)
+  - 📄 `GDownloader-main/ffmpeg_test.sh`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: JS-dev
+**Funkció / Leírás:** <h1 align=center>CandleLibrary JS</h1> <h3 align=center>JavaScript Parsing & AST Library</h3> <p align=center> <img alt="npm (tag)" src="https://img.shields.io/npm/v/@candlelib/js?style=for-the-badge&logo=appveyor"> </p> CandleLibrary JS is both a standalone **JavaScript** parser written in TypeScript, and a critical part of the CandleLibrary component system. It can be used independently within projects that require the capability to parse and generate a simple AST for JavaScript string inputs....
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: JSRETK-main
+**Funkció / Leírás:** # JavaScript Reverse Engineering Toolkit (JSRETK) **Author: Sean Pesce** ## Overview NodeJS scripts for analyzing (minified/obfuscated) JavaScript. All tools support processing of local files, remote files via HTTP(S) URL, or data from standard input. These tools are still under heavy development, so ideas and contributions are welcome.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: M3U8Parser-master
+**Funkció / Leírás:** # M3U8Kit ![Platform](https://img.shields.io/cocoapods/p/M3U8Kit.svg?style=flat) ![Compatiable with EXT-X-VERSION:4](https://img.shields.io/badge/EXT_X_Version:4-supported-4BC51D.svg?style=flat)
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: M3u8Downloader_H-master
+**Funkció / Leírás:** # M3u8Downloader_H   - [简介](#简介)   - [特点](#特点)   - [插件项目地址](#插件项目地址)   - [帮助文档](#帮助文档)   - [软件截图](#截图)   - [支持作者](#支持作者)   ## 简介 - 此项目跨平台已经完成，下一步是更新插件支持。
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: N_m3u8DL-CLI-master
+**Funkció / Leírás:** # [ENGLISH VERSION](https://github.com/nilaoda/N_m3u8DL-CLI/blob/master/README_ENG.md)
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: N_m3u8DL-RE-main
+**Funkció / Leírás:** # N_m3u8DL-RE 跨平台的DASH/HLS/MSS下载工具。支持点播、直播(DASH/HLS)。 遇到 BUG 请首先确认软件是否为最新版本（如果是 Release 版本，建议到 [Actions](https://github.com/nilaoda/N_m3u8DL-RE/actions) 页面下载最新自动构建版本后查看问题是否已经被修复），如果确认版本最新且问题依旧存在，可以到 [Issues](https://github.com/nilaoda/N_m3u8DL-RE/issues) 中查找是否有人遇到过相关问题，没有的话再进行询问。
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: PyQt-Fluent-Widgets-master
+**Funkció / Leírás:** #4ec820)](LICENSE) [![Platform Win32 | Linux | macOS](https://img.shields.io/badge/Platform-Win32%20|%20Linux%20|%20macOS-blue?color=#4ec820)]()
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `PyQt-Fluent-Widgets-master/examples/date_time/time_picker/demo.py`: *Seconds formatter*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/dialog_flyout/custom_message_box/demo.py`: *Custom message box*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/dialog_flyout/dialog/demo.py`: *If you delete the "Music" folder from the list, the folder will no longer appear in the list, but will not be deleted.*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/dialog_flyout/message_dialog/demo.py`: *If you delete the "Music" folder from the list, the folder will no longer appear in the list, but will not be deleted.*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/common/config.py`: *Language enumeration*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/common/signal_bus.py`: *Signal bus*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/common/style_sheet.py`: *Style sheet*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/common/trie.py`: *String trie*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/components/link_card.py`: *Link card view*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/components/sample_card.py`: *Sample card*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/basic_input_interface.py`: *Basic input interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/date_time_interface.py`: *Date time interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/dialog_interface.py`: *Dialog interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/gallery_interface.py`: *Seperator widget*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/home_interface.py`: *Banner widget*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/icon_interface.py`: *Search line edit*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/layout_interface.py`: *Layout interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/main_window.py`: *switch to sample*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/material_interface.py`: *Material interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/menu_interface.py`: *Menu interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/navigation_view_interface.py`: *Navigation view interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/scroll_interface.py`: *Scroll interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/setting_interface.py`: *Setting interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/status_info_interface.py`: *Status info interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/text_interface.py`: *Text interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/gallery/app/view/view_interface.py`: *View interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/material/acrylic_menu/demo.py`: *巅峰产生虚伪的拥护，黄昏见证真正的使徒 🏀                           ⠀⠰⢷⢿⠄                    ⠀⠀⠀⠀⠀⣼⣷⣄                    ⠀⠀⣤⣿⣇⣿⣿⣧⣿⡄                    ⢴⠾⠋⠀⠀⠻⣿⣷⣿⣿⡀                    ⠀⢀⣿⣿⡿⢿⠈⣿                    ⠀⠀⠀⢠⣿⡿⠁⠀⡊⠀...*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/material/acrylic_widget_menu/demo.py`: *Profile card*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/menu/system_tray_menu/demo.py`: *巅峰产生虚伪的拥护，黄昏见证真正的使徒 🏀                           ⠀⠰⢷⢿⠄                    ⠀⠀⠀⠀⠀⣼⣷⣄                    ⠀⠀⣤⣿⣇⣿⣿⣧⣿⡄                    ⢴⠾⠋⠀⠀⠻⣿⣷⣿⣿⡀                    ⠀⢀⣿⣿⡿⢿⠈⣿                    ⠀⠀⠀⢠⣿⡿⠁⠀⡊⠀...*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/menu/widget_menu/demo.py`: *Profile card*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/navigation1/demo.py`: *add sub interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/navigation2/demo.py`: *Avatar widget*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/navigation3/demo.py`: *Navigation widget*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/navigation_bar/demo.py`: *Stacked widget*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/pivot/demo.py`: *Demo{background: white}             QLabel{                 font: 20px 'Segoe UI';                 background: rgb(242,242,242);                 border-radius: 8px;             }*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/segmented_tool_widget/demo.py`: *Demo{background: white}             QLabel{                 font: 20px 'Segoe UI';                 background: rgb(242,242,242);                 border-radius: 8px;             }*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/segmented_widget/demo.py`: *Demo{background: white}             QLabel{                 font: 20px 'Segoe UI';                 background: rgb(242,242,242);                 border-radius: 8px;             }*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/tab_view/demo.py`: *Tab interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/navigation/tab_widget/demo.py`: *Tab interface*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/status_info/info_badge/demo.py`: *Custom info badge manager*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/status_info/info_bar/demo.py`: *Custom info bar manager*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/text/font_icon/demo.py`: *Custom icon font icon*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/view/card_widget/demo.py`: *App card*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/view/flip_view/demo.py`: *Custom flip item delegate*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/view/table_view/demo.py`: *Custom table item delegate*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/window/settings/config.py`: *Online song quality enumeration class*
+  - 📄 `PyQt-Fluent-Widgets-master/examples/window/settings/setting_interface.py`: *Setting interface*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/__init__.py`: *PyQt-Fluent-Widgets =================== A fluent design widgets library based on PyQt5.  Documentation is available in the docstrings and online at https://qfluentwidgets.com.  Examples are available ...*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/animation.py`: *Animation base class*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/auto_wrap.py`: *Text wrap*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/color.py`: *Fluent theme color      Refer to: https://www.figma.com/file/iM7EPX8Jn37zjeSezb43cF*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/config.py`: *Theme enumeration*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/exception_handler.py`: *decorator for exception handling      Parameters     ----------     *default:         the default value returned when an exception occurs*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/font.py`: *set the font families used by all widgets      Parameters     ----------     families: List[str]         font family names, the default value is `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`      s...*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/icon.py`: *Fluent icon engine*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/image_utils.py`: *:param im: QImage or PIL ImageQt object*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/overload.py`: *Single-dispatch generic method descriptor.      Supports wrapping existing descriptors and handles non-descriptor     callables as instance methods.*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/router.py`: *Route item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/screen.py`: *get current screen*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/smooth_scroll.py`: *Scroll smoothly*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/style_sheet.py`: *Style sheet manager*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/theme_listener.py`: *System theme listener*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/common/translator.py`: *Translator of fluent widgets*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/calendar_picker.py`: *Calendar picker*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/calendar_view.py`: *Scroll button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/date_picker.py`: *Date picker base class*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/fast_calendar_view.py`: *Fast scroll item delegate*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/picker_base.py`: *Separator widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/date_time/time_picker.py`: *Time picker base class*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/color_dialog.py`: *Hue panel*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/dialog.py`: *Ui of message box*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/folder_list_dialog.py`: *Folder list dialog box*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/mask_dialog_base.py`: *Dialog box base class with a mask*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/message_box_base.py`: *Message box base*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/dialog_box/message_dialog.py`: *Win10 style message dialog box with a mask*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/layout/expand_layout.py`: *Expand layout*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/layout/flow_layout.py`: *Flow layout*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/layout/v_box_layout.py`: *Vertical box layout*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_combo_box.py`: *Acrylic combo box*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_flyout.py`: *Acrylic flyout view base*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_line_edit.py`: *Acrylic line edit base*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_menu.py`: *set the height of item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_tool_tip.py`: *Acrylic tool tip container*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/material/acrylic_widget.py`: *Acrylic widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/breadcrumb.py`: *Bread crumb widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/navigation_bar.py`: *Icon sliding animation*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/navigation_interface.py`: *Navigation interface*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/navigation_panel.py`: *Navigation display mode*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/navigation_widget.py`: *Navigation widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/pivot.py`: *Pivot item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/navigation/segmented_widget.py`: *Segmented item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/custom_color_setting_card.py`: *Custom color setting card*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/expand_setting_card.py`: *Expand button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/folder_list_setting_card.py`: *Folder item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/options_setting_card.py`: *setting card with a group of options*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/setting_card.py`: *Setting card*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/settings/setting_card_group.py`: *Setting card group*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/acrylic_label.py`: *Blur album cover thread*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/button.py`: *Push button      Constructors     ------------     * PushButton(`parent`: QWidget = None)     * PushButton(`text`: str, `parent`: QWidget = None, `icon`: QIcon | str | FluentIconBase = None)     * Pus...*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/card_widget.py`: *Card widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/check_box.py`: *CheckBoxIcon*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/combo_box.py`: *Combo box item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/command_bar.py`: *Command button      Constructors     ------------     * CommandButton(`parent`: QWidget = None)     * CommandButton(`icon`: QIcon | str | FluentIconBase = None, `parent`: QWidget = None)*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/cycle_list_widget.py`: *Scroll button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/flip_view.py`: *Scroll button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/flyout.py`: *Flyout animation type*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/frameless_window.py`: *Frameless window*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/icon_widget.py`: *Icon widget      Constructors     ------------     * IconWidget(`parent`: QWidget = None)     * IconWidget(`icon`: QIcon | str | FluentIconBase, `parent`: QWidget = None)*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/info_badge.py`: *Info level*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/info_bar.py`: *Info bar icon*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/label.py`: *Label for high dpi pixmap*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/line_edit.py`: *Line edit button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/list_view.py`: *List item delegate*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/menu.py`: *Custom menu style*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/model_combo_box.py`: *Abstract combo box build in data model*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/pips_pager.py`: *Pips pager scroll button display mode*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/progress_bar.py`: *set the custom bar color          Parameters         ----------         light, dark: str | Qt.GlobalColor | QColor             bar color in light/dark theme mode*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/progress_ring.py`: *Progress ring*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/scroll_area.py`: *Smooth scroll area*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/scroll_bar.py`: *Arrow button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/separator.py`: *Horizontal separator*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/slider.py`: *Slider handle*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/spin_box.py`: *Spin icon*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/stacked_widget.py`: *Stacked widget with fade in and fade out animation*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/state_tool_tip.py`: *State tooltip*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/switch_button.py`: *Indicator of switch button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/tab_view.py`: *Tab close button display mode*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/table_view.py`: *set the color of indicator in checked status          Parameters         ----------         light, dark: str | QColor | Qt.GlobalColor             color in light/dark theme mode*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/teaching_tip.py`: *Teaching tip tail position*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/tool_tip.py`: *Info bar position*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/components/widgets/tree_view.py`: *Tree item delegate*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/multimedia/media_play_bar.py`: *Media play bar button*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/multimedia/media_player.py`: *Media player base class*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/multimedia/video_widget.py`: *Graphics video item*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/window/fluent_window.py`: *Fluent widget*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/window/splash_screen.py`: *Splash screen*
+  - 📄 `PyQt-Fluent-Widgets-master/qfluentwidgets/window/stacked_widget.py`: *Stacked widget*
+
+----------------------------------------
+
+## 📦 REPO: QFluentWidgets-master
+**Funkció / Leírás:** # 说明 原作是 python 库，传送门[GitHub - zhiyiYo/PyQt-Fluent-Widgets: A fluent design widgets library based on PyQt5](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 当前分支`444f2fe980ac472449be20fe24a185d251942dc3` 未完待续... # 截图
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: UndetectedChromeDriver-master
+**Funkció / Leírás:** # UndetectedChromeDriver This repo is C# implementation of [undetected_chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver). It optimizes Selenium chromedriver to avoid being detected by anti-bot services. --- > [!NOTE] > If you want to use CDP to directly control Chrome without using WebDriver and Selenium, you can try nodriver.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: Vidtuber-main
+**Funkció / Leírás:** # **Vidtuber** [![Image](https://img.shields.io/static/v1?label=python&logo=python&message=3.9%20|%203.10%20|%203.11%20|%203.12%20|%203.13&color=blue)](https://www.python.org/downloads/) [![Image](https://img.shields.io/badge/license-GPLv3-orange)](https://github.com/jeanslack/Vidtuber/blob/master/LICENSE) [![Python application](https://github.com/jeanslack/Vidtuber/actions/workflows/python-package.yml/badge.svg)](https://github.com/jeanslack/Vidtuber/actions/workflows/python-package.yml)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `Vidtuber-main/develop/gettext_utils/babelutils.py`: *" Porpose: Manage the translation message catalog independently          of the GNU-xgettext utilities. Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlu...*
+  - 📄 `Vidtuber-main/develop/tools/inkscape2png.py`: *Name: inkscape2png Porpose: Wrapper interface to perform batch conversion using the          Inkscape library Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 202...*
+  - 📄 `Vidtuber-main/develop/tools/pyinstaller_setup.py`: *Name: pyinstaller_setup.py Porpose: Provide build options to bundle the Vidtuber application. Platform: Gnu-Linux, MacOs, MS-Windows Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 202...*
+  - 📄 `Vidtuber-main/develop/tools/rsvg2png.py`: *Name: rsvg2png Porpose: Wrapper interface to perform batch conversion using the rsvg library Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernig...*
+  - 📄 `Vidtuber-main/hatch_build.py`: *Name: hatch_build.py Porpose: Defines code that will be executed at various stages          of the build process, see [tool.hatch.build.hooks.custom] on          pyproject.toml file. Author: Gianluca ...*
+  - 📄 `Vidtuber-main/tests/test_display_GUI.py`: *Test case for Vidtuber GUI. It tests the bootstrap of     the wxPython module by starting Vidtuber app.*
+  - 📄 `Vidtuber-main/tests/test_utils.py`: *Test case for the format_bytes function.*
+  - 📄 `Vidtuber-main/vidtuber/gui_app.py`: *Name: gui_app.py Porpose: bootstrap for Vidtuber app. Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2023 Gianluca Pernigotto <jeanlucperni@gm...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/about_dialog.py`: *Name: infoprog.py Porpose: about vidtuber Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gmail.com> lic...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/check_new_version.py`: *Name: vidtuber_check_version.py Porpose: shows informative messages on version in use and new releases Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Cop...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/confirm_dialog.py`: *Name: confirm_dialog.py Porpose: confirmation dialog for final settings. Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigot...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/list_warning.py`: *Name: list_warning.py Porpose: A custom multipurpose dialog for listing alert messages and confirms Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyle...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/playlist_indexing.py`: *Name: playlist_indexing.py Porpose: shows a dialog box for setting playlist indexing Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianl...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/settings_vidtuber.py`: *Name: settings_vidtuber.py Porpose: vidtuber setup dialog Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucpern...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/settings_ytdlp.py`: *Name: settings_ytdlp.py Porpose: Downloader setup dialog Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/showlogs.py`: *Name: showlogs.py Porpose: show logs data Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gmail.com> lic...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/subtitles_editor.py`: *Name: subtitle_editor.py Porpose: shows a dialog box to setting preferred subtitles Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianlu...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/widget_utils.py`: *Name: widget_utils.py Porpose: Features a set of useful wx widgets to use dynamically Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gian...*
+  - 📄 `Vidtuber-main/vidtuber/vt_dialogs/wizard_dlg.py`: *Name: wizard_dlg.py Porpose: wizard setup dialog fot Vidtuber Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanluc...*
+  - 📄 `Vidtuber-main/vidtuber/vt_io/checkup.py`: *File Name: checkup.py Porpose: input/output file check Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@g...*
+  - 📄 `Vidtuber-main/vidtuber/vt_io/io_tools.py`: *Name: io_tools.py Porpose: input/output redirection to processes (aka threads) Compatibility: Python3, wxPython4 Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca P...*
+  - 📄 `Vidtuber-main/vidtuber/vt_io/make_filelog.py`: *File Name: make_filelog.py Porpose: log file generator Compatibility: Python3, Python2 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gmail.com>...*
+  - 📄 `Vidtuber-main/vidtuber/vt_main/main_frame.py`: *Name: main_ytdlp.py Porpose: window main frame for yt-dlp Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucpern...*
+  - 📄 `Vidtuber-main/vidtuber/vt_panels/downloader_gui.py`: *Name: downloader_gui.py Porpose: youtube-dl user interface Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucper...*
+  - 📄 `Vidtuber-main/vidtuber/vt_panels/formatcode_id.py`: *Name: formatcode_id.py Porpose: user interface panel for format codes tasks Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Perni...*
+  - 📄 `Vidtuber-main/vidtuber/vt_panels/long_task_ytdlp.py`: *Name: long_processing_task.py Porpose: Console to show logging messages during processing Compatibility: Python3, wxPython4 Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025...*
+  - 📄 `Vidtuber-main/vidtuber/vt_panels/textdrop.py`: *Name: textdrop.py Porpose: Allows you to add text URLs Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@g...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/about_app.py`: *Name: about_app.py Porpose: Gets information about the program Compatibility: Python3, Python2 author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gm...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/app_const.py`: *Author:  Werner F. Bruhin Purpose: Application constants Created: 06/04/2012  Edited by Gianluca (jeanslack) Pernigotto Update: July 28 2024  Visit the complete list of the wx.Language CONSTANT identi...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/argparser.py`: *Name: argparser.py Porpose: Vidtuber Command line arguments Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gmail.com> lic...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/configurator.py`: *Name: configurator.py Porpose: Set Vidtuber configuration on startup Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2023 Gianluca Pernigotto <jeanlucperni@gmail...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/external_package.py`: *Name: external_package.py Porpose: finds and loads a module Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucperni@gmail.com> lic...*
+  - 📄 `Vidtuber-main/vidtuber/vt_sys/settings_manager.py`: *Name: settings_manager.py Porpose: Read and write the configuration file Compatibility: Python3 Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2023 Gianluca Pernigotto <jeanlucperni@g...*
+  - 📄 `Vidtuber-main/vidtuber/vt_threads/check_bin.py`: *Name: check_bin.py Porpose: Gets the output to display the features of FFmpeg Compatibility: Python3 (Unix, Windows) Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Perni...*
+  - 📄 `Vidtuber-main/vidtuber/vt_threads/downloader_thread.py`: *Name: downloader_thread.py Porpose: long processing task using yt-dlp executable Compatibility: Python3, wxPython4 Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca...*
+  - 📄 `Vidtuber-main/vidtuber/vt_threads/generic_downloads.py`: *Name: generic_downloads.py Porpose: generic network download operation Compatibility: Python3, wxPython4 Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigott...*
+  - 📄 `Vidtuber-main/vidtuber/vt_threads/get_output_thread.py`: *Name: get_output_thread.py Porpose: long processing task Compatibility: Python3, wxPython4 Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jeanlucpern...*
+  - 📄 `Vidtuber-main/vidtuber/vt_threads/shutdown.py`: *Name: shutdown.py Porpose: Execute shutdown system using subprocess Compatibility: Python3 (Unix, Windows) Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca Pernigotto <jea...*
+  - 📄 `Vidtuber-main/vidtuber/vt_utils/get_bmpfromsvg.py`: *Name: get_bmpfromSvg.py Porpose: return bmp image from a scalable vector graphic format (svg) Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2...*
+  - 📄 `Vidtuber-main/vidtuber/vt_utils/utils.py`: *Name: utils.py Porpose: It groups useful functions that are called several times Compatibility: Python3, wxPython Phoenix Author: Gianluca Pernigotto <jeanlucperni@gmail.com> Copyleft - 2025 Gianluca ...*
+
+----------------------------------------
+
+## 📦 REPO: Vividl-master
+**Funkció / Leírás:** # Vividl > Free video downloader for Windows
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `Vividl-master/Vividl/Lib/ffmpeg-version.txt`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: WasmEdge-master
+**Funkció / Leírás:** # wasm_bpf Plugin tests This file contains bpf programs that will be used during testing. - `bootstrap` and `runqlat`: examples copied from `wasm-bpf`. See [here](https://github.com/eunomia-bpf/wasm-bpf/tree/main/examples) for build instructions. - `simple_ringbuf`: A simple ebpf program which writes fixed data to a ring buffer - `simple_map`: A simple ebpf program which stores fixed data to a bpf map The source of `simple_ringbuf` and `simple_map` are listed under `bpf-sources`. Run `make` unde...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/CMakeLists.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodec.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodec.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodecContext.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodecContext.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodecParameters.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avCodecParameters.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avPacket.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avPacket.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avcodec_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/avcodec_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avcodec/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avdevice/avDevice_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avdevice/avDevice_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avdevice/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avdevice/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/avFilter.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/avFilter.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/avfilter_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/avfilter_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/buffer_source_sink.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/buffer_source_sink.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avfilter/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avChapter.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avChapter.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avInputOutputFormat.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avInputOutputFormat.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avStream.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avStream.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avformatContext.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avformatContext.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avformat_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/avformat_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avformat/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avDictionary.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avDictionary.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avFrame.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avFrame.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avRational.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avRational.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avTime.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avTime.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avutil_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/avutil_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/error.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/error.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/pixfmt.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/pixfmt.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/samplefmt.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/avutil/samplefmt.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/bindings.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/ffmpeg_base.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/ffmpeg_env.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/ffmpeg_env.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swresample/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swresample/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swresample/swresample_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swresample/swresample_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swscale/module.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swscale/module.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swscale/swscale_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/plugins/wasmedge_ffmpeg/swscale/swscale_func.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/CMakeLists.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avcodec/avCodec.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avcodec/avCodecCtx.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avcodec/avCodecParameters.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avcodec/avPacket.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avcodec/avcodec_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avfilter/avfilter.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avfilter/avfilter_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avformat/avChapter.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avformat/avInputOutputContext.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avformat/avStream.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avformat/avformatContext.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avformat/avformat_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avDictionary.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avError.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avFrame.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avPixfmt.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avRational.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avSampleFmt.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/avutil/avutil_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/main.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/swresample/swresample_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/swscale/swscale_func.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/utils.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/test/plugins/wasmedge_ffmpeg/utils.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/utils/ffmpeg/download-ffmpeg-sample-video.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/utils/ffmpeg/install-ffmpeg-v7.1.1.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `WasmEdge-master/utils/install.py`: *# return 1 if self.version > version2         # return 0 if self.version == version2         # return -1 if self.version < version2         # return False if not comparable*
+
+----------------------------------------
+
+## 📦 REPO: YTSage-main
+**Funkció / Leírás:** <div align="center"> <img src="branding\svg\ytsage-wordmark.svg" width="400" alt="ytsage-wordmark"> <img src="branding\screenshots\main.png" width="800" alt="YTSage Interface"/>
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `YTSage-main/ytsage/__init__.py`: *YTSage - YouTube Video Downloader  A modern, user-friendly YouTube video downloader built with PySide6.*
+  - 📄 `YTSage-main/ytsage/core/__init__.py`: *Core functionality modules for YTSage.  This package contains the core business logic and utility functions.*
+  - 📄 `YTSage-main/ytsage/core/ytsage_deno.py`: *Verify Deno file SHA256 hash against official checksums.          Args:         file_path: Path to the downloaded Deno zip file         sha256_url: URL to download the SHA256 checksum file            ...*
+  - 📄 `YTSage-main/ytsage/core/ytsage_downloader.py`: *Delete any partial files including .part and unmerged format-specific files*
+  - 📄 `YTSage-main/ytsage/core/ytsage_ffmpeg.py`: *Check if 7-Zip is installed on Windows.*
+  - 📄 `YTSage-main/ytsage/core/ytsage_utils.py`: *Get file modification time safely.*
+  - 📄 `YTSage-main/ytsage/core/ytsage_yt_dlp.py`: *Verify yt-dlp file SHA256 hash against official checksums.          Args:         file_path: Path to the downloaded yt-dlp file         download_url: The URL used to download the file (to determine th...*
+  - 📄 `YTSage-main/ytsage/gui/__init__.py`: *GUI modules for YTSage.  This package contains all user interface components and related functionality.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_analysis.py`: *Thread-safe QThread for URL analysis.     All results are passed back via signals to ensure thread safety.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/__init__.py`: *Dialog modules for YTSage GUI.  This package contains all dialog classes organized by functionality:      - ytsage_dialogs_base: Base utility dialogs     - ytsage_dialogs_settings: Settings configurat...*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_base.py`: *Base dialogs for YTSage application. Contains basic utility dialogs like LogWindow and AboutDialog.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_custom.py`: *Custom functionality dialogs for YTSage application. Contains dialogs for custom commands, cookies, time ranges, and other special features.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_ffmpeg.py`: *FFmpeg installation dialogs for YTSage application. Contains dialogs and threads for checking and installing FFmpeg.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_history.py`: *History Dialog for YTSage application. Displays download history with thumbnails using a virtualized list for performance.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_selection.py`: *Selection dialogs for YTSage application. Contains dialogs for selecting subtitles, playlist videos, and SponsorBlock categories.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_settings.py`: *Settings-related dialogs for YTSage application. Contains dialogs for configuring download settings.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_update.py`: *Update-related dialogs and threads for YTSage application. Contains dialogs and background threads for checking and performing yt-dlp binary updates. Note: This module only handles binary updates. Pyt...*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_dialogs/ytsage_dialogs_updater.py`: *Updater tab for Custom Options dialog. Handles FFmpeg version checking and yt-dlp auto-update settings.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_format_table.py`: *Calculate responsive column width based on header text length.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_main.py`: *Background thread for checking application updates with parallel network requests.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_gui_video_info.py`: *Thread to download thumbnail image asynchronously.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_smooth_tab_widget.py`: *A QStackedWidget that cross-fades between widgets.*
+  - 📄 `YTSage-main/ytsage/gui/ytsage_stylesheet.py`: *QMainWindow {                 background-color: #15181b;             }             QWidget {                 background-color: #15181b;                 color: #ffffff;             }             QLineE...*
+  - 📄 `YTSage-main/ytsage/utils/__init__.py`: *Utility modules for YTSage.  This package contains shared utilities, constants, logging, and configuration management.*
+  - 📄 `YTSage-main/ytsage/utils/ytsage_config_manager.py`: *Config Manager Module =====================  This module provides **thread-safe** centralized management for application configuration in YTSage. It handles reading, writing, and managing settings sto...*
+  - 📄 `YTSage-main/ytsage/utils/ytsage_constants.py`: *This module defines centralized constants used across the YTSage application. By storing shared values in one place, it improves consistency, readability, and maintainability of the codebase.  Constan...*
+  - 📄 `YTSage-main/ytsage/utils/ytsage_history_manager.py`: *History Manager Module ======================  This module provides **thread-safe** centralized management for download history in YTSage using SQLite for high performance and scalability.  Features -...*
+  - 📄 `YTSage-main/ytsage/utils/ytsage_localization.py`: *Localization Manager Module ==========================  This module provides centralized localization support for YTSage application. It handles loading language files, switching languages, and retrie...*
+  - 📄 `YTSage-main/ytsage/utils/ytsage_logger.py`: *YTSage centralized logging with loguru.  - This module provides centralized logging configuration for the entire YTSage application. - Two log files: ytsage.log (all logs) & ytsage_error.log (errors o...*
+
+----------------------------------------
+
+## 📦 REPO: astexplorer-master
+**Funkció / Leírás:** # Custom Fonts There's not a great way to customize font-awesome at the moment (see: https://github.com/FortAwesome/Font-Awesome/wiki/Customize-Font-Awesome). So we are using [fontcustom](https://github.com/FontCustom/fontcustom) to add custom logos / fonts to the app. ## Build Instructions
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: astmonkey-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `astmonkey-master/astmonkey/tests/test_utils.py`: *doc*
+  - 📄 `astmonkey-master/astmonkey/tests/test_visitors.py`: *\a\b\f\n\r\t\v*
+  - 📄 `astmonkey-master/astmonkey/visitors.py`: *Source generator node visitor from Python AST was originaly written by Armin Ronacher (2008), license BSD.*
+  - 📄 `astmonkey-master/examples/edge-graph-node-visitor.py`: *This example was kindly provided by https://github.com/oozie.  This script draws the AST of a Python module as graph with simple points as nodes. Astmonkey's GraphNodeVisitor is subclassed for custom ...*
+  - 📄 `astmonkey-master/examples/is_docstring.py`: *doc*
+
+----------------------------------------
+
+## 📦 REPO: astor-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `astor-master/astor/__init__.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright 2012 (c) Patrick Maupin Copyright 2013 (c) Berker Peksag*
+  - 📄 `astor-master/astor/code_gen.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2008      Armin Ronacher Copyright (c) 2012-2017 Patrick Maupin Copyright (c) 2013-2017 Berker Peksag  This...*
+  - 📄 `astor-master/astor/file_util.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2012-2015 Patrick Maupin Copyright (c) 2013-2015 Berker Peksag  Functions that interact with the filesystem...*
+  - 📄 `astor-master/astor/node_util.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright 2012-2015 (c) Patrick Maupin Copyright 2013-2015 (c) Berker Peksag  Utilities for node (and, by extension, tree...*
+  - 📄 `astor-master/astor/op_util.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2015 Patrick Maupin  This module provides data and functions for mapping AST nodes to symbols and precedenc...*
+  - 📄 `astor-master/astor/rtrip.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2015 Patrick Maupin*
+  - 📄 `astor-master/astor/source_repr.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2015 Patrick Maupin  Pretty-print source -- post-process for the decompiler  The goals of the initial cut o...*
+  - 📄 `astor-master/astor/tree_walk.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright 2012 (c) Patrick Maupin Copyright 2013 (c) Berker Peksag  This file contains a TreeWalk class that views a node...*
+  - 📄 `astor-master/tests/build_expressions.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2015 Patrick Maupin  This module generates a lot of permutations of Python expressions, and dumps them into...*
+  - 📄 `astor-master/tests/check_expressions.py`: *Part of the astor library for Python AST manipulation.  License: 3-clause BSD  Copyright (c) 2015 Patrick Maupin  This module reads the strings generated by build_expressions, and runs them through th...*
+  - 📄 `astor-master/tests/support.py`: *Helper function to save and remove a module from sys.modules     Raise ImportError if the module can't be imported.*
+  - 📄 `astor-master/tests/test_code_gen.py`: *Part of the astor library for Python AST manipulation  License: 3-clause BSD  Copyright (c) 2014 Berker Peksag Copyright (c) 2015 Patrick Maupin*
+  - 📄 `astor-master/tests/test_optional.py`: *Part of the astor library for Python AST manipulation  License: 3-clause BSD  Copyright (c) 2014 Berker Peksag Copyright (c) 2015, 2017 Patrick Maupin  Use this by putting a link to astunparse's commo...*
+  - 📄 `astor-master/tests/test_rtrip.py`: *Part of the astor library for Python AST manipulation  License: 3-clause BSD  Copyright (c) 2017 Patrick Maupin*
+
+----------------------------------------
+
+## 📦 REPO: astpath-master
+**Funkció / Leírás:** # astpath [![PyPI version](https://badge.fury.io/py/astpath.svg)](https://badge.fury.io/py/astpath)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `astpath-master/astpath/asts.py`: *Convert AST to XML objects.*
+  - 📄 `astpath-master/astpath/cli.py`: *The Command Line Interface using argparse.  For more help use::      astpath -h*
+  - 📄 `astpath-master/astpath/search.py`: *Functions for searching the XML from file, file contents, or directory.*
+  - 📄 `astpath-master/setup.py`: *Setup for astpath, adds astpath console_script.*
+
+----------------------------------------
+
+## 📦 REPO: astpretty-main
+**Funkció / Leírás:** astpretty ========= Pretty print the output of python stdlib `ast.parse`. astpretty is intended to be a replacement for `ast.dump`.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: awesome-flet-main
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: binaryen-main
+**Funkció / Leírás:** This directory contains tests for the core WebAssembly semantics, as described in [Semantics.md](https://github.com/WebAssembly/design/blob/master/Semantics.md) and specified by the [spec interpreter](https://github.com/WebAssembly/spec/blob/master/interpreter). Tests are written in the [S-Expression script format](https://github.com/WebAssembly/spec/blob/master/interpreter/README.md#s-expression-syntax) defined by the interpreter. To execute all spec tests, run the following command from the bi...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `binaryen-main/check.py`: *Return (bool, str) where the first element is whether the test was     successful and the second is the combined stdout and stderr of the test.*
+  - 📄 `binaryen-main/scripts/clusterfuzz/extract_wasms.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `binaryen-main/scripts/fuzz_opt.py`: *Run various fuzzing operations on random inputs, using wasm-opt. See "testcase_handlers" below for the list of fuzzing operations.  Usage:  ./scripts/fuzz_opt.py  That will run forever or until it fin...*
+  - 📄 `binaryen-main/scripts/gen-s-parser.py`: *Return the common prefix of two strings.*
+  - 📄 `binaryen-main/scripts/port_passes_tests_to_lit.py`: *Automatically port legacy passes tests to be lit tests*
+  - 📄 `binaryen-main/scripts/strip_local_names.py`: *Removes local names. When you don't care about local names but do want to diff for structural changes, this can help.*
+  - 📄 `binaryen-main/scripts/test/generate_atomic_spec_test.py`: *Yield tuples covering all possible combinations of atomic memory operations.     (template, (idx, memory_ptr_type), ordering)     where idx is a memory index or None representing an implicit 0 index  ...*
+  - 📄 `binaryen-main/scripts/test/relaxed_atomic_execution_tests.py`: *;; Execution of acqrel atomics  (module   (memory 1 1 shared)    (func (export "init") (param $value i64) (i64.store (i32.const 0) (local.get $value)))    (func (export "i32.atomic.load") (param $addr...*
+  - 📄 `binaryen-main/scripts/test/shared.py`: *Returns the test directory located at BINARYEN_ROOT/test/[name].*
+  - 📄 `binaryen-main/scripts/update_help_checks.py`: *A test case update script for lit help checks.*
+  - 📄 `binaryen-main/scripts/update_lit_checks.py`: *A test case update script.  This script is a utility to update wasm-opt based lit tests with new FileCheck patterns. It is based on LLVM's update_llc_test_checks.py script.*
+  - 📄 `binaryen-main/src/support/unique_deferring_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `binaryen-main/test/unit/test_memory_packing.py`: *Test that MemoryPacking correctly respects the web limitations by not generating more than 100K data segments*
+  - 📄 `binaryen-main/test/unit/test_web_limitations.py`: *Test that we warn on large numbers of parameters, which Web VMs         disallow.*
+
+----------------------------------------
+
+## 📦 REPO: bloom-master
+**Funkció / Leírás:** Bloom ===== Bloom is a server, which contains [Bloom filter probabilistic data structure](https://en.wikipedia.org/wiki/Bloom_filter) in memory, provides access to it via HTTP and ensures data persistence on disk by mean of atomic consistent snapshots. ## Building Consider also [Prebuilt Docker image](#prebuilt-docker-image), binaries on [Releases](https://github.com/Snawoot/bloom/releases) page to use prebuilt ones and [installation from Snap Store](#from-snap-store).
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: dash-mpd-parser-main
+**Funkció / Leírás:** # MPEG-DASH MPD parser # Overview This module is a simple MPEG-DASH MPD manifest parser for multiple purposes. This module is using [xml-js](https://github.com/nashwaan/xml-js) module to convert an XML formatted MPD manifest file to a JSON object so that you can easily handle MPEG-DASH MPD elements for your manifest parser/manipulation applications. As of now, there is one pre-defined functions in this DashMPD class for manipulation. Some built-in functions for standard and/or popular manifest m...
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: diswasm-main
+**Funkció / Leírás:** # `/lib/stat` This folder is full of tools for statistical analysis on Wasm
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: ezytdl-main
+**Funkció / Leírás:** <h1 align="center"> <img src="https://raw.githubusercontent.com/sylviiu/ezytdl/main/.github/heading.png" height="128px"/><br> <img src="https://github.com/sylviiu/ezytdl/actions/workflows/test-win.yml/badge.svg"/> <img src="https://github.com/sylviiu/ezytdl/actions/workflows/test-mac.yml/badge.svg"/> <img src="https://github.com/sylviiu/ezytdl/actions/workflows/test-linux.yml/badge.svg"/><br><br> <img src="https://raw.githubusercontent.com/sylviiu/ezytdl/main/.github/ezytdl-intro.gif"> </h1> ## ...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `ezytdl-main/checks/ffmpegIsDownloaded.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/deleteFiles.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/download.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/ffprobe.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/getInfo.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/getQueue.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/openDir.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/parseInfo.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/parseOutputTemplate.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/queueAction.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/refreshDownloadStatuses.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/core/ipc/main/queue/search.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/devscripts/tests/0-install-ffmpeg.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/devscripts/tests/1-ffmpegIsExecutable.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/currentVersion/ffmpeg.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/downloadClient/ffmpeg.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/fetchLatestVersion/ffmpeg.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/ffmpegCodecArgs.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/ffmpegGPUArgs.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/ffmpegPresets.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/filenames/ffmpeg.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `ezytdl-main/util/updateAvailable/ffmpeg.js`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: fingerprint-suite-master
+**Funkció / Leírás:** # Live pages testing This folder contains a categorized set of pages for testing various anti-bot services. The `speed.js` test is designed to measure the performance of a simple crawler using different fingerprint-hiding methods.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `fingerprint-suite-master/apify_fingerprint_datapoints/__init__.py`: *Get path of `browser-helper-file.json`.*
+  - 📄 `fingerprint-suite-master/test/antibot-services/live-testing/engine/playwright-extra.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `fingerprint-suite-master/test/antibot-services/live-testing/engine/vanilla-playwright.ts`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: fingerprintjs-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: flet-build-template-main
+**Funkció / Leírás:** # Launch Screen Assets You can customize the launch screen with your own desired assets by replacing the image files in this directory. You can also do it by opening your Flutter project's Xcode project with `open ios/Runner.xcworkspace`, selecting `Runner/Assets.xcassets` in the Project Navigator and dropping in the desired images.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: flet-main
+**Funkció / Leírás:** # Website This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. View the live site at [https://flet.dev](https://flet.dev). ### Installation ``` $ yarn
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `flet-main/sdk/python/examples/apps/declarative/component_dialog/main.py`: *Component that loads and displays user data*
+  - 📄 `flet-main/sdk/python/examples/apps/declarative/minesweeper/main.py`: *Initialize the grid of squares.*
+  - 📄 `flet-main/sdk/python/examples/apps/declarative/timer/main.py`: *Format elapsed seconds as HH:MM:SS.*
+  - 📄 `flet-main/sdk/python/examples/apps/flet_build_test/src/modules/utils.py`: *A simple utility function that returns a greeting message.*
+  - 📄 `flet-main/sdk/python/examples/apps/studio_gallery/charts/candlestickchart.py`: *Create candlestick spots from the static data.*
+  - 📄 `flet-main/sdk/python/examples/apps/studio_gallery/charts/scatterchart.py`: *Generates random spots for the scatter chart.*
+  - 📄 `flet-main/sdk/python/examples/apps/studio_gallery/cupertino_controls.py`: *Small component that renders a title row for a group.*
+  - 📄 `flet-main/sdk/python/examples/apps/studio_gallery/material_controls.py`: *Reusable card that groups a list of controls with an optional title.      Args:         title: Optional title shown at the top of the card.         controls: A list of `ft.Control` instances to displa...*
+  - 📄 `flet-main/sdk/python/examples/apps/studio_gallery/minesweeper.py`: *Initialize the grid of squares.*
+  - 📄 `flet-main/sdk/python/examples/apps/timer/basic/main.py`: *Convert elapsed seconds into HH:MM:SS string.*
+  - 📄 `flet-main/sdk/python/examples/community/mind_queue/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `flet-main/sdk/python/examples/community/mind_queue/assets/data.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `flet-main/sdk/python/examples/community/mind_queue/main.py`: *Move a task up or down within its header (no UI calls here).*
+  - 📄 `flet-main/sdk/python/examples/community/mind_queue/pyproject.toml`: (Fő feldolgozó / logikai modul)
+  - 📄 `flet-main/sdk/python/examples/controls/charts/candlestick_chart/example_1/main.py`: *Create candlestick spots from the static data.*
+  - 📄 `flet-main/sdk/python/examples/controls/charts/matplotlib_chart/animate/main.py`: *Return a 3D random walk as (num_steps, 3) array.*
+  - 📄 `flet-main/sdk/python/examples/controls/charts/matplotlib_chart/handle_events/main.py`: *Click on a point to select and highlight it -- the data that         generated the point will be shown in the lower Axes.  Use the 'n'         and 'p' keys to browse through the next and previous poin...*
+  - 📄 `flet-main/sdk/python/examples/controls/charts/scatter_chart/example_1/main.py`: *Generates random spots for the scatter chart.*
+  - 📄 `flet-main/sdk/python/examples/controls/code_editor/example_1/main.py`: *import flet as ft  def main(page: ft.Page):     counter = ft.Text("0", size=50, data=0)      def btn_click(e):         counter.data += 1         counter.value = str(counter.data)         counter.updat...*
+  - 📄 `flet-main/sdk/python/examples/controls/code_editor/example_2/main.py`: *import flet as ft  def main(page: ft.Page):     counter = ft.Text("0", size=50, data=0)      def btn_click(e):         counter.data += 1         counter.value = str(counter.data)         counter.updat...*
+  - 📄 `flet-main/sdk/python/examples/controls/code_editor/example_3/main.py`: *# 1 # 2 # 3 import json import textwrap  print("Folding demo")*
+  - 📄 `flet-main/sdk/python/examples/controls/column/alignment/main.py`: *Generates a list of custom Containers with length `count`.*
+  - 📄 `flet-main/sdk/python/examples/controls/column/horizontal_alignment/main.py`: *Generates a list of custom Containers with length `count`.*
+  - 📄 `flet-main/sdk/python/examples/controls/column/spacing/main.py`: *Generates a list of custom Containers with length `count`.*
+  - 📄 `flet-main/sdk/python/examples/controls/image/dynamic_svg/main.py`: *<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">  <g>   <ellipse ry="{}" rx="{}" id="svg_1" cy="200" cx="200" stroke="#000" fill="#fff"/>  </g> </svg>*
+  - 📄 `flet-main/sdk/python/examples/controls/image/lucide_icons/main.py`: *- Browse Lucide icons: https://lucide.dev/ - Copy SVG and use it as value for `Image.src`*
+  - 📄 `flet-main/sdk/python/examples/controls/image/static_svg/main.py`: *<svg version="1.1" id="Layer_1"     xmlns="http://www.w3.org/2000/svg"     xmlns:xlink="http://www.w3.org/1999/xlink"     x="0px" y="0px"     viewBox="0 0 30 30" style="enable-background:new 0 0 30 30...*
+  - 📄 `flet-main/sdk/python/examples/controls/markdown/basic/main.py`: *# Markdown Example Markdown allows you to easily include formatted text, images, and even formatted Dart code in your app.  ## Titles  Setext-style  This is an H1 =============  This is an H2 --------...*
+  - 📄 `flet-main/sdk/python/examples/controls/markdown/code_syntax_highlight/main.py`: *# Flet  <img src="https://raw.githubusercontent.com/flet-dev/flet/flet-widget/media/logo/flet-logo.svg" width="50%"/>  Flet is a framework for adding server-driven UI (SDUI) experiences to existing Fl...*
+  - 📄 `flet-main/sdk/python/examples/controls/markdown/listviews/main.py`: *# Markdown Example Markdown allows you to easily include formatted text, images, and even formatted Dart code in your app.  ## Titles  Setext-style  ``` This is an H1 =============  This is an H2 ----...*
+  - 📄 `flet-main/sdk/python/examples/controls/page/device_locale/main.py`: *Format locale list for display.*
+  - 📄 `flet-main/sdk/python/examples/controls/time_picker/hour_formats/main.py`: *Returns the current system's hour format.*
+  - 📄 `flet-main/sdk/python/examples/cookbook/cpu_bound_queue.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `flet-main/sdk/python/examples/services/clipboard/files/main.py`: *Open a desktop file in the default application.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-classes/card.py`: *Moves draggable card to the top of the stack*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-drag-and-drop/step2.py`: *place card to the slot*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-drag-and-drop/step3.py`: *place card to the slot*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-drag-and-drop/step4.py`: *place card to the slot*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-fanned-piles/card.py`: *Brings draggable card pile to the top of the stack*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-final-part1/card.py`: *Reveals card*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-final/card.py`: *returns list of cards that will be dragged together, starting with the current card*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-final/layout.py`: *Klondike is played with a standard 52-card deck, without Jokers.      The four foundations (light rectangles in the upper right of the figure) are built up by suit from Ace (low in this game) to King,...*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-final/solitaire.py`: *Brings draggable card pile to the top of the stack*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-game-rules/card.py`: *Reveals card*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire/solitaire-game-setup/card.py`: *Reveals card*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/drag-and-drop/step4_field_gd.py`: *Initialize homes & coordinates: card1 -> deck, card2 -> waste.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/drag-and-drop/step5_field_gd.py`: *Initialize homes & coordinates: card1 -> deck, card2 -> waste.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/drag-and-drop/step6_field_gd.py`: *Initialize homes & coordinates: card1 -> deck, card2 -> waste.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/drag-and-drop/step7_field_gd.py`: *Initialize homes & coordinates: card1 -> deck, card2 -> waste.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/drag-and-drop/step8_field_gd.py`: *Initialize homes & coordinates: place cards in the deck slot.*
+  - 📄 `flet-main/sdk/python/examples/tutorials/solitaire_declarative/solitaire-final/main.py`: *Initialize homes & coordinates: place cards in the deck slot.*
+  - 📄 `flet-main/sdk/python/packages/flet-ads/src/flet_ads/banner_ad.py`: *Displays a banner ad.      Example: Test IDs         AdMob [provides](https://developers.google.com/admob/flutter/banner#always_test_with_test_ads)         unit IDs for testing purposes. Set :attr:`un...*
+  - 📄 `flet-main/sdk/python/packages/flet-ads/src/flet_ads/base_ad.py`: *Base class for all Ad controls.      This class defines shared ad request and lifecycle event properties for     concrete ad controls/services.      Raises:         FletUnsupportedPlatformException: W...*
+  - 📄 `flet-main/sdk/python/packages/flet-ads/src/flet_ads/interstitial_ad.py`: *Displays a full-screen interstitial ad.      Note:         Each instance is allowed to be shown (using :meth:`show`) only once.         To show another ad, create a new instance. Reusing an already-sh...*
+  - 📄 `flet-main/sdk/python/packages/flet-ads/src/flet_ads/native_ad.py`: *Renders a native ad.*
+  - 📄 `flet-main/sdk/python/packages/flet-ads/src/flet_ads/types.py`: *Describes how accurately a paid ad value is reported.*
+  - 📄 `flet-main/sdk/python/packages/flet-audio-recorder/src/flet_audio_recorder/audio_recorder.py`: *A control that allows you to record audio from your device.      This control can record audio using different     audio encoders and also allows configuration     of various audio recording parameter...*
+  - 📄 `flet-main/sdk/python/packages/flet-audio-recorder/src/flet_audio_recorder/types.py`: *State of the audio recorder.*
+  - 📄 `flet-main/sdk/python/packages/flet-audio/src/flet_audio/audio.py`: *A control to simultaneously play multiple audio sources.*
+  - 📄 `flet-main/sdk/python/packages/flet-audio/src/flet_audio/types.py`: *The behavior of Audio player when an audio is finished or stopped.*
+  - 📄 `flet-main/sdk/python/packages/flet-camera/src/flet_camera/__init__.py`: *Public exports for the flet-camera package.*
+  - 📄 `flet-main/sdk/python/packages/flet-camera/src/flet_camera/camera.py`: *Camera control definition for the flet-camera package.*
+  - 📄 `flet-main/sdk/python/packages/flet-camera/src/flet_camera/types.py`: *Represents a capture resolution preset.*
+  - 📄 `flet-main/sdk/python/packages/flet-camera/src/flet_camera/utils.py`: *Utility helpers for the flet-camera package.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/bar_chart.py`: *Controls showing tooltip on top or bottom.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/bar_chart_group.py`: *Groups one or more bar rods rendered at the same X-axis position.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/bar_chart_rod.py`: *Tooltip configuration for the  :class:`~flet_charts.BarChartRod`.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/bar_chart_rod_stack_item.py`: *Colored segment used to build a stacked bar rod.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/candlestick_chart.py`: *Configuration of the tooltip for :class:`~flet_charts.CandlestickChart`s.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/candlestick_chart_spot.py`: *Tooltip configuration for the :class:`~flet_charts.CandlestickChartSpot`.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/chart_axis.py`: *Configures a custom label for specific value.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/line_chart.py`: *Identifies a concrete line/point pair involved in a chart interaction event.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/line_chart_data.py`: *Styling and geometry configuration for a single line series.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/line_chart_data_point.py`: *Tooltip configuration for the :class:`~flet_charts.LineChartDataPoint`.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/matplotlib_backends/backend_flet_agg.py`: *Canvas implementation used to render Matplotlib figures in Flet.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/matplotlib_chart.py`: *Ensure optional matplotlib dependency is available.      Raises:         ModuleNotFoundError: If `matplotlib` is not installed.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/matplotlib_chart_with_toolbar.py`: *Ensure matplotlib dependency is available.      Raises:         ModuleNotFoundError: If `matplotlib` is not installed.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/pie_chart.py`: *Event payload emitted when the user interacts with a pie chart section.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/pie_chart_section.py`: *Configures a :class:`~flet_charts.PieChart` section.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/plotly_chart.py`: *Ensure plotly dependency is available.      Raises:         ModuleNotFoundError: If `plotly` is not installed.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/radar_chart.py`: *Shape of the radar grid and data polygons.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/radar_data_set.py`: *A single data point rendered on a :class:`~flet_charts.RadarChart`.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/scatter_chart.py`: *Configuration of the tooltip for :class:`~flet_charts.ScatterChart`s.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/scatter_chart_spot.py`: *Tooltip configuration for the :class:`~flet_charts.ScatterChartSpot`.*
+  - 📄 `flet-main/sdk/python/packages/flet-charts/src/flet_charts/types.py`: *Configures the appearance of horizontal and vertical grid lines within the chart.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/__pyinstaller/__init__.py`: *Return directories containing PyInstaller hook modules for `flet-cli`.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/__pyinstaller/macos_utils.py`: *Extract a macOS app bundle archive and remove the source tarball.      Args:         tar_path: Path to a `*.tar.gz` archive containing `Flet.app`.      Returns:         Path to extracted `Flet.app`.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/__pyinstaller/utils.py`: *Return path to Flet desktop binaries, if available.      Resolution order:      1. FLET_VIEW_PATH environment variable.     2. Cached / downloaded client from ~/.flet/client/.      Returns:         Ab...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/__pyinstaller/win_utils.py`: *Replace icon resources in a Windows executable.      Args:         exe_path: Path to target executable file.         icon_path: Path to source icon file or executable resource.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/cli.py`: *Set a default subparser when no subparser is provided.     This should be called after setting up the argument parser but before     `parse_args()`.      Args:         name: The name of the default su...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/base.py`: *An argparse help formatter that appends default values to help text     selectively.      Defaults are added only when they are informative and not already     present in the help string. Noisy or red...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/build.py`: *Build a Flet Python app into a platform-specific executable or     installable bundle. It supports building for desktop (macOS, Linux, Windows), web,     Android (APK/AAB), and iOS (IPA and simulator ...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/build_base.py`: *A base build-related CLI command.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/create.py`: *Create a new Flet project using a predefined template.     It sets up the initial directory structure, metadata,     and required files to help you get started quickly.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/debug.py`: *Run a Flet Python app in debug mode on a specified platform (desktop, web, mobile).*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/devices.py`: *List all connected iOS and Android devices.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/doctor.py`: *Get information about the system and environment setup.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/emulators.py`: *List, create, and launch available emulators.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/flutter_base.py`: *A base Flutter CLI command.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/options.py`: *A reusable option object which delegates all arguments     to parser.add_argument().*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/pack.py`: *Package a Flet application into a standalone desktop executable or app bundle     using PyInstaller.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/publish.py`: *Compile and package a Flet app as a standalone static web application.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/run.py`: *Run a Flet application in hot reload mode.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/commands/serve.py`: *Static-file request handler that injects cross-origin isolation headers.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/android_sdk.py`: *Helper for discovering, installing, and invoking Android SDK tooling.      The class manages command-line tools installation, required package setup,     license acceptance, and subprocess execution w...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/cli.py`: *Parse a CLI boolean value, accepting only true/false tokens.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/distros.py`: *Downloads a file with a progress bar.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/flutter.py`: *Determines the Flutter archive URL based on the platform.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/hash_stamp.py`: *Track a SHA-256 digest and persist it to a stamp file.      A `HashStamp` instance is typically used to detect whether a set of values     has changed since the last run.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/jdk.py`: *Return the `JAVA_HOME` environment variable value, if set.      Returns:         The configured Java home directory or `None`.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/merge.py`: *Recursively merge dictionary `b` into dictionary `a`.      For keys present in both dictionaries:     - if both values are dictionaries, they are merged recursively;     - otherwise, the value from `b...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/plist.py`: *Checks if the value is a supported type for plist values.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/processes.py`: *Execute a subprocess command with optional streamed logging.      On Windows, the console output code page is temporarily switched to UTF-8     while the command runs, then restored.      Args:       ...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/project_dependencies.py`: *Convert a pyproject.toml file to a requirements.txt file.*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/src/flet_cli/utils/pyproject_toml.py`: *Load `pyproject.toml` from `project_dir` and return a section accessor.      Args:         project_dir: Project root directory that may contain `pyproject.toml`.      Returns:         A callable `get_...*
+  - 📄 `flet-main/sdk/python/packages/flet-cli/tests/test_plist.py`: *Strings and booleans should parse into their respective Python types.*
+  - 📄 `flet-main/sdk/python/packages/flet-code-editor/src/flet_code_editor/code_editor.py`: *Edit and highlight source code.*
+  - 📄 `flet-main/sdk/python/packages/flet-code-editor/src/flet_code_editor/types.py`: *1C*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/block_picker.py`: *A color picker that lets users choose a color from a grid of available     colors.*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/color_picker.py`: *Defines which textual color representations are shown by the picker.*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/hue_ring_picker.py`: *A hue ring color picker that lets users select a hue on a circular ring,     with an optional alpha slider.*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/material_picker.py`: *A material palette picker for selecting primary and shade colors, with     optional shade labels.*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/multiple_choice_block_picker.py`: *A color picker that lets users choose multiple colors from a grid of available     colors.*
+  - 📄 `flet-main/sdk/python/packages/flet-color-pickers/src/flet_color_pickers/slide_picker.py`: *Defines color models.*
+  - 📄 `flet-main/sdk/python/packages/flet-datatable2/src/flet_datatable2/datacolumn2.py`: *Relative size of a column determines the share of total table     width allocated to each individual column.      When determining column widths, ratios between `S`, `M` and `L`     columns are kept (...*
+  - 📄 `flet-main/sdk/python/packages/flet-datatable2/src/flet_datatable2/datarow2.py`: *Extends :class:`flet.DataRow`, adding row-level `tap` events.      There are also :attr:`on_secondary_tap` and :attr:`on_secondary_tap_down`,     which are not available in :class:`~flet.DataCell`s an...*
+  - 📄 `flet-main/sdk/python/packages/flet-datatable2/src/flet_datatable2/datatable2.py`: *Provides sticky header row, scrollable data rows,     and additional layout flexibility with :class:`~flet_datatable2.DataColumn2`     and :class:`~flet_datatable2.DataRow2`.      Note:         `DataT...*
+  - 📄 `flet-main/sdk/python/packages/flet-desktop/src/flet_desktop/__init__.py`: *Return the directory that contains bundled desktop runtime artifacts.      The directory may contain platform-specific executables or compressed     archives used to provision the desktop client at ru...*
+  - 📄 `flet-main/sdk/python/packages/flet-flashlight/src/flet_flashlight/flashlight.py`: *A control to use FlashLight. Works on iOS and Android.*
+  - 📄 `flet-main/sdk/python/packages/flet-geolocator/src/flet_geolocator/geolocator.py`: *A control that allows you to fetch GPS data from your device.*
+  - 📄 `flet-main/sdk/python/packages/flet-geolocator/src/flet_geolocator/types.py`: *Represent the possible location accuracy values.*
+  - 📄 `flet-main/sdk/python/packages/flet-lottie/src/flet_lottie/lottie.py`: *Displays lottie animations.      Note:         - Layer effects are currently not supported.             See [airbnb/lottie-android#1964](https://github.com/airbnb/lottie-android/issues/1964)          ...*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/circle_layer.py`: *A circular marker displayed on the Map at the specified     location through the :class:`~flet_map.CircleLayer`.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/map.py`: *An interactive map that displays various layers.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/map_layer.py`: *Abstract class for all map layers.      The following layers are available:      - :class:`~flet_map.CircleLayer`     - :class:`~flet_map.MarkerLayer`     - :class:`~flet_map.PolygonLayer`     - :clas...*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/marker_layer.py`: *A marker displayed on the Map at the specified location     through the :class:`~flet_map.MarkerLayer`.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/polygon_layer.py`: *A marker for the :class:`~flet_map.PolygonLayer`.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/polyline_layer.py`: *A marker for the :class:`~flet_map.PolylineLayer`.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/rich_attribution.py`: *An animated and interactive attribution layer that supports both images and text     (displayed in a popup controlled by an icon button adjacent to the images).*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/simple_attribution.py`: *A simple attribution layer displayed on the Map.*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/source_attribution.py`: *Abstract class for source attribution controls:      - :class:`~flet_map.ImageSourceAttribution`     - :class:`~flet_map.TextSourceAttribution`*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/tile_layer.py`: *Displays square raster images in a continuous grid,     sourced from the provided :attr:`url_template` and :attr:`fallback_url`.      Typically, the first layer to be added to a :class:`~flet_map.Map`...*
+  - 📄 `flet-main/sdk/python/packages/flet-map/src/flet_map/types.py`: *Strategies on how to handle tile errors.*
+  - 📄 `flet-main/sdk/python/packages/flet-permission-handler/src/flet_permission_handler/permission_handler.py`: *Manages permissions for the application.      Danger: Platform support         Currently only supported on Android, iOS, Windows, and Web platforms.      Raises:         FletUnsupportedPlatformExcepti...*
+  - 📄 `flet-main/sdk/python/packages/flet-permission-handler/src/flet_permission_handler/types.py`: *Defines the state of a :class:`~flet_permission_handler.Permission`.*
+  - 📄 `flet-main/sdk/python/packages/flet-rive/src/flet_rive/rive.py`: *Displays rive animations.*
+  - 📄 `flet-main/sdk/python/packages/flet-secure-storage/src/flet_secure_storage/secure_storage.py`: *The event fired by SecureStorage when availability changes.*
+  - 📄 `flet-main/sdk/python/packages/flet-secure-storage/src/flet_secure_storage/types.py`: *KeyChain accessibility attributes for iOS/macOS platforms.      These attributes determine when the app can access secure values     stored in the Keychain.*
+  - 📄 `flet-main/sdk/python/packages/flet-video/src/flet_video/__init__.py`: *Public exports for the flet-video package.*
+  - 📄 `flet-main/sdk/python/packages/flet-video/src/flet_video/types.py`: *Type definitions and configuration objects for flet-video.*
+  - 📄 `flet-main/sdk/python/packages/flet-video/src/flet_video/video.py`: *Video control definition for the flet-video package.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/__init__.py`: *Returns directory containing bundled web runtime assets.      If `FLET_WEB_PATH` environment variable is set, its value is returned.     Otherwise, the package-local `web` directory is used.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/app.py`: *Mount all Flet FastAPI handlers in one call.      Args:         main: Application entry point. It is called for newly connected users.             Handler (function or coroutine) must have 1 parameter...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_app.py`: *Handle Flet app WebSocket connections.      Args:         loop: `asyncio` event loop (`asyncio.get_running_loop()`).         executor: Thread pool executor (`app_manager.executor`).         main: Appl...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_app_manager.py`: *Manage application sessions and their lifetime.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_fastapi.py`: *FastAPI wrapper that integrates Flet app-manager startup/shutdown lifecycle.      It mirrors `fastapi.FastAPI` constructor options while     wiring a custom lifespan context that starts and stops     ...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_oauth.py`: *HTTP handler for OAuth callback.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_static_files.py`: *Serve Flet app static files.      Args:         assets_dir: An absolute path to app's assets directory.         app_name: PWA application name.         app_short_name: PWA application short name.     ...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/flet_upload.py`: *Flet app uploads handler.      Args:         upload_dir: An absolute path to a directory with uploaded files.         max_upload_size: maximum size of a single upload, bytes. Unlimited if `None`.     ...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/oauth_state.py`: *Temporary OAuth flow state persisted between auth start and callback.      Instances are stored by `FletAppManager`     and keyed by the `flet_oauth_state` cookie value.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/fastapi/serve_fastapi_web_app.py`: *Runtime handle for a started FastAPI web server task.*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/patch_index.py`: *Patch Flutter web `index.html` with Flet runtime and app metadata settings.      The file is read, updated in memory, and written back to `index_path`.     This function updates base href, injects Fle...*
+  - 📄 `flet-main/sdk/python/packages/flet-web/src/flet_web/uploads.py`: *Build a signed relative upload URL for a single file upload operation.      Args:         upload_endpoint_path: Upload endpoint path (with or without slashes).         file_name: File name to include ...*
+  - 📄 `flet-main/sdk/python/packages/flet-webview/src/flet_webview/types.py`: *Defines the supported HTTP methods for loading a page in a `WebView`.*
+  - 📄 `flet-main/sdk/python/packages/flet-webview/src/flet_webview/webview.py`: *Easily load webpages while allowing user interaction.      Note:         Supported only on the following platforms: iOS, Android, macOS, and Web.         Concerning Windows and Linux support, subscrib...*
+  - 📄 `flet-main/sdk/python/packages/flet/integration_tests/conftest.py`: *Module-scoped Flet app fixture.     Does not bind `ft.context.page`.*
+  - 📄 `flet-main/sdk/python/packages/flet/integration_tests/controls/core/test_image.py`: *<?xml version="1.0" encoding="UTF-8"?>     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">     <!-- Creator: CorelDRAW 2017 -->     <svg xmlns="http:...*
+  - 📄 `flet-main/sdk/python/packages/flet/integration_tests/controls/material/test_markdown.py`: *# Markdown Example Markdown allows you to easily include formatted text, images, and even formatted Dart code in your app.  ## Titles  Setext-style  This is an H1 =============  This is an H2 --------...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/app.py`: *Type alias for Flet app lifecycle callbacks.  Represents a callable (synchronous or asynchronous) that accepts a single argument of type :class:`~flet.Page`. The return value is ignored.  Used for bot...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/authorization.py`: *Abstract authorization contract used by Flet authentication workflows.      Implementations provide OAuth-style authorization URL/state generation,     token exchange, token hydration from persisted s...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/authorization_service.py`: *OAuth authorization implementation used by :meth:`flet.Page.login`.      The service coordinates authorization URL generation, token exchange,     token refresh, and optional user/group resolution usi...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/group.py`: *Group or role entry associated with an authenticated :class:`~flet.auth.User`.      The instance behaves like a mutable mapping with provider-specific metadata,     while exposing a normalized :attr:`...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/oauth_provider.py`: *Base configuration and extension point for OAuth providers in Flet.      Instances describe OAuth endpoints, client credentials, optional PKCE     parameters, and optional user/group retrieval behavio...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/oauth_token.py`: *OAuth token payload used by Flet authentication flows.      Stores access/refresh token fields and expiry metadata returned by OAuth     token endpoints.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/providers/auth0_oauth_provider.py`: *OAuth provider preset for Auth0.      Configures Auth0 authorization/token endpoints and user-info retrieval via     `/userinfo`, using the `sub` claim as the user id.      Attributes:         domain:...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/providers/azure_oauth_provider.py`: *OAuth provider preset for Microsoft Entra ID (Azure AD).      Uses v2 endpoints for the selected tenant and Microsoft Graph `/me` for     user profile retrieval, with Graph `id` used as the user id.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/providers/github_oauth_provider.py`: *OAuth provider preset for GitHub.      Uses GitHub OAuth endpoints and fetches user profile/groups via GitHub REST     APIs (`/user`, `/user/emails`, `/user/teams`).*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/providers/google_oauth_provider.py`: *OAuth provider preset for Google accounts.      Configures Google OAuth endpoints and user-info retrieval via the OpenID     Connect userinfo endpoint, using `sub` as the user id.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/auth/user.py`: *Authenticated user profile used by Flet authorization flows.      The instance is a mutable mapping with provider-specific user fields and     normalized attributes such as :attr:`id` and :attr:`group...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/component.py`: *Internal mutable state backing a `Component` instance.      Stores hook registry/cursor, memoization snapshots, mount flags, and     observable argument subscriptions used across render cycles.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/component_decorator.py`: *Marks a function as a component.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/component_owned.py`: *Base mixin for objects owned by a component via weak reference.      Used by hook/subscription state objects that must reference their owning     component without creating strong-reference cycles.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/hook.py`: *Base class for component hook state objects.      Each hook instance is bound to an owning component via     `ComponentOwned` and reused by position across     renders, allowing hook-specific subclass...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_callback.py`: *Memoize a function identity between renders.      Args:         fn: A function to memoize.         dependencies: If present, fn is only re-memoized when one of the dependencies             has changed...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_context.py`: *Marker hook for `use_context` subscription ordering.      The hook stores no additional data; it reserves a stable hook slot so     context access follows normal hook ordering rules within a component...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_effect.py`: *Hook state container backing :func:`~flet.use_effect`.      Stores effect callbacks, dependency snapshots, and runtime task handles used     to schedule async setup/cleanup work across mount, update, ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_memo.py`: *Hook state container used by :func:`~flet.use_memo`.      It stores the last computed memo value together with the dependency snapshot     used to decide whether recomputation is required on subsequen...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_ref.py`: *A mutable holder whose identity stays stable across renders.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/hooks/use_state.py`: *Hook state container backing :func:`~flet.use_state`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/memo.py`: *Lets you skip re-rendering a component when its props are unchanged.      Example:         ```python         import flet as ft           @ft.component         def MyComponent(x, y):             return...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/observable.py`: *Makes a class observable by mixing in :class:`~flet.Observable`.     Can be applied to any class including `dataclasses.dataclass`.     For dataclasses, decorator can be placed either above or below  ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/public_utils.py`: *Resolves a component wrapper chain to its rendered payload.      If `c` is a `Component`, this function repeatedly follows     its rendered body (`_b`) until the value is no longer a `Component`.     ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/components/utils.py`: *Returns the renderer bound to the current execution context.      The active renderer is stored in a context variable and is set while running     inside `Renderer.render(...)` or `Renderer.with_conte...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/adaptive_control.py`: *Base class for controls that support adaptive behavior, which allows them to \     adjust their appearance and behavior based on the target platform (ex: Material \     design on Android/Windows/Linux...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/alignment.py`: *The two cardinal directions in two dimensions.      The axis is always relative to the current coordinate space. This means, for     example, that a [horizontal] axis might actually be diagonally from...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/animation.py`: *Animation curves.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/base_control.py`: *Creates a dataclass field excluded from control tree traversal and patching.      The returned field uses `metadata={"skip": True}` so runtime diff/configuration     logic ignores it. This is intended...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/base_page.py`: *Represents the environmental metrics of a page or window.      This data is updated whenever the platform window or layout changes,     such as when rotating a device, resizing a browser window, or ad...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/blur.py`: *Edge sampling mode used when applying blur beyond source bounds.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/border.py`: *Defines where a border stroke is painted relative to the border path.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/border_radius.py`: *Corner radii for a rectangle, defined for all four corners.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/box.py`: *Defines a color filter.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/buttons.py`: *Base class for shape outlines. Not intended to be used directly.      See subclasses/implementations:      - :class:`~flet.OutlinedBorder`*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/colors.py`: *Code to generate colors: ``` $lines = Get-Content "colors.dart"  $section = ''  foreach($line in $lines) {      if ($line.Contains("case `"")) {         $color = $line.Replace('case "', "").replace('"...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/context.py`: *Manages the context for Flet controls, including page reference and auto-update \     behavior.      Context instance is accessed via :data:`flet.context`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/control.py`: *Base class for controls.      Not meant to be used directly.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/control_event.py`: *Resolve the concrete event payload type for an event-handler field.      Inspects merged annotations across the control MRO and evaluates forward     references so runtime event objects can be created...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/control_state.py`: *Interactive states that some controls can take on when receiving input     from the user.      States are defined by the Material 3 design     [specification](https://m3.material.io/foundations/intera...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/animated_switcher.py`: *Visual transition strategy used by :attr:`flet.AnimatedSwitcher.transition`.      Controls how old and new content are animated while the switch occurs.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/autofill_group.py`: *Predefined autofill hint identifiers for text fields.      Each enum value represents semantic input meaning (for example city,     email, or password) and is translated to platform-specific autofill ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/arc.py`: *Draws an arc scaled to fit inside the given rectangle.      It starts from :attr:`start_angle` radians around the oval up to     :attr:`start_angle` +     :attr:`sweep_angle` radians around the oval, ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/canvas.py`: *Event emitted when a :class:`~flet.canvas.Canvas` reports a new rendered size.      This event is delivered through :attr:`~flet.canvas.Canvas.on_resize`     and carries the latest measured dimensions...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/circle.py`: *Draws a circle.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/color.py`: *Paints the given `color` onto the canvas, applying the given `blend_mode`, with \     the given color being the source and the background being the destination.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/fill.py`: *Fills the canvas with the given :attr:`paint`.      To fill the canvas with a solid color and blend mode,     consider :class:`~flet.canvas.Color` shape instead.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/image.py`: *Draws an image.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/line.py`: *Draws a line between the given points using the given paint.      Note:         The line is always rendered as a stroke, regardless of the value         of :attr:`paint`'s :attr:`~flet.Paint.style` pr...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/oval.py`: *Draws an axis-aligned oval that fills the given axis-aligned rectangle with the \     given :attr:`paint`.      The :attr:`~flet.Paint.style` property of :attr:`paint` indicates     whether this oval ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/path.py`: *Draws a path with given :attr:`elements`     with the given :attr:`paint`.      Whether this shape is filled, stroked, or both, is controlled by `paint.style`.     If the path is filled, then sub-path...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/points.py`: *Defines how a list of points is interpreted when drawing a set of points.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/rect.py`: *Draws a rectangle.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/shadow.py`: *Draws a shadow for a :attr:`path` representing the given material \     :attr:`elevation`.      Note:         The :attr:`transparent_occluder` argument should         be `True` if the occluding object...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/shape.py`: *A base class for canvas shapes.      See subclasses/implementations:      - :class:`~flet.canvas.Arc`     - :class:`~flet.canvas.Circle`     - :class:`~flet.canvas.Color`     - :class:`~flet.canvas.Fi...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/canvas/text.py`: *Draws :attr:`value` with :attr:`style` at the given (:attr:`x`, :attr:`y`) point.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/column.py`: *Arranges child controls vertically, optionally aligning and spacing them within \     the available space.      ```python     ft.Column(         width=220,         height=120,         spacing=12,     ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/dismissible.py`: *Event payload for dismissal confirmation and completion callbacks.      Used by :attr:`~flet.Dismissible.on_confirm_dismiss` and     :attr:`~flet.Dismissible.on_dismiss`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/drag_target.py`: *Base payload for drag-target events that carry draggable source information.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/draggable.py`: *A control that can be dragged from to a :class:`~flet.DragTarget`.      When a draggable control recognizes the start of a drag gesture, it displays the     :attr:`content_feedback` control that track...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/flet_app.py`: *Renders another Flet app in the current app, similar to HTML IFrame, but for Flet.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/gesture_detector.py`: *A control that detects gestures.      Attempts to recognize gestures that correspond to its non-None callbacks.      If this control has a :attr:`content`, it defers to that child control for     its ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/grid_view.py`: *A scrollable, 2D array of controls.      It is very effective for large lists (thousands of items).     Prefer it over wrapping :class:`~flet.Column`s or     :class:`~flet.Row`s for smooth scrolling. ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/hero.py`: *Marks the :attr:`content` as a shared element for route transitions.      Place a `Hero` with the same :attr:`tag` in both source and destination views to     animate that control between routes.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/icon.py`: *A control that displays an icon from a built-in or custom icon set.      Icons can be customized in color, size, and visual style using various     parameters such as stroke weight, fill level, and sh...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/image.py`: *Displays an image.      The following popular formats are supported: JPEG, PNG, SVG,     GIF, Animated GIF, WebP, Animated WebP, BMP, and WBMP.      Example:     ```python     ft.Image(         src="h...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/interactive_viewer.py`: *Allows you to pan, zoom, and rotate its :attr:`content`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/keyboard_listener.py`: *Event triggered when a key is pressed down.      Typically used to detect the initial press of a key before it is released     or repeated.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/list_view.py`: *A scrollable list of controls arranged linearly.      ListView is the most commonly used scrolling control. It displays its children one     after another in the scroll direction. In the cross axis, t...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/markdown.py`: *Preset markdown syntax extension bundles for :class:`~flet.Markdown`.      The selected set controls which block/inline syntaxes are enabled while     parsing :attr:`flet.Markdown.value`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/merge_semantics.py`: *A control that merges the semantics of its descendants.      Causes all the semantics of the subtree rooted at this node to be merged into one     node in the semantics tree.      Used by accessibilit...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/page_view.py`: *Displays its child :attr:`controls` one page at a time and lets users swipe     between them, similar to a carousel.      It is helpful for onboarding flows, photo carousels,     or any scenario where...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/pagelet.py`: *Implements the basic Material Design visual layout structure.      Use it for projects that require a "page within a page" layouts with its own     :class:`~flet.AppBar`, :class:`~flet.BottomAppBar`, ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/placeholder.py`: *A placeholder box.      ```python     ft.Placeholder(         expand=True,         color=ft.Colors.RED_500,     )     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/reorderable_drag_handle.py`: *Used to drag an item in a :class:`~flet.ReorderableListView`.      It creates a listener for a drag immediately following a pointer down     event over the given :attr:`content` control.      Example:...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/responsive_row.py`: *Allows aligning child controls to virtual columns.      By default, a virtual grid has 12 columns, but that can be customized with     :attr:`columns` property.      Similar to `expand` property, ever...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/rotated_box.py`: *Rotates its :attr:`content` by an integral number of quarter turns.      Unlike :attr:`flet.LayoutControl.rotate` (which uses     `Transform.rotate` and applies the rotation only at paint time),     `...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/row.py`: *Displays its children in a horizontal array.      To cause a child control to expand and fill the available horizontal space, set     its :attr:`~flet.Control.expand` property.      Example:     ```py...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/safe_area.py`: *A control that insets its :attr:`content` by sufficient padding to avoid \     intrusions by the operating system.      For example, this will indent the `content` by enough to avoid the status bar at...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/screenshot.py`: *Takes a screenshot of containing control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/semantics.py`: *Provides semantic annotations for the control tree, describing the meaning and \     purpose of controls.      These annotations are utilized by accessibility tools, search engines,     and semantic a...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/shader_mask.py`: *Applies a mask generated by a shader to its :attr:`content`.      For example, it can be used to gradually fade out the edge of a control by     using a :class:`~flet.LinearGradient` mask.      ```pyt...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/shimmer.py`: *Direction of the shimmering gradient animation.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/stack.py`: *How to size the non-positioned children of a :class:`~flet.Stack`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/text.py`: *Defines the permissions which can be checked and requested.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/text_span.py`: *A text span.      Usage Example: As a child of :attr:`flet.Text.spans`.      For the object to be useful, at least one of :attr:`text` or     :attr:`spans` should be set.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/transparent_pointer.py`: *TransparentPointer is the solution to ["How to pass through all gestures between two widgets in Stack"](https://stackoverflow.com/questions/65269190/pass-trough-all-gestures-between-two-widgets-in-sta...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/view.py`: *View is the top most container for all other controls.      A root view is automatically created when a new user session started.     From layout perspective the View represents a :class:`~flet.Column...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/window.py`: *Type of native desktop window event.      Values are reported in :attr:`flet.WindowEvent.type` and     delivered by :attr:`flet.Window.on_event`. Event availability     depends on the operating system...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/core/window_drag_area.py`: *It mimics the behavior (drag, move, maximize, restore) of a native OS window title \     bar on the :attr:`content` control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_action_sheet.py`: *An iOS-style action sheet.      Action sheets are generally used to give the user a choice between     two or more choices for the current context.      Example:     ```python     sheet = ft.Cupertino...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_action_sheet_action.py`: *An action button typically used in a CupertinoActionSheet.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_activity_indicator.py`: *An iOS-style activity indicator that spins clockwise.      ```python     ft.CupertinoActivityIndicator(         radius=30,         color=ft.CupertinoColors.DARK_BACKGROUND_GRAY,     )     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_alert_dialog.py`: *An iOS-style alert dialog.      An alert dialog informs the user about situations that require acknowledgement. An     alert dialog has an optional title and an optional list of actions. The title is ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_app_bar.py`: *An iOS-styled app bar.      Note:         The alignment of the :attr:`title` depends on whether         this app bar is :attr:`large` or not.         If it is `True`, the :attr:`title` is left-aligned...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_bottom_sheet.py`: *A Cupertino bottom sheet.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_button.py`: *Preset size style for :class:`~flet.CupertinoButton`.      Influences defaults such as minimum size, padding, border radius, and text style.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_checkbox.py`: *A macOS style checkbox.      Checkbox allows to select one or more items from a group,     or switch between two mutually exclusive options (checked or unchecked, on or off).      ```python     ft.Col...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_colors.py`: *url='https://raw.githubusercontent.com/flutter/flutter/stable/packages/flutter/lib/src/cupertino/colors.dart' output_file="$HOME/cupertino_python_colors.txt" curl -s $url | python -c ' import re  for ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_context_menu.py`: *A full-screen modal route that opens up when the :attr:`content` is long-pressed.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_context_menu_action.py`: *A cupertino context menu action.      Typically used as a child of :attr:`flet.CupertinoContextMenu.actions`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_date_picker.py`: *Different display modes of :class:`~flet.CupertinoDatePicker`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_dialog_action.py`: *A dialog action button.      Typically used as a child of :attr:`flet.CupertinoAlertDialog.actions`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_filled_button.py`: *An iOS-style button filled with default background color.      ```python     ft.CupertinoFilledButton("Tap me")     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_list_tile.py`: *An iOS-style list tile.      The CupertinoListTile is a Cupertino equivalent of the Material \     :class:`~flet.ListTile`.      ```python     ft.CupertinoListTile(         title="Notifications",     ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_navigation_bar.py`: *An iOS-styled bottom navigation tab bar.      Navigation bars offer a persistent and convenient way to switch between primary     destinations in an app.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_picker.py`: *An iOS-styled picker.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_radio.py`: *A macOS-styled radio button, allowing the user to select a single option from two \     or more choices.      ```python     ft.RadioGroup(         value="option_2",         content=ft.Column(         ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_segmented_button.py`: *An iOS-style segmented button.      Example:     ```python     ft.CupertinoSegmentedButton(         selected_index=1,         controls=[             ft.Text("One"),             ft.Text("Two"),        ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_slider.py`: *An iOS-type slider.      It provides a visual indication of adjustable content, as well as the current     setting in the total range of content.      Use a slider when you want people to set defined ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_sliding_segmented_button.py`: *A cupertino sliding segmented button.      Example:     ```python     ft.CupertinoSlidingSegmentedButton(         selected_index=1,         controls=[             ft.Text("One"),             ft.Text("...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_switch.py`: *An iOS-style switch.      Used to toggle the on/off state of a single setting.      Example:     ```python            ft.CupertinoSwitch(value=True)     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_textfield.py`: *Visibility of text field overlays based on the state of the current text entry.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_timer_picker.py`: *Different modes of :class:`~flet.CupertinoTimerPicker`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/cupertino/cupertino_tinted_button.py`: *An iOS-style button filled with default background color.      ```python     ft.CupertinoTintedButton("Tap me")     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/device_info.py`: *Base class for device information.      Platform-specific classes include:     - :class:`~flet.AndroidDeviceInfo`     - :class:`~flet.IosDeviceInfo`     - :class:`~flet.LinuxDeviceInfo`     - :class:`...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/dialog_control.py`: *A base class for dialog controls.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/duration.py`: *A span of time, such as 27 days, 4 hours, 12 minutes, and 3 seconds.      A Duration represents a difference from one point in time to another. The duration     may be "negative" if the difference is ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/embed_json_encoder.py`: *JSON encoder that embeds control-like objects by serializing their `__dict__`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/events.py`: *Payload for tap press/release events.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/exceptions.py`: *Base class for all Flet exceptions.      See these subclasses/implementations:      - :class:`~flet.FletUnsupportedPlatformException`     - :class:`~flet.FletUnimplementedPlatformException`     - :cla...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/geometry.py`: *A 2D size with width and height.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/gradients.py`: *Defines what happens at the edge of a gradient.     More information about GradientTileMode     [here](https://api.flutter.dev/flutter/dart-ui/TileMode.html).*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/icon_data.py`: *Represents an icon used in the UI.      An icon can come from:      - the Material icon set via the `Icons` icon collection,     - the Cupertino icon set via the `CupertinoIcons` icon collection,     ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/id_counter.py`: *Thread-safe incremental id generator used for runtime control identifiers.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/keys.py`: *Deferred proxy for ``value`` to avoid circular import with base_control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/layout_control.py`: *Event fired when a control's rendered size changes after layout.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/margin.py`: *`Margin` class has the properties to set margins for all sides of the rectangle.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/alert_dialog.py`: *Can be used to inform the user about situations that require acknowledgement.      It has an optional :attr:`title` and an optional list of :attr:`actions` . The     `title` is displayed above the :at...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/app_bar.py`: *A material design app bar.      Example:     ```python     ft.AppBar(         leading=ft.Icon(ft.Icons.MENU),         title=ft.Text("Dashboard"),         bgcolor=ft.Colors.SURFACE_CONTAINER,         a...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/auto_complete.py`: *Represents a suggestion item for the :class:`~flet.AutoComplete` control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/badge.py`: *Badges are used to show notifications, counts, or status information on navigation \     items such as :class:`~flet.NavigationBar` or :class:`~flet.NavigationRail` \     destinations or a button's ic...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/banner.py`: *A banner displays an important, succinct message, and provides actions for users \     to address (or dismiss the banner). A user action is required for it to be \     dismissed.      Banners are disp...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/bottom_app_bar.py`: *A material design bottom app bar.      ```python     ft.BottomAppBar(         bgcolor=ft.Colors.SURFACE_CONTAINER_LOW,         content=ft.Row(             alignment=ft.MainAxisAlignment.SPACE_AROUND, ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/bottom_sheet.py`: *A modal bottom sheet.      Displays a temporary surface anchored to the bottom of the     screen that presents supplemental content or actions.     Prevents interaction with the underlying app while v...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/button.py`: *A material button.      It supports various styles, colors, event handlers for user interaction,     and can be used to display text, icons, etc.      Example:     ```python     ft.Button(content="Ena...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/card.py`: *Material card visual style preset.      Used to define the :attr:`flet.Card.variant`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/checkbox.py`: *Checkbox allows to select one or more items from a group, or switch between two \     mutually exclusive options (checked or unchecked, on or off).      ```python     ft.Checkbox()     ft.Checkbox(lab...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/chip.py`: *Chips are compact elements that represent an attribute, text, entity, or action.      Example:     ```python     ft.Chip(         label="Explore topics",         leading=ft.Icon(ft.Icons.EXPLORE_OUTLI...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/circle_avatar.py`: *A circle that represents a user.      If :attr:`foreground_image_src` fails then :attr:`background_image_src` is used,     and if this also fails, then :attr:`bgcolor` is used.      Example:     ```py...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/container.py`: *Allows to decorate a control with background color and border and position it with \     padding, margin and alignment.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/context_menu.py`: *Defines how a menu is shown for a specific mouse button.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/datatable.py`: *Event emitted when a :class:`~flet.DataColumn` requests sorting.      This event is delivered to :attr:`flet.DataColumn.on_sort` when the user triggers     sorting from a column header. Use :attr:`col...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/date_picker.py`: *Initial display of a calendar date picker.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/date_range_picker.py`: *A Material-style date range picker dialog.      It can be opened by calling :meth:`flet.Page.show_dialog` method.      Depending on the :attr:`entry_mode`, it will show either a Calendar     or an Inp...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/divider.py`: *A thin horizontal line (divider), with padding on either side.      ```python     ft.Column(         width=240,         spacing=10,         controls=[             ft.Text("Section A", weight=ft.FontWe...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/dropdown.py`: *Represents an item in a dropdown.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/dropdownm2.py`: *Represents an item in a dropdown.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/expansion_panel.py`: *Payload for :attr:`flet.ExpansionPanelList.on_change` event.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/expansion_tile.py`: *Where to place a control in controls that use :class:`~flet.ListTile` to position \     a control next to a label.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/filled_button.py`: *Filled buttons have the most visual impact after the \     :class:`~flet.FloatingActionButton`, and is typically used for important, final \     actions that complete a flow, like "Save", "Join now", ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/filled_tonal_button.py`: *A filled tonal button is an alternative middle ground between FilledButton and \     OutlinedButton buttons. They're useful in contexts where a lower-priority button \     requires slightly more empha...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/floating_action_button.py`: *A floating action button is a circular icon button that hovers over content to \     promote a primary action in the application. Floating action button is usually set \     to `page.floating_action_b...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/form_field_control.py`: *Text size in virtual pixels.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/icon_button.py`: *An icon button is a round button with an icon in the middle that reacts to touches \     by filling with color (ink).      Icon buttons are commonly used in the toolbars, but they can be used in many ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/list_tile.py`: *Defines how :class:`~flet.ListTile` aligns :attr:`~flet.ListTile.leading`     and :attr:`~flet.ListTile.trailing` relative to the tile's title area.      The alignment is computed against the text blo...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/menu_bar.py`: *Defines the visual style/appearance of a menu.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/menu_item_button.py`: *A button for use in a MenuBar or on its own, that can be activated by click or \     keyboard navigation.      ```python     ft.Row(         controls=[             ft.MenuItemButton(                 c...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/navigation_bar.py`: *Defines how the destinations' labels will be laid out and when they'll be \     displayed.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/navigation_drawer.py`: *Displays an icon with a label, for use in NavigationDrawer destinations.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/navigation_rail.py`: *Defines how destination labels are shown in a :class:`~flet.NavigationRail`.      This setting affects the non-extended rail layout     (:attr:`~flet.NavigationRail.extended`). When the rail is     ex...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/outlined_button.py`: *Outlined buttons are medium-emphasis buttons. They contain actions that are \     important, but aren't the primary action in an app. Outlined buttons pair well \     with filled buttons to indicate a...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/popup_menu_button.py`: *Used to configure how the :class:`~flet.PopupMenuButton` positions its popup menu.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/progress_bar.py`: *A material design linear progress indicator, also known as a progress bar.      A control that shows progress along a line.      Example:     ```python     ft.ProgressBar(width=400, value=0.8)     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/progress_ring.py`: *A material design circular progress indicator, which spins to indicate that the \     application is busy.      A control that shows progress along a circle.      ```python     ft.ProgressRing(value=0...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/radio.py`: *Radio buttons let people select a single option from two or more choices.      Example:     ```python     ft.RadioGroup(         content=ft.Row(             controls=[ft.Radio(label=f"{i}") for i in r...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/radio_group.py`: *Radio buttons let people select a single option from two or more choices.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/range_slider.py`: *A Material Design range slider. Used to select a range from a range of values.      A range slider can be used to select from either a continuous or a discrete     set of values. The default is to use...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/reorderable_list_view.py`: *Payload for :class:`~flet.ReorderableListView` events related to item     reordering.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/search_bar.py`: *Manages a "search view" route that allows the user to select one of the suggested \     completions for a search query.      ```python     ft.SearchBar(bar_hint_text="Search...")     ```*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/segmented_button.py`: *A segment for a :class:`~flet.SegmentedButton`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/selection_area.py`: *Flet controls are not selectable by default. SelectionArea is used to enable \     selection for its child control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/slider.py`: *Defines how users can interact with a :class:`~flet.Slider` to change its value.      Each mode controls whether taps and drag gestures on the slider track are     accepted, and whether interaction is...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/snack_bar.py`: *Defines where a :class:`~flet.SnackBar` appears within a page and how it is \     positioned relative to bottom UI elements.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/submenu_button.py`: *A menu button that displays a cascading menu.      Typically used in a :class:`~flet.MenuBar` control.      ```python     ft.SubmenuButton(         content=ft.Text("Choose text style"),         key="s...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/switch.py`: *A toggle represents a physical switch that allows someone to choose between two \     mutually exclusive options.      For example, "On/Off", "Show/Hide".      ```python         ft.Switch(label="Unche...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/tabs.py`: *Defines how tabs are aligned horizontally in a :class:`~flet.Tabs`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/text_button.py`: *Text buttons are used for the lowest priority actions, especially when presenting \     multiple options. Text buttons can be placed on a variety of backgrounds. Until \     the button is interacted w...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/textfield.py`: *The type of information for which to optimize the text input control.      On Android, behavior may vary across device and keyboard provider.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/time_picker.py`: *Defines the hour format for the :class:`~flet.TimePicker` control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/tooltip.py`: *The method of interaction that will trigger a tooltip.     Used in :attr:`flet.Tooltip.trigger_mode` and     :attr:`flet.TooltipTheme.trigger_mode`.      On desktop, a tooltip will be shown as soon as...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/material/vertical_divider.py`: *A thin vertical line, with padding on either side.      In the material design language, this represents a divider.      Example:     ```python     ft.Row(         width=120,         height=60,       ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/multi_view.py`: *TBD*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/object_patch.py`: *Base Object Patch exception*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/padding.py`: *Defines padding for all sides of a rectangle.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/page.py`: *Internal container that hosts page-level service controls.      Services register themselves through this registry so they can be mounted     under :class:`~flet.Page` and synchronized with the fronte...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/painting.py`: *Strategy used by :attr:`flet.Paint.style` when drawing geometry.      Determines whether a shape is rendered as a filled interior or as an     outlined contour.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/query_string.py`: *`UrlComponents` are meant to be used internally for decoding-encoding, it has no \     external use*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/ref.py`: *Utility class which allows defining a reference to a control.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/scrollable_control.py`: *The kind of scroll notification emitted by `ScrollableControl`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/accelerometer.py`: *Discrete reading from an accelerometer. Accelerometers measure the velocity of the \     device. Note that these readings include the effects of gravity.     Put simply, you can use accelerometer read...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/barometer.py`: *A sensor sample from a barometer.      Barometers measure the atmospheric pressure surrounding the sensor,     returning values in hectopascals `hPa`.      Consider that these samples may be affected ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/battery.py`: *Battery state.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/browser_context_menu.py`: *Controls the browser's context menu on the web platform.      The context menu is the menu that appears on right clicking or selecting     text in the browser, for example.      On web, by default, th...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/clipboard.py`: *Provides access to the system clipboard.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/connectivity.py`: *Connectivity states.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/file_picker.py`: *Defines the file types that can be selected using the :class:`~flet.FilePicker`.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/gyroscope.py`: *Discrete reading from a gyroscope.      Gyroscope sample containing device rotation rate (`rad/s`) around each     axis plus the microsecond timestamp.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/haptic_feedback.py`: *Allows access to the haptic feedback interface on the device.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/magnetometer.py`: *A sensor sample from a magnetometer.      Magnetometers measure the ambient magnetic field surrounding the sensor,     returning values in microteslas `μT` for each three-dimensional axis.      Consid...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/screen_brightness.py`: *Event fired when screen brightness changes.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/semantics_service.py`: *Determines the assertiveness level of the accessibility announcement.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/sensor_error_event.py`: *Generic sensor error event. `message` contains the platform error text.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/service.py`: *Base class for user services.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/shake_detector.py`: *Detects phone shakes.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/share.py`: *Outcome of a share operation.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/shared_preferences.py`: *Supported types for :class:`~flet.SharedPreferences` values.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/storage_paths.py`: *Provides access to commonly used storage paths on the device.      Note:         Its methods are not supported in web mode.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/url_launcher.py`: *Preferred launch mode for opening a URL.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/user_accelerometer.py`: *Like :class:`~flet.AccelerometerReadingEvent`, this is a discrete reading from an \     accelerometer and measures the velocity of the device. However, unlike \     :class:`~flet.AccelerometerReadingE...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/services/wakelock.py`: *Prevents the device from sleeping while enabled.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/template_route.py`: *Matches a concrete route string against parameterized route templates.      Instances keep the original route in `route` and expose matched template     parameters as dynamic attributes after a succes...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/text_style.py`: *How overflowing text should be handled.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/theme.py`: *Page transition preset for route changes.      These could, for example, be used together with \     :class:`~flet.PageTransitionsTheme` to     define per-platform navigation animations.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/transform.py`: *Scaling configuration for an object.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/types.py`: *TBD*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/controls/value_types.py`: *Lightweight module for the `@value` decorator and related helpers.  Kept separate from `base_control` to avoid circular imports: value types (Duration, Alignment, etc.) need `@value` but are imported ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/connection.py`: *Base messaging connection interface used by a Flet session.      Concrete implementations provide transport-specific behavior (for example,     socket or browser-backed messaging) and must implement m...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/flet_socket_server.py`: *Socket-based transport for Flet backend messaging.      This connection accepts a single active client at a time over TCP or Unix domain     socket (UDS), decodes protocol frames, manages session life...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/protocol.py`: *Returns the field definition from the earliest dataclass in the MRO that declares \     `field_name`. This lets us recover defaults configured on base controls before \     subclasses override them.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/pyodide_connection.py`: *Browser-side connection adapter used when Flet runs in Pyodide.      This transport bridges JavaScript and Python message flow through `flet_js`,     manages a session lifecycle, and routes protocol m...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/session.py`: *Represents a server-side Flet session.      A session owns the root :class:`~flet.Page`, tracks mounted controls, dispatches     control events, synchronizes UI patches with the client connection, and...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/messaging/session_store.py`: *In-memory key-value storage scoped to a user session.      Note:         In its current implementation, the data stored in a session store         is transient and is not preserved between app restart...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/pubsub/pubsub_client.py`: *Session-scoped facade over `PubSubHub`.      This client binds all pub/sub operations to one session ID so callers can     publish and subscribe without passing their session identity explicitly on   ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/pubsub/pubsub_hub.py`: *Thread-safe in-memory pub/sub router scoped to a Flet server process.      Subscribers are grouped by session ID and optionally by topic. Handlers can     be synchronous callables or async coroutine f...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/security/__init__.py`: *Derives a deterministic Fernet-compatible key from `secret_key`.      The key is produced by hashing `secret_key` with SHA-256 and URL-safe     Base64-encoding the 32-byte digest.      Args:         s...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/testing/finder.py`: *Finder is used to search for controls by different criteria.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/testing/flet_test_app.py`: *Indicates the way in which a frame is treated after being displayed.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/testing/tester.py`: *Class that programmatically interacts with page controls and the test environment.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/browser.py`: *Opens a URL in the system default browser on non-mobile platforms.      On mobile targets, this function does nothing.      Args:         url: URL to open.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/deprecated.py`: *Utilities for runtime deprecation warnings in Flet.  This module provides: - decorator-based warnings for functions/methods/classes; - class-constructor warnings for deprecated classes; - direct warni...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/deprecated_enum.py`: *Enum metaclass that supports deprecation aliases.      Enums can declare `_deprecated_members_` as a mapping of alias name to a tuple     containing the canonical member name and a deprecation message...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/files.py`: *Checks whether `target` is located within `directory`.      Args:         directory: Base directory path.         target: Candidate path to validate.      Returns:         `True` if `target` resolves ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/from_dict.py`: *Converts `data` into an instance of `cls`.      The function supports dataclasses, nested dataclasses, generic aliases,     `ForwardRef` annotations, enum values, lists, dictionaries, and optionals.  ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/griffe_deprecations.py`: *Griffe extension for rendering deprecation details in API docs.  This extension centralizes deprecation detection for Flet docs. It supports: - class/function decorators:   - `warnings.deprecated(...)...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/hashing.py`: *Calculates SHA-1 digest for a UTF-8 string.      Args:         input_string: Input text to hash.      Returns:         Hexadecimal SHA-1 digest string.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/json_utils.py`: *Serializes a value to compact JSON using Flet's embedded encoder.      Args:         value: Value to serialize.      Returns:         JSON string without extra whitespace, or `None` when `value` is `N...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/locks.py`: *No-op synchronous context manager used in place of a real lock.      This class provides the same `with` interface as a lock but performs no     synchronization.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/network.py`: *Returns an available local TCP port selected by the operating system.      The port is discovered by binding a socket to port `0`.      Returns:         A TCP port number that was available at discove...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/object_model.py`: *Applies a partial update to a dataclass instance in place.      The function resolves field type hints and updates matching fields from `patch`,     including support for nested dataclasses, lists, en...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/once.py`: *Async helper that runs a coroutine function only once.      Concurrent callers are synchronized with an `asyncio.Lock` so the     wrapped function executes at most one time per :class:`Once` instance.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/pip.py`: *Installs a package using `pip`.      Args:         package_spec: Package requirement specifier to install (for example,             `flet-web==0.27.0`).      Returns:         The `pip` process return ...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/platform_utils.py`: *Parses an environment variable value as a boolean.      Args:         name: Environment variable name.      Returns:         `True` when the variable value is `true`, `1`, or `yes` (case-insensitive);...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/slugify.py`: *Converts to lowercase, removes non-word characters (alphanumerics and underscores) \     and converts spaces to hyphens. Also strips leading and trailing whitespace.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/strings.py`: *Generates a cryptographically secure random alphanumeric string.      Args:         length: Desired output length.      Returns:         A random string containing ASCII letters and digits.*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/typing_utils.py`: *Evaluates a type annotation using runtime namespaces.      This helper prefers calling `typing._eval_type()` with `type_params` support and     falls back to the older call signature for Python versio...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/validation.py`: *Validation helpers for dataclass-style models, including Flet controls.  This module provides composable rule objects that are attached to annotated fields (`typing.Annotated`) and to class-level cros...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/utils/vector.py`: *Simple immutable 2D vector class based on the Python complex number type      Create and access - coordinates      >>> v = Vector(1, 2)     >>> v.x, v.y     (1.0, 2.0)      Create and access - angle a...*
+  - 📄 `flet-main/sdk/python/packages/flet/src/flet/version.py`: *Provide the current Flet version.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/bench_object_patch.py`: *Standalone benchmark for object_patch performance. Run with: python bench_object_patch.py  Measures several scenarios before and after optimisations.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/common.py`: *Order-insensitive variant of cmp_ops for commutative patch operations.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_auth_lazy_imports.py`: *Remove loaded `flet` modules to force fresh import behavior in each test.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_colors.py`: *Test random material color selection with weights and exclusion list.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_deprecated.py`: *Unit tests for runtime deprecation helpers in `flet.utils.deprecated`.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_griffe_deprecations.py`: *Tests for docs-facing deprecation extraction via Griffe extension.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_icons.py`: *Test random material icon selection with weights and exclusion list.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_skip_double_update.py`: *Tests for skipping auto-update when .update() was already called.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_validation.py`: *Verify `V.field()` and `ClassRule(...)` execute provided callbacks.*
+  - 📄 `flet-main/sdk/python/packages/flet/tests/test_validation_benchmark.py`: *Benchmark: validation overhead in _before_update_safe().  Compares declarative Annotated + V.* validation (current) against the imperative if/raise baseline that existed on main.  Run with:  pytest te...*
+  - 📄 `flet-main/sdk/python/templates/app/extension/{{cookiecutter.out_dir}}/src/{{cookiecutter.project_name_underscore}}/{{cookiecutter.project_name_underscore}}.py`: *{{cookiecutter.control_name}} Control description.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/__init__.py`: *CrocoDocs tooling package.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/assets.py`: *Asset syncing helpers.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/cli.py`: *CrocoDocs CLI entrypoint.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/config.py`: *CrocoDocs config loading.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/docs.py`: *Markdown and MDX parsing helpers.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/frontmatter.py`: *Minimal front matter parsing helpers.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/generate.py`: *Steady-state manifest and API generation.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/griffe_extract_script.py`: *Extract API data using Griffe inside the sdk/python environment.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/partials.py`: *Generated partial handling.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/progress.py`: *Small terminal UX helpers for CrocoDocs commands.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/pypi_index.py`: *Helpers for the MkDocs macros plugin to render a package index from a PEP 503 "simple" repository (used for https://pypi.flet.dev).  This module runs during docs builds, so it is intentionally depende...*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/scripts/cli_to_md.py`: *Return Markdown for a single argparse command/subcommand (for MkDocs pages).      Output structure:     1) Plain description paragraph (dedented, capitalized, period-added)     2) "Usage" section (alw...*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/scripts/cross_platform_permissions.py`: *Indent every line of text by the given number of spaces.*
+  - 📄 `flet-main/tools/crocodocs/src/crocodocs/sidebars.py`: *Sidebar source and Docusaurus sidebar generation.*
+
+----------------------------------------
+
+## 📦 REPO: frida-gum-main
+**Funkció / Leírás:** # Gum Cross-platform instrumentation and introspection library written in C. This library is consumed by [frida-core][] through its JavaScript bindings, Provides: - Instrumentation core
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `frida-gum-main/bindings/gumjs/generate-bindings.py`: *#define {wrapper_macro_prefix}_CLASS_NAME "{alias_class_name}" #define {wrapper_macro_prefix}_FIELD {alias_field_prefix}  typedef {wrapper_struct_name} {alias_struct_name}; typedef {impl_struct_name} ...*
+  - 📄 `frida-gum-main/bindings/gumjs/generate-runtime.py`: *\ typedef struct _GumQuickRuntimeModule GumQuickRuntimeModule;  struct _GumQuickRuntimeModule {   const gchar * name;   gconstpointer bytecode;   gsize bytecode_size; };*
+  - 📄 `frida-gum-main/tools/build-xcframework.py`: *Build a Frida devkit as an Apple XCFramework.*
+
+----------------------------------------
+
+## 📦 REPO: frida-main
+**Funkció / Leírás:** # Frida Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers. Learn more at [frida.re](https://frida.re/). Two ways to install =================== ## 1. Install from prebuilt binaries
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: ghidra-wasm-plugin-master
+**Funkció / Leírás:** Module to load WebAssembly files into Ghidra, supporting disassembly and decompilation. ## Features - Support for all WebAssembly 1.0 opcodes - Cross-references for function calls and branches - Cross-references for table entries and globals containing function pointers - Recovery of the C stack, when the stack pointer is stored in a global variable (typical for compilers like Emscripten) ![Sample disassembly and decompilation](sample.png)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `ghidra-wasm-plugin-master/ghidra_scripts/spectest.py`: *Command schema (https://github.com/WebAssembly/wabt/blob/main/docs/wast2json.md):  "module" 	{..., "name": <string>, "filename": <string>} "action" 	{..., "action": <action>} "assert_return" 	{..., "a...*
+
+----------------------------------------
+
+## 📦 REPO: har-extractor-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `har-extractor-master/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `har-extractor-master/config/config.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `har-extractor-master/main.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `har-extractor-master/package.json`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: hls-downloader-master
+**Funkció / Leírás:** This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). ## Usage Job filenames and playlist entries are truncated in the popup. Hover over them to view the full text, which can be scrolled when very long. ## Available Scripts In the project directory, you can run:
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `hls-downloader-master/AGENTS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/CHANGELOG.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/CODE_OF_CONDUCT.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/CONTRIBUTING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/FOR-DEAR-TESTERS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/FUNCTIONALITIES.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/PRIVACY.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/blocklist.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/pnpm-lock.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/pnpm-workspace.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/assets/assets/ffmpeg/ffmpeg-core.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/assets/manifest.chrome.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/assets/manifest.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/assets/offscreen.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/.prettierrc.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/AGENTS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/package-lock.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/blocklist.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/listeners/addPlaylistListener.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/listeners/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/listeners/setTabListener.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/offscreen.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/persistState.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/crypto-decryptor.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/fetch-loader.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/ffmpeg-muxer.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/indexedb-fs.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/m3u8-parser.d.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/src/services/m3u8-parser.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/blocklist-conditional.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/blocklist.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/crypto-decryptor.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/delete-bucket.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/fetch-loader.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/indexeddb-fs.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/m3u8-parser.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/persistState.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/test/subtitles-idb.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/tsconfig.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/vite.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/background/vitest.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/.prettierrc.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/AGENTS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/TEST.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/package-lock.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/add-download-job-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/add-playlist-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/auto-delete-after-save-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/cancel-job-delete-job-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/delete-job-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/download-job-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/download-queue-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/download-subtitle-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/fetch-level-duration-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/fetch-playlist-levels-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/inc-download-status-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/inspect-level-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/on-init.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/remove-playlist-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/root-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/save-as-job-epic.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/controllers/storage-epics.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/fragment.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/inspection.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/job-status.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/job.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/key.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/level-status.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/level.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/playlist-status.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/playlist.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/entities/tab.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/decryptor.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/dependencies.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/fs.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/loader.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/services/parser.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/configure-store.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/root-reducer.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/config-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/jobs-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/level-inspections-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/levels-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/playlist-preferences-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/playlists-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/storage-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/subtitles-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/store/slices/tabs-slice.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/create-bucket.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/decrypt-single-fragment.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/delete-bucket.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/download-single-fragment.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/download-subtitle-track.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/fs-cleanup.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/generate-file-name.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/generate-subtitle-file-name.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-fragments-details.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-levels.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-link-bucket.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-playlist-duration.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-storage-stats.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/get-subtitle-text.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/inspect-level-encryption.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/sanitize-filename.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/store-subtitle-text.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/write-to-bucket.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/use-cases/write-to-file.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/utils/fetch.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/src/utils/url.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/add-download-job-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/add-playlist-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/cancel-job-delete-job-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/delete-job-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/download-job-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/download-queue-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/fetch-playlist-levels-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/fs-cleanup-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/inc-download-status-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/inspect-level-encryption.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/jobs-slice.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/root-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/save-as-job-epic.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/slices.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/storage-epics.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/test-utils.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/url-utils.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/test/use-cases.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/tsconfig.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/core/vitest.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/.prettierrc.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/AGENTS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/components.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/package-lock.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/aspect-ratio.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/aspect-ratio.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/badge.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/badge.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/button.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/button.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/card.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/hover-card.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/input.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/input.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/progress.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/progress.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/scroll-area.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/scroll-area.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/select.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/select.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/separator.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/separator.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/slider.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/slider.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/switch.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/switch.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/tabs.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/components/ui/tabs.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/hooks/use-localstorage.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/hooks/use-theme.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/src/lib/utils.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/tailwind.config.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/test/use-localstorage.test.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/tsconfig.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/vite.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/design-system/vitest.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/.prettierrc.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/AGENTS.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/package-lock.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/popup.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/postcss.config.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/App.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/components/InlineConfirm.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/components/Metadata.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/components/Metadata.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/hooks/useStorageInfo.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/index.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/index.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/About/AboutController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/About/AboutModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/About/AboutView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/About/AboutView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Direct/DirectController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Direct/DirectView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Direct/DirectView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Downloads/DownloadsController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Downloads/DownloadsModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Downloads/DownloadsView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Downloads/DownloadsView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Job/JobController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Job/JobModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Job/JobView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Job/JobView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/RouterContext.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/RouterController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/RouterModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/RouterView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/RouterView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Navbar/types.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Playlist/PlaylistController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Playlist/PlaylistModule.test.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Playlist/PlaylistModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Playlist/PlaylistView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Playlist/PlaylistView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Settings/SettingsController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Settings/SettingsModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Settings/SettingsView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Settings/SettingsView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Sniffer/PlaylistPreview.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Sniffer/SnifferController.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Sniffer/SnifferModule.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Sniffer/SnifferView.stories.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Sniffer/SnifferView.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Storage/StorageBanner.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/modules/Storage/StorageSummary.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/setupTests.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/src/utils/format-bytes.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/tailwind.config.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/test/router-controller.test.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/tsconfig.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/src/popup/vite.config.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls-downloader-master/store-assets/AGENTS.md`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: hls.js-master
+**Funkció / Leírás:** #40;https://saucelabs.com/browser-matrix/robwalch.svg&#41;]&#40;https://saucelabs.com/u/robwalch&#41;)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `hls.js-master/api-extractor.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls.js-master/api-extractor/report/hls.js.api.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls.js-master/src/controller/buffer-operation-queue.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `hls.js-master/tests/unit/controller/buffer-operation-queue.ts`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: jadx-master
+**Funkció / Leírás:** # jadx-input-api Base API for code input used in jadx. Contains common data structures to support both java and dex bytecode.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `jadx-master/jadx-gui/src/test/resources/certificate-test/EMPTY.txt`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: jeb-samplecode-master
+**Funkció / Leírás:** # Skeleton for a JEB headless client. Fork to use in automation and file processing pipelines. How to use: - Define a `JEB_HOME` environment variable pointing to the JEB installation folder. - Generate an Eclipse project by running the appropriate `create-eclipse-project-windows` script. - Load the project in Eclipse. Customize `JebClient` to your needs.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `jeb-samplecode-master/plugins/scripts/EngSamplePython.py`: *Sample JEB Engines Plugin. It may be compiled and dropped in coreplugins/, or it may be kept as a script plugin in coreplugins/scripts/.  Script plugins can be developed and modified while JEB is runn...*
+  - 📄 `jeb-samplecode-master/scripts/AdbDemo.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/AddArtifact.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/AddCustomNativeTypes.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/AndroidDbgAddAllDex.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/AndroidDbgCreate.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/AndroidGlobalAnalysis.py`: *Sample script for JEB Decompiler.  Retrieve a dex decompiler (dexdec) instance to decompile all methods, and retrieve and display interesting decompilation events.*
+  - 📄 `jeb-samplecode-master/scripts/AndroidXrefResId.py`: *Sample script for JEB Decompiler.  Usage: - Position the caret on a resource id in XML (eg, '  <public id="0x7f05000d" ...') - Run the script, select your target xref, and press Enter to navigate to i...*
+  - 📄 `jeb-samplecode-master/scripts/ApkManifestView.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/BookmarkList.py`: *Sample script for JEB Decompiler.  For demo purposes only, this script should not be used to list bookmarks. JEB uses its own bookmarks facility for projects.*
+  - 📄 `jeb-samplecode-master/scripts/BookmarkSet.py`: *Sample script for JEB Decompiler.  For demo purposes only, this script should not be used to list bookmarks. JEB uses its own bookmarks facility for projects.*
+  - 📄 `jeb-samplecode-master/scripts/BreakpointsLoad.py`: *Sample script for JEB Decompiler.  Reload previously saved breakpoints onto the current debugging session. The session must be started first. - Breakpoints file: [JEB]/bin/breakpoints.txt - See conver...*
+  - 📄 `jeb-samplecode-master/scripts/BreakpointsSave.py`: *Sample script for JEB Decompiler.  Save (persist) the breakpoints (location and state) of the current debugging session to a file. - Breakpoints file: [JEB]/bin/breakpoints.txt - See converse script t...*
+  - 📄 `jeb-samplecode-master/scripts/CodeLoad.py`: *Sample script for JEB Decompiler.  JEB script to reload and apply basic refactoring data onto loaded code units. - Data file: [JEB]/bin/codedata.txt - See converse script to persist such data on disk:...*
+  - 📄 `jeb-samplecode-master/scripts/CodeSave.py`: *Sample script for JEB Decompiler.  - Data file: [JEB]/bin/codedata.txt - See converse script to load and apply that data onto a fresh project: CodeLoad.py*
+  - 📄 `jeb-samplecode-master/scripts/CreateEmptyClass.py`: *Script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/CreateExtraDocument.py`: *Sample script JEB Decompiler.  The newly-created document is called 'Quotes'.*
+  - 📄 `jeb-samplecode-master/scripts/CreateExtraDocumentTableTree.py`: *Sample script for JEB Decompiler.  Will create 2 documents named 'Demo Tree' and 'Demo Table'*
+  - 📄 `jeb-samplecode-master/scripts/CreateNativeStruct.py`: *Sample script for JEB Decompiler.  This script is a UI helper to quickly create a native structure type of a given size. The structure will be filled with int32 primitives, and padded with one optiona...*
+  - 📄 `jeb-samplecode-master/scripts/CustomizeMetadata.py`: *Sample script JEB Decompiler.  Customize the metadata of a code unit (and see rendering in the metadata overview bar in GUI). The beginning of every class will be marked and rendered as a light green ...*
+  - 📄 `jeb-samplecode-master/scripts/CustomizerExport.py`: *Sample script for JEB Decompiler.  This script exports all the function names, comments and signatures in JSON or MAP so the user can reimport them later on or use them with another tool.*
+  - 📄 `jeb-samplecode-master/scripts/CustomizerImport.py`: *Sample script for JEB Decompiler.  This script exports all the function names and comments so the user can reimport them later on or use them with another tool.  Takes only the filename as input. The ...*
+  - 📄 `jeb-samplecode-master/scripts/DalvikDataFlow.py`: *Sample script for JEB Decompiler.  This script is showing how to examine Dalvik method Control Flow Graph (CFG) and perform data flow analysis (DFA) on the graph to look at register definition locatio...*
+  - 📄 `jeb-samplecode-master/scripts/DecompileFile.py`: *Sample script for JEB Decompiler. - This script decompiles some or all code units of the project - If run on the command line, the provided input file will be analyzed - It makes use of the 'decompile...*
+  - 📄 `jeb-samplecode-master/scripts/DecompileSingleMethod.py`: *Sample script for JEB Decompiler.  The class containing the target method is itself not decompiled; inner classes of the method, if any, are not decompiled either. The decompiled code is displayed in ...*
+  - 📄 `jeb-samplecode-master/scripts/DexClassRefactor.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/DexColorArtificialStrings.py`: *Sample script for JEB Decompiler.  This script will update the navbar and generate colors where artificial strings are being used. Artificial strings are strings that were not originally present in th...*
+  - 📄 `jeb-samplecode-master/scripts/DexColorPackage.py`: *Sample script for JEB Decompiler.  Package/Class/Method coloring scrip. We use the AddressPrefixMetadataGroup object to store metadata information, displayed in a text navbar.*
+  - 📄 `jeb-samplecode-master/scripts/DexJumpToActivity.py`: *Sample script for JEB Decompiler.  This JEB UI script allows the user to jump from an activity name (selected in the Android XML Manifest) to its corresponding bytecode definition in the DEX disassemb...*
+  - 📄 `jeb-samplecode-master/scripts/DexJumpToFileOffset.py`: *Sample script for JEB Decompiler.  Providing a file offset and an optional classesN.dex index, find the corresponding method and the bytecode location, and jump to that location in the disassembly vie...*
+  - 📄 `jeb-samplecode-master/scripts/DexJumpToResource.py`: *Sample script for JEB Decompiler.  This JEB script jumps to or displays an Android target resource (string, XML, etc.) referenced by an active resource ID item (interactive number).  Open an APK; in a...*
+  - 📄 `jeb-samplecode-master/scripts/DexListDecompilationEvents.py`: *Sample script for JEB Decompiler.  Note that dexdec's events can be seen in a Decompiler's unit node (Project Explorer view), "Events" tab*
+  - 📄 `jeb-samplecode-master/scripts/DexListMethods.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/DexdecDisableEmulation.py`: *Sample script for JEB Decompiler.  Reference doc to review: - IPropertyDefinitionManager - IPropertyManager*
+  - 📄 `jeb-samplecode-master/scripts/DumpBinaryUnits.py`: *Sample script for JEB Decompiler.  Dump all binary units of a JEB opened project to files on disk. Output folder= [HOME]/JEB_PROJECT_BINARY_EXTRACTED*
+  - 📄 `jeb-samplecode-master/scripts/EditNativeBytes.py`: *Sample script for JEB Decompiler*
+  - 📄 `jeb-samplecode-master/scripts/FocusDisassembly.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/GUIActionScriptDemo.py`: *Sample script for JEB Decompiler.  Demo how to chain GUI actions without blocking the UI thread.  Refer to GUIActionScriptSkeleton.py for details about scripting GUI actions.*
+  - 📄 `jeb-samplecode-master/scripts/GUIActionScriptSkeleton.py`: *Sample script for JEB Decompiler.  Demo how to chain GUI actions without blocking the UI thread.  Background: the UI thread of the GUI client for JEB is an event-based executor for stubs of code. Clie...*
+  - 📄 `jeb-samplecode-master/scripts/GraphDemo1.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/GraphDemo2.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/GraphPackagesRelationships.py`: *Sample script for JEB Decompiler.  Build callgraph between unknown routines (whose name start with 'sub_')  and routines from specific packages (whose names are prefixed by known package names).  This...*
+  - 📄 `jeb-samplecode-master/scripts/GraphRtti.py`: *Sample script for JEB Decompiler.  Display class inheritance graph built from Run-Time Type Information extracted by JEB. This script parses JEB's RTTI text output, provided as 'run-time type informat...*
+  - 📄 `jeb-samplecode-master/scripts/JavaASTCreateMethodRef.py`: *Sample script for JEB Decompiler.  The script shows how to use the Java factory to create an external method reference (also available for fields), create a new statement (here, a call to 'new String(...*
+  - 📄 `jeb-samplecode-master/scripts/JavaASTDecryptStrings.py`: *Sample script for JEB Decompiler.  !!! IMPORTANT !!! It is almost always preferable to perform dex deobfuscation of any kind (including string decryption) at the IR level, using dexdec's IR API. Refer...*
+  - 📄 `jeb-samplecode-master/scripts/JavaASTDemo.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/JavaASTTags.py`: *Sample script for JEB Decompiler.  This script shows how to "tag" elements of an AST tree, and later on retrieve those tags from the Java text document output (referred to as "marks").  This code look...*
+  - 📄 `jeb-samplecode-master/scripts/JavaListIdentifiers.py`: *Sample script for JEB Decompiler.  Enumerate the IJavaIdentifiers (parameters, local vars) of IJavaMethod objects of a decompiled IJavaClass. Rename some identifiers. List all identifiers*
+  - 📄 `jeb-samplecode-master/scripts/JavaRenameField1.py`: *Sample script for JEB Decompiler.  Rename a Java field to its source variable's name, in a field assignment statement.  In a decompiled Java method, place the caret on the target object field. Example...*
+  - 📄 `jeb-samplecode-master/scripts/JavaRenameField2.py`: *Sample script for JEB Decompiler.  Rename a Java field to its source variable's name, in a field assignment statement.  Demo for ITextFragment.getDocumentObjectsAtCaret() Requires JEB 4.21 or above*
+  - 📄 `jeb-samplecode-master/scripts/JumpTo.py`: *Sample script for JEB Decompiler.  - how a script can be invoked after a cmdline-provided file has been processed by the JEB UI client - currently, this script simply searches for a Dex code unit, att...*
+  - 📄 `jeb-samplecode-master/scripts/JumpToAndroidComponent.py`: *Sample script for JEB Decompiler.  !!! SAME AS DexJumpToActivity.py !!!  This JEB UI script allows the user to jump from an activity name (selected in the Android XML Manifest) to its corresponding by...*
+  - 📄 `jeb-samplecode-master/scripts/ListCrossReferences.py`: *Sample script for JEB Decompiler.  This script lists xrefs using the most generic way, that is, via Actions.QUERY_XREFS. Note that some units offer specialized ways to query cross-reference. Example: ...*
+  - 📄 `jeb-samplecode-master/scripts/ListDexMethodsWithXor.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ListOverrides.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ListRenamedCodeItems.py`: *Sample script JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ListUnits.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ListenToDexChangeEvents.py`: *Sample script JEB Decompiler.  This script shows how to listen to unit-emitted UnitChange events. Specifically, the script sets up a listener for changes emitted by a DEX unit. Refer to IDexUnit and U...*
+  - 📄 `jeb-samplecode-master/scripts/PdfListStreams.py`: *Sample script for JEB Decompiler.  This script relies on the PDF plugin to enumerate and dump decoded stream documents stored in the Stream sub-units of a parsed PDF unit. The PDF plugin does not impl...*
+  - 📄 `jeb-samplecode-master/scripts/PrintNativeRoutineIR.py`: *Sample script for JEB Decompiler.  ===> How to use: Two modes: - Using the UI desktop client:   - load a binary file into JEB   - make sure GlobalAnalysis for code plugins is enabled (it is by default...*
+  - 📄 `jeb-samplecode-master/scripts/PrintOutDartInfo.py`: *Sample script for JEB Decompiler.  Find a Dart AOT Snapshots unit (generated by the Dart AOT Snapshots processor plugin), and use the API to print out basic snapshot information and generate the prima...*
+  - 📄 `jeb-samplecode-master/scripts/ProcessFile.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ReloadNativeTypelibsAndSiglibs.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/RenameDexClassesToDebugNames.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/RenameJavaMethodParameters.py`: *Sample script for JEB Decompiler.  This script demonstrates how to rename method parameters of decompiled Java methods. In the example below, generic parameter names ('argX') are renamed based on thei...*
+  - 📄 `jeb-samplecode-master/scripts/ReplaceStringsInDex.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/ReplaceStringsInJavaAST.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/RequestUserInput.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/RequestUserInputWithComplexForm.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/RequestUserInputWithForm.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/SampleScript.py`: *Sample script for JEB Decompiler..*
+  - 📄 `jeb-samplecode-master/scripts/SampleScriptDebugging.py`: *Sample script for JEB Decompiler..*
+  - 📄 `jeb-samplecode-master/scripts/SearchAll.py`: *Sample script for JEB Decompiler.  Note that better search facilities exist in the GUI client, such as the Omnibox (F3) or Quick-Search (CTR+Q or CMD+Q).*
+  - 📄 `jeb-samplecode-master/scripts/TaskInWorkerThread.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/TaskWithReturnInWorkerThread.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/TranslateString.py`: *Sample script for JEB Decompiler.  Localize strings to English. The translated string is also registered as a comment if the unit supports it. Optionally use Google services to perform the translation...*
+  - 📄 `jeb-samplecode-master/scripts/UIDemo.py`: *Sample script for JEB Decompiler.  This script demonstrates how to use the UI API to query views and fragments generated by JEB GUI.*
+  - 📄 `jeb-samplecode-master/scripts/WalkEvmDecomp.py`: *Sample script for JEB Decompiler.  !!! DEPRECATED !!! see note above.  ===> How to use: Two modes: - Using the UI desktop client:\   - load an Ethereum EVM contract   - make sure the GlobalAnalysis fo...*
+  - 📄 `jeb-samplecode-master/scripts/WidgetList.py`: *Sample script for JEB Decompiler.*
+  - 📄 `jeb-samplecode-master/scripts/analysis/TriadaStringDecryptor.py`: *This JEB script is a string decryptor for the obfuscated Triada malware. Decrypted strings will substitute the encrypted parts or be added as field comments in your Java classes. Author: Ruoxiao Wang ...*
+  - 📄 `jeb-samplecode-master/scripts/analysis/TriadaStringDecryptorVer0.py`: *This JEB script is a string decryptor for the obfuscated Triada malware. Decrypted strings will be added as field comments in your Java classes. Author: Ruoxiao Wang  The script can be tested on Triad...*
+  - 📄 `jeb-samplecode-master/scripts/analysis/WhatsAppStringDecryptor.py`: *[Deobfuscate WhatsApp Strings V2, (c) B. Kerler 2016] - Example JEB Plugin for >= V2.2.1 - * Change key values from switch statements, run plugin using Scripts/Run scripts with Source Tab open, clicki...*
+  - 📄 `jeb-samplecode-master/scripts/cluster/DexCluster.py`: *Sample client script for PNF Software' JEB. Cluster DEX classes in order to rebuild an obfuscated+flattened code hierarchy.*
+
+----------------------------------------
+
+## 📦 REPO: js-ast-main
+**Funkció / Leírás:** # `svelte-ast-print` ![NPM Version](https://img.shields.io/npm/v/svelte-ast-print?style=for-the-badge&logo=npm) Print _(serialize)_ **[Svelte] [AST]** nodes into stringified code syntax.\ A.k.a. [`parse()`] in reverse. ## Usage
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: js-beautify-main
+**Funkció / Leírás:** #32;<a href="https://greenkeeper.io/" target="_blank"><img alt="Greenkeeper badge" src="https://badges.greenkeeper.io/beautifier/js-beautify.svg"/></a></p>
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `js-beautify-main/python/cssbeautifier/_main.py`: *CSS beautifier (https://beautifier.io/)  Usage: cssbeautifier.py [options] <infile>      <infile> can be "-", which means stdin.  Input options:   -i,  --stdin                      Read input from std...*
+  - 📄 `js-beautify-main/python/cssbeautifier/css/beautifier.py`: *CSS beautifier (https://beautifier.io/)*
+  - 📄 `js-beautify-main/python/jsbeautifier/__init__.py`: *Javascript beautifier (https://beautifier.io/)  Usage: jsbeautifier.py [options] <infile>      <infile> can be "-", which means stdin.  Input options:   -i,  --stdin                      Read input fr...*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/__init__.py`: *General code for JSBeautifier unpackers infrastructure.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/evalbased.py`: *Unpacker for eval() based packers: runs JS code and returns result. Works only if a JS interpreter (e.g. Mozilla's Rhino) is installed and properly set up on host.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/javascriptobfuscator.py`: *deobfuscator for scripts messed up with JavascriptObfuscator.com*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/myobfuscate.py`: *Deobfuscator for scripts messed up with MyObfuscate.com*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/packer.py`: *Unpacker for Dean Edward's p.a.c.k.e.r*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/tests/testjavascriptobfuscator.py`: *Tests for JavaScriptObfuscator unpacker.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/tests/testmyobfuscate.py`: *Tests for MyObfuscate unpacker.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/tests/testpacker.py`: *Tests for P.A.C.K.E.R. unpacker.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/tests/testurlencode.py`: *Tests for urlencoded unpacker.*
+  - 📄 `js-beautify-main/python/jsbeautifier/unpackers/urlencode.py`: *Bookmarklet/escaped script unpacker.*
+
+----------------------------------------
+
+## 📦 REPO: lucide-main
+**Funkció / Leírás:** # @lucide/rollup-plugins A internal used package with a collection of rollup plugins used to build the Lucide icon library packages.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `lucide-main/docs/contribute/affinity-designer-guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/contribute/figma-guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/contribute/icon-design-guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/contribute/illustrator-guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/contribute/inkscape-guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/icon-provider.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/angular/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/astro/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/comparison.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/installation.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/content-template-element.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/shadow-dom.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/lucide/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/angular.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-angular.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-astro.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-preact.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-react-native.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-solid.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-static.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-svelte.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/packages/lucide-vue.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/aliased-names.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/preact/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/aliased-names.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react-native/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/aliased-names.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/dynamic-icon-component.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/migration-from-feather.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/react/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/aliased-names.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/solid/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/font/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/font/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/font/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/js-modules/node.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/js-modules/web.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/link-as-image.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/static/svg-sprite.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/svelte/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/version-1.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vscode.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/accessibility.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/aliased-names.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/combining-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/filled-icons.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/global-styling.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/typescript.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/advanced/with-lucide-lab.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/basics/color.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/basics/sizing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/basics/stroke-width.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/getting-started.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/index.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/docs/guide/vue/migration.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/icons/fire-extinguisher.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `lucide-main/icons/guitar.json`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: m3u8-master
+**Funkció / Leírás:** ![image](https://github.com/globocom/m3u8/actions/workflows/main.yml/badge.svg) [![image](https://badge.fury.io/py/m3u8.svg)](https://badge.fury.io/py/m3u8) # m3u8 Python [m3u8](https://tools.ietf.org/html/rfc8216) parser. # Documentation ## Loading a playlist
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `m3u8-master/m3u8/__init__.py`: *Given a string with a m3u8 content, returns a M3U8 object.     Optionally parses a uri to set a correct base_uri on the M3U8 object.     Raises ValueError if invalid content*
+  - 📄 `m3u8-master/m3u8/mixins.py`: *Some URIs have a slash in the query string.*
+  - 📄 `m3u8-master/m3u8/model.py`: *Represents a single M3U8 playlist. Should be instantiated with     the content as string.      Parameters:       `content`        the m3u8 content as string       `base_path`        all urls (key and ...*
+  - 📄 `m3u8-master/m3u8/parser.py`: *http://tools.ietf.org/html/draft-pantos-http-live-streaming-08#section-3.2 http://stackoverflow.com/questions/2785755/how-to-split-but-ignore-separators-in-quoted-strings-in-python*
+  - 📄 `m3u8-master/tests/invalid_versioned_playlists.py`: *#EXTM3U #EXT-X-VERSION: 1 #EXT-X-KEY: METHOD=AES-128, IV=0x123456789ABCDEF0123456789ABCDEF0, URI="https://example.com/key.bin" #EXT-X-TARGETDURATION: 10 #EXTINF: 10.0, https://example.com/segment1.ts*
+  - 📄 `m3u8-master/tests/playlists.py`: *#EXTM3U #EXT-X-TARGETDURATION:5220 #EXTINF:5220, http://media.example.com/entire.ts #EXT-X-ENDLIST*
+  - 📄 `m3u8-master/tests/test_model.py`: *\         #EXTM3U         #EXT-X-MEDIA-SEQUENCE:264         #EXT-X-VERSION:6         #EXT-X-TARGETDURATION:4         #EXT-X-SERVER-CONTROL:CAN-BLOCK-RELOAD=YES,PART-HOLD-BACK=1,CAN-SKIP-UNTIL=24      ...*
+  - 📄 `m3u8-master/tests/test_variant_m3u8.py`: *\ #EXTM3U #EXT-X-MEDIA:URI="english_sub.m3u8",TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,FORCED=NO #EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDW...*
+
+----------------------------------------
+
+## 📦 REPO: m3u8-parser-main
+**Funkció / Leírás:** # m3u8-parser [![Build Status](https://travis-ci.org/videojs/m3u8-parser.svg?branch=master)](https://travis-ci.org/videojs/m3u8-parser) [![Greenkeeper badge](https://badges.greenkeeper.io/videojs/m3u8-parser.svg)](https://greenkeeper.io/) [![Slack Status](http://slack.videojs.com/badge.svg)](http://slack.videojs.com)
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: m3u8-streaming-proxy-main
+**Funkció / Leírás:** # Streaming Proxy Server A Node.js application to proxy and rewrite `.m3u8` streaming URLs with **caching**, **origin lock**, **rate limiting**, **logging**, and **Docker support**. --- ## Features - **Caching**: Responses are cached in memory to reduce repeated requests to the origin server. - **Origin Lock**: Restrict access to the proxy by allowing requests only from specific origins. - **Rate Limiting**: Prevent abuse by limiting the number of requests from a single IP. - **Logging**: Log HT...
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: manticore-master
+**Funkció / Leírás:** ## Tests Please DO NOT create directories in tests/ as we run separate directories in separate test jobs **and this is done explicitly in .github/workflows/ci.yml** (unless you change that file too).
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `manticore-master/examples/evm/asm.py`: *PUSH1 0x60                            BLOCKHASH                            MSTORE                            PUSH1 0x2                            PUSH2 0x100*
+  - 📄 `manticore-master/examples/evm/asm_to_smtlib.py`: *MSTORE*
+  - 📄 `manticore-master/examples/evm/complete.py`: *contract C {     uint n;     function C(uint x) {         n = x;     }     function f(uint x) payable returns (bool) {         if (x == n) {             return true;         }         else{           ...*
+  - 📄 `manticore-master/examples/evm/mappingchallenge.py`: *pragma solidity ^0.4.21;  contract MappingChallenge {     bool public isComplete;     uint256[] map;      function set(uint256 key, uint256 value) public payable {         // Expand dynamic array as n...*
+  - 📄 `manticore-master/examples/evm/minimal-json.py`: *{   "contractName": "MetaCoin",   "abi": [     {       "inputs": [         {           "name": "addr",           "type": "address"         }       ],       "name": "getBalanceInEth",       "outputs": ...*
+  - 📄 `manticore-master/examples/evm/minimal.py`: *contract NoDistpatcher {     event Log(string);      function  named_func(uint x) public returns (uint) {     return 5 + x;     }      function() external payable {         if (msg.data[0] == 'A') {  ...*
+  - 📄 `manticore-master/examples/evm/reentrancy_concrete.py`: *pragma solidity ^0.4.15;  contract Reentrance {     mapping (address => uint) userBalance;      function getBalance(address u) constant returns(uint){         return userBalance[u];     }      functio...*
+  - 📄 `manticore-master/examples/evm/reentrancy_symbolic.py`: *pragma solidity ^0.4.15;  contract Reentrance {     mapping (address => uint) userBalance;         function getBalance(address u) constant returns(uint){         return userBalance[u];     }      func...*
+  - 📄 `manticore-master/examples/evm/simple_mapping.py`: *pragma solidity ^0.4.13;  contract Test {     event Log(string);     mapping(address => uint) private balances;      function Test(){         balances[0x1111111111111111111111111111111111111111] = 10;...*
+  - 📄 `manticore-master/examples/evm/use_def.py`: *pragma solidity ^0.4; contract C {     uint c;     bool enabled;     bool i;     function C() public {         c =0;         enabled = false;         i = false;      }     function f1() public {      ...*
+  - 📄 `manticore-master/examples/linux/crackme.py`: */* This program parses a command line argument.  *  * Compile with :  *   $ gcc -static -O0 crackme.c -o crackme  *  * Analyze it with:  *   $ manticore crackme  *  *   - By default, Manticore will co...*
+  - 📄 `manticore-master/examples/linux/introspect_state.py`: *Performs a depth-first traversal of the state tree, where each branch is a different fork*
+  - 📄 `manticore-master/examples/script/basic_statemerging.py`: *Demonstrates the ability to do state merging on a simple program by merging states with id 2, 4 that happen to be  at the same program location 0x40060d. This script uses the Merger plugin to apply op...*
+  - 📄 `manticore-master/examples/script/concolic.py`: *Rough concolic execution implementation  Limitations - tested only on the simpleassert example program in examples/ - only works for 3 ints of stdin  Bugs - Will probably break if a newly discovered b...*
+  - 📄 `manticore-master/examples/script/count_instructions.py`: *Count the number of emulated instructions.  This example uses the context property of the Manticore object to store data that's updated by the hook function. Manticore.context is needed to properly sh...*
+  - 📄 `manticore-master/examples/script/introduce_symbolic_bytes.py`: *Replaces a variable that controls program flow with a tainted symbolic value. This in turn explores all possible states under that variable's influence, and reports the specific cmp/test instructions ...*
+  - 📄 `manticore-master/examples/script/lads-baby-re.py`: *Solves modified version of baby-re, compiled for arm.*
+  - 📄 `manticore-master/examples/script/run_hook.py`: *Demonstrates the ability to set a basic hook on a specific program counter and the ability to read from memory.*
+  - 📄 `manticore-master/examples/script/state_control.py`: *Demonstrates the ability to guide Manticore's state exploration. In this case, abandoning a state we're no longer interested in.  Usage:   $ gcc -static -g src/state_explore.c -o state_explore # -stat...*
+  - 📄 `manticore-master/examples/script/symbolic_file.py`: *Example to show usage of introducing a file with symbolic contents  This script should be the equivalent of:     $ echo "+++++++++++++" > symbolic_file.txt     $ manticore -v --file symbolic_file.txt ...*
+  - 📄 `manticore-master/examples/wasm/collatz/collatz.py`: *Three different ways of evaluating the Collatz conjecture.  Example 1: Pass a symbolic argument to the `collatz` function Example 2: Pass a symbolic version of `getchar` as an imported function Exampl...*
+  - 📄 `manticore-master/examples/wasm/if_check/solve.py`: *Symbolic `getchar` implementation. Returns an arbitrary single byte*
+  - 📄 `manticore-master/manticore/__main__.py`: *This is the Manticore's CLI `manticore` script.*
+  - 📄 `manticore-master/manticore/binary/__init__.py`: *Common binary formats interface Ideally you should be able to do something like          from binary import Binary         binary = Binary(filename)         assert cpu.machine == binary.arch, "Not mat...*
+  - 📄 `manticore-master/manticore/binary/binary.py`: *Binary file exception*
+  - 📄 `manticore-master/manticore/core/manticore.py`: *Synchronization decorator*
+  - 📄 `manticore-master/manticore/core/parser/parser.py`: *Parser exception*
+  - 📄 `manticore-master/manticore/core/plugin.py`: *decorator used to guard callbacks*
+  - 📄 `manticore-master/manticore/core/smtlib/constraints.py`: *Constraint exception*
+  - 📄 `manticore-master/manticore/core/smtlib/expression.py`: *Expression exception*
+  - 📄 `manticore-master/manticore/core/smtlib/solver.py`: *Used as configuration constant for choosing solver flavor*
+  - 📄 `manticore-master/manticore/core/smtlib/visitors.py`: *Class/Type Visitor      Inherit your class visitor from this one and get called on a different     visiting function for each type of expression. It will call the first     implemented method for the ...*
+  - 📄 `manticore-master/manticore/core/state.py`: *All state related exceptions*
+  - 📄 `manticore-master/manticore/core/state_pb2.py`: *Generated protocol buffer code.*
+  - 📄 `manticore-master/manticore/core/worker.py`: *A Manticore Worker.     This will run forever potentially in a different process. Normally it     will be spawned at Manticore constructor and will stay alive until killed.     A Worker can be in 3 ph...*
+  - 📄 `manticore-master/manticore/core/workspace.py`: *A `WorkspaceTestCase` represents a test case input generated by Manticore.*
+  - 📄 `manticore-master/manticore/ethereum/abi.py`: *This class contains methods to handle the ABI.     The Application Binary Interface is the standard way to interact with     contracts in the Ethereum ecosystem, both from outside the blockchain     a...*
+  - 📄 `manticore-master/manticore/ethereum/abitypes.py`: *T : UINTN     T : UINT     T : INTN     T : INT     T : ADDRESS     T : BOOL     T : FIXEDMN     T : UFIXEDMN     T : FIXED     T : UFIXED     T : BYTESM     T : FUNCTION     T : BYTES     T : STRING*
+  - 📄 `manticore-master/manticore/ethereum/account.py`: *Encapsulates an account.          :param address: the address of this account         :type address: 160 bit long integer         :param manticore: the controlling Manticore*
+  - 📄 `manticore-master/manticore/ethereum/detectors.py`: *Logs a finding at specified contract and assembler line.         :param state: current state         :param address: contract address of the finding         :param pc: program counter of the finding  ...*
+  - 📄 `manticore-master/manticore/ethereum/manticore.py`: *Return special character denoting concretization happened.*
+  - 📄 `manticore-master/manticore/ethereum/plugins.py`: *Constrain input based on function metadata. Include or avoid functions         selected by the specified criteria.          Examples:         #Do not explore any human transactions that end up calling...*
+  - 📄 `manticore-master/manticore/ethereum/solidity.py`: *Returns the function signature for the specified name and Solidity JSON metadata inputs array.          The ABI specification defines the function signature as the function name followed by the parent...*
+  - 📄 `manticore-master/manticore/ethereum/state.py`: *Called on execution_intermittent to update the descriptor for this state.         This one should apply any EVM-specific information to the descriptor.          :param descriptor: StateDescriptor for ...*
+  - 📄 `manticore-master/manticore/ethereum/verifier.py`: *$python manticore-verifier.py property.sol TestToken*
+  - 📄 `manticore-master/manticore/exceptions.py`: *Public subclasses of Exception*
+  - 📄 `manticore-master/manticore/native/cpu/aarch64.py`: *Cpu specialization handling the ARM64 architecture.*
+  - 📄 `manticore-master/manticore/native/cpu/abstractcpu.py`: *Base cpu exception*
+  - 📄 `manticore-master/manticore/native/cpu/arm.py`: *This decorator is used to annotate Armv7Cpu methods as     instruction-implementing methods.      This centralizes some common ARM-specific logic about CPU flags in one place.      Additionally, this ...*
+  - 📄 `manticore-master/manticore/native/cpu/bitwise.py`: *Return a mask with the low `width` bits set.      :param int width: How many bits to set to 1     :return: int or long*
+  - 📄 `manticore-master/manticore/native/cpu/disasm.py`: *Capstone-like instruction to be used internally*
+  - 📄 `manticore-master/manticore/native/cpu/register.py`: *Generic variable width register. For 1 bit registers, allows writes of types     bool and int, but always reads back bools.*
+  - 📄 `manticore-master/manticore/native/cpu/x86.py`: *Build EFLAGS/RFLAGS from flags*
+  - 📄 `manticore-master/manticore/native/manticore.py`: *:param path_or_state: Path to binary or a state (object) to begin from.         :param argv: arguments passed to the binary.*
+  - 📄 `manticore-master/manticore/native/memory.py`: *Memory exceptions*
+  - 📄 `manticore-master/manticore/native/models.py`: *Models here are intended to be passed to :meth:`~manticore.native.state.State.invoke_model`, not invoked directly.*
+  - 📄 `manticore-master/manticore/native/plugins.py`: *Loads a state in Manticore with state-id = `state_id` by using the corresponding API in Executor         :param state_id: state-id for state that is being loaded         :param delete: If set to True,...*
+  - 📄 `manticore-master/manticore/native/state.py`: *Internal helper function to get hook context information.          :param after: Whether we want info pertaining to hooks after instruction executes or before         :param syscall: Catch a syscall i...*
+  - 📄 `manticore-master/manticore/native/state_merging.py`: *This method compares Socket objects for equality using the buffer and peer attributes.     It uses `compare_buffers` for checking buffer attributes for equality.     It calls itself for comparing peer...*
+  - 📄 `manticore-master/manticore/platforms/decree.py`: *A simple Decree Operating System.     This class emulates the most common Decree system calls*
+  - 📄 `manticore-master/manticore/platforms/evm.py`: *Symbolic EVM implementation based on the yellow paper: http://gavwood.com/paper.pdf*
+  - 📄 `manticore-master/manticore/platforms/linux.py`: *This decorator indicates that the given class is intended to have no     unimplemented abstract methods.  If this is not the case, a TypeError     exception is raised.      It only really makes sense ...*
+  - 📄 `manticore-master/manticore/platforms/linux_syscall_stubs.py`: *DEVELOPING NEW SYSTEM CALLS:     * Whenever you need to add proper support for a system call to Manticore, cut and paste the stub from this file into       manticore/platforms/linux.py.     * The stub...*
+  - 📄 `manticore-master/manticore/platforms/platform.py`: *Exception raised when you try to call an unimplemented system call.     Go to linux.py and add an implementation!*
+  - 📄 `manticore-master/manticore/platforms/wasm.py`: *Default function used for hostfunc calls when a proper import wasn't provided*
+  - 📄 `manticore-master/manticore/utils/command_line.py`: *NOTE: Most of the code here is compatible/taken from Slither project ( https://github.com/trailofbits/slither ). to be compatible with it.*
+  - 📄 `manticore-master/manticore/utils/config.py`: *This file implements a configuration system.  The config values and constant are gathered from three sources:      1. default values provided at time of definition     2. yml files (i.e. ./manticore.y...*
+  - 📄 `manticore-master/manticore/utils/deprecated.py`: *The deprecation warning class used by Manticore.*
+  - 📄 `manticore-master/manticore/utils/emulate.py`: *Converts a Manticore permission string into a Unicorn permission     :param m_perms: Manticore perm string ('rwx')     :return: Unicorn Permissions*
+  - 📄 `manticore-master/manticore/utils/enums.py`: *The set of StateLists tracked in ManticoreBase*
+  - 📄 `manticore-master/manticore/utils/event.py`: *Metaclass that is used for Eventful to gather events that classes declare to     publish.*
+  - 📄 `manticore-master/manticore/utils/fallback_emulator.py`: *Emulator exception*
+  - 📄 `manticore-master/manticore/utils/helpers.py`: *Given two intervals, (min1, max1) and (min2, max2) return their intersecting interval,     or None if they do not overlap.*
+  - 📄 `manticore-master/manticore/utils/log.py`: *This is a filter which injects contextual information into the log.*
+  - 📄 `manticore-master/manticore/wasm/executor.py`: *Contains execution semantics for all WASM instructions that don't involve control flow (and thus only need access     to the store and the stack).      In lieu of annotating every single instruction w...*
+  - 📄 `manticore-master/manticore/wasm/manticore.py`: *Manticore class for interacting with WASM, analagous to ManticoreNative or ManticoreEVM.*
+  - 📄 `manticore-master/manticore/wasm/state.py`: *Current execution Stack*
+  - 📄 `manticore-master/manticore/wasm/structure.py`: *A WASM Function      https://www.w3.org/TR/wasm-core-1/#functions%E2%91%A0*
+  - 📄 `manticore-master/manticore/wasm/types.py`: *U32: type = type("U32", (int,), {}) U64: type = type("U64", (int,), {})*
+  - 📄 `manticore-master/scripts/binaryninja/manticore_viz/__init__.py`: *Given a Manticore workspace, or trace file, highlight the basic blocks.*
+  - 📄 `manticore-master/scripts/compare_traces.py`: *Compare state traces from two mcore_* directories.      For now assumes to use `test_xxxxxxx.trace` only.*
+  - 📄 `manticore-master/scripts/extract_syscalls.py`: *Generate syscall tables from the Linux source. Used to generate manticore/platforms/linux_syscalls.py.  This fetches the tables from kernel.org.  Usage:      ./extract_syscalls.py [--linux_version lin...*
+  - 📄 `manticore-master/scripts/follow_trace.py`: *A simple trace following execution driver script. Only supports passing symbolic arguments via argv.*
+  - 📄 `manticore-master/scripts/gdb.py`: *Communicate with the child process without closing stdin.*
+  - 📄 `manticore-master/scripts/prof.py`: *Script used to profile Manticore runs.*
+  - 📄 `manticore-master/scripts/qemu.py`: *Communicate with the child process without closing stdin.*
+  - 📄 `manticore-master/scripts/sandshrew/sandshrew.py`: *sandshrew.py      Unconstrained concolic execution tool for cryptographic verification     utilizing Manticore as a backend for symbolic execution and Unicorn     for concrete instruction emulation.*
+  - 📄 `manticore-master/scripts/verify.py`: *Compare registers from a remote gdb session to current mcore.      :param manticore.core.cpu Cpu: Current cpu     :param bool should_print: Whether to print values to stdout     :return: Whether or no...*
+  - 📄 `manticore-master/server/manticore_server/ManticoreServer_pb2.py`: *Generated protocol buffer code.*
+  - 📄 `manticore-master/server/manticore_server/ManticoreServer_pb2_grpc.py`: *Client and server classes corresponding to protobuf-defined services.*
+  - 📄 `manticore-master/server/manticore_server/evm_utils.py`: *returns a list of detectors that should be used*
+  - 📄 `manticore-master/server/manticore_server/introspect_plugin.py`: *Override create_state to force a state update right after creation.         This is helpful when retrieving info from a state yet to execute.*
+  - 📄 `manticore-master/server/manticore_server/manticore_server.py`: *Provides functionality for the methods set out in the protobuf spec*
+  - 📄 `manticore-master/server/manticore_server/native_plugin.py`: *Manticore plugin to speed up emulation using unicorn until `start`*
+  - 📄 `manticore-master/server/manticore_server/native_utils.py`: *parse additional arguments for manticore native execution, CLI-style*
+  - 📄 `manticore-master/tests/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/auto_generators/make_VMTests.py`: *This script generates VMTests that are used to check EVM's Istanbul fork correctness.  ### TO GENERATE ALL:  ## Initialize env: cd manticore/tests/ && mkdir -p  ethereum_vm/VMTests_concrete  git clone...*
+  - 📄 `manticore-master/tests/auto_generators/make_dump.py`: *Construct interactive Popen.*
+  - 📄 `manticore-master/tests/auto_generators/make_tests.py`: *import unittest import functools from manticore.core.cpu.x86 import * from manticore.core.smtlib import Operators from manticore.native.memory import *   def skipIfNotImplemented(f):     # XXX(yan) th...*
+  - 📄 `manticore-master/tests/auto_generators/trace.py`: *Construct interactive Popen.*
+  - 📄 `manticore-master/tests/conftest.py`: *Initialize Manticore's logger for all tests*
+  - 📄 `manticore-master/tests/ethereum/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/ethereum/test_detectors.py`: *File name is purposefully not test_* to run this test separately.*
+  - 📄 `manticore-master/tests/ethereum/test_general.py`: *contract C{             mapping(address => uint) balances;             function test1(address to, uint val){                 balances[to] = val;             }         }*
+  - 📄 `manticore-master/tests/ethereum/test_plugins.py`: *contract X {}*
+  - 📄 `manticore-master/tests/ethereum/test_regressions.py`: *Simply run the Manticore command line with `filename`         :param filename: Name of file inside the `contracts` directory*
+  - 📄 `manticore-master/tests/ethereum/test_sha3.py`: *File name is purposefully not test_* to run this test separately.*
+  - 📄 `manticore-master/tests/ethereum_bench/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/ethereum_bench/test_consensys_benchmark.py`: *https://consensys.net/diligence/evm-analyzer-benchmark-suite/*
+  - 📄 `manticore-master/tests/native/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/native/test_aarch64cpu.py`: *Assemble the given string using Keystone.*
+  - 📄 `manticore-master/tests/native/test_armv7cpu.py`: *Assemble the given string using Keystone using the specified CPU mode.*
+  - 📄 `manticore-master/tests/native/test_armv7unicorn.py`: *Test the Unicorn emulation stub.  Armv7UnicornInstructions includes all semantics from ARM tests to ensure that they match. UnicornConcretization tests to make sure symbolic values get properly concre...*
+  - 📄 `manticore-master/tests/native/test_cpu_automatic.py`: *Mocking class for operand ronly*
+  - 📄 `manticore-master/tests/native/test_cpu_manual.py`: *Retrieve all nodes of a BitVecOr expression tree*
+  - 📄 `manticore-master/tests/native/test_dyn.py`: *Mocking class for operand ronly*
+  - 📄 `manticore-master/tests/native/test_integration_native.py`: *Tests that default verbosity produces the expected volume of output*
+  - 📄 `manticore-master/tests/native/test_linux.py`: *This test is the inverse of test_implemented_syscall_report*
+  - 📄 `manticore-master/tests/native/test_logging.py`: *Make sure we set the logging levels correctly*
+  - 📄 `manticore-master/tests/native/test_memory.py`: *00000000f7ff0000-00000000f7ff2000  rwx 00000000         00000000f7ff4000-00000000f8000000  rwx 00000000*
+  - 📄 `manticore-master/tests/native/test_models.py`: *This method creates memory for a given src (with no possible NULL bytes but and a         final NULL byte) and dst string pointers, asserts that everything is copied from src         to dst until the ...*
+  - 📄 `manticore-master/tests/native/test_slam_regre.py`: *Mocking class for operand ronly*
+  - 📄 `manticore-master/tests/native/test_state.py`: *This function needs to be a global function for the following test or else we get the following error     E       AttributeError: Can't pickle local object 'StateHooks.test_state_hooks.<locals>.do_not...*
+  - 📄 `manticore-master/tests/native/test_x86_pcmpxstrx.py`: *Mocking class for operand ronly*
+  - 📄 `manticore-master/tests/other/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/other/test_smtlibv2.py`: *class Z3Specific(unittest.TestCase):     _multiprocess_can_split_ = True      def setUp(self):         self.solver = Z3Solver.instance()       @patch('subprocess.check_output', mock_open())     def te...*
+  - 📄 `manticore-master/tests/other/utils/__init__.py`: *This file is requires so that unittest will be able to discover tests in children directories.*
+  - 📄 `manticore-master/tests/other/utils/test_config.py`: *group:             var1: val             var2: 234             var3: [1, 2, 3]             var4: []*
+  - 📄 `manticore-master/tests/wasm/json2mc.py`: *Convert unsigned ints from JSON into WASM Types (I32, F64, etc)*
+  - 📄 `manticore-master/tests/wasm/test_stack_supplemental.py`: *This checks the sequence of pushes and pops that take place during an example execution.         That sequence isn't meant to be invariant, so if you change the implementation and break         this t...*
+  - 📄 `manticore-master/tests/wasm_sym/json2smc.py`: *Convert a set of unsigned ints from JSON into an appropriate set of constraints     :param to_convert:     :return:*
+
+----------------------------------------
+
+## 📦 REPO: manticoresearch-master
+**Funkció / Leírás:** # CMake modules for win bundle Here is cmake modules which implements `find_package` for the libs used in windows builds. See details at `dist/build_dockers/cross/sysroots/sysroot_windows_x64.tar.xz.md`
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `manticoresearch-master/manual/chinese/Quick_start_guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/manual/english/Quick_start_guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/manual/russian/Quick_start_guide.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/queuecreator.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/queuecreator.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/std/queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/std/queue_impl.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/timeout_queue.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `manticoresearch-master/src/timeout_queue.h`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: metube-master
+**Funkció / Leírás:** # MeTube ![Build Status](https://github.com/alexta69/metube/actions/workflows/main.yml/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/alexta69/metube.svg) MeTube is a self-hosted web UI for `yt-dlp`, for downloading media from YouTube and [dozens of other sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md). Key capabilities: * Download videos, audio, captions, and thumbnails from a browser UI. * Download playlists and channels, with configurable output and down...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `metube-master/app/dl_formats.py`: *Returns yt-dlp format selector.      Args:       download_type (str): selected content type (video, audio, captions, thumbnail)       codec (str): selected video codec (auto, h264, h265, av1, vp9)    ...*
+  - 📄 `metube-master/app/main.py`: *Return only the config keys that are safe to expose to browser clients.          Sensitive or server-only keys (YTDL_OPTIONS, file-system paths, TLS         settings, etc.) are intentionally excluded.*
+  - 📄 `metube-master/app/subscriptions.py`: *Channel/playlist subscriptions: periodic yt-dlp flat extract + queue new videos.*
+  - 📄 `metube-master/app/tests/conftest.py`: *Pytest configuration: set env and filesystem layout before importing ``main``.*
+  - 📄 `metube-master/app/tests/test_api.py`: *HTTP handler tests for ``main`` using mocked ``web.Request`` (no TestServer).*
+  - 📄 `metube-master/app/tests/test_config.py`: *Tests for ``Config`` (env parsing, yt-dlp options, frontend_safe).*
+  - 📄 `metube-master/app/tests/test_dl_formats.py`: *Tests for ``app.dl_formats`` format selectors and yt-dlp option mapping.*
+  - 📄 `metube-master/app/tests/test_download_queue.py`: *Tests for ``DownloadQueue`` with mocked yt-dlp extraction.*
+  - 📄 `metube-master/app/tests/test_main_helpers.py`: *Tests for pure helpers in ``main`` (legacy API migration, logging, JSON serializer).*
+  - 📄 `metube-master/app/tests/test_persistent_queue.py`: *Integration tests for ``PersistentQueue`` using the JSON state store.*
+  - 📄 `metube-master/app/tests/test_ytdl_utils.py`: *Tests for pure helpers and migration logic in ``ytdl``.*
+  - 📄 `metube-master/app/ytdl.py`: *Replace characters that are invalid in Windows path components with '_'.      Non-string values (int, float, None, …) are passed through unchanged so     that numeric format specs (e.g. ``%(playlist_i...*
+
+----------------------------------------
+
+## 📦 REPO: mitmproxy-main
+**Funkció / Leírás:** # Quick Start - Install mitmproxy as described in [`../CONTRIBUTING.md`](../CONTRIBUTING.md) - Run `node --version` to make sure that you have at least Node.js 24 or above. - Run `cd ./web` to change to the directory with package.json. - Run `npm install` to install dependencies. - Run `uv run mitmweb` - Run `npm start` in a separate window to start the Vite development server for the web interface. ## Testing
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `mitmproxy-main/docs/scripts/api-events.py`: *{desc}*
+  - 📄 `mitmproxy-main/docs/scripts/api-render.py`: *---         title: "{module}"         url: "{filename}"          menu: api         ---          {{{{< readfile file="/generated/{filename}" >}}}}*
+  - 📄 `mitmproxy-main/docs/scripts/examples.py`: *\s*         (.+?)         \s*         (?:\n\n|*
+  - 📄 `mitmproxy-main/docs/scripts/options.py`: *<table class=\"table optiontable\">         <thead>           <tr>             <th>Name</th>             <th>Type</th>             <th>Description</th>         </tr>         </thead>         <tbody>*
+  - 📄 `mitmproxy-main/examples/addons/anatomy.py`: *Basic skeleton of a mitmproxy addon.  Run as follows: mitmproxy -s anatomy.py*
+  - 📄 `mitmproxy-main/examples/addons/anatomy2.py`: *An addon using the abbreviated scripting syntax.*
+  - 📄 `mitmproxy-main/examples/addons/commands-flows.py`: *Handle flows as command arguments.*
+  - 📄 `mitmproxy-main/examples/addons/commands-paths.py`: *Handle file paths as command arguments.*
+  - 📄 `mitmproxy-main/examples/addons/commands-simple.py`: *Add a custom command to mitmproxy's command prompt.*
+  - 📄 `mitmproxy-main/examples/addons/dns-simple.py`: *Spoof DNS responses.  In this example, we fiddle with IPv6 (AAAA) records:  - For example.com, `::1` is returned.    (domain is hosted on localhost)  - For example.org, an NXDOMAIN error is returned. ...*
+  - 📄 `mitmproxy-main/examples/addons/duplicate-modify-replay.py`: *Take incoming HTTP requests and replay them with modified parameters.*
+  - 📄 `mitmproxy-main/examples/addons/filter-flows.py`: *Use mitmproxy's filter pattern in scripts.*
+  - 📄 `mitmproxy-main/examples/addons/http-add-header.py`: *Add an HTTP header to each response.*
+  - 📄 `mitmproxy-main/examples/addons/http-modify-form.py`: *Modify an HTTP form submission.*
+  - 📄 `mitmproxy-main/examples/addons/http-modify-query-string.py`: *Modify HTTP query parameters.*
+  - 📄 `mitmproxy-main/examples/addons/http-redirect-requests.py`: *Redirect HTTP requests to another server.*
+  - 📄 `mitmproxy-main/examples/addons/http-reply-from-proxy.py`: *Send a reply from the proxy without sending the request to the remote server.*
+  - 📄 `mitmproxy-main/examples/addons/http-stream-modify.py`: *Modify a streamed response.  Generally speaking, we recommend *not* to stream messages you need to modify. Modifying streamed responses is tricky and brittle:     - If the transfer encoding isn't chun...*
+  - 📄 `mitmproxy-main/examples/addons/http-stream-simple.py`: *Select which responses should be streamed.  Enable response streaming for all HTTP flows. This is equivalent to passing `--set stream_large_bodies=1` to mitmproxy.*
+  - 📄 `mitmproxy-main/examples/addons/http-trailers.py`: *This script simply prints all received HTTP Trailers.  HTTP requests and responses can contain trailing headers which are sent after the body is fully transmitted. Such trailers need to be announced i...*
+  - 📄 `mitmproxy-main/examples/addons/internet-in-mirror.py`: *Mirror all web pages.  Useful if you are living down under.*
+  - 📄 `mitmproxy-main/examples/addons/io-read-saved-flows.py`: *Read a mitmproxy dump file.*
+  - 📄 `mitmproxy-main/examples/addons/io-write-flow-file.py`: *Generate a mitmproxy dump file.  This script demonstrates how to generate a mitmproxy dump file, as it would also be generated by passing `-w` to mitmproxy. In contrast to `-w`, this gives you full co...*
+  - 📄 `mitmproxy-main/examples/addons/log-events.py`: *Post messages to mitmproxy's event log.*
+  - 📄 `mitmproxy-main/examples/addons/nonblocking.py`: *Make events hooks non-blocking using async or @concurrent.*
+  - 📄 `mitmproxy-main/examples/addons/options-configure.py`: *React to configuration changes.*
+  - 📄 `mitmproxy-main/examples/addons/options-simple.py`: *Add a new mitmproxy option.  Usage:      mitmproxy -s options-simple.py --set addheader=true*
+  - 📄 `mitmproxy-main/examples/addons/shutdown.py`: *A simple way of shutting down the mitmproxy instance to stop everything.  Usage:      mitmproxy -s shutdown.py      and then send a HTTP request to trigger the shutdown:     curl --proxy localhost:808...*
+  - 📄 `mitmproxy-main/examples/addons/tcp-simple.py`: *Process individual messages from a TCP connection.  This script replaces full occurrences of "foo" with "bar" and prints various details for each message. Please note that TCP is stream-based and *not...*
+  - 📄 `mitmproxy-main/examples/addons/websocket-inject-message.py`: *Inject a WebSocket message into a running connection.  This example shows how to inject a WebSocket message into a running connection.*
+  - 📄 `mitmproxy-main/examples/addons/websocket-simple.py`: *Process individual messages from a WebSocket connection.*
+  - 📄 `mitmproxy-main/examples/addons/wsgi-flask-app.py`: *Host a WSGI app in mitmproxy.  This example shows how to graft a WSGI app onto mitmproxy. In this instance, we're using the Flask framework (http://flask.pocoo.org/) to expose a single simplest-possib...*
+  - 📄 `mitmproxy-main/examples/contrib/block_dns_over_https.py`: *This module is for blocking DNS over HTTPS requests.  It loads a blocklist of IPs and hostnames that are known to serve DNS over HTTPS requests. It also uses headers, query params, and paths to detect...*
+  - 📄 `mitmproxy-main/examples/contrib/check_ssl_pinning.py`: *Sets SSL Certificate's 'Begins On' time in future.*
+  - 📄 `mitmproxy-main/examples/contrib/custom_next_layer.py`: *This addon demonstrates how to override next_layer to modify the protocol in use. In this example, we are forcing connections to example.com:443 to instead go as plaintext to example.com:80.  Example ...*
+  - 📄 `mitmproxy-main/examples/contrib/dns_spoofing.py`: *This script makes it possible to use mitmproxy in scenarios where IP spoofing has been used to redirect connections to mitmproxy. The way this works is that we rely on either the TLS Server Name Indic...*
+  - 📄 `mitmproxy-main/examples/contrib/domain_fronting.py`: *This extension implements support for domain fronting.  Usage:     mitmproxy -s examples/contrib/domain_fronting.py --set domainfrontingfile=./domain_fronting.json  In the following basic example, www...*
+  - 📄 `mitmproxy-main/examples/contrib/har_dump.py`: *This addon is now part of mitmproxy! See mitmproxy/addons/savehar.py.*
+  - 📄 `mitmproxy-main/examples/contrib/http_manipulate_cookies.py`: *This script is an example of how to manipulate cookies both outgoing (requests) and ingoing (responses). In particular, this script inserts a cookie (specified in a json file) into every request (over...*
+  - 📄 `mitmproxy-main/examples/contrib/jsondump.py`: *This script serializes the entire traffic dump, including websocket traffic, as JSON, and either sends it to a URL or writes to a file. The serialization format is optimized for Elasticsearch; the scr...*
+  - 📄 `mitmproxy-main/examples/contrib/ntlm_upstream_proxy.py`: *This addon handles authentication to systems upstream from us for the     upstream proxy and reverse proxy mode. There are 3 cases:     - Upstream proxy CONNECT requests should have authentication add...*
+  - 📄 `mitmproxy-main/examples/contrib/remote-debug.py`: *This script enables remote debugging of the mitmproxy console *UI* with PyCharm. For general debugging purposes, it is easier to just debug mitmdump within PyCharm.  Usage:     - pip install pydevd on...*
+  - 📄 `mitmproxy-main/examples/contrib/save_streamed_data.py`: *Save streamed requests and responses  If the option 'save_streamed_data' is set to a format string then streamed requests and responses are written to individual files with a name derived from the str...*
+  - 📄 `mitmproxy-main/examples/contrib/search.py`: *Defines a command named "search" that matches         the given regular expression against most parts         of each request/response included in the selected flows.          Usage: from the flow lis...*
+  - 📄 `mitmproxy-main/examples/contrib/sslstrip.py`: *This script implements an sslstrip-like attack based on mitmproxy. https://moxie.org/software/sslstrip/*
+  - 📄 `mitmproxy-main/examples/contrib/suppress_error_responses.py`: *This script suppresses the 502 Bad Gateway messages, mitmproxy sends if the server is not responsing correctly. For example, this functionality can be helpful if mitmproxy is used in between a web sca...*
+  - 📄 `mitmproxy-main/examples/contrib/test_xss_scanner.py`: *<html><head><h1>STRING</h1></head>                                     <script>STRING</script>                                     <a href=STRING></a></html>*
+  - 📄 `mitmproxy-main/examples/contrib/tls_passthrough.py`: *This addon allows conditional TLS Interception based on a user-defined strategy.  Example:      > mitmdump -s tls_passthrough.py      1. curl --proxy http://localhost:8080 https://example.com --insecu...*
+  - 📄 `mitmproxy-main/examples/contrib/upstream_pac.py`: *Mitmproxy add-on to support using a PAC file to determine the upstream proxy to use. Supports adding an alternate proxy to use for when the PAC decides the connection should be DIRECT. Adds two option...*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/mapping.py`: *The mapping add-on can be used in combination with web application scanners to reduce their false positives.      Many web application scanners produce false positives caused by dynamically changing c...*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/proxyauth_selenium.py`: *Generate a random string of fixed length*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/urldict.py`: *Data structure to store information using filters as keys.*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/urlindex.py`: *Abstract Add-on to write seen URLs.      For example, these URLs can be injected in a web application to improve the crawling of web application scanners.     The injection can be done using the URLIn...*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/urlinjection.py`: *Abstract class for an generator of the injection content in order to inject the URL index.*
+  - 📄 `mitmproxy-main/examples/contrib/webscanner_helper/watchdog.py`: *The Watchdog Add-on can be used in combination with web application scanners in oder to check if the device         under test responds correctls to the scanner's responses.      The Watchdog Add-on c...*
+  - 📄 `mitmproxy-main/examples/contrib/xss_scanner.py`: *__   __ _____ _____     _____  \ \ / // ____/ ____|   / ____|   \ V /| (___| (___    | (___   ___ __ _ _ __  _ __   ___ _ __    > <  \___ \\___ \    \___ \ / __/ _` | '_ \| '_ \ / _ \ '__|   / . \ ___...*
+  - 📄 `mitmproxy-main/mitmproxy/addonmanager.py`: *Cut off a traceback at the function with the given name.     The func_name's frame is excluded.      Args:         tb: traceback object, as returned by sys.exc_info()[2]         func_name: function na...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/anticache.py`: *Strip out request headers that might cause the server to return             304-not-modified.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/asgiapp.py`: *An addon that hosts an ASGI/WSGI HTTP app within mitmproxy, at a specified hostname and port.      Some important caveats:         - This implementation will block and wait until the entire HTTP respo...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/block.py`: *Block connections from public IP addresses.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/blocklist.py`: *Parses strings in the following format, enforces number of segments:          /flow-filter/status*
+  - 📄 `mitmproxy-main/mitmproxy/addons/browser.py`: *Start an isolated instance of Chrome that points to the currently         running proxy.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/clientplayback.py`: *A mock HTTP "server" that just pretends it received a full HTTP request,     which is then processed by the proxy core.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/command_history.py`: *Persist command history between mitmproxy invocations.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/core.py`: *Set an option. When the value is omitted, booleans are set to true,         strings and integers are set to None (if permitted), and sequences         are emptied. Boolean values can be true, false or...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/cut.py`: *Cut data from a set of flows. Cut specifications are attribute paths         from the base of the flow object, with a few conveniences - "port"         and "host" retrieve parts of an address tuple, "...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/disable_h2c.py`: *We currently only support HTTP/2 over a TLS connection.      Some clients try to upgrade a connection from HTTP/1.1 to h2c. We need to     remove those headers to avoid protocol errors if one endpoint...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/dns_resolver.py`: *Returns the operating system's name servers unless custom name servers are set.         On error, an empty list is returned.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/dumper.py`: *The display detail level for flows in mitmdump: 0 (quiet) to 4 (very verbose).               0: no output               1: shortened request URL with response status code               2: full request...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/errorcheck.py`: *Monitor startup for error log entries, and terminate immediately if there are some.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/eventstore.py`: *Clear the event log.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/export.py`: *Remove some headers that are redundant for curl/httpie export.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/keepserving.py`: *Continue serving after client playback, server playback or file             read. This option is ignored by interactive tools, which always keep             serving.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/maplocal.py`: *Join a Path element with an untrusted str.      This is a convenience wrapper for werkzeug's safe_join,     raising a ValueError if the path is malformed.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/mapremote.py`: *Map remote resources to another remote URL using a pattern of the form             "[/flow-filter]/url-regex/replacement", where the separator can             be any character.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/modifybody.py`: *Replacement pattern of the form "[/flow-filter]/regex/[@]replacement", where             the separator can be any character. The @ allows to provide a file path that             is used to read the re...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/modifyheaders.py`: *Process the replacement str. This usually just involves converting it to bytes.         However, if it starts with `@`, we interpret the rest as a file path to read from.          Raises:             ...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/next_layer.py`: *This addon determines the next protocol layer in our proxy stack. Whenever a protocol layer in the proxy wants to pass a connection to a child layer and isn't sure which protocol comes next, it calls ...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/onboarding.py`: *Onboarding app domain. For transparent mode, use an IP when a DNS             entry for the app domain is not present.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/proxyauth.py`: *Contains all connections that are permanently authenticated after an HTTP CONNECT*
+  - 📄 `mitmproxy-main/mitmproxy/addons/proxyserver.py`: *This addon is responsible for starting/stopping the proxy server sockets/instances specified by the mode option.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/readfile.py`: *An addon that handles reading from file on startup.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/save.py`: *Extract the path from a path spec (which may have an extra "+" at the front)*
+  - 📄 `mitmproxy-main/mitmproxy/addons/savehar.py`: *Write flow objects to a HAR file*
+  - 📄 `mitmproxy-main/mitmproxy/addons/script.py`: *Log errors during script loading.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/server_side_events.py`: *Server-Side Events are currently swallowed if there's no streaming,     see https://github.com/mitmproxy/mitmproxy/issues/4469.      Until this bug is fixed, this addon warns the user about this.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/serverplayback.py`: *Don't remove flows from server replay state after use. This makes it             possible to replay same response multiple times.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/stickycookie.py`: *Returns a (domain, port, path) tuple.*
+  - 📄 `mitmproxy-main/mitmproxy/addons/tlsconfig.py`: *@SECLEVEL=0 is necessary for TLS 1.1 and below to work,     see https://github.com/pyca/cryptography/issues/9523*
+  - 📄 `mitmproxy-main/mitmproxy/addons/upstream_auth.py`: *This addon handles authentication to systems upstream from us for the     upstream proxy and reverse proxy mode. There are 3 cases:      - Upstream proxy CONNECT requests should have authentication ad...*
+  - 📄 `mitmproxy-main/mitmproxy/addons/view.py`: *The View:  - Keeps track of a store of flows - Maintains a filtered, ordered view onto that list of flows - Exposes a number of signals so the view can be monitored - Tracks focus within the view - Ex...*
+  - 📄 `mitmproxy-main/mitmproxy/certs.py`: *-----BEGIN DH PARAMETERS----- MIICCAKCAgEAyT6LzpwVFS3gryIo29J5icvgxCnCebcdSe/NHMkD8dKJf8suFCg3 O2+dguLakSVif/t6dhImxInJk230HmfC8q93hdcg/j8rLGJYDKu3ik6H//BAHKIv j5O9yjU3rXCfmVJQic2Nne39sg3CreAepEts2TvY...*
+  - 📄 `mitmproxy-main/mitmproxy/command.py`: *This module manages and invokes typed commands.*
+  - 📄 `mitmproxy-main/mitmproxy/command_lexer.py`: *"[^"]*(?:"|$)  # double-quoted string that ends with double quote or EOF             |             '[^']*(?:'|$)  # single-quoted string that ends with double quote or EOF*
+  - 📄 `mitmproxy-main/mitmproxy/connection.py`: *The current state of the underlying socket.*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/__init__.py`: *mitmproxy includes a set of content views which can be used to format/decode/highlight/reencode data. While they are mostly used for HTTP message bodies, the may be used in other contexts, e.g. to dec...*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_api.py`: *Base class for all contentviews.*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_registry.py`: *Get the best contentview for the given data and metadata.          If `view_name` is "auto" or the provided view not found,         the best matching contentview based on `render_priority` will be ret...*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_utils.py`: *Helper function that takes a list of pairs and merges repeated keys.*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_view_css.py`: *A custom CSS prettifier. Compared to other prettifiers, its main features are:  - Implemented in pure Python. - Modifies whitespace only. - Works with any input. - Considerably faster than e.g. cssuti...*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_view_graphql.py`: *{header} --- {query}*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_view_http3.py`: *Representation of an HTTP/3 frame.*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_view_mqtt.py`: *Client Id: {self.payload["ClientId"]} Will Topic: {self.payload.get("WillTopic")} Will Message: {strutils.bytes_to_escaped_str(self.payload.get("WillMessage", b"None"))} User Name: {self.payload.get("...*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/_view_xml_html.py`: *A custom XML/HTML prettifier. Compared to other prettifiers, its main features are:  - Implemented in pure Python. - Modifies whitespace only. - Works with any input. - Lazy evaluation.  The implement...*
+  - 📄 `mitmproxy-main/mitmproxy/contentviews/base.py`: *Deprecated, do not use.*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/click/__init__.py`: *SPDX-License-Identifier: BSD-3-Clause  A vendored copy of click.style() @ 4f7b255*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/imghdr.py`: *Recognize image file formats based on their first few bytes.*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/gif.py`: *GIF (Graphics Interchange Format) is an image file format, developed     in 1987. It became popular in 1990s as one of the main image formats     used in World Wide Web.          GIF format allows enc...*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/google_protobuf.py`: *Google Protocol Buffers (AKA protobuf) is a popular data     serialization scheme used for communication protocols, data storage,     etc. There are implementations are available for almost every     ...*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/ico.py`: *Microsoft Windows uses specific file format to store applications     icons - ICO. This is a container that contains one or more image     files (effectively, DIB parts of BMP files or full PNG files ...*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/jpeg.py`: *JPEG File Interchange Format, or JFIF, or, more colloquially known     as just "JPEG" or "JPG", is a popular 2D bitmap image file format,     offering lossy compression which works reasonably well wit...*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/png.py`: *Test files for APNG can be found at the following locations:            * <https://philip.html5.org/tests/apng/tests.html>       * <http://littlesvr.ca/apng/>*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/kaitaistruct/vlq_base128_le.py`: *A variable-length unsigned/signed integer using base128 encoding. 1-byte groups     consist of 1-bit flag of continuation and 7-bit value chunk, and are ordered     "least significant group first", i....*
+  - 📄 `mitmproxy-main/mitmproxy/contrib/wbxml/ASWBXMLByteQueue.py`: *Created to debug the dequeueing of bytes*
+  - 📄 `mitmproxy-main/mitmproxy/coretypes/bidi.py`: *A wee utility class for keeping bi-directional mappings, like field     constants in protocols. Names are attributes on the object, dict-like     access maps values to names:      CONST = BiDi(a=1, b=...*
+  - 📄 `mitmproxy-main/mitmproxy/coretypes/multidict.py`: *A MultiDict is a dictionary-like data structure that supports multiple values per key.*
+  - 📄 `mitmproxy-main/mitmproxy/coretypes/serializable.py`: *Abstract Base Class that defines an API to save an object's state and restore it later on.*
+  - 📄 `mitmproxy-main/mitmproxy/ctx.py`: *Deprecated: Use Python's builtin `logging` module instead.*
+  - 📄 `mitmproxy-main/mitmproxy/dns.py`: *Converts the question into json for mitmweb.         Sync with web/src/flow.ts.*
+  - 📄 `mitmproxy-main/mitmproxy/exceptions.py`: *Edit 2020-12 @mhils:     The advice below hasn't paid off in any form. We now just use builtin exceptions and specialize where necessary.  ---  We try to be very hygienic regarding the exceptions we t...*
+  - 📄 `mitmproxy-main/mitmproxy/flow.py`: *An Error.      This is distinct from an protocol error response (say, a HTTP code 500),     which is represented by a normal `mitmproxy.http.Response` object. This class is     responsible for indicat...*
+  - 📄 `mitmproxy-main/mitmproxy/flowfilter.py`: *The following operators are understood:      ~q          Request     ~s          Response  Headers:      Patterns are matched against "name: value" strings. Field names are     all-lowercase.      ~a ...*
+  - 📄 `mitmproxy-main/mitmproxy/hooks.py`: *Called when configuration changes. The updated argument is a     set-like object containing the keys of all changed options. This     event is called during startup with all options in the updated set...*
+  - 📄 `mitmproxy-main/mitmproxy/http.py`: *Header class which allows both convenient access to individual headers as well as     direct access to the underlying raw data. Provides a full dictionary interface.      Create headers with keyword a...*
+  - 📄 `mitmproxy-main/mitmproxy/io/compat.py`: *This module handles the import of mitmproxy flows generated by old versions.  The flow file version is decoupled from the mitmproxy release cycle (since v3.0.0dev) and versioning. Every change or migr...*
+  - 📄 `mitmproxy-main/mitmproxy/io/har.py`: *Reads HAR files into flow objects*
+  - 📄 `mitmproxy-main/mitmproxy/io/io.py`: *Yields Flow objects from the dump.*
+  - 📄 `mitmproxy-main/mitmproxy/io/tnetstring.py`: *tnetstring:  data serialization using typed netstrings ======================================================  This is a custom Python 3 implementation of tnetstrings. Compared to other implementation...*
+  - 📄 `mitmproxy-main/mitmproxy/log.py`: *The ALERT logging level has the same urgency as info, but signals to interactive tools that the user's attention should be drawn to the output even if they're not currently looking at the event log.*
+  - 📄 `mitmproxy-main/mitmproxy/master.py`: *The master handles mitmproxy's main event loop.*
+  - 📄 `mitmproxy-main/mitmproxy/net/check.py`: *Checks if the passed bytes are a valid DNS hostname or an IPv4/IPv6 address.*
+  - 📄 `mitmproxy-main/mitmproxy/net/dns/domain_names.py`: *Converts RDATA into a domain name without pointer compression from a given offset and also returns the binary size.*
+  - 📄 `mitmproxy-main/mitmproxy/net/dns/https_records.py`: *HTTPS records are formatted as follows (as per RFC9460): - a 2-octet field for SvcPriority as an integer in network byte order. - the uncompressed, fully qualified TargetName, represented as a sequenc...*
+  - 📄 `mitmproxy-main/mitmproxy/net/encoding.py`: *Utility functions for decoding response bodies.*
+  - 📄 `mitmproxy-main/mitmproxy/net/free_port.py`: *Get a port that's free for both TCP and UDP.      This method never raises. If no free port can be found, 0 is returned.*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/cookies.py`: *A flexible module for cookie parsing and manipulation.  This module differs from usual standards-compliant cookie modules in a number of ways. We try to be as permissive as possible, and to retain eve...*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/headers.py`: *A simple parser for content-type values. Returns a (type, subtype,     parameters) tuple, where type and subtype are strings, and parameters     is a dict. If the string could not be parsed, return No...*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/http1/assemble.py`: *Args:         request_data (mitmproxy.net.http.request.RequestData)*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/http1/read.py`: *Retrieve all tokens for a header key. A number of different headers     follow a pattern where each header line can containe comma-separated     tokens, and headers can be set multiple times.*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/multipart.py`: *Takes a multipart boundary encoded string and returns list of (key, value) tuples.*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/url.py`: *URL-parsing function that checks that         - port is an integer 0-65535         - host is a valid IDNA-encoded hostname with no null-bytes         - path is valid ASCII      Args:         A URL (as...*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/user_agents.py`: *A small collection of useful user-agent header strings. These should be kept reasonably current to reflect common usage.*
+  - 📄 `mitmproxy-main/mitmproxy/net/http/validate.py`: *Parse a content-length header value, or raise a ValueError if it is invalid.*
+  - 📄 `mitmproxy-main/mitmproxy/net/local_ip.py`: *Get the default local outgoing IPv4 address without sending any packets.     This will fail if the target address is known to be unreachable.     We use Google DNS's IPv4 address as the default.*
+  - 📄 `mitmproxy-main/mitmproxy/net/server_spec.py`: *Server specs are used to describe an upstream proxy or server.*
+  - 📄 `mitmproxy-main/mitmproxy/net/tls.py`: *Returns:         True, if the passed bytes could be the start of a TLS record         False, otherwise.*
+  - 📄 `mitmproxy-main/mitmproxy/options.py`: *Use the Host header to construct URLs for display.              This option is disabled by default because malicious apps may send misleading host headers to evade             your analysis. If this i...*
+  - 📄 `mitmproxy-main/mitmproxy/optmanager.py`: *The base implementation for Options.*
+  - 📄 `mitmproxy-main/mitmproxy/platform/__init__.py`: *Initialize transparent mode.*
+  - 📄 `mitmproxy-main/mitmproxy/platform/osx.py`: *Doing this the "right" way by using DIOCNATLOOK on the pf device turns out     to be a pain. Apple has made a number of modifications to the data     structures returned, and compiling userspace tools...*
+  - 📄 `mitmproxy-main/mitmproxy/platform/pf.py`: *Parse the pfctl state output s, to look up the destination host     matching the client (address, port).      Returns an (address, port) tuple, or None.*
+  - 📄 `mitmproxy-main/mitmproxy/platform/windows.py`: *TransparentProxy API: Returns the pickled server address, port tuple     for each received pickled client address, port tuple.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/__init__.py`: *This module contains mitmproxy's core network proxy.  The most important primitives are:      - Layers: represent protocol layers, e.g. one for TCP, TLS, and so on. Layers are nested, so       a typic...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/commands.py`: *Commands make it possible for layers to communicate with the "outer world", e.g. to perform IO or to ask the master. A command is issued by a proxy layer and is then passed upwards to the proxy server...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/context.py`: *The context object provided to each protocol layer in the proxy core.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/events.py`: *When IO actions occur at the proxy server, they are passed down to layers as events. Events represent the only way for layers to receive new data from sockets. The counterpart to events are commands.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layer.py`: *Base class for protocol layers.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/dns.py`: *A DNS query has been received.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/__init__.py`: *Open an HTTP Connection. This may not actually open a connection, but return an existing HTTP connection instead.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_base.py`: *<html>     <head>         <title>{status_code} {reason}</title>     </head>     <body>         <h1>{status_code} {reason}</h1>         <p>{html.escape(message)}</p>     </body>     </html>*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_events.py`: *If True, we already know at this point that there is no message body. This is useful for HTTP/2, where it allows     us to set END_STREAM on headers already (and some servers - Akamai - implicitly exp...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_hooks.py`: *HTTP request headers were successfully read. At this point, the body is empty.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_http1.py`: *We wait for the current flow to be finished before parsing the next message,         as we may want to upgrade to WebSocket or plain TCP before that.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_http2.py`: *keep track of all active stream ids to send protocol errors on teardown*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_http_h2.py`: *This class wrap's hyper-h2's H2Connection and adds internal send buffers.      To simplify implementation, padding is unsupported.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/http/_http_h3.py`: *The TrailersReceived event is fired whenever trailers are received.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/modes.py`: *Base layer for layers that gather connection destination info and then delegate.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_client_hello_parser.py`: *This module contains a very terrible QUIC client hello parser.  Nothing is more permanent than a temporary solution!*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_commands.py`: *Base class for all QUIC stream commands.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_events.py`: *Base class for all QUIC stream events.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_hooks.py`: *Settings necessary to establish QUIC's TLS context.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_raw_layers.py`: *This module contains the proxy layers for raw QUIC proxying. This is used if we want to speak QUIC, but we do not want to do HTTP.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/quic/_stream_layers.py`: *This module contains the client and server proxy layers for QUIC streams which decrypt and encrypt traffic. Decrypted stream data is then forwarded to either the raw layers, or the HTTP/3 client in .....*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/tcp.py`: *A TCP connection has started.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/tls.py`: *Returns a generator that yields the bytes contained in each handshake record.     This will raise an error on the first non-handshake record, so fully exhausting this     generator is a bad idea.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/udp.py`: *A UDP connection has started.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/layers/websocket.py`: *A WebSocket connection has commenced.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/mode_servers.py`: *This module defines "server instances", which manage the TCP/UDP servers spawned by mitmproxy as specified by the proxy mode.  Example:      mode = ProxyMode.parse("reverse:https://example.com")     i...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/mode_specs.py`: *This module is responsible for parsing proxy mode specifications such as `"regular"`, `"reverse:https://example.com"`, or `"socks5@1234"`. The general syntax is      mode [: mode_configuration] [@ [li...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/server.py`: *Proxy Server Implementation using asyncio. The very high level overview is as follows:      - Spawn one coroutine per client connection and create a reverse proxy layer to example.com     - Process an...*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/server_hooks.py`: *A client has connected to mitmproxy. Note that a connection can     correspond to multiple HTTP requests.      Setting client.error kills the connection.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/tunnel.py`: *A specialized layer that simplifies the implementation of tunneling protocols such as SOCKS, upstream HTTP proxies,     or TLS.*
+  - 📄 `mitmproxy-main/mitmproxy/proxy/utils.py`: *Utility decorators that help build state machines*
+  - 📄 `mitmproxy-main/mitmproxy/script/concurrent.py`: *This module provides a @concurrent decorator primitive to offload computations from mitmproxy's main master thread.*
+  - 📄 `mitmproxy-main/mitmproxy/tcp.py`: *An individual TCP "message".     Note that TCP is *stream-based* and not *message-based*.     For practical purposes the stream is chunked into messages here,     but you should not rely on message bo...*
+  - 📄 `mitmproxy-main/mitmproxy/test/taddons.py`: *A context for testing addons, which sets up the mitmproxy.ctx module so     handlers can run as they would within mitmproxy. The context also     provides a number of helper methods for common testing...*
+  - 📄 `mitmproxy-main/mitmproxy/test/tflow.py`: *Create a DNS flow for testing.*
+  - 📄 `mitmproxy-main/mitmproxy/test/tutils.py`: *Returns:         mitmproxy.net.http.Request*
+  - 📄 `mitmproxy-main/mitmproxy/tls.py`: *A TLS ClientHello is the first message sent by the client when initiating TLS.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/cmdline.py`: *Set an option. When the value is omitted, booleans are set to true,             strings and integers are set to None (if permitted), and sequences             are emptied. Boolean values can be true, ...*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/commander/commander.py`: *Inserts text at the cursor.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/common.py`: *Is this input event a keypress?*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/consoleaddons.py`: *An addon that exposes console-specific commands, and hooks into required     events.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/defaultkeys.py`: *console.choose.cmd "Export as..." export.formats         console.command export.file {choice} @focus*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/flowview.py`: *Alternative:         if not message:             return searchable.Searchable([urwid.Text(("highlight", f"No {typ}."))])          viewmode = self.master.commands.call("console.flowview.mode")         ...*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/grideditor/base.py`: *Raises:             ValueError, if the current content is invalid.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/grideditor/col_text.py`: *Welcome to the encoding dance!  In a nutshell, text columns are actually a proxy class for byte columns, which just encode/decodes contents.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/grideditor/col_viewany.py`: *A display-only column that displays any data type.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/help.py`: *We are just about to push a window onto the stack.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/keymap.py`: *Translate the key spec from a convenient user specification to one         Urwid understands.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/layoutwidget.py`: *All top-level layout widgets and all widgets that may be set in an     overlay must comply with this API.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/overlay.py`: *vspace: how much vertical space to keep clear*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/palettes.py`: *Low-color dark background*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/quickhelp.py`: *This module is reponsible for drawing the quick key help at the bottom of mitmproxy.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/statusbar.py`: *Shorten message so that it fits into a single line in the statusbar.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/tabs.py`: *onclick is called on click with the tab offset as argument*
+  - 📄 `mitmproxy-main/mitmproxy/tools/console/window.py`: *The current top window, ignoring overlays.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/main.py`: *extra: Extra argument processing callable which returns a dict of     options.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/web/app.py`: *Remove flow message content and cert to save transmission space.     Args:         flow: The original flow.     Sync with web/src/flow.ts.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/web/static_viewer.py`: *Save the files for the static web view.*
+  - 📄 `mitmproxy-main/mitmproxy/tools/web/webaddons.py`: *Open a URL in a browser window.     In contrast to webbrowser.open, we limit the list of suitable browsers.     This gracefully degrades to a no-op on headless servers, where webbrowser.open     would...*
+  - 📄 `mitmproxy-main/mitmproxy/types.py`: *Returns a list of completion strings for a given prefix. The strings         returned don't necessarily need to be suffixes of the prefix, since         completers will do prefix filtering themselves....*
+  - 📄 `mitmproxy-main/mitmproxy/udp.py`: *An individual UDP datagram.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/arg_check.py`: *--confdir -Z --body-size-limit --stream --palette --palette-transparent --follow --order --no-mouse --reverse --http2-priority --no-http2-priority --no-websocket --websocket --upstream-bind-address --...*
+  - 📄 `mitmproxy-main/mitmproxy/utils/asyncio_utils.py`: *Wrapper around `asyncio.create_task`.      - Use `keep_ref` to keep an internal reference.       This ensures that the task is not garbage collected mid-execution if no other reference is kept.     - ...*
+  - 📄 `mitmproxy-main/mitmproxy/utils/data.py`: *Change the data object to a path relative to the module.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/emoji.py`: *All of the emoji and characters that can be used as flow markers.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/htpasswd.py`: *A standalone, minimal htpasswd parser.  This implementation currently supports bcrypt and SHA1 passwords. SHA1 is insecure.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/human.py`: *Convert a number of bytes into a human-readable string.      len(return value) <= 5 always holds true.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/magisk.py`: *id=mitmproxycert name=MITMProxy cert version=v1 versionCode=1 author=mitmproxy description=Adds the mitmproxy certificate to the system store template=3*
+  - 📄 `mitmproxy-main/mitmproxy/utils/signals.py`: *This module provides signals, which are a simple dispatching system that allows any number of interested parties to subscribe to events ("signals").  This is similar to the Blinker library (https://py...*
+  - 📄 `mitmproxy-main/mitmproxy/utils/sliding_window.py`: *Sliding window for an iterator.      Example:         >>> for prev, i, nxt in window(range(10), 1, 1):         >>>     print(prev, i, nxt)          None 0 1         0 1 2         1 2 3         2 3 Non...*
+  - 📄 `mitmproxy-main/mitmproxy/utils/spec.py`: *Parse strings in the following format:          [/flow-filter]/subject/replacement*
+  - 📄 `mitmproxy-main/mitmproxy/utils/strutils.py`: *Returns,         str_or_bytes unmodified, if*
+  - 📄 `mitmproxy-main/mitmproxy/utils/typecheck.py`: *Check if the provided value is an instance of typeinfo and raises a     TypeError otherwise. This function supports only those types required for     options.*
+  - 📄 `mitmproxy-main/mitmproxy/utils/vt_codes.py`: *This module provides a method to detect if a given file object supports virtual terminal escape codes.*
+  - 📄 `mitmproxy-main/mitmproxy/version.py`: *Return a detailed version string, sourced either from VERSION or obtained dynamically using git.*
+  - 📄 `mitmproxy-main/mitmproxy/websocket.py`: *Mitmproxy used to have its own WebSocketFlow type until mitmproxy 6, but now WebSocket connections now are represented as HTTP flows as well. They can be distinguished from regular HTTP requests by ha...*
+  - 📄 `mitmproxy-main/release/build.py`: *Build the wheel for PyPI.*
+  - 📄 `mitmproxy-main/release/deploy-microsoft-store.py`: *This script submits a single MSIX installer to the Microsoft Store.  The client_secret will expire after 24 months and needs to be recreated (see docstring below).  References:     - https://docs.micr...*
+  - 📄 `mitmproxy-main/release/selftest.py`: *This addons is used for binaries to perform a minimal selftest. Use like so:    mitmdump -s selftest.py -p 0*
+  - 📄 `mitmproxy-main/test/bench/benchmark.py`: *A simple profiler addon.*
+  - 📄 `mitmproxy-main/test/helper_tools/dumperview.py`: *Run the given async function in a new event loop.     This allows async functions to be called synchronously.*
+  - 📄 `mitmproxy-main/test/helper_tools/inspect_dumpfile.py`: *pretty-print a dumpfile*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_block.py`: *At least on macOS, local mode peername may be the client's public IP.*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_blocklist.py`: *Test that we don't interfere if another addon already killed this request.*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_clientplayback.py`: *TCP server context manager that...      1. Exits only after all handlers have returned.     2. Ensures that all handlers are closed properly. If we don't do that,        we get ghost errors in others ...*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_errorcheck.py`: *Integration test: Make sure that we catch errors on startup an exit.*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_export.py`: *curl -H 'header: qvalue' 'http://address:22/path?a=foo&a=bar&b=baz'*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_proxyserver.py`: *Test that we log an error if the proxy server is started without NextLayer addon.     That is a mean trap to fall into when writing end-to-end tests.*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_savehar.py`: *https://github.com/mitmproxy/mitmproxy/issues/6579*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_script.py`: *Test that loading two scripts at locations a/foo.py and b/foo.py works.     This only succeeds if they get assigned different basenames.*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_serverplayback.py`: *The server playback addon holds references to flows that can be modified by the user in the meantime.     One thing that can happen is that users remove the response object. This happens for example w...*
+  - 📄 `mitmproxy-main/test/mitmproxy/addons/test_tlsconfig.py`: *Test that we generate a certificate matching the connection's context.*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__api.py`: *Ensure that metadata roundtrips properly.*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__view_dns.py`: *id: 0 query: false op_code: QUERY authoritative_answer: false truncation: false recursion_desired: true recursion_available: true response_code: NOERROR questions: - name: tls-ech.dev   type: HTTPS   ...*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__view_graphql.py`: *{"query": "query P { \\n }"}*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__view_json.py`: *https://github.com/mitmproxy/mitmproxy/issues/7739*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__view_mqtt.py`: *\x32\x9a\x01\x00\x2dxxxx/yy/zzzzzz/56:6F:5E:6A:01:05/messages/out\x00\x04*
+  - 📄 `mitmproxy-main/test/mitmproxy/contentviews/test__view_multipart.py`: *--AaB03x Content-Disposition: form-data; name="submit-name"  Larry --AaB03x*
+  - 📄 `mitmproxy-main/test/mitmproxy/coretypes/test_multidict.py`: *If a class defines mutable objects and implements an __eq__() method,         it should not implement __hash__(), since the implementation of hashable         collections requires that a key's hash va...*
+  - 📄 `mitmproxy-main/test/mitmproxy/io/test_tnetstring.py`: *Generate a random serializable object.*
+  - 📄 `mitmproxy-main/test/mitmproxy/net/data/verificationcerts/generate.py`: *Generate SSL test certificates.*
+  - 📄 `mitmproxy-main/test/mitmproxy/net/http/test_url.py`: *Some HTTP clients don't send trailing equal signs for parameters without assigned value, e.g. they send         foo=bar&baz&qux=quux     instead of         foo=bar&baz=&qux=quux     The respective beh...*
+  - 📄 `mitmproxy-main/test/mitmproxy/net/test_encoding.py`: *This test is for testing byte->byte encoding/decoding*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/bench.py`: *Usage:   - pip install pytest-benchmark   - pytest bench.py  See also:   - https://github.com/mitmproxy/proxybench*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/hyper_h2_test_helpers.py`: *helpers ~~~~~~~  This module contains helpers for the h2 tests.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/test_http.py`: *Test a simple HTTP GET / request*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/test_http2.py`: *Test handling of the case where a client aborts during request or response transmission.      If the client aborts the request transmission, we must trigger an error hook,     if the client disconnect...*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/test_http3.py`: *Data placeholder that invokes a callback once its bytes get set.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/test_http_fuzz.py`: *We can't specify examples in test_fuzz_cancel (because we use data, see     https://hypothesis.readthedocs.io/en/latest/data.html#interactive-draw),     so we have this here for explicit examples.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/http/test_http_version_interop.py`: *Test HTTP/2 -> HTTP/1 request translation*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/quic/test__stream_layers.py`: *Helper container for QuicConnection object.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/test_modes.py`: *Test mitmproxy in HTTPS upstream mode with another mitmproxy instance upstream.     In other words:      mitmdump --mode upstream:https://localhost:8081 --ssl-insecure     mitmdump -p 8081     curl -x...*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/test_tcp.py`: *If there is no server connection yet, establish one,     because the server may send data first.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/test_tls.py`: *Helper container for Python's builtin SSL object.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/test_udp.py`: *If there is no server connection yet, establish one,     because the server may send data first.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/layers/test_websocket.py`: *Test a HTTP -> WebSocket upgrade*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/test_layer.py`: *Properly handle case where we receive an additional event while we are waiting for         a reply from the proxy core.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/test_mode_servers.py`: *Test that TCP connections are closed after the configured timeout period.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/test_server.py`: *\         Starting...         Start completed.         Hook completed (must not happen before start is completed).*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/test_tunnel.py`: *Some tunnels don't need certain features, so the default behaviour     should be to be transparent.*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/test_tutils.py`: *Simple echo layer*
+  - 📄 `mitmproxy-main/test/mitmproxy/proxy/tutils.py`: *Compare two commands/events, and possibly update placeholders.*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_command.py`: *cmd1 help*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_command_lexer.py`: *"foo*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_flow.py`: *_backup may be shared across instances. That should not raise errors.*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_flowfilter.py`: *https://github.com/mitmproxy/mitmproxy/issues/1087*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_http.py`: *Tests for addons and the attributes that are directly proxied from the data structure*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_optmanager.py`: *unknown: foo*
+  - 📄 `mitmproxy-main/test/mitmproxy/test_proxy.py`: *argparse.ArgumentParser sys.exits() by default.     Make it more testable by throwing an exception instead.*
+  - 📄 `mitmproxy-main/test/mitmproxy/tools/console/test_keymap.py`: *-   key: key1                         ctx: [unknown]                         cmd: >                             foo bar                             foo bar*
+  - 📄 `mitmproxy-main/test/mitmproxy/tools/console/test_statusbar.py`: *Test that console_quickhelp option controls the display of quick help bar.*
+  - 📄 `mitmproxy-main/test/mitmproxy/tools/web/test_app.py`: *Test that JavaScript files are served with the correct MIME type.*
+  - 📄 `mitmproxy-main/test/mitmproxy/utils/test_strutils.py`: *foo 'b\\'a"r' baz*
+
+----------------------------------------
+
+## 📦 REPO: mpd-parser-main
+**Funkció / Leírás:** # mpd-parser mpd parser
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: neodlp-main
+**Funkció / Leírás:** ![NeoDLP](./.github/images/banner.svg) # NeoDLP - Neo Downloader Plus Cross-platform Video/Audio Downloader Desktop App based on YT-DLP with Modern UI and Browser Integration
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `neodlp-main/src-tauri/resources/plugins/yt-dlp-plugins/bgutil-ytdlp-pot-provider/yt_dlp_plugins/extractor/getpot_bgutil.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src-tauri/resources/plugins/yt-dlp-plugins/bgutil-ytdlp-pot-provider/yt_dlp_plugins/extractor/getpot_bgutil_cli.py`: *Get the actual executable path, checking PATH or file existence.*
+  - 📄 `neodlp-main/src-tauri/resources/plugins/yt-dlp-plugins/bgutil-ytdlp-pot-provider/yt_dlp_plugins/extractor/getpot_bgutil_http.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src/components/pages/downloader/bottomBar.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src/components/pages/downloader/playlistDownloader.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src/components/pages/downloader/videoDownloader.tsx`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src/helpers/use-downloader.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `neodlp-main/src/pages/downloader.tsx`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: neutralinojs-main
+**Funkció / Leírás:** # infoware [![License](https://img.shields.io/badge/license-CC0-green.svg?style=flat)](LICENSE) [![CI status](https://github.com/ThePhD/infoware/actions/workflows/ci.yml/badge.svg)](https://github.com/ThePhD/infoware/actions/workflows/ci.yml)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/impl/kqueue_reactor.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/kqueue_reactor.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/op_queue.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/reactor_op_queue.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/timer_queue.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/timer_queue_base.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/timer_queue_ptime.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/asio/include/asio/detail/timer_queue_set.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/efsw/src/efsw/FileWatcherKqueue.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/efsw/src/efsw/FileWatcherKqueue.hpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/efsw/src/efsw/WatcherKqueue.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `neutralinojs-main/lib/efsw/src/efsw/WatcherKqueue.hpp`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: neutralinojs.github.io-main
+**Funkció / Leírás:** # Neutralinojs website This repository contains the source code of the [Neutralinojs website](https://neutralino.js.org), including the Markdown-based documentation. This website is built using [Docusaurus](https://docusaurus.io), a modern static website generator. ## Developer guide ### Prerequisites To install and use the latest Node.js LTS version:
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `neutralinojs.github.io-main/docs/contributing/code-style-guide.md`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: octospy-master
+**Funkció / Leírás:** Octospy =======
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: persepolis-master
+**Funkció / Leírás:** #about)   > - [How to install PersepolisDM](https://github.com/persepolisdm/persepolis/wiki) > - [FAQ](https://github.com/persepolisdm/persepolis#faq)   > - [Screenshots](https://github.com/persepolisdm/persepolis#screenshots)   > - [Credits](https://github.com/persepolisdm/persepolis#credits)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `persepolis-master/persepolis/gui/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/about_ui.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/gui/addlink_ui.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/gui/after_download_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/customized_widgets.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/gui/log_window_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/mainwindow_ui.py`: *QPushButton{border: none; background-color: transparent; padding: 0px}*
+  - 📄 `persepolis-master/persepolis/gui/progress_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/resources.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/setting_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/text_queue_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/gui/video_finder_progress_ui.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/scripts/__init__.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/about.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/addlink.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/browser_plugin_queue.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/scripts/data_base.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/download_link.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/queue.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/scripts/queue_prime.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/scripts/text_queue.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/persepolis/scripts/video_finder.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/video_finder_addlink.py`: *This program is free software: you can redistribute it and/or modify     it under the terms of the GNU General Public License as published by     the Free Software Foundation, either version 3 of the ...*
+  - 📄 `persepolis-master/persepolis/scripts/ytdlp_downloader.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `persepolis-master/resources/PersepolisBI.py`: *INSERT INTO plugins_db_table VALUES(                                                                         NULL,                                                                         :link,       ...*
+
+----------------------------------------
+
+## 📦 REPO: php-m3u8-main
+**Funkció / Leírás:** # PHP 7.4 or PHP 8.* composer require 'chrisyue/php-m3u8:^3' # PHP 5.6 or PHP 7.{0,1,2,3} ```
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: playwright-python-framework-master
+**Funkció / Leírás:** # playwright-python-framework Create Playwright Framework uisng (Python, playwright, PyTest, Page Object Model, HTML Reports)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `playwright-python-framework-master/Pages/Login/login_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/Pages/Products/products_list_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/Pages/base_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/Report/report.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/Tests/conftest.py`: *Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.     :param item:*
+  - 📄 `playwright-python-framework-master/Tests/login/test_login.py`: *Verify login with valid credentials.*
+  - 📄 `playwright-python-framework-master/Tests/login/test_logout.py`: *Verify that a user can log out successfully.         :param login: pass login fixture for login into application*
+  - 📄 `playwright-python-framework-master/Tests/products/test_products_list.py`: *Verify that a product can be added to the cart.*
+  - 📄 `playwright-python-framework-master/Tests/test_base.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/Utilities/read_config.py`: *Reads the config.json file.         Tries to read from the current directory first, then from the absolute path.*
+  - 📄 `playwright-python-framework-master/config.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/pytest.ini`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-framework-master/requirements.txt`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: playwright-python-main
+**Funkció / Leírás:** # Client Certificate test-certificates Regenerate all certificates by running: ``` bash generate.sh ```
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `playwright-python-main/.pre-commit-config.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/CODE_OF_CONDUCT.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/CONTRIBUTING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/ROLLING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/SECURITY.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/SUPPORT.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/conda_build_config_linux_aarch64.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/conda_build_config_osx_arm64.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_clear_completed_button.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_counter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_editing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_item.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_mark_all_as_completed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_new_todo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_persistence.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/test_routing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/mvctests/utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/examples/todomvc/requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/local-requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/meta.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/__init__.py`: *Python package `playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reli...*
+  - 📄 `playwright-python-main/playwright/__main__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/__pyinstaller/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/__pyinstaller/hook-playwright.async_api.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/__pyinstaller/hook-playwright.sync_api.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_api_structures.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_artifact.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_assertions.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_async_base.py`: *Registers the function ``f`` to the event name ``event``.*
+  - 📄 `playwright-python-main/playwright/_impl/_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_browser_type.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_clock.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_connection.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_console_message.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_download.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_driver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_element_handle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_errors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_event_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_fetch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_file_chooser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_frame.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_glob.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_greenlets.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_har_router.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_helper.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_impl_to_api_mapping.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_input.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_js_handle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_json_pipe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_local_utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_locator.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_map.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_network.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_object_factory.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_path_utils.py`: *Returns the callee (`__file__`) directory name*
+  - 📄 `playwright-python-main/playwright/_impl/_playwright.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_selectors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_set_input_files_helpers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_str_utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_stream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_sync_base.py`: *Registers the function ``f`` to the event name ``event``.*
+  - 📄 `playwright-python-main/playwright/_impl/_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_transport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_waiter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_web_error.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/_impl/_writable_stream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/async_api/__init__.py`: *Python package `playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reli...*
+  - 📄 `playwright-python-main/playwright/async_api/_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/playwright/async_api/_generated.py`: *Request.url          URL of the request.          Returns         -------         str*
+  - 📄 `playwright-python-main/playwright/sync_api/__init__.py`: *Python package `playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reli...*
+  - 📄 `playwright-python-main/playwright/sync_api/_context_manager.py`: *It looks like you are using Playwright Sync API inside the asyncio loop. Please use the Async API instead.*
+  - 📄 `playwright-python-main/playwright/sync_api/_generated.py`: *Request.url          URL of the request.          Returns         -------         str*
+  - 📄 `playwright-python-main/pyproject.toml`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/scripts/documentation_provider.py`: *{class_name}.{to_snake_case(original_method_name)}')         if method.get("comment"):             print(f"{indent}{self.beautify_method_comment(method['comment'], indent)}")         signature_no_retu...*
+  - 📄 `playwright-python-main/scripts/example_async.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/scripts/example_sync.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/scripts/expected_api_mismatch.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/scripts/generate_api.py`: *# Copyright (c) Microsoft Corporation. # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of...*
+  - 📄 `playwright-python-main/scripts/generate_async_api.py`: *return {prefix}{arguments(value, len(prefix))}{suffix}*
+  - 📄 `playwright-python-main/scripts/generate_sync_api.py`: *return {prefix}{arguments(value, len(prefix))}{suffix}*
+  - 📄 `playwright-python-main/scripts/update_api.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/scripts/update_versions.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/setup.cfg`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/setup.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/beforeunload.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/client-certificates/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/client-certificates/generate.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/client.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/consolelog.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/csp.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/dom.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/download-blob.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/drag-n-drop.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/dummy_bad_browser_executable.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/error.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/es6/es6import.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/es6/es6module.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/es6/es6pathimport.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-simple/content-script.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-simple/index.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-simple/manifest.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-with-logging/background.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-with-logging/content.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/extension-mv3-with-logging/manifest.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/file-to-upload-2.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/file-to-upload.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/child-redirect.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/frame.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/frameset.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/nested-frames.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/one-frame.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/redirect-my-parent.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/script.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/frames/two-frames.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/geolocation.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/global-var.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/grid.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/har-sha1-main-response.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/har.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/headings.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/historyapi.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/injectedfile.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/injectedstyle.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/animating-button.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/button.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/checkbox.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/fileupload-multi.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/fileupload.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/folderupload.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/handle-locator.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/keyboard.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/mouse-helper.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/rotatedButton.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/scrollable.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/select.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/textarea.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/input/touches.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/mobile.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/networkidle.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/networkidle.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/offscreenbuttons.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/one-style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/one-style.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/playground.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/popup/popup.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/popup/window-open.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/react.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/react/react-dom@16.13.1.production.min.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/react/react@16.13.1.production.min.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/sectionselectorengine.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/self-request.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/empty/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/fetch/style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/fetch/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/fetch/sw.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/fetchdummy/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/serviceworkers/fetchdummy/sw.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/shadow.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/simple.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/title.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/worker/worker.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/worker/worker.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/assets/wrappedlink.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/conftest.py`: *Fixture that provides a function to show trace viewer for a trace file.*
+  - 📄 `playwright-python-main/tests/async/test_add_init_script.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_assertions.py`: *setTimeout(() => {             document.title = 'great title';         }, 2000);*
+  - 📄 `playwright-python-main/tests/async/test_asyncio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext.py`: *() => {             localStorage.setItem('name', 'page1')             document.cookie = 'name=page1'         }*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_add_cookies.py`: *timestamp => {     const date = new Date(timestamp);     document.cookie = `username=John Doe;expires=${date.toUTCString()}`;     return document.cookie;   }*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_clearcookies.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_client_certificates.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_cookies.py`: *() => {     document.cookie = 'username=John Doe';     return document.cookie;   }*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_events.py`: *() => {             const win = window.open('');             win.console.log('hello');         }*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_proxy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_route.py`: *<script>             (async () => {                 await fetch('%s', {                     method: 'POST',                     body: 'original',                 });             })()             </scr...*
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_service_worker_policy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_browsercontext_storage_state.py`: *async () => {         return new Promise((resolve, reject) => {             const openRequest = indexedDB.open('db', 42);             openRequest.addEventListener('success', () => {                 co...*
+  - 📄 `playwright-python-main/tests/async/test_browsertype_connect.py`: *e => {             const events = [];             e.addEventListener('input', () => events.push('input'));             e.addEventListener('change', () => events.push('change'));             return eve...*
+  - 📄 `playwright-python-main/tests/async/test_browsertype_connect_cdp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_check.py`: *<input type='radio'>one</input>       <input id='two' type='radio'>two</input>       <input type='radio'>three</input>*
+  - 📄 `playwright-python-main/tests/async/test_chromium_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_click.py`: *<svg height="100" width="100">             <circle onclick="javascript:window.__CLICKED=42" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />         </svg>*
+  - 📄 `playwright-python-main/tests/async/test_console.py`: *() => {       // A pair of time/timeEnd generates only one Console API call.       console.time('calling console.time');       console.timeEnd('calling console.time');       console.trace('calling con...*
+  - 📄 `playwright-python-main/tests/async/test_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_defaultbrowsercontext.py`: *() => {     document.cookie = 'username=John Doe';     return document.cookie;   }*
+  - 📄 `playwright-python-main/tests/async/test_device_descriptors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_dispatch_event.py`: *<svg height="100" width="100">         <circle onclick="javascript:window.__CLICKED=42" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />       </svg>*
+  - 📄 `playwright-python-main/tests/async/test_download.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_element_handle.py`: *<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">              <rect id="theRect" x="30" y="50" width="200" height="300"></rect>            </svg>*
+  - 📄 `playwright-python-main/tests/async/test_element_handle_wait_for_element_state.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_emulation_focus.py`: *() => {       document.onclick = () => window.click_count = (window.click_count || 0) + 1;     }*
+  - 📄 `playwright-python-main/tests/async/test_expect_misc.py`: *<div id=big style="height: 10000px;"></div>       <div id=small>foo</div>*
+  - 📄 `playwright-python-main/tests/async/test_extension.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_fetch_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_fetch_global.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_fill.py`: *<button>button</button>*
+  - 📄 `playwright-python-main/tests/async/test_focus.py`: *<input id="input-1">       <button id="button">button</button>       <a href id="link">link</a>       <input id="input-2">*
+  - 📄 `playwright-python-main/tests/async/test_frames.py`: *() => {             frame = document.getElementById('frame1')             frame.src = './empty.html'             return new Promise(x => frame.onload = x)         }*
+  - 📄 `playwright-python-main/tests/async/test_geolocation.py`: *() => new Promise(resolve => navigator.geolocation.getCurrentPosition(position => {       resolve({latitude: position.coords.latitude, longitude: position.coords.longitude});     }))*
+  - 📄 `playwright-python-main/tests/async/test_har.py`: *async (body) => {             const response = await fetch('/echo', { method: 'POST', body });             return await response.text();         };*
+  - 📄 `playwright-python-main/tests/async/test_headful.py`: *src => {     let fulfill;     const promise = new Promise(x => fulfill = x);     const iframe = document.createElement('iframe');     document.body.appendChild(iframe);     iframe.onload = fulfill;   ...*
+  - 📄 `playwright-python-main/tests/async/test_ignore_https_errors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_input.py`: *e => {         reader = new FileReader()         promise = new Promise(fulfill => reader.onload = fulfill)         reader.readAsText(e.files[0])         return promise.then(() => reader.result)     }*
+  - 📄 `playwright-python-main/tests/async/test_issues.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_jshandle.py`: *arg => {             if (arg.foo !== 42)             throw new Error('Not a 42');             arg.foo = 17;             if (arg.foo !== 17)             throw new Error('Not 17');             delete ar...*
+  - 📄 `playwright-python-main/tests/async/test_keyboard.py`: *() => {         const lastEvent = {         repeat: false,         location: -1,         code: '',         key: '',         metaKey: false,         keyIdentifier: 'unsupported'         };         docu...*
+  - 📄 `playwright-python-main/tests/async/test_launcher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_listeners.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_locators.py`: *() => {         window['double'] = false;         const button = document.querySelector('button');         button.addEventListener('dblclick', event => {         window['double'] = true;         });  ...*
+  - 📄 `playwright-python-main/tests/async/test_navigation.py`: *() => {         window.addEventListener('beforeunload', () => history.replaceState(null, 'initial', window.location.href), false)     }*
+  - 📄 `playwright-python-main/tests/async/test_network.py`: *async url => {                 const data = await fetch(url);                 return data.text();             }*
+  - 📄 `playwright-python-main/tests/async/test_page.py`: *() => {                 fetch('/digits/1.png')                 fetch('/digits/2.png')                 fetch('/digits/3.png')             }*
+  - 📄 `playwright-python-main/tests/async/test_page_add_locator_handler.py`: *() => {         const iframe = document.createElement('iframe');         iframe.src = 'data:text/html,<body>hello from iframe</body>';         document.body.append(iframe);          const target = doc...*
+  - 📄 `playwright-python-main/tests/async/test_page_aria_snapshot.py`: *- heading "title" [level=1]*
+  - 📄 `playwright-python-main/tests/async/test_page_base_url.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_page_clock.py`: *const to = setTimeout(window.stub, 1000);             clearTimeout(to);*
+  - 📄 `playwright-python-main/tests/async/test_page_evaluate.py`: *() => {                 const a = { };                 a[Symbol('foo4')] = 42;                 return a;             }*
+  - 📄 `playwright-python-main/tests/async/test_page_event_console.py`: *() => {             for (let i = 0; i < 301; i++)                 console.log('message' + i);         }*
+  - 📄 `playwright-python-main/tests/async/test_page_event_pageerror.py`: *async () => {             for (let i = 0; i < 301; i++)                 window.setTimeout(() => { throw new Error('error' + i); }, 0);             await new Promise(f => window.setTimeout(f, 100));   ...*
+  - 📄 `playwright-python-main/tests/async/test_page_event_request.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_page_network_request.py`: *() => fetch('./post', {             method: 'POST',             headers: {             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',             },             body: 'foo=bar&baz...*
+  - 📄 `playwright-python-main/tests/async/test_page_network_response.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_page_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `playwright-python-main/tests/async/test_page_request_gc.py`: *() => {         globalThis.objectToDestroy = { hello: 'world' };         globalThis.weakRef = new WeakRef(globalThis.objectToDestroy);     }*
+  - 📄 `playwright-python-main/tests/async/test_page_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_page_route.py`: *<form action='/rredirect' method='post'>         <input type="hidden" id="foo" name="foo" value="FOOBAR">       </form>*
+  - 📄 `playwright-python-main/tests/async/test_page_select_option.py`: *<select>             <option value="indigo">Indigo</option>             <option value="violet"></option>         </select>*
+  - 📄 `playwright-python-main/tests/async/test_pdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_popup.py`: *url => {             win = window.open(url)             return win.navigator.userAgent         }*
+  - 📄 `playwright-python-main/tests/async/test_proxy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_queryselector.py`: *{             create(root, target) {                 return target.nodeName;             },             query(root, selector) {                 return root.querySelector(selector);             },     ...*
+  - 📄 `playwright-python-main/tests/async/test_request_continue.py`: *() => fetch('/sleep.zzz', { method: 'POST', body: 'birdy' })*
+  - 📄 `playwright-python-main/tests/async/test_request_fulfill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_resource_timing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_route_web_socket.py`: *({ port, binaryType }) => {     window.log = [];     window.ws = new WebSocket('ws://localhost:' + port + '/ws');     window.ws.binaryType = binaryType;     window.ws.addEventListener('open', () => wi...*
+  - 📄 `playwright-python-main/tests/async/test_screenshot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_selector_generator.py`: *<div>             <div></div>             <div>               <div></div>               <div></div>             </div>           </div>           <div>             <div class='foo bar:0' data-custom-i...*
+  - 📄 `playwright-python-main/tests/async/test_selectors_get_by.py`: *<label id=label for=control>Hello my wo"rld</label><input id=control />*
+  - 📄 `playwright-python-main/tests/async/test_selectors_misc.py`: *<div class=foo>hello</div><div class=bar>world</div>         <span class=foo>hello2</span><span class=bar>world2</span>*
+  - 📄 `playwright-python-main/tests/async/test_selectors_text.py`: *<div id=div1>hello<span>world</span></div>         <div id=div2>hello</div>*
+  - 📄 `playwright-python-main/tests/async/test_tap.py`: *<div id="a" style="background: lightblue; width: 50px; height: 50px">a</div>             <div id="b" style="background: pink; width: 50px; height: 50px">b</div>*
+  - 📄 `playwright-python-main/tests/async/test_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_unroute_behavior.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/async/test_wait_for_function.py`: *() => {             if (!window['__RELOADED'])                 window.location.reload();             return true;         }*
+  - 📄 `playwright-python-main/tests/async/test_wait_for_url.py`: *<a onclick='javascript:pushState()'>SPA</a>         <script>             function pushState() { history.pushState({}, '', 'wow.html') }         </script>*
+  - 📄 `playwright-python-main/tests/async/test_websocket.py`: *port => {         let cb;         const result = new Promise(f => cb = f);         const ws = new WebSocket('ws://localhost:' + port + '/ws');         ws.addEventListener('message', data => { ws.close...*
+  - 📄 `playwright-python-main/tests/async/test_worker.py`: *() => new Worker(URL.createObjectURL(new Blob([`       setTimeout(() => {         // Do a console.log just to check that we do not confuse it with an error.         console.log('hey');         throw n...*
+  - 📄 `playwright-python-main/tests/async/utils.py`: *async ({ frame_id, url }) => {                 const frame = document.createElement('iframe');                 frame.src = url;                 frame.id = frame_id;                 document.body.appen...*
+  - 📄 `playwright-python-main/tests/common/test_events.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/common/test_signals.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/common/test_threads.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/conftest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/server.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/conftest.py`: *Fixture that provides a function to show trace viewer for a trace file.*
+  - 📄 `playwright-python-main/tests/sync/test_add_init_script.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_assertions.py`: *setTimeout(() => {             document.title = 'great title';         }, 2000);*
+  - 📄 `playwright-python-main/tests/sync/test_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_client_certificates.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_events.py`: *() => {                 const win = window.open('');                 win.console.log('hello');                 }*
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_service_worker_policy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_browsercontext_storage_state.py`: *async () => {         return new Promise((resolve, reject) => {             const openRequest = indexedDB.open('db', 42);             openRequest.addEventListener('success', () => {                 co...*
+  - 📄 `playwright-python-main/tests/sync/test_browsertype_connect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_browsertype_connect_cdp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_check.py`: *<input type='radio'>one</input>       <input id='two' type='radio'>two</input>       <input type='radio'>three</input>*
+  - 📄 `playwright-python-main/tests/sync/test_console.py`: *() => {       // A pair of time/timeEnd generates only one Console API call.       console.time('calling console.time');       console.timeEnd('calling console.time');       console.trace('calling con...*
+  - 📄 `playwright-python-main/tests/sync/test_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_element_handle.py`: *<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">              <rect id="theRect" x="30" y="50" width="200" height="300"></rect>            </svg>*
+  - 📄 `playwright-python-main/tests/sync/test_element_handle_wait_for_element_state.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_expect_misc.py`: *<div id=big style="height: 10000px;"></div>       <div id=small>foo</div>*
+  - 📄 `playwright-python-main/tests/sync/test_extension.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_fetch_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_fetch_global.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_fill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_har.py`: *async (body) => {             const response = await fetch('/echo', { method: 'POST', body });             return response.text();         };*
+  - 📄 `playwright-python-main/tests/sync/test_input.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_launcher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_listeners.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_locator_get_by.py`: *<div>     <input placeholder="Hello">     <input placeholder="Hello World">   </div>*
+  - 📄 `playwright-python-main/tests/sync/test_locators.py`: *() => {         window['double'] = false;         const button = document.querySelector('button');         button.addEventListener('dblclick', event => {         window['double'] = true;         });  ...*
+  - 📄 `playwright-python-main/tests/sync/test_network.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page_add_locator_handler.py`: *() => {         const iframe = document.createElement('iframe');         iframe.src = 'data:text/html,<body>hello from iframe</body>';         document.body.append(iframe);          const target = doc...*
+  - 📄 `playwright-python-main/tests/sync/test_page_aria_snapshot.py`: *- heading "title" [level=1]*
+  - 📄 `playwright-python-main/tests/sync/test_page_clock.py`: *const to = setTimeout(window.stub, 1000);             clearTimeout(to);*
+  - 📄 `playwright-python-main/tests/sync/test_page_event_console.py`: *() => {             for (let i = 0; i < 301; i++)                 console.log('message' + i);         }*
+  - 📄 `playwright-python-main/tests/sync/test_page_event_pageerror.py`: *async () => {             for (let i = 0; i < 301; i++)                 window.setTimeout(() => { throw new Error('error' + i); }, 0);             await new Promise(f => window.setTimeout(f, 100));   ...*
+  - 📄 `playwright-python-main/tests/sync/test_page_event_request.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page_network_response.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `playwright-python-main/tests/sync/test_page_request_gc.py`: *() => {         globalThis.objectToDestroy = { hello: 'world' };         globalThis.weakRef = new WeakRef(globalThis.objectToDestroy);     }*
+  - 📄 `playwright-python-main/tests/sync/test_page_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page_request_timeout.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_page_select_option.py`: *<select>             <option value="indigo">Indigo</option>             <option value="violet"></option>         </select>*
+  - 📄 `playwright-python-main/tests/sync/test_pdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_queryselector.py`: *{             create(root, target) {                 return target.nodeName;             },             query(root, selector) {                 return root.querySelector(selector);             },     ...*
+  - 📄 `playwright-python-main/tests/sync/test_request_fulfill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_resource_timing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_route_web_socket.py`: *({ port, binaryType }) => {     window.log = [];     window.ws = new WebSocket('ws://localhost:' + port + '/ws');     window.ws.binaryType = binaryType;     window.ws.addEventListener('open', () => wi...*
+  - 📄 `playwright-python-main/tests/sync/test_selectors_misc.py`: *<div class=foo>hello</div><div class=bar>world</div>         <span class=foo>hello2</span><span class=bar>world2</span>*
+  - 📄 `playwright-python-main/tests/sync/test_sync.py`: *<h1 id="foo">Bar</h1>*
+  - 📄 `playwright-python-main/tests/sync/test_tap.py`: *<div id="a" style="background: lightblue; width: 50px; height: 50px">a</div>             <div id="b" style="background: pink; width: 50px; height: 50px">b</div>*
+  - 📄 `playwright-python-main/tests/sync/test_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_unroute_behavior.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/test_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/sync/utils.py`: *async ({ frame_id, url }) => {                 const frame = document.createElement('iframe');                 frame.src = url;                 frame.id = frame_id;                 document.body.appen...*
+  - 📄 `playwright-python-main/tests/test_installation.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/tests/test_reference_count_async.py`: *async () => alert()*
+  - 📄 `playwright-python-main/tests/utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/utils/docker/build.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/utils/docker/publish_docker.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright-python-main/utils/linting/check_file_header.py`: *# Copyright (c) Microsoft Corporation. # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of...*
+
+----------------------------------------
+
+## 📦 REPO: playwright_stealth-main
+**Funkció / Leírás:** # playwright_stealth Transplanted from [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth), **Not perfect**. ## Install ``` $ pip install playwright-stealth ```
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `playwright_stealth-main/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/chrome.app.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/chrome.csi.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/chrome.hairline.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/chrome.load.times.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/chrome.runtime.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/generate.magic.arrays.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/iframe.contentWindow.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/media.codecs.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.hardwareConcurrency.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.languages.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.permissions.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.platform.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.plugins.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.userAgent.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.vendor.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/navigator.webdriver.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/utils.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/webgl.vendor.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/js/window.outerdimensions.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/playwright_stealth/stealth.py`: *Read script from ./js directory*
+  - 📄 `playwright_stealth-main/requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/setup.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/tests/demo_persistent_test.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/tests/demo_with_stealth_test.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `playwright_stealth-main/tests/demo_without_stealth_test.py`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: prettier-main
+**Funkció / Leírás:** # Prettier Website https://prettier.io/ ## Getting started 1. Build the Prettier browser libs for the Playground by running the following in the project root directory: ```sh cd your/path/to/prettier
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: puppeteer-extra-master
+**Funkció / Leírás:** # puppeteer-extra [![Downloads](https://img.shields.io/endpoint?style=social&url=https://runkit.io/fezvrasta/combined-npm-downloads/1.0.0?packages=puppeteer-extra,puppeteer-extra-plugin,puppeteer-extra-plugin-stealth,puppeteer-extra-plugin-recaptcha,puppeteer-extra-plugin-adblocker)](https://github.com/berstend/puppeteer-extra/)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `puppeteer-extra-master/packages/extract-stealth-evasions/index.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/extract-stealth-evasions/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/extract-stealth-evasions/readme.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/.prettierrc.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/package.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/readme.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/rollup.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/extra.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/helper/loader.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/plugins.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/puppeteer-compatiblity-shim/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/puppeteer-compatiblity-shim/playwright-shim.d.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/src/types/index.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/exports.spec.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/fixtures/dummyplugin.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/fixtures/extra.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/playwright.config.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/plugin-events.spec.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/puppeteer-plugins/anonymize-ua.spec.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/puppeteer-plugins/recaptcha.spec.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/test/puppeteer-plugins/stealth.spec.ts`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/playwright-extra/tsconfig.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `puppeteer-extra-master/packages/puppeteer-extra-plugin-recaptcha/src/playwright-mods.d.ts`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: pylint-main
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `pylint-main/doc/data/messages/a/arguments-differ/good/add_option_in_base_class.py`: *Here we assume that drink and cocktail are the same thing and should actually inherit from each over. We also assume that 'Drink' are 'Cocktail' without alcohol (we added the alcohol option in the bas...*
+  - 📄 `pylint-main/doc/data/messages/a/arguments-differ/good/default_value.py`: *Here we assume that drink and cocktail are the same thing and should actually inherit from each over. We also assume that any Cocktail can be treated like a Drink (if you add beer to it).  This permit...*
+  - 📄 `pylint-main/doc/data/messages/a/arguments-differ/good/no_inheritance.py`: *Here we assume that 'Drink' and 'Cocktail' are different things and should not be treated together like if they were the same thing.  This will force some downstream changes and force the API user to ...*
+  - 📄 `pylint-main/doc/data/messages/a/arguments-out-of-order/bad.py`: *Three arguments function*
+  - 📄 `pylint-main/doc/data/messages/a/arguments-out-of-order/good.py`: *Three arguments function*
+  - 📄 `pylint-main/doc/data/messages/b/bad-docstring-quotes/good.py`: *Docstring.*
+  - 📄 `pylint-main/doc/data/messages/c/consider-using-any-or-all/bad/all_even.py`: *Return True if the list contains all even numbers*
+  - 📄 `pylint-main/doc/data/messages/c/consider-using-any-or-all/bad/any_even.py`: *Return True if the list contains any even numbers*
+  - 📄 `pylint-main/doc/data/messages/c/consider-using-any-or-all/good/all_even.py`: *Return True if the list contains all even numbers*
+  - 📄 `pylint-main/doc/data/messages/c/consider-using-any-or-all/good/any_even.py`: *Return True if the list contains any even numbers*
+  - 📄 `pylint-main/doc/data/messages/d/differing-param-doc/bad.py`: *Add two numbers.      :param int x: x value.     :param int z: z value.*
+  - 📄 `pylint-main/doc/data/messages/d/differing-param-doc/good.py`: *Add two numbers.      :param int x: x value.     :param int y: y value.*
+  - 📄 `pylint-main/doc/data/messages/d/differing-type-doc/bad.py`: *Add two numbers.      :param int xy: x value.     :param str y: y value.*
+  - 📄 `pylint-main/doc/data/messages/d/differing-type-doc/good.py`: *Add two numbers.      :param int x: x value.     :param int y: y value.*
+  - 📄 `pylint-main/doc/data/messages/d/docstring-first-line-empty/bad.py`: *Lorem Ipsum is simply dummy text of the printing and typesetting     industry.      Lorem Ipsum has been the industry's standard dummy text ever since the     1500s, when an unknown printer took a gal...*
+  - 📄 `pylint-main/doc/data/messages/d/docstring-first-line-empty/good.py`: *Lorem Ipsum is simply dummy text of the printing and typesetting     industry.      Lorem Ipsum has been the industry's standard dummy text ever since the     1500s, when an unknown printer took a gal...*
+  - 📄 `pylint-main/doc/data/messages/d/duplicate-string-formatting-argument/bad.py`: *A sailor went to {}, {}, {} To {} what he could {}, {}, {} But all that he could {}, {}, {} Was the bottom of the deep blue {}, {}, {}!*
+  - 📄 `pylint-main/doc/data/messages/d/duplicate-string-formatting-argument/good.py`: *A sailor went to {sea}, {sea}, {sea} To {see} what he could {see}, {see}, {see} But all that he could {see}, {see}, {see} Was the bottom of the deep blue {sea}, {sea}, {sea}!*
+  - 📄 `pylint-main/doc/data/messages/e/empty-docstring/good.py`: *A dummy description.*
+  - 📄 `pylint-main/doc/data/messages/e/exec-used/bad.py`: *input('Enter code to be executed please, {username}: ')*
+  - 📄 `pylint-main/doc/data/messages/i/import-private-name/good.py`: *Private import can be used as type annotations.*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-bool-returned/bad.py`: *__bool__ returns an int*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-bool-returned/good.py`: *__bool__ returns `bool`*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-bytes-returned/bad.py`: *__bytes__ returns <type 'str'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-bytes-returned/good.py`: *__bytes__ returns <type 'bytes'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-format-returned/bad.py`: *__format__ returns <type 'int'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-format-returned/good.py`: *__format__ returns <type 'str'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-getnewargs-ex-returned/bad.py`: *__getnewargs_ex__ returns tuple with incorrect arg length*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-getnewargs-ex-returned/good.py`: *__getnewargs_ex__ returns <type 'tuple'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-getnewargs-returned/bad.py`: *__getnewargs__ returns an integer*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-getnewargs-returned/good.py`: *__getnewargs__ returns <type 'tuple'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-hash-returned/bad.py`: *__hash__ returns dict*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-hash-returned/good.py`: *__hash__ returns `int`*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-index-returned/bad.py`: *__index__ returns a dict*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-index-returned/good.py`: *__index__ returns <type 'int'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-length-hint-returned/bad.py`: *__length_hint__ returns non-int*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-length-hint-returned/good.py`: *__length_hint__ returns <type 'int'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-repr-returned/bad.py`: *__repr__ returns <type 'int'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-repr-returned/good.py`: *__repr__ returns <type 'str'>*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-str-returned/bad.py`: *__str__ returns int*
+  - 📄 `pylint-main/doc/data/messages/i/invalid-str-returned/good.py`: *__str__ returns <type 'str'>*
+  - 📄 `pylint-main/doc/data/messages/m/missing-any-param-doc/bad.py`: *Print puppy's details.*
+  - 📄 `pylint-main/doc/data/messages/m/missing-any-param-doc/good.py`: *Print puppy's details.      :param head: description of the head of the dog     :param tail: description of the tail of the dog*
+  - 📄 `pylint-main/doc/data/messages/m/missing-class-docstring/good.py`: *Class representing a person*
+  - 📄 `pylint-main/doc/data/messages/m/missing-format-string-key/bad.py`: *Apple: %(apple_price)d ¤ Orange: %(orange_price)d ¤*
+  - 📄 `pylint-main/doc/data/messages/m/missing-format-string-key/good.py`: *Apple: %(apple_price)d ¤ Orange: %(orange_price)d ¤*
+  - 📄 `pylint-main/doc/data/messages/m/missing-function-docstring/good.py`: *Function printing python version.*
+  - 📄 `pylint-main/doc/data/messages/m/missing-module-docstring/good.py`: *Module providing a function printing python version.*
+  - 📄 `pylint-main/doc/data/messages/m/missing-param-doc/bad.py`: *Returns sum of two integers     :param a: first integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-param-doc/good.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-raises-doc/bad.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-raises-doc/good.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer     :raises ValueError: One of the parameters is not an integer.*
+  - 📄 `pylint-main/doc/data/messages/m/missing-return-doc/bad.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-return-doc/good.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer     :return: sum of parameters a and b*
+  - 📄 `pylint-main/doc/data/messages/m/missing-return-type-doc/bad.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer     :return: sum of parameters a and b*
+  - 📄 `pylint-main/doc/data/messages/m/missing-return-type-doc/good.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer     :return: sum of parameters a and b*
+  - 📄 `pylint-main/doc/data/messages/m/missing-type-doc/bad.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-type-doc/good.py`: *Returns sum of two integers     :param a: first integer     :param b: second integer*
+  - 📄 `pylint-main/doc/data/messages/m/missing-yield-doc/bad.py`: *Prints even numbers smaller than n.     Args:         n: Upper limit of even numbers.*
+  - 📄 `pylint-main/doc/data/messages/m/missing-yield-doc/good.py`: *Prints even numbers smaller than n.     Args:         n: Upper limit of even numbers.      Yields:         even numbers*
+  - 📄 `pylint-main/doc/data/messages/m/missing-yield-type-doc/bad.py`: *Prints even numbers smaller than n.     Args:         n: Upper limit of even numbers.      Yields:         even numbers*
+  - 📄 `pylint-main/doc/data/messages/m/missing-yield-type-doc/good.py`: *Prints even numbers smaller than n.     Args:         n: Upper limit of even numbers.      Yields:         even numbers*
+  - 📄 `pylint-main/doc/data/messages/m/multiple-constructor-doc/bad.py`: *Represents a point in the xy-coordinate plane.      :param x: coordinate     :param y: coordinate*
+  - 📄 `pylint-main/doc/data/messages/m/multiple-constructor-doc/good.py`: *Represents a point in the xy-coordinate plane.          :param x: x coordinate         :param y: y coordinate*
+  - 📄 `pylint-main/doc/data/messages/n/no-classmethod-decorator/bad.py`: *classmethod to pick fruit colors*
+  - 📄 `pylint-main/doc/data/messages/n/no-classmethod-decorator/good.py`: *classmethod to pick fruit colors*
+  - 📄 `pylint-main/doc/data/messages/p/pointless-string-statement/bad.py`: *This is a docstring which describes the module*
+  - 📄 `pylint-main/doc/data/messages/p/pointless-string-statement/good.py`: *This is a docstring which describes the module*
+  - 📄 `pylint-main/doc/data/messages/p/positional-only-arguments-expected/bad.py`: *Takes in a number n, returns the cube of n*
+  - 📄 `pylint-main/doc/data/messages/p/positional-only-arguments-expected/good.py`: *Takes in a number n, returns the cube of n*
+  - 📄 `pylint-main/doc/data/messages/p/property-with-parameters/good.py`: *Property accessed with '.bore'.*
+  - 📄 `pylint-main/doc/data/messages/r/redundant-returns-doc/bad.py`: *Print list of fruits      Returns     -------         str*
+  - 📄 `pylint-main/doc/data/messages/r/redundant-returns-doc/good.py`: *Print list of fruits      Returns     -------         str*
+  - 📄 `pylint-main/doc/data/messages/r/redundant-yields-doc/bad.py`: *Something about fruits      Yields     -------         list             fruits*
+  - 📄 `pylint-main/doc/data/messages/r/redundant-yields-doc/good.py`: *Something about fruits      Yields     -------         str             fruit*
+  - 📄 `pylint-main/doc/data/messages/s/stop-iteration-return/good/fruit_generator.py`: *The example is simple enough you don't need an explicit return.*
+  - 📄 `pylint-main/doc/data/messages/s/stop-iteration-return/good/two_fruit_generator.py`: *Catching the StopIteration.*
+  - 📄 `pylint-main/doc/data/messages/s/stop-iteration-return/good/two_good_fruit_generator.py`: *A return can be used to end the iterator early, but not a StopIteration.*
+  - 📄 `pylint-main/doc/data/messages/s/subclassed-final-class/bad.py`: *General Platypus data.*
+  - 📄 `pylint-main/doc/data/messages/s/subclassed-final-class/good.py`: *General Platypus data.*
+  - 📄 `pylint-main/doc/data/messages/s/suppressed-message/good.py`: *Instead of a single string somewhere in the file, write a module docstring!*
+  - 📄 `pylint-main/doc/data/messages/t/too-many-positional-arguments/bad.py`: *Each argument is positional-or-keyword unless a `/` or `*` is present.*
+  - 📄 `pylint-main/doc/data/messages/t/too-many-positional-arguments/good.py`: *This function is 'Keyword only' for all args due to the '*'.*
+  - 📄 `pylint-main/doc/data/messages/u/unnecessary-ellipsis/bad.py`: *My docstring*
+  - 📄 `pylint-main/doc/data/messages/u/unnecessary-ellipsis/good.py`: *My docstring*
+  - 📄 `pylint-main/doc/data/messages/u/unnecessary-pass/bad.py`: *This exception is raised when a user has provided incorrect data.*
+  - 📄 `pylint-main/doc/data/messages/u/unnecessary-pass/good.py`: *This exception is raised when a user has provided incorrect data.*
+  - 📄 `pylint-main/doc/data/messages/u/use-set-for-membership/bad.py`: *This list is only a silly example, don't make decision regarding your cat diet based on it.*
+  - 📄 `pylint-main/doc/data/messages/u/use-set-for-membership/good.py`: *This list is only a silly example, don't make decision regarding your cat diet based on it.*
+  - 📄 `pylint-main/doc/data/messages/u/useless-option-value/bad.py`: *'bad-continuation' was removed from pylint in https://github.com/pylint-dev/pylint/pull/3571*
+  - 📄 `pylint-main/doc/data/messages/u/useless-option-value/good.py`: *'bad-continuation' was removed from pylint in https://github.com/pylint-dev/pylint/pull/3571*
+  - 📄 `pylint-main/doc/data/messages/u/useless-param-doc/bad.py`: *say hello!      :param _new:     :return: comment*
+  - 📄 `pylint-main/doc/data/messages/u/useless-param-doc/good.py`: *say hello!      :return: comment*
+  - 📄 `pylint-main/doc/data/messages/u/useless-parent-delegation/good.py`: *There is no need to override 'eat' it has the same signature as the implementation in Animal.*
+  - 📄 `pylint-main/doc/data/messages/u/useless-type-doc/bad.py`: *docstring ...      Args:         fruit (str): A fruit.         _ (float): Another argument.*
+  - 📄 `pylint-main/doc/data/messages/u/useless-type-doc/good.py`: *docstring ...      Args:         fruit (str): A fruit.*
+  - 📄 `pylint-main/doc/data/messages/w/wrong-spelling-in-docstring/bad.py`: *There's a mistkae in this string*
+  - 📄 `pylint-main/doc/data/messages/w/wrong-spelling-in-docstring/good.py`: *There's no mistake in this string*
+  - 📄 `pylint-main/doc/development_guide/api/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/api/pylint.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/contribute.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/governance.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/major_release.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/minor_release.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/oss_fuzz.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/patch_release.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/profiling.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/release.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/tests/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/tests/install.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/tests/launching_test.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/contributor_guide/tests/writing_test.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/how_tos/custom_checkers.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/how_tos/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/how_tos/plugins.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/how_tos/transform_plugins.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/technical_reference/checkers.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/technical_reference/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/development_guide/technical_reference/startup.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/exts/pylint_extensions.py`: *Script used to generate the extensions file before building the actual documentation.*
+  - 📄 `pylint-main/doc/exts/pylint_features.py`: *Script used to generate the features file before building the actual documentation.*
+  - 📄 `pylint-main/doc/exts/pylint_messages.py`: *Script used to generate the messages files.*
+  - 📄 `pylint-main/doc/exts/pylint_options.py`: *Script used to generate the options page.*
+  - 📄 `pylint-main/doc/exts/pyreverse_configuration.py`: *Script used to generate the pyreverse configuration page.*
+  - 📄 `pylint-main/doc/test_messages_documentation.py`: *Functional tests for the code examples in the messages' documentation.*
+  - 📄 `pylint-main/doc/user_guide/checkers/extensions.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/checkers/features.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/checkers/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/configuration/all-options.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/configuration/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/badge.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/command_line_installation.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/ide_integration/flymake-emacs.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/ide_integration/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/ide_integration/textmate.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/pre-commit-integration.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/upgrading_pylint.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/installation/with-multiple-interpreters.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/messages/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/messages/message_control.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/messages/messages_overview.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/usage/index.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/usage/output.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/doc/user_guide/usage/run.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `pylint-main/examples/custom.py`: *Add class member attributes to the class local's dictionary.*
+  - 📄 `pylint-main/examples/custom_raw.py`: *Check for line continuations with '\' instead of using triple     quoted string or parenthesis.*
+  - 📄 `pylint-main/examples/deprecation_checker.py`: *Example checker detecting deprecated functions/methods. Following example searches for usages of deprecated function `deprecated_function` and deprecated method `MyClass.deprecated_method` from module...*
+  - 📄 `pylint-main/pylint/__init__.py`: *Run pylint.      argv can be a sequence of strings normally supplied as arguments on the command line*
+  - 📄 `pylint-main/pylint/__pkginfo__.py`: *This module exists for compatibility reasons.  It's updated via tbump, do not modify.*
+  - 📄 `pylint-main/pylint/checkers/__init__.py`: *Utilities methods and classes for checkers.  Base id of standard checkers (used in msg and report ids): 01: base 02: classes 03: format 04: import 05: misc 06: variables 07: exceptions 08: similar 09:...*
+  - 📄 `pylint-main/pylint/checkers/async_checker.py`: *Checker for anything related to the async protocol (PEP 492).*
+  - 📄 `pylint-main/pylint/checkers/bad_chained_comparison.py`: *Checks for unintentional usage of chained comparison.*
+  - 📄 `pylint-main/pylint/checkers/base/basic_checker.py`: *Basic checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/base/basic_error_checker.py`: *Basic Error checker from the basic checker.*
+  - 📄 `pylint-main/pylint/checkers/base/comparison_checker.py`: *Comparison checker from the basic checker.*
+  - 📄 `pylint-main/pylint/checkers/base/docstring_checker.py`: *Docstring checker from the basic checker.*
+  - 📄 `pylint-main/pylint/checkers/base/function_checker.py`: *Function checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/base/name_checker/checker.py`: *Basic checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/base/name_checker/naming_style.py`: *Class to register all accepted forms of a single naming style.      It may seem counter-intuitive that single naming style has multiple "accepted"     forms of regular expressions, but we need to spec...*
+  - 📄 `pylint-main/pylint/checkers/base/pass_checker.py`: *Check if the pass statement is really necessary.*
+  - 📄 `pylint-main/pylint/checkers/base_checker.py`: *Checker instances should have the linter as argument.*
+  - 📄 `pylint-main/pylint/checkers/classes/class_checker.py`: *Classes checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/classes/special_methods_checker.py`: *Special methods checker and helper function's module.*
+  - 📄 `pylint-main/pylint/checkers/clear_lru_cache.py`: *Clear caches holding references to AST nodes.*
+  - 📄 `pylint-main/pylint/checkers/dataclass_checker.py`: *Dataclass checkers for Python code.*
+  - 📄 `pylint-main/pylint/checkers/deprecated.py`: *Checker mixin for deprecated functionality.*
+  - 📄 `pylint-main/pylint/checkers/design_analysis.py`: *Check for signs of poor design.*
+  - 📄 `pylint-main/pylint/checkers/dunder_methods.py`: *Check for unnecessary dunder method calls.      Docs: https://docs.python.org/3/reference/datamodel.html#basic-customization     We exclude names in list pylint.constants.EXTRA_DUNDER_METHODS such as ...*
+  - 📄 `pylint-main/pylint/checkers/ellipsis_checker.py`: *Ellipsis checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/exceptions.py`: *Checks for various exception related errors.*
+  - 📄 `pylint-main/pylint/checkers/format.py`: *Python code format's checker.  By default, try to follow Guido's style guide :  https://www.python.org/doc/essays/styleguide/  Some parts of the process_token method is based from The Tab Nanny std mo...*
+  - 📄 `pylint-main/pylint/checkers/imports.py`: *Imports checkers for Python code.*
+  - 📄 `pylint-main/pylint/checkers/lambda_expressions.py`: *Check for unnecessary usage of lambda expressions.*
+  - 📄 `pylint-main/pylint/checkers/logging.py`: *Checker for use of Python logging.*
+  - 📄 `pylint-main/pylint/checkers/match_statements_checker.py`: *Match statement checker for Python code.*
+  - 📄 `pylint-main/pylint/checkers/method_args.py`: *Variables checkers for Python code.*
+  - 📄 `pylint-main/pylint/checkers/misc.py`: *Check source code is ascii only or has an encoding declaration (PEP 263).*
+  - 📄 `pylint-main/pylint/checkers/modified_iterating_checker.py`: *Checks for modified iterators in for loops iterations.      Currently supports `for` loops for Sets, Dictionaries and Lists.*
+  - 📄 `pylint-main/pylint/checkers/nested_min_max.py`: *Check for use of nested min/max functions.*
+  - 📄 `pylint-main/pylint/checkers/newstyle.py`: *Check for new / old style related problems.*
+  - 📄 `pylint-main/pylint/checkers/non_ascii_names.py`: *All alphanumeric unicode character are allowed in Python but due to similarities in how they look they can be confused.  See: https://peps.python.org/pep-0672/#confusing-features  The following checke...*
+  - 📄 `pylint-main/pylint/checkers/raw_metrics.py`: *Calculate percentage of code / doc / comment / empty.*
+  - 📄 `pylint-main/pylint/checkers/refactoring/__init__.py`: *Looks for code which can be refactored.*
+  - 📄 `pylint-main/pylint/checkers/refactoring/implicit_booleaness_checker.py`: *Checks for incorrect usage of comparisons or len() inside conditions.      Incorrect usage of len()     Pep8 states:     For sequences, (strings, lists, tuples), use the fact that empty sequences are ...*
+  - 📄 `pylint-main/pylint/checkers/refactoring/not_checker.py`: *Checks for too many not in comparison expressions.      - "not not" should trigger a warning     - "not" followed by a comparison should trigger a warning*
+  - 📄 `pylint-main/pylint/checkers/refactoring/recommendation_checker.py`: *Add message when accessing first or last elements of a str.split() or         str.rsplit().*
+  - 📄 `pylint-main/pylint/checkers/refactoring/refactoring_checker.py`: *Detect if all except statements return.*
+  - 📄 `pylint-main/pylint/checkers/spelling.py`: *Checker for spelling errors in comments and docstrings.*
+  - 📄 `pylint-main/pylint/checkers/stdlib.py`: *Checkers for various standard library functions.*
+  - 📄 `pylint-main/pylint/checkers/strings.py`: *Checker for string formatting operations.*
+  - 📄 `pylint-main/pylint/checkers/symilar.py`: *A similarities / code duplication command line tool and pylint checker.  The algorithm is based on comparing the hash value of n successive lines of a file. First the files are read and any line that ...*
+  - 📄 `pylint-main/pylint/checkers/threading_checker.py`: *Checks for threading module.      - useless with lock - locking used in wrong way that has no effect (with threading.Lock():)*
+  - 📄 `pylint-main/pylint/checkers/typecheck.py`: *Try to find more bugs in the code using astroid inference capabilities.*
+  - 📄 `pylint-main/pylint/checkers/unicode.py`: *Unicode and some other ASCII characters can be used to create programs that run much different compared to what a human reader would expect from them.  PEP 672 lists some examples. See: https://www.py...*
+  - 📄 `pylint-main/pylint/checkers/unsupported_version.py`: *Checker for features used that are not supported by all python versions indicated by the py-version setting.*
+  - 📄 `pylint-main/pylint/checkers/utils.py`: *Some functions that may be useful for various checkers.*
+  - 📄 `pylint-main/pylint/checkers/variables.py`: *Variables checkers for Python code.*
+  - 📄 `pylint-main/pylint/config/_breaking_changes/__init__.py`: *List the breaking changes in configuration files and their solutions.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/__init__.py`: *Everything related to the 'pylint-config' command.  Everything in this module is private.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/generate_command.py`: *Everything related to the 'pylint-config generate' command.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/help_message.py`: *Everything related to the 'pylint-config -h' command and subcommands.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/main.py`: *Everything related to the 'pylint-config' command.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/setup.py`: *Everything related to the setup of the 'pylint-config' command.*
+  - 📄 `pylint-main/pylint/config/_pylint_config/utils.py`: *Utils for the 'pylint-config' command.*
+  - 📄 `pylint-main/pylint/config/argument.py`: *Definition of an Argument class and transformers for various argument types.  An Argument instance represents a pylint option to be handled by an argparse.ArgumentParser*
+  - 📄 `pylint-main/pylint/config/arguments_manager.py`: *Arguments manager class used to handle command-line arguments and options.*
+  - 📄 `pylint-main/pylint/config/arguments_provider.py`: *Arguments provider class used to expose options.*
+  - 📄 `pylint-main/pylint/config/callback_actions.py`: *Callback actions for various options.*
+  - 📄 `pylint-main/pylint/config/config_file_parser.py`: *Configuration file parser class.*
+  - 📄 `pylint-main/pylint/config/config_initialization.py`: *Parse all available options, read config files and command line arguments and     set options accordingly.*
+  - 📄 `pylint-main/pylint/config/deprecation_actions.py`: *Deprecated option actions.*
+  - 📄 `pylint-main/pylint/config/exceptions.py`: *Raised if an ArgumentManager instance tries to add an argument for which the     action is not recognized.*
+  - 📄 `pylint-main/pylint/config/find_default_config_files.py`: *Search for file pyproject.toml in the parent directories recursively.      It resolves symlinks, so if there is any symlink up in the tree, it does not respect them*
+  - 📄 `pylint-main/pylint/config/help_formatter.py`: *Formatter for the help message emitted by argparse.*
+  - 📄 `pylint-main/pylint/config/utils.py`: *Utils for arguments/options parsing and handling.*
+  - 📄 `pylint-main/pylint/constants.py`: *pylint {__version__} astroid {astroid.__version__} Python {sys.version}*
+  - 📄 `pylint-main/pylint/exceptions.py`: *Exception classes raised by various operations within pylint.*
+  - 📄 `pylint-main/pylint/extensions/__init__.py`: *Initialize linter with checkers in the extensions' directory.*
+  - 📄 `pylint-main/pylint/extensions/_check_docs_utils.py`: *Utility methods for docstring checking.*
+  - 📄 `pylint-main/pylint/extensions/bad_builtin.py`: *Checker for deprecated builtins.*
+  - 📄 `pylint-main/pylint/extensions/broad_try_clause.py`: *Looks for try/except statements with too much code in the try clause.*
+  - 📄 `pylint-main/pylint/extensions/check_elif.py`: *Checks for use of "else if" when an "elif" could be used.*
+  - 📄 `pylint-main/pylint/extensions/code_style.py`: *Checkers that can improve code consistency.      As such they don't necessarily provide a performance benefit and     are often times opinionated.      Before adding another checker here, consider thi...*
+  - 📄 `pylint-main/pylint/extensions/comparison_placement.py`: *Checks for yoda comparisons (variable before constant) See https://en.wikipedia.org/wiki/Yoda_conditions.*
+  - 📄 `pylint-main/pylint/extensions/confusing_elif.py`: *Checks if "elif" is used right after an indented block that finishes with "if" or     "elif" itself.*
+  - 📄 `pylint-main/pylint/extensions/consider_refactoring_into_while_condition.py`: *Looks for try/except statements with too much code in the try clause.*
+  - 📄 `pylint-main/pylint/extensions/consider_ternary_expression.py`: *Check for if / assign blocks that can be rewritten with if-expressions.*
+  - 📄 `pylint-main/pylint/extensions/dict_init_mutate.py`: *Check for use of dictionary mutation after initialization.*
+  - 📄 `pylint-main/pylint/extensions/docparams.py`: *Pylint plugin for checking in Sphinx, Google, or Numpy style docstrings.*
+  - 📄 `pylint-main/pylint/extensions/docstyle.py`: *Checks format of docstrings based on PEP 0257.*
+  - 📄 `pylint-main/pylint/extensions/dunder.py`: *Checks related to dunder methods.*
+  - 📄 `pylint-main/pylint/extensions/empty_comment.py`: *Checks if a `# symbol that is not part of a string was found in line.*
+  - 📄 `pylint-main/pylint/extensions/eq_without_hash.py`: *This is the remnant of the python3 checker.  It was removed because the transition from python 2 to python3 is behind us, but some checks are still useful in python3 after all. See https://github.com/...*
+  - 📄 `pylint-main/pylint/extensions/for_any_all.py`: *Check for use of for loops that only check for a condition.*
+  - 📄 `pylint-main/pylint/extensions/magic_value.py`: *Checks for magic values instead of literals.*
+  - 📄 `pylint-main/pylint/extensions/mccabe.py`: *Module to add McCabe checker class for pylint.*
+  - 📄 `pylint-main/pylint/extensions/no_self_use.py`: *Check if the name handle an access to a class member         if so, register it.*
+  - 📄 `pylint-main/pylint/extensions/overlapping_exceptions.py`: *Looks for overlapping exceptions.*
+  - 📄 `pylint-main/pylint/extensions/private_import.py`: *Check for imports on private external modules and names.*
+  - 📄 `pylint-main/pylint/extensions/redefined_loop_name.py`: *Optional checker to warn when loop variables are overwritten in the loop's body.*
+  - 📄 `pylint-main/pylint/extensions/redefined_variable_type.py`: *Checks for variable type redefinition (NoneType excepted).      At a function, method, class or module scope      This rule could be improved:      - Currently, if an attribute is set to different typ...*
+  - 📄 `pylint-main/pylint/extensions/set_membership.py`: *Initialize checker instance.*
+  - 📄 `pylint-main/pylint/extensions/typing.py`: *Find issue specifically related to type annotations.*
+  - 📄 `pylint-main/pylint/extensions/while_used.py`: *Check for use of while loops.*
+  - 📄 `pylint-main/pylint/graph.py`: *Graph manipulation utilities.  (dot generation adapted from pypy/translator/tool/make_dot.py)*
+  - 📄 `pylint-main/pylint/lint/__init__.py`: *Pylint [options] modules_or_packages.  Check that module(s) satisfy a coding standard (and more !).  pylint --help  Display this help message and exit.  pylint --help-msg <msg-id>[,<msg-id>]  Display ...*
+  - 📄 `pylint-main/pylint/lint/base_options.py`: *Functions that creates the basic options for the Run and PyLinter classes.*
+  - 📄 `pylint-main/pylint/lint/expand_modules.py`: *Discover package path from one its modules and source roots.*
+  - 📄 `pylint-main/pylint/lint/message_state_handler.py`: *Class that handles message disabling & enabling and processing of inline     pragma's.*
+  - 📄 `pylint-main/pylint/lint/parallel.py`: *Function called to initialize a worker for a Process within a concurrent Pool.      :param linter: A linter-class (PyLinter) instance pickled with dill     :param extra_packages_paths: Extra entries t...*
+  - 📄 `pylint-main/pylint/lint/pylinter.py`: *Lint Python modules using external checkers.      This is the main checker controlling the other ones and the reports     generation. It is itself both a raw checker and an astroid checker in order   ...*
+  - 📄 `pylint-main/pylint/lint/report_functions.py`: *Make total errors / warnings report.*
+  - 📄 `pylint-main/pylint/lint/run.py`: *Try to determine number of CPUs allotted in a docker container.      This is based on discussion and copied from suggestions in     https://bugs.python.org/issue36054.*
+  - 📄 `pylint-main/pylint/lint/utils.py`: *\ First, please verify that the bug is not already filled: https://github.com/pylint-dev/pylint/issues/  Then create a new issue: https://github.com/pylint-dev/pylint/issues/new?labels=Crash 💥%2CNeeds...*
+  - 📄 `pylint-main/pylint/message/__init__.py`: *All the classes related to Message handling.*
+  - 📄 `pylint-main/pylint/message/_deleted_message_ids.py`: *Return the explanation for removal if the message was removed.*
+  - 📄 `pylint-main/pylint/message/message.py`: *This class represent a message to be issued by the reporters.*
+  - 📄 `pylint-main/pylint/message/message_definition.py`: *May the message be emitted using the configured py_version?*
+  - 📄 `pylint-main/pylint/message/message_definition_store.py`: *The messages store knows information about every possible message definition but     has no particular state during analysis.*
+  - 📄 `pylint-main/pylint/message/message_id_store.py`: *The MessageIdStore store MessageId and make sure that there is a 1-1 relation     between msgid and symbol.*
+  - 📄 `pylint-main/pylint/pyreverse/__init__.py`: *Pyreverse.extensions.*
+  - 📄 `pylint-main/pylint/pyreverse/diadefslib.py`: *Handle diagram generation options for class diagram or default diagrams.*
+  - 📄 `pylint-main/pylint/pyreverse/diagrams.py`: *Diagram objects.*
+  - 📄 `pylint-main/pylint/pyreverse/dot_printer.py`: *Class to generate files in dot format and image formats supported by Graphviz.*
+  - 📄 `pylint-main/pylint/pyreverse/inspector.py`: *Visitor doing some post-processing on the astroid tree.  Try to resolve definitions (namespace) dictionary, relationship...*
+  - 📄 `pylint-main/pylint/pyreverse/main.py`: *Create UML diagrams for classes and modules in <packages>.*
+  - 📄 `pylint-main/pylint/pyreverse/mermaidjs_printer.py`: *Class to generate files in mermaidjs format.*
+  - 📄 `pylint-main/pylint/pyreverse/node_info.py`: *Dataclass wrappers for storing analysis info about astroid nodes.  This module provides typed dataclasses to hold the analysis metadata that was previously stored directly on astroid nodes. This enabl...*
+  - 📄 `pylint-main/pylint/pyreverse/plantuml_printer.py`: *Class to generate files in dot format and image formats supported by Graphviz.*
+  - 📄 `pylint-main/pylint/pyreverse/printer.py`: *Base class defining the interface for a printer.*
+  - 📄 `pylint-main/pylint/pyreverse/utils.py`: *Generic classes/functions for pyreverse core/extensions.*
+  - 📄 `pylint-main/pylint/pyreverse/writer.py`: *Utilities for creating diagrams.*
+  - 📄 `pylint-main/pylint/reporters/__init__.py`: *Utilities methods and classes for reporters.*
+  - 📄 `pylint-main/pylint/reporters/base_reporter.py`: *Base class for reporters.      symbols: show short symbolic names for messages.*
+  - 📄 `pylint-main/pylint/reporters/collecting_reporter.py`: *Collects messages.*
+  - 📄 `pylint-main/pylint/reporters/json_reporter.py`: *JSON reporter.*
+  - 📄 `pylint-main/pylint/reporters/multi_reporter.py`: *Reports messages and layouts in plain text.*
+  - 📄 `pylint-main/pylint/reporters/progress_reporters.py`: *Progress reporter.*
+  - 📄 `pylint-main/pylint/reporters/reports_handler_mix_in.py`: *A mix-in class containing all the reports and stats manipulation     related methods for the main lint class.*
+  - 📄 `pylint-main/pylint/reporters/text.py`: *Plain text reporters:.  :text: the default one grouping messages by module :colorized: an ANSI colorized text reporter*
+  - 📄 `pylint-main/pylint/reporters/ureports/base_writer.py`: *Universal report objects and some formatting drivers.  A way to create simple reports using python objects, primarily designed to be formatted as text and html.*
+  - 📄 `pylint-main/pylint/reporters/ureports/nodes.py`: *Micro reports objects.  A micro report is a tree of layout and content objects.*
+  - 📄 `pylint-main/pylint/reporters/ureports/text_writer.py`: *Text formatting drivers for ureports.*
+  - 📄 `pylint-main/pylint/testutils/__init__.py`: *Functional/non regression tests for pylint.*
+  - 📄 `pylint-main/pylint/testutils/_primer/comparator.py`: *Cross-reference two primer JSON outputs and iterate over differences.*
+  - 📄 `pylint-main/pylint/testutils/_primer/package_to_lint.py`: *We can't pull if there's local changes.*
+  - 📄 `pylint-main/pylint/testutils/_primer/primer.py`: *Main class to handle priming of packages.*
+  - 📄 `pylint-main/pylint/testutils/_primer/primer_command.py`: *Generic primer action with required arguments.*
+  - 📄 `pylint-main/pylint/testutils/_primer/primer_compare_command.py`: *GitHub allows only a set number of characters in a comment.*
+  - 📄 `pylint-main/pylint/testutils/_primer/primer_run_command.py`: *Separate fatal errors so we can report them independently.*
+  - 📄 `pylint-main/pylint/testutils/_run.py`: *Classes and functions used to mimic normal pylint runs.  This module is considered private and can change at any time.*
+  - 📄 `pylint-main/pylint/testutils/checker_test_case.py`: *A base testcase class for unit testing individual checker classes.*
+  - 📄 `pylint-main/pylint/testutils/configuration_test.py`: *Utility functions for configuration testing.*
+  - 📄 `pylint-main/pylint/testutils/decorator.py`: *Decorator for setting an option on the linter.      Passing the args and kwargs back to the test function itself     allows this decorator to be used on parameterized test cases.*
+  - 📄 `pylint-main/pylint/testutils/functional/find_functional_tests.py`: *'Wet finger' number of python files that are reasonable to have in a functional test directory.  'Wet finger' as in 'in my settings there are precisely this many'. Initially the total number of files ...*
+  - 📄 `pylint-main/pylint/testutils/functional/lint_module_output_update.py`: *Class to be used if expected output files should be updated instead of     checked.*
+  - 📄 `pylint-main/pylint/testutils/functional/test_file.py`: *Convert python version to a tuple of integers for easy comparison.*
+  - 📄 `pylint-main/pylint/testutils/get_test_info.py`: *Get python input examples and output messages.      We use following conventions for input files and messages:     for different inputs:         test for python  >= x.y    ->  input   =  <name>_pyxy.p...*
+  - 📄 `pylint-main/pylint/testutils/lint_module_test.py`: *Parses a file and get expected messages.          :param stream: File-like input stream.         :type stream: enumerable         :returns: A dict mapping line,msg-symbol tuples to the count on this l...*
+  - 📄 `pylint-main/pylint/testutils/output_line.py`: *Used to test messages produced by pylint.      Class name cannot start with Test as pytest doesn't allow constructors in test classes.*
+  - 📄 `pylint-main/pylint/testutils/pyreverse.py`: *Holds the configuration options for Pyreverse.      The default values correspond to the defaults of the options' parser.*
+  - 📄 `pylint-main/pylint/testutils/reporter_for_tests.py`: *Reporter storing plain text messages.*
+  - 📄 `pylint-main/pylint/testutils/unittest_linter.py`: *A fake linter class to capture checker messages.*
+  - 📄 `pylint-main/pylint/testutils/utils.py`: *Patch and subsequently reset a text stream.*
+  - 📄 `pylint-main/pylint/typing.py`: *A collection of typing utilities.*
+  - 📄 `pylint-main/pylint/utils/__init__.py`: *Some various utilities and helper classes, most of them used in the main pylint class.*
+  - 📄 `pylint-main/pylint/utils/ast_walker.py`: *Walk to the checker's dir and collect visit and leave methods.*
+  - 📄 `pylint-main/pylint/utils/docs.py`: *Various helper functions to create the docs of a linter object.*
+  - 📄 `pylint-main/pylint/utils/file_state.py`: *Hold internal state specific to the currently analyzed file.*
+  - 📄 `pylint-main/pylint/utils/linterstats.py`: *TypedDict to store counts of node types with bad names.*
+  - 📄 `pylint-main/pylint/utils/pragma_parser.py`: *(?:^\s*\#.*|\s*|               # Comment line, or whitespaces,        \s*\#.*(?=\#.*?\bpylint:))  # or a beginning of an inline comment                                    # followed by "pylint:" pragm...*
+  - 📄 `pylint-main/pylint/utils/utils.py`: *Wrap the text on the given line length.*
+  - 📄 `pylint-main/script/bump_changelog.py`: *This script updates towncrier.toml and creates a new newsfile and intermediate folders if necessary.*
+  - 📄 `pylint-main/script/check_newsfragments.py`: *Small script to check the formatting of news fragments for towncrier. Used by pre-commit.*
+  - 📄 `pylint-main/script/get_unused_message_id_category.py`: *Small script to get a new unused message id category.*
+  - 📄 `pylint-main/script/update_primer_commits.py`: *Update the pinned commit hashes in packages_to_prime.json to the latest remote HEAD of each package's branch.  Called automatically by tbump before a release commit.*
+  - 📄 `pylint-main/tests/benchmark/test_baseline_benchmarks.py`: *Profiles basic -jX functionality.*
+  - 📄 `pylint-main/tests/checkers/base/unittest_base.py`: *Unittest for the base checker.*
+  - 📄 `pylint-main/tests/checkers/base/unittest_multi_naming_style.py`: *Unittest for the NameChecker.*
+  - 📄 `pylint-main/tests/checkers/base/unittest_name_preset.py`: *Unittest for the NameChecker.*
+  - 📄 `pylint-main/tests/checkers/unittest_base_checker.py`: *Unittest for the BaseChecker class.*
+  - 📄 `pylint-main/tests/checkers/unittest_deprecated.py`: *class DeprecatedClass:             deprecated_attribute = 42          obj = DeprecatedClass()         obj.deprecated_attribute*
+  - 📄 `pylint-main/tests/checkers/unittest_design.py`: *Make sure that classes listed in ``ignored-parents`` aren't counted         by the too-many-ancestors message.*
+  - 📄 `pylint-main/tests/checkers/unittest_format.py`: *Check format checker helper functions.*
+  - 📄 `pylint-main/tests/checkers/unittest_imports.py`: *Unit tests for the imports checker.*
+  - 📄 `pylint-main/tests/checkers/unittest_misc.py`: *Tests for the misc checker.*
+  - 📄 `pylint-main/tests/checkers/unittest_non_ascii_name.py`: *Even the new position only and keyword only should be found.*
+  - 📄 `pylint-main/tests/checkers/unittest_refactoring.py`: *Regression test for parsing of pylint disable pragma's.*
+  - 📄 `pylint-main/tests/checkers/unittest_spelling.py`: *Unittest for the spelling checker.*
+  - 📄 `pylint-main/tests/checkers/unittest_stdlib.py`: *Test that we don't crash on nodes which don't have a qname method.          While this test might seem weird since it uses a transform, it's actually testing a crash         that happened in productio...*
+  - 📄 `pylint-main/tests/checkers/unittest_strings.py`: *X*
+  - 📄 `pylint-main/tests/checkers/unittest_symilar.py`: *10 similar lines in 2 files =={SIMILAR1}:[0:11] =={SIMILAR2}:[0:11]    import one    from two import two    three    four    five    six    # A full line comment    seven    eight    nine    ''' ten T...*
+  - 📄 `pylint-main/tests/checkers/unittest_typecheck.py`: *Tests for pylint.checkers.typecheck.*
+  - 📄 `pylint-main/tests/checkers/unittest_unicode/__init__.py`: *Simple Faker representing a Module node.      Astroid crashes in a number of cases if we want to lint unsupported encodings.     So, this is used to test the behaviour of the encoding checker.     Thi...*
+  - 📄 `pylint-main/tests/checkers/unittest_unicode/unittest_bad_chars.py`: *Generates a test file for bad chars.      The generator also ensures that file generated is correct*
+  - 📄 `pylint-main/tests/checkers/unittest_unicode/unittest_bidirectional_unicode.py`: *Test an example from https://github.com/nickboucher/trojan-source/tree/main/Python         that is currently not working Python but producing a syntax error.          So we test this to make sure it s...*
+  - 📄 `pylint-main/tests/checkers/unittest_unicode/unittest_functions.py`: *Test all possible outcomes for map position function in UTF-8 and ASCII.*
+  - 📄 `pylint-main/tests/checkers/unittest_unicode/unittest_invalid_encoding.py`: *The codec determined should be exact no matter what we throw at it.*
+  - 📄 `pylint-main/tests/checkers/unittest_utils.py`: *Tests for the pylint.checkers.utils module.*
+  - 📄 `pylint-main/tests/checkers/unittest_variables.py`: *Test the --callbacks option works.*
+  - 📄 `pylint-main/tests/config/data/logging_format_interpolation_style.py`: *This should raise various logging-too-many-args messages if logging-format-style is not 'new'.*
+  - 📄 `pylint-main/tests/config/file_to_lint.py`: *Perfect module with only documentation for configuration tests.*
+  - 📄 `pylint-main/tests/config/pylint_config/test_pylint_config_generate.py`: *Test for the 'pylint-config generate' command.*
+  - 📄 `pylint-main/tests/config/pylint_config/test_pylint_config_help.py`: *Test for the 'pylint-config generate' command.*
+  - 📄 `pylint-main/tests/config/pylint_config/test_pylint_config_utils.py`: *Test for the 'pylint-config' utils.*
+  - 📄 `pylint-main/tests/config/pylint_config/test_run_pylint_config.py`: *Test for the 'pylint-config generate' command.*
+  - 📄 `pylint-main/tests/config/test_argparse_config.py`: *Test for the (new) implementation of option parsing with argparse.*
+  - 📄 `pylint-main/tests/config/test_config.py`: *Check that what we initialized the linter with what was expected.*
+  - 📄 `pylint-main/tests/config/test_find_default_config_files.py`: *Remove the PYLINTRC environment variable.*
+  - 📄 `pylint-main/tests/config/test_functional_config_loading.py`: *This launches the configuration functional tests. This permits to test configuration files by providing a file with the appropriate extension in the ``tests/config/functional`` directory.  Let's say y...*
+  - 📄 `pylint-main/tests/config/test_per_directory_config.py`: *Test that we correctly fall back on the base config.*
+  - 📄 `pylint-main/tests/conftest.py`: *Convert command line options to markers.*
+  - 📄 `pylint-main/tests/data/clientmodule_test.py`: *docstring for file clientmodule.py*
+  - 📄 `pylint-main/tests/data/nullable_pattern.py`: *docstring for file nullable_pattern.py*
+  - 📄 `pylint-main/tests/data/property_pattern.py`: *docstring for file property_pattern.py*
+  - 📄 `pylint-main/tests/data/suppliermodule_test.py`: *file suppliermodule.py*
+  - 📄 `pylint-main/tests/extensions/test_check_docs_utils.py`: *Unit tests for utils functions in :mod:`pylint.extensions._check_docs_utils`.*
+  - 📄 `pylint-main/tests/extensions/test_private_import.py`: *Tests the local module directory comparison logic which requires mocking file directories.*
+  - 📄 `pylint-main/tests/functional/a/abstract/abstract_abc_methods.py`: *This should not warn about `prop` being abstract in Child*
+  - 📄 `pylint-main/tests/functional/a/abstract/abstract_class_instantiated.py`: *Check that instantiating a class with `abc.ABCMeta` as metaclass fails if it defines abstract methods.*
+  - 📄 `pylint-main/tests/functional/a/abstract/abstract_class_instantiated_in_class.py`: *Don't warn if the class is instantiated in its own body.*
+  - 📄 `pylint-main/tests/functional/a/abstract/abstract_method.py`: *Test abstract-method warning.*
+  - 📄 `pylint-main/tests/functional/a/access/access_attr_before_def_false_positive.py`: *This module demonstrates a possible problem of pyLint with calling __init__ s from inherited classes. Initializations done there are not considered, which results in Error E0203 for self.cookedq.*
+  - 📄 `pylint-main/tests/functional/a/access/access_member_before_definition.py`: *class with attributes defined in wrong order*
+  - 📄 `pylint-main/tests/functional/a/access/access_to__name__.py`: *test access to __name__ gives undefined member on new/old class instances but not on new/old class object*
+  - 📄 `pylint-main/tests/functional/a/access/access_to_protected_members.py`: *Test external access to protected class members.*
+  - 📄 `pylint-main/tests/functional/a/access/access_to_protected_members_typing.py`: *Test typing with a protected member*
+  - 📄 `pylint-main/tests/functional/a/alternative/alternative_union_syntax.py`: *Test PEP 604 - Alternative Union syntax*
+  - 📄 `pylint-main/tests/functional/a/alternative/alternative_union_syntax_error.py`: *Test PEP 604 - Alternative Union syntax with postponed evaluation of annotations enabled.  For Python 3.7 - 3.9: Everything should fail. Testing only 3.8/3.9 to support TypedDict.*
+  - 📄 `pylint-main/tests/functional/a/alternative/alternative_union_syntax_py37.py`: *Test PEP 604 - Alternative Union syntax with postponed evaluation of annotations enabled.  For Python 3.7 - 3.9: Most things should work. Testing only 3.8/3.9 to support TypedDict.*
+  - 📄 `pylint-main/tests/functional/a/alternative/alternative_union_syntax_regession_8119.py`: *Regression test for alternative Union syntax in runtime contexts. Syntax support was added in Python 3.10.  The code snipped should not raise any errors. https://github.com/pylint-dev/pylint/issues/81...*
+  - 📄 `pylint-main/tests/functional/a/anomalous_backslash_escape.py`: *Test for anomalous backslash escapes in strings*
+  - 📄 `pylint-main/tests/functional/a/anomalous_unicode_escape.py`: *Test for backslash escapes in byte vs unicode strings*
+  - 📄 `pylint-main/tests/functional/a/arguments.py`: *Decorator*
+  - 📄 `pylint-main/tests/functional/a/arguments_differ.py`: *Test that we are emitting arguments-differ when the arguments are different.*
+  - 📄 `pylint-main/tests/functional/a/arguments_differ_issue5371.py`: *https://github.com/pylint-dev/pylint/issues/5371*
+  - 📄 `pylint-main/tests/functional/a/arguments_out_of_order.py`: *three arguments function*
+  - 📄 `pylint-main/tests/functional/a/assigning/assigning_non_slot.py`: *Checks assigning attributes not found in class slots will trigger assigning-non-slot warning.*
+  - 📄 `pylint-main/tests/functional/a/assignment/assignment_expression.py`: *Test assignment expressions*
+  - 📄 `pylint-main/tests/functional/a/assignment/assignment_from_no_return.py`: *Decorate *fn* to return ``self`` to enable chained method calls.*
+  - 📄 `pylint-main/tests/functional/a/assignment/assignment_from_no_return_2.py`: *check assignment to function call where the function doesn't return      'E1111': ('Assigning to function call which doesn\'t return',               'Used when an assignment is done on a function call...*
+  - 📄 `pylint-main/tests/functional/a/async_context_manager_with_regular_with.py`: *Test async context manager used with regular 'with'.*
+  - 📄 `pylint-main/tests/functional/a/async_functions.py`: *Check that Python 3.5's async functions are properly analyzed by Pylint.*
+  - 📄 `pylint-main/tests/functional/a/attribute_defined_outside_init.py`: *Don't emit attribute-defined-outside-init for mixin classes.*
+  - 📄 `pylint-main/tests/functional/b/bad_chained_comparison.py`: *Checks for chained comparisons with comparisons belonging to different groups*
+  - 📄 `pylint-main/tests/functional/b/bad_exception_cause.py`: *Check that raise ... from .. uses a proper exception cause*
+  - 📄 `pylint-main/tests/functional/b/bad_inline_option.py`: *errors-only is not usable as an inline option*
+  - 📄 `pylint-main/tests/functional/b/bad_open_mode.py`: *Warnings for using open() with an invalid mode string.*
+  - 📄 `pylint-main/tests/functional/b/bad_option_value.py`: *Check unknown or deleted option.*
+  - 📄 `pylint-main/tests/functional/b/bad_option_value_disable.py`: *Tests for the disabling of bad-option-value.*
+  - 📄 `pylint-main/tests/functional/b/bad_reversed_sequence.py`: *Checks that reversed() receive proper argument*
+  - 📄 `pylint-main/tests/functional/b/bad_reversed_sequence_py37.py`: *Dictionaries are reversible starting on python 3.8*
+  - 📄 `pylint-main/tests/functional/b/bad_reversed_sequence_py38.py`: *Dictionaries are reversible starting on python 3.8*
+  - 📄 `pylint-main/tests/functional/b/bad_string_format_type.py`: *Tests for bad string format type*
+  - 📄 `pylint-main/tests/functional/b/bare_name_capture_pattern.py`: *Functional tests for the ``bare-name-capture-pattern`` message*
+  - 📄 `pylint-main/tests/functional/b/base_init_vars.py`: *Checks that class variables are seen as inherited !*
+  - 📄 `pylint-main/tests/functional/b/boolean_datetime.py`: *Test boolean-datetime  'py-version' needs to be set to <= '3.5'.*
+  - 📄 `pylint-main/tests/functional/b/builtin_module_test.py`: *test import from a builtin module*
+  - 📄 `pylint-main/tests/functional/c/cellvar_escaping_loop.py`: *Tests for loopvar-in-closure.*
+  - 📄 `pylint-main/tests/functional/c/class_attributes.py`: *Test that valid class attribute doesn't trigger errors*
+  - 📄 `pylint-main/tests/functional/c/class_members_py30.py`: *Various tests for class members access.*
+  - 📄 `pylint-main/tests/functional/c/class_protocol_ellipsis.py`: *"Tests for return type checkers for protocol methods with ellipsis function body*
+  - 📄 `pylint-main/tests/functional/c/class_scope.py`: *check for scope problems*
+  - 📄 `pylint-main/tests/functional/c/classes_meth_could_be_a_function.py`: *#2479  R0201 (formerly W0212), Method could be a function shouldn't be emitted in case like factory method pattern*
+  - 📄 `pylint-main/tests/functional/c/classes_protected_member_access.py`: *#3123: W0212 false positive on static method*
+  - 📄 `pylint-main/tests/functional/c/comparison_with_callable_typing_constants.py`: *Typing constants are actually implemented as functions, but they raise when called, so Pylint uses that to avoid false positives for comparison-with-callable.*
+  - 📄 `pylint-main/tests/functional/c/condition_evals_to_constant.py`: *Test that boolean conditions simplify to a constant value*
+  - 📄 `pylint-main/tests/functional/c/confidence_filter.py`: *Test for the confidence filter.*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_merging_isinstance.py`: *Checks use of consider-merging-isinstance*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_using_dict_items.py`: *Emit a message for iteration through dict keys and subscripting dict with key.*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_using_enumerate.py`: *Emit a message for iteration through range and len is encountered.*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_using_f_string.py`: *Test to see if an f-string would be possible and consider-using-f-string should be raised*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_using_with.py`: *The message must not be triggered if the resource allocation is done inside a context manager.*
+  - 📄 `pylint-main/tests/functional/c/consider/consider_using_with_open.py`: *Previously, open was uninferable on PyPy so we moved all functional tests to a separate file. This is no longer the case but the files remain split.*
+  - 📄 `pylint-main/tests/functional/c/continue_in_finally.py`: *Test that `continue` is caught when met inside a `finally` clause.*
+  - 📄 `pylint-main/tests/functional/c/control_pragmas.py`: *Test that the control pragmas are not too eager to consume the entire line      We should stop either at:     - ; or #     - or at the end of line*
+  - 📄 `pylint-main/tests/functional/c/crash_missing_module_type.py`: *Test for a crash found in https://bitbucket.org/logilab/astroid/issue/45/attributeerror-module-object-has-no#comment-11944673*
+  - 📄 `pylint-main/tests/functional/c/ctor_arguments.py`: *Test function argument checker on __init__  Based on tests/functional/a/arguments.py*
+  - 📄 `pylint-main/tests/functional/d/dangerous_default_value.py`: *docstring*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_kw_only.py`: *Test the behaviour of the kw_only keyword.*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_parameter.py`: *Tests for dataclass and checks that check for parameters.*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_py312.py`: *Dataclasses using PEP 695 syntax.*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_typecheck.py`: *Tests for dataclass attributes with basic type annotations.  Tests for regressions from https://github.com/pylint-dev/astroid/pull/1126*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_with_default_factory.py`: *Various regression tests for dataclasses.*
+  - 📄 `pylint-main/tests/functional/d/dataclass/dataclass_with_field.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/4899*
+  - 📄 `pylint-main/tests/functional/d/decorator_scope.py`: *Test that decorators sees the class namespace - just like function default values does but function body doesn't.  https://www.logilab.net/elo/ticket/3711 - bug finding decorator arguments https://www...*
+  - 📄 `pylint-main/tests/functional/d/defined_and_used_on_same_line.py`: *Check for definitions and usage happening on the same line.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_attribute_py312.py`: *Test deprecated-attribute*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_class_py33.py`: *Test deprecated classes from Python 3.3.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_decorators.py`: *Test deprecated abc decorators from Python 3.3.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_method_suppression.py`: *Test that versions below Py3.10 will not emit useless-suppression for disabling deprecated-method (on a method deprecated in Py3.10.  This test can be run on all Python versions, but it will lack valu...*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_methods_py36.py`: *Functional tests for method deprecation.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module__import__.py`: *Test deprecated modules using '__import__' builtin method.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py3.py`: *Test deprecated modules.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py310.py`: *Test deprecated modules from Python 3.10.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py33.py`: *Test deprecated modules from Python 3.3.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py36.py`: *Test deprecated modules from Python 3.6.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py39.py`: *Test deprecated modules from Python 3.9.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py39_earlier_pyversion.py`: *Test deprecated modules from Python 3.9, but use an earlier --py-version and ensure a warning is still emitted.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_py4.py`: *Test deprecated modules.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_redundant.py`: *This deprecated stdlib module is redundantly given by the user in the config.*
+  - 📄 `pylint-main/tests/functional/d/deprecated/deprecated_module_uninstalled.py`: *Test deprecated modules uninstalled.*
+  - 📄 `pylint-main/tests/functional/d/disable_msg_next_line.py`: *Test if disable-next only disables messages for the next line*
+  - 📄 `pylint-main/tests/functional/d/disable_ungrouped_imports.py`: *Checks that disabling 'ungrouped-imports' on an import prevents subsequent imports from being considered ungrouped in respect to it.*
+  - 📄 `pylint-main/tests/functional/d/disable_wrong_import_order.py`: *Checks that disabling 'wrong-import-order' on an import prevents subsequent imports from being considered out-of-order in respect to it but does not prevent it from being considered for 'ungrouped-imp...*
+  - 📄 `pylint-main/tests/functional/d/disable_wrong_import_position.py`: *Test wrong-import-position pragma on non-import statement.*
+  - 📄 `pylint-main/tests/functional/d/disabled_msgid_in_pylintrc.py`: *https://github.com/pylint-dev/pylint/issues/4265*
+  - 📄 `pylint-main/tests/functional/d/dotted_ancestor.py`: *bla*
+  - 📄 `pylint-main/tests/functional/d/duplicate/duplicate_argument_name.py`: *Check for duplicate function arguments.*
+  - 📄 `pylint-main/tests/functional/d/duplicate/duplicate_bases.py`: *Test duplicate bases error.*
+  - 📄 `pylint-main/tests/functional/d/duplicate/duplicate_dict_literal_key.py`: *Check multiple key definition*
+  - 📄 `pylint-main/tests/functional/d/duplicate/duplicate_except.py`: *Test for duplicate-check.*
+  - 📄 `pylint-main/tests/functional/d/duplicate/duplicate_value.py`: *Simple test sets for checking duplicate values*
+  - 📄 `pylint-main/tests/functional/e/e1101_9588_base_attr_aug_assign.py`: *False positive case of E1101:  The error is triggered when the attribute set in the base class is modified with augmented assignment in a derived class.  https://www.logilab.org/ticket/9588*
+  - 📄 `pylint-main/tests/functional/e/empty_docstring.py`: *Tests for empty-docstring*
+  - 📄 `pylint-main/tests/functional/e/enum_self_defined_member_5138.py`: *Tests for self-defined Enum members (https://github.com/pylint-dev/pylint/issues/5138)*
+  - 📄 `pylint-main/tests/functional/e/enum_self_defined_member_6805.py`: *Tests for self-defined Enum members (https://github.com/pylint-dev/pylint/issues/6805)*
+  - 📄 `pylint-main/tests/functional/e/enum_subclasses.py`: *https://github.com/pylint-dev/pylint/issues/1932*
+  - 📄 `pylint-main/tests/functional/e/eval_used.py`: *test for eval usage*
+  - 📄 `pylint-main/tests/functional/e/exception_is_binary_op.py`: *Warn about binary operations used as exceptions.*
+  - 📄 `pylint-main/tests/functional/e/excess_escapes.py`: *Stray backslash escapes may be missing a raw-string prefix.*
+  - 📄 `pylint-main/tests/functional/e/external_classmethod_crash.py`: *tagging a function as a class method cause a crash when checking for signature overriding*
+  - 📄 `pylint-main/tests/functional/ext/check_elif/check_elif.py`: *Checks use of "else if" triggers a refactor message*
+  - 📄 `pylint-main/tests/functional/ext/code_style/cs_consider_using_augmented_assign.py`: *Tests for consider-using-augmented-assign.*
+  - 📄 `pylint-main/tests/functional/ext/code_style/cs_default.py`: *Test default configuration for code-style checker.*
+  - 📄 `pylint-main/tests/functional/ext/code_style/cs_prefer_typing_namedtuple.py`: *Adapted from primer package `music21`.*
+  - 📄 `pylint-main/tests/functional/ext/code_style/cs_py_version_35.py`: *No warnings should be emitted for features that require Python > 3.5*
+  - 📄 `pylint-main/tests/functional/ext/code_style/cs_use_math_not_float.py`: *Functional test for consider-math-not-float.*
+  - 📄 `pylint-main/tests/functional/ext/comparison_placement/misplaced_comparison_constant.py`: *Check that the constants are on the right side of the comparisons*
+  - 📄 `pylint-main/tests/functional/ext/confusing_elif/confusing_elif.py`: *Example code that will trigger the message      Given an if-elif construct     When the body of the if ends with an elif     Then the message confusing-consecutive-elif must be triggered.*
+  - 📄 `pylint-main/tests/functional/ext/consider_refactoring_into_while_condition/consider_refactoring_into_while_condition.py`: *Emit a message for breaking out of a while True loop immediately.*
+  - 📄 `pylint-main/tests/functional/ext/consider_refactoring_into_while_condition/consider_refactoring_into_while_condition_py38.py`: *Emit a message for breaking out of a while True loop immediately.*
+  - 📄 `pylint-main/tests/functional/ext/dict_init_mutate.py`: *Example cases for dict-init-mutate*
+  - 📄 `pylint-main/tests/functional/ext/docparams/docparams.py`: *Fixture for testing missing documentation in docparams.*
+  - 📄 `pylint-main/tests/functional/ext/docparams/docparams_py38.py`: *Fixture for testing missing documentation in docparams (Python >=3.8 only).*
+  - 📄 `pylint-main/tests/functional/ext/docparams/missing_param_doc.py`: *function foobar ...*
+  - 📄 `pylint-main/tests/functional/ext/docparams/missing_param_doc_py38.py`: *Description of the function      Args:         one: A number.         two: Another number.         three: Yes another number.      Returns:         The number one.*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = yes*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_Google.py`: *Tests for missing-param-doc and missing-type-doc for Google style docstrings with accept-no-param-doc = no  Styleguide: https://google.github.io/styleguide/pyguide.html#doc-function-args*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_Numpy.py`: *Tests for missing-param-doc and missing-type-doc for Numpy style docstrings with accept-no-param-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_Sphinx.py`: *Tests for missing-param-doc and missing-type-doc for Sphinx style docstrings with accept-no-param-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_min_length.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no and docstring-min-length = 3*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_no_doc_rgx_check_init.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no and no-docstring-rgx = ^(?!__init__$)_*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_no_doc_rgx_check_none.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no and no-docstring-rgx = ""*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_no_doc_rgx_default.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no and the default value of no-docstring-rgx*
+  - 📄 `pylint-main/tests/functional/ext/docparams/parameter/missing_param_doc_required_no_doc_rgx_test_all.py`: *Tests for missing-param-doc and missing-type-doc for non-specified style docstrings with accept-no-param-doc = no and no-docstring-rgx = ^$*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc.py`: *Tests for missing-raises-doc and missing-raises-type-doc*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_Google.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Google style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_Numpy.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Numpy style docstrings  Styleguide: https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_Sphinx.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Sphinx style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_options.py`: *Minimal example where a W9006 message is displayed even if the accept-no-raise-doc option is set to True.  Requires at least one matching section (`Docstring.matching_sections`).  Taken from https://g...*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required.py`: *Tests for missing-raises-doc and missing-raises-type-doc with accept-no-raise-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required_Google.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Google style docstrings with accept-no-raise-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required_Numpy.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Numpy style docstrings with accept-no-raise-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required_Sphinx.py`: *Tests for missing-raises-doc and missing-raises-type-doc for Sphinx style docstrings with accept-no-raise-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required_exc_inheritance.py`: *Tests for missing-raises-doc for exception class inheritance.*
+  - 📄 `pylint-main/tests/functional/ext/docparams/raise/missing_raises_doc_required_min_length.py`: *Tests for missing-raises-doc for non-specified style docstrings with accept-no-raise-doc = no and docstring-min-length = 3*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc.py`: *Tests for missing-return-doc and missing-return-type-doc*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_Google.py`: *Tests for missing-return-doc and missing-return-type-doc for Google style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_Numpy.py`: *Tests for missing-return-doc and missing-return-type-doc for Numpy style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_Sphinx.py`: *Tests for missing-return-doc and missing-return-type-doc for Sphinx style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_required.py`: *Tests for missing-return-doc and missing-return-type-doc with accept-no-returns-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_required_Google.py`: *Tests for missing-return-doc and missing-return-type-doc for Google style docstrings with accept-no-returns-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_required_Numpy.py`: *Tests for missing-return-doc and missing-return-type-doc for Numpy style docstrings with accept-no-returns-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/return/missing_return_doc_required_Sphinx.py`: *Tests for missing-return-doc and missing-return-type-doc for Sphinx style docstrings with accept-no-returns-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/useless_type_doc.py`: *demonstrate FP with useless-type-doc*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc.py`: *Tests for missing-yield-doc and missing-yield-type-doc*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_Google.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Google style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_Numpy.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Numpy style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_Sphinx.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Sphinx style docstrings*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_required.py`: *Tests for missing-yield-doc and missing-yield-type-doc with accept-no-yields-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_required_Google.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Google style docstrings with accept-no-yields-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_required_Numpy.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Numpy style docstrings with accept-no-yields-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_required_Sphinx.py`: *Tests for missing-yield-doc and missing-yield-type-doc for Sphinx style docstrings with accept-no-yields-doc = no*
+  - 📄 `pylint-main/tests/functional/ext/docparams/yield/missing_yield_doc_required_min_length.py`: *Tests for missing-yield-doc for non-specified style docstrings with accept-no-yields-doc = no and docstring-min-length = 3*
+  - 📄 `pylint-main/tests/functional/ext/docstyle/docstyle_first_line_empty.py`: *Checks of Dosctrings 'docstring-first-line-empty'*
+  - 📄 `pylint-main/tests/functional/ext/docstyle/docstyle_quotes.py`: *Checks of Dosctrings 'bad-docstring-quotes'*
+  - 📄 `pylint-main/tests/functional/ext/empty_comment/empty_comment.py`: *empty-comment test-case*
+  - 📄 `pylint-main/tests/functional/ext/eq_without_hash/eq_without_hash.py`: *Regression test for #5025*
+  - 📄 `pylint-main/tests/functional/ext/for_any_all/for_any_all.py`: *Functional test*
+  - 📄 `pylint-main/tests/functional/ext/magic_value_comparison/magic_value_comparison.py`: *Checks that magic values are not used in comparisons*
+  - 📄 `pylint-main/tests/functional/ext/mccabe/mccabe.py`: *Checks use of "too-complex" check*
+  - 📄 `pylint-main/tests/functional/ext/mccabe/not_too_complex.py`: *The other functional file has a max-complexity so low that it doesn't cover the  case when the code is not too complex.*
+  - 📄 `pylint-main/tests/functional/ext/no_self_use/no_self_use.py`: *test detection of method which could be a function*
+  - 📄 `pylint-main/tests/functional/ext/private_import/private_import.py`: *Tests for import-private-name.*
+  - 📄 `pylint-main/tests/functional/ext/redefined_loop_name/redefined_loop_name.py`: *Tests for redefinitions of loop variables inside the loop body.  See: https://github.com/pylint-dev/pylint/issues/5608*
+  - 📄 `pylint-main/tests/functional/ext/redefined_loop_name/reused_outer_loop_variable.py`: *Tests for redefining an outer loop variable.*
+  - 📄 `pylint-main/tests/functional/ext/redefined_variable_type/redefined_variable_type.py`: *Checks variable types aren't redefined within a method or a function*
+  - 📄 `pylint-main/tests/functional/ext/redefined_variable_type/regression_newtype_fstring.py`: *Regression test for issue 5770: NewType created with f-string See: https://github.com/pylint-dev/pylint/issues/5770*
+  - 📄 `pylint-main/tests/functional/ext/typing/redundant_typehint_argument.py`: *Checks for redundant Union typehints in assignments*
+  - 📄 `pylint-main/tests/functional/ext/typing/redundant_typehint_argument_py310.py`: *Checks for redundant Union typehints in assignments*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_callable.py`: *'collections.abc.Callable' is broken inside Optional and Union types for Python 3.9.0 https://bugs.python.org/issue42965  Use 'typing.Callable' instead.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_callable_deprecated_alias.py`: *'collections.abc.Callable' is broken inside Optional and Union types for Python 3.9.0 https://bugs.python.org/issue42965  Use 'typing.Callable' instead.  Don't emit 'deprecated-typing-alias' for 'Call...*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_callable_future_import.py`: *'collections.abc.Callable' is broken inside Optional and Union types for Python 3.9.0 https://bugs.python.org/issue42965  Use 'typing.Callable' instead.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_noreturn.py`: *'typing.NoReturn' is broken inside compound types for Python 3.7.0 https://bugs.python.org/issue34921  If no runtime introspection is required, use string annotations instead.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_noreturn_future_import.py`: *'typing.NoReturn' is broken inside compound types for Python 3.7.0 https://bugs.python.org/issue34921  If no runtime introspection is required, use string annotations instead.  With 'from __future__ i...*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_broken_noreturn_py372.py`: *'typing.NoReturn' is broken inside compound types for Python 3.7.0 https://bugs.python.org/issue34921  If no runtime introspection is required, use string annotations instead.  Don't emit errors if py...*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_consider_using_alias.py`: *Test pylint.extension.typing - consider-using-alias  'py-version' needs to be set to '3.7' or '3.8' and 'runtime-typing=no'. With 'from __future__ import annotations' present.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_consider_using_alias_without_future.py`: *Test pylint.extension.typing - consider-using-alias  'py-version' needs to be set to '3.7' or '3.8' and 'runtime-typing=no'.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_consider_using_union.py`: *Test pylint.extension.typing - consider-alternative-union-syntax  'py-version' needs to be set to >= '3.7' and 'runtime-typing=no'. With 'from __future__ import annotations' present.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_consider_using_union_py310.py`: *Test pylint.extension.typing - consider-alternative-union-syntax  'py-version' needs to be set to >= '3.10'.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_consider_using_union_without_future.py`: *Test pylint.extension.typing - consider-alternative-union-syntax  'py-version' needs to be set to >= '3.7' and 'runtime-typing=no'.*
+  - 📄 `pylint-main/tests/functional/ext/typing/typing_deprecated_alias.py`: *Test pylint.extension.typing - deprecated-typing-alias  'py-version' needs to be set to >= '3.9'.*
+  - 📄 `pylint-main/tests/functional/ext/while_used/while_used.py`: *Functional test*
+  - 📄 `pylint-main/tests/functional/f/first_arg.py`: *check for methods first arguments*
+  - 📄 `pylint-main/tests/functional/f/fixme.py`: *Tests for fixme and its disabling and enabling.*
+  - 📄 `pylint-main/tests/functional/f/fixme_bad_formatting_1139.py`: *Test for issue ##1139 - when CRLF newline characters are used, \r is left in msg section. As a result, output line in cmdline is overwritten with text after msg*
+  - 📄 `pylint-main/tests/functional/f/fixme_docstring.py`: *Tests for fixme in docstrings*
+  - 📄 `pylint-main/tests/functional/f/formatted_string_literal_with_if.py`: *Test that `if` in formatted string literal won't break Pylint.*
+  - 📄 `pylint-main/tests/functional/f/func_disable_linebased.py`: *Make sure enable/disable pragmas work for messages that are applied to lines and not syntax nodes.  A disable pragma for a message that applies to nodes is applied to the whole block if it comes befor...*
+  - 📄 `pylint-main/tests/functional/f/function_redefined.py`: *docstring*
+  - 📄 `pylint-main/tests/functional/f/future_import.py`: *a docstring*
+  - 📄 `pylint-main/tests/functional/f/future_unicode_literals.py`: *Unicode literals in Python 2.**
+  - 📄 `pylint-main/tests/functional/g/generated_members.py`: *Test the generated-members config option.*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_collections.py`: *Test generic alias support for stdlib types (added in PY39).*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_mixed_py39.py`: *Test generic alias support with mix of typing.py and stdlib types (PY39+).*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_related.py`: *Test related function for generic alias.  Any solution should not change the behavior of - `__getitem__` - `__class_getitem__` - `metaclass=ABCMeta`*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_related_py39.py`: *Test related function for generic alias.  Any solution should not change the behavior of - `__getitem__` - `__class_getitem__` - `metaclass=ABCMeta`*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_side_effects.py`: *Simple class with slots*
+  - 📄 `pylint-main/tests/functional/g/generic_alias/generic_alias_typing.py`: *Test generic alias support for typing.py types.*
+  - 📄 `pylint-main/tests/functional/g/genexp_in_class_scope.py`: *Class scope must be handled correctly in genexps*
+  - 📄 `pylint-main/tests/functional/g/genexpr_variable_scope.py`: *test name defined in generator expression are not available outside the genexpr scope*
+  - 📄 `pylint-main/tests/functional/g/globals.py`: *Warnings about global statements and usage of global variables.*
+  - 📄 `pylint-main/tests/functional/i/implicit/implicit_flag_alias.py`: *Test check for classes extending an Enum class.*
+  - 📄 `pylint-main/tests/functional/i/implicit/implicit_str_concat.py`: *a*
+  - 📄 `pylint-main/tests/functional/i/import_dummy.py`: *Testing importing module as dummy variable.*
+  - 📄 `pylint-main/tests/functional/i/import_error.py`: *Test that import errors are detected.*
+  - 📄 `pylint-main/tests/functional/i/import_itself.py`: *test module importing itself*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_mro.py`: *Tests for inconsistent-mro.*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_quotes.py`: *Tests for inconsistent quoting strategy.  In this file, double quotes are the majority quote delimiter.*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_quotes2.py`: *Tests for inconsistent quoting strategy.  In this file, single quotes are the majority quote delimiter.*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_returns.py`: *Testing inconsistent returns*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_returns_noreturn.py`: *Testing inconsistent returns involving typing.NoReturn annotations.*
+  - 📄 `pylint-main/tests/functional/i/inconsistent/inconsistent_returns_quit_exit.py`: *Test that quit() and exit() are handled consistently with sys.exit()*
+  - 📄 `pylint-main/tests/functional/i/inference_crash_4692.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/4692.*
+  - 📄 `pylint-main/tests/functional/i/inherit_non_class.py`: *Test that inheriting from something which is not a class emits a warning.*
+  - 📄 `pylint-main/tests/functional/i/init_not_called.py`: *ancestor 1*
+  - 📄 `pylint-main/tests/functional/i/init_return_from_inner_function.py`: *#10075*
+  - 📄 `pylint-main/tests/functional/i/inner_classes.py`: *Backend Base Classes for the schwelm user DB*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format.py`: *Test invalid __all__ format.  Tuples with one element MUST contain a comma! Otherwise it's a string.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_1.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_2.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_3.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_4.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_5.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_all/invalid_all_format_valid_6.py`: *Test valid __all__ format.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_bool_returned.py`: *Check invalid value returned by __bool__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_bytes_returned.py`: *Check invalid value returned by __bytes__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_class_object.py`: *See https://github.com/pylint-dev/pylint/issues/7467*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_enum_extension.py`: *Test check for classes extending an Enum class.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_caught.py`: *Custom 'exception'.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_exceptions/invalid_exceptions_raised.py`: *test pb with exceptions and classes*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_field_call.py`: *Tests for the invalid-field-call message.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_format_returned.py`: *Check invalid value returned by __format__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_getnewargs/invalid_getnewargs_ex_returned.py`: *Check invalid value returned by __getnewargs_ex__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_getnewargs/invalid_getnewargs_returned.py`: *Check invalid value returned by __getnewargs__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_hash_returned.py`: *Check invalid value returned by __hash__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_index_returned.py`: *Check invalid value returned by __index__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_length/invalid_length_hint_returned.py`: *Check invalid value returned by __length_hint__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_length/invalid_length_returned.py`: *Check invalid value returned by __len__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name.py`: *Tests for invalid-name checker.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name-module-disable.py`: *Regression test for disabling of invalid-name for module names.  See https://github.com/pylint-dev/pylint/issues/3973.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_enum.py`: *Tests for invalid-name checker in the context of enums.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_issue_3405.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/3405.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_module_level.py`: *Tests for invalid name for names declared at module level*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_multinaming_style.py`: *Test for multi naming style.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_property.py`: *Tests for invalid-name checker with properties.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_name/invalid_name_with_final_typing.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/10711.*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_repr_returned.py`: *Check invalid value returned by __repr__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_sequence_index.py`: *list index is a function*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_slice_index.py`: *Errors for invalid slice indices*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_star_assignment_target.py`: *Test for *a = b*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_str_returned.py`: *Check invalid value returned by __str__*
+  - 📄 `pylint-main/tests/functional/i/invalid/invalid_unary_operand_type.py`: *Detect problems with invalid operands used on invalid objects.*
+  - 📄 `pylint-main/tests/functional/i/isinstance_second_argument_py310.py`: *Tests for invalid isinstance with compound types*
+  - 📄 `pylint-main/tests/functional/i/iterable_context.py`: *Checks that primitive values are not used in an iterating/mapping context.*
+  - 📄 `pylint-main/tests/functional/i/iterable_context_asyncio.py`: *Checks that we don't erroneously emit not-an-iterable errors for coroutines built with asyncio.coroutine.  These decorators were deprecated in 3.8 and removed in 3.11.*
+  - 📄 `pylint-main/tests/functional/i/iterable_context_py3.py`: *Checks that iterable metaclasses are recognized by pylint.*
+  - 📄 `pylint-main/tests/functional/i/iterable_context_py36.py`: *emits 1 number per second*
+  - 📄 `pylint-main/tests/functional/k/keyword_arg_before_vararg.py`: *Unittests for W1125 (kw args before *args)*
+  - 📄 `pylint-main/tests/functional/k/keyword_arg_before_vararg_positional_only.py`: *Test `keyword-arg-before-vararg` in the context of positional-only parameters*
+  - 📄 `pylint-main/tests/functional/k/kwarg_superseded_by_positional_arg.py`: *The `kwarg-superseded-by-positional-arg` warning message is emitted when a function is called with a keyword argument which shares a name with a positional-only parameter and the function contains a k...*
+  - 📄 `pylint-main/tests/functional/l/lambda_use_before_assign.py`: *https://www.logilab.net/elo/ticket/18862*
+  - 📄 `pylint-main/tests/functional/l/line/line_too_long.py`: *that one is too long tooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo loooooong*
+  - 📄 `pylint-main/tests/functional/l/line/line_too_long_with_utf8.py`: *Test data file files with non-ASCII content.*
+  - 📄 `pylint-main/tests/functional/l/line/line_too_long_with_utf8_2.py`: *this utf-8 doc string have some     non ASCII characters like 'é', or '¢»ß'*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_format_interpolation_py36.py`: *Test logging-fstring-interpolation for Python 3.6*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_format_interpolation_style.py`: *Tests for logging-format-interpolation with logging-format-style=new*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_fstring_interpolation_py36.py`: *Test logging-fstring-interpolation for Python 3.6*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_fstring_interpolation_py37.py`: *Tests for logging-fstring-interpolation with f-strings*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_not_lazy.py`: *Tests for logging-not-lazy*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_not_lazy_module.py`: *Tests for logging-not-lazy and the logging-modules option.*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_not_lazy_with_logger.py`: *Logging warnings using a logger class.*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_too_few_args_new_style.py`: *Tests for logging-too-few-args new style*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_too_few_args_old_style.py`: *Tests for logging-too-few-args old style*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_too_many_args_new_style.py`: *Tests for logging-too-many-args with logging-format-style=new for both new style and old style.*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_too_many_args_old_style.py`: *Tests for logging-too-many-args using logging-format-style=old for both new style and old style.*
+  - 📄 `pylint-main/tests/functional/l/logging/logging_unsupported_format.py`: *Tests for logging-unsupported-format (issue #10752)  According to Python logging documentation, no formatting is performed when no arguments are supplied. This test verifies that unsupported format ch...*
+  - 📄 `pylint-main/tests/functional/l/logical_tautology.py`: *Check for logical tautology, when a value is compared against itself.*
+  - 📄 `pylint-main/tests/functional/l/loopvar_in_dict_comp.py`: *Tests for loopvar-in-closure.*
+  - 📄 `pylint-main/tests/functional/m/mapping_context.py`: *Checks that only valid values are used in a mapping context.*
+  - 📄 `pylint-main/tests/functional/m/match_class_pattern.py`: *Check too many positional sub-patterns*
+  - 📄 `pylint-main/tests/functional/m/member/member_checks.py`: *provide some attributes and method*
+  - 📄 `pylint-main/tests/functional/m/metaclass_attr_access.py`: *test attribute access on metaclass*
+  - 📄 `pylint-main/tests/functional/m/method_cache_max_size_none.py`: *Tests for method-cache-max-size-none*
+  - 📄 `pylint-main/tests/functional/m/method_hidden.py`: *check method hiding ancestor attribute*
+  - 📄 `pylint-main/tests/functional/m/misplaced_format_function.py`: *Test that format function is used only with string.*
+  - 📄 `pylint-main/tests/functional/m/misplaced_future.py`: *Test that __future__ is not the first statement after the docstring.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_class_docstring.py`: *Tests for missing-class-docstring*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_docstring.py`: *It has a docstring.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_docstring_new_style.py`: *It has a docstring.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_final_newline.py`: *This file does not have a final newline.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_function_docstring.py`: *Tests for missing-function-docstring*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_function_docstring_min_length.py`: *Tests for missing-function-docstring and the min-length option*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_function_docstring_rgx.py`: *Tests for missing-function-docstring and the no-docstring-rgx option*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_parentheses_for_call_in_test.py`: *Verify if call to function or method inside tests are missing parentheses.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_self_argument.py`: *Checks that missing self in method defs don't crash Pylint.*
+  - 📄 `pylint-main/tests/functional/m/missing/missing_timeout.py`: *Tests for missing-timeout.*
+  - 📄 `pylint-main/tests/functional/m/mixin_class_rgx.py`: *Tests for the mixin-class-rgx option*
+  - 📄 `pylint-main/tests/functional/m/modified_iterating.py`: *Tests for iterating-modified messages*
+  - 📄 `pylint-main/tests/functional/m/module___dict__.py`: *https://www.logilab.org/ticket/6949.*
+  - 📄 `pylint-main/tests/functional/m/multiple_statements.py`: *Tests for multiple-statements*
+  - 📄 `pylint-main/tests/functional/m/multiple_statements_single_line.py`: *Tests for multiple-statements with single-line-***-stmt turned on.*
+  - 📄 `pylint-main/tests/functional/n/name/name_final.py`: *Test typing.Final*
+  - 📄 `pylint-main/tests/functional/n/name/name_final_snake_case.py`: *Test typing.Final with name style snake_case.*
+  - 📄 `pylint-main/tests/functional/n/name/name_styles.py`: *Test for the invalid-name warning.*
+  - 📄 `pylint-main/tests/functional/n/namedtuple_member_inference.py`: *Test namedtuple attributes.  Regression test for: https://bitbucket.org/logilab/pylint/issue/93/pylint-crashes-on-namedtuple-attribute*
+  - 📄 `pylint-main/tests/functional/n/names_in__all__.py`: *Test Pylint's use of __all__.  * NonExistent is not defined in this module, and it is listed in   __all__. An error is expected.  * This module imports path and republished it in __all__. No errors   ...*
+  - 📄 `pylint-main/tests/functional/n/nan_comparison_check.py`: *Test detection of NaN value comparison.*
+  - 📄 `pylint-main/tests/functional/n/nested_func_defined_in_loop.py`: *Check a nested function defined in a loop.*
+  - 📄 `pylint-main/tests/functional/n/nested_min_max.py`: *Test detection of redundant nested calls to min/max functions*
+  - 📄 `pylint-main/tests/functional/n/nested_min_max_py39.py`: *Test detection of redundant nested calls to min/max functions*
+  - 📄 `pylint-main/tests/functional/n/new_style_class_py_30.py`: *check builtin data descriptors such as mode and name attributes on a file are correctly handled  bug notified by Pierre Rouleau on 2005-04-24*
+  - 📄 `pylint-main/tests/functional/n/no/no_classmethod_decorator.py`: *Checks class methods are declared with a decorator if within the class scope and if classmethod's argument is a member of the class*
+  - 📄 `pylint-main/tests/functional/n/no/no_dummy_redefined.py`: *Make sure warnings about redefinitions do not trigger for dummy variables.*
+  - 📄 `pylint-main/tests/functional/n/no/no_else_break.py`: *Test that superfluous else break are detected.*
+  - 📄 `pylint-main/tests/functional/n/no/no_else_continue.py`: *Test that superfluous else continue are detected.*
+  - 📄 `pylint-main/tests/functional/n/no/no_else_raise.py`: *Test that superfluous else raise are detected.*
+  - 📄 `pylint-main/tests/functional/n/no/no_else_return.py`: *Test that superfluous else return are detected.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_assign_same_line.py`: *Tests for no-member for self-referencing instance attributes See https://github.com/pylint-dev/pylint/issues/1555*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_augassign.py`: *Tests for no-member in relation to AugAssign operations.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_binary_operations.py`: *Tests for no-member in relation to binary operations.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_dataclasses.py`: *Test various regressions for dataclasses and no-member.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_decorator.py`: *Attributes supplied by a decorator.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_exception_group.py`: *Indirect tests that ExceptionGroup is inferred.*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_imports.py`: *Tests for no-member on imported modules*
+  - 📄 `pylint-main/tests/functional/n/no/no_member_subclassed_dataclasses.py`: *Serializes given DeploymentState instance to Dict.         :return:*
+  - 📄 `pylint-main/tests/functional/n/no/no_method_argument_py38.py`: *A method without a self argument but with *args.*
+  - 📄 `pylint-main/tests/functional/n/no/no_name_in_module.py`: *check nonexistent names imported are reported*
+  - 📄 `pylint-main/tests/functional/n/no/no_self_argument.py`: *Check for method without self as first argument*
+  - 📄 `pylint-main/tests/functional/n/no/no_staticmethod_decorator.py`: *Checks static methods are declared with a decorator if within the class scope and if static method's argument is a member of the class*
+  - 📄 `pylint-main/tests/functional/n/non/non_ascii_name.py`: *Tests for non-ascii-name checker.*
+  - 📄 `pylint-main/tests/functional/n/non/non_ascii_name_backward_test_code.py`: *Tests for non-ascii-name checker working as expected after a major refactor*
+  - 📄 `pylint-main/tests/functional/n/non/non_ascii_name_backward_test_msg.py`: *Tests for non-ascii-name checker working as expected after a major refactor*
+  - 📄 `pylint-main/tests/functional/n/non/non_init_parent_called.py`: *test for call to __init__ from a non ancestor class*
+  - 📄 `pylint-main/tests/functional/n/non/non_iterator_returned.py`: *Check non-iterators returned by __iter__*
+  - 📄 `pylint-main/tests/functional/n/non/non_parent_init_called.py`: *This used to raise a non-parent-init-called on Pylint 1.3 See issue https://bitbucket.org/logilab/pylint/issue/308/ for reference*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_import/non_ascii_import.py`: *Test that invalid module name imports causes correct error*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_import/non_ascii_import_as_bad.py`: *import non ascii alias*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_import/non_ascii_import_as_okay.py`: *Test that invalid module name do not cause errors when using an alias*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_import/non_ascii_import_from_as.py`: *import as non ascii alias*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_assignment_expressions.py`: *Assignment Expression as defined in https://www.python.org/dev/peps/pep-0572/*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_decorator.py`: *Ensure that also decorator calls caught correctly Column and line not correctly detected with Python 3.8, so we skip it and only test versions after that.*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_dict_kwargs.py`: *We don't expect this to give any errors!*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_for_loop.py`: *invalid ascii char in a for loop*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_function.py`: *invalid ASCII char in a function definition*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_function_argument.py`: *non ascii variable defined in a function*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_inline_var.py`: *inline loop non ascii variable definition*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_kwargs.py`: *Defining non ASCII variables in a function call*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_local.py`: *Using non ascii variables in local*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_pos_and_kwonly_function.py`: *Test for names within keyword and position only function  This test is 3.8+ as the columns are not correctly identified by the ast parser < 3.8*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_staticmethod.py`: *static method with non ascii characters*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_try_except.py`: *Also variables defined in except can't contain non ascii chars*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name/non_ascii_name_variable.py`: *Simply variable test*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name_class/non_ascii_name_class.py`: *Non ASCII char in class name  Note that the end line parameter here seems to be off. We would expect it to be the same as the start, as we only refer to the class Name and not the complete class defin...*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name_class/non_ascii_name_class_attribute.py`: *Non ASCII name in class variable*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name_class/non_ascii_name_class_constant.py`: *non ASCII name in global class variable/class constant*
+  - 📄 `pylint-main/tests/functional/n/non_ascii_name_class/non_ascii_name_class_method.py`: *Non ASCII char in classmethod*
+  - 📄 `pylint-main/tests/functional/n/none_dunder_protocols.py`: *https://github.com/pylint-dev/pylint/issues/6366*
+  - 📄 `pylint-main/tests/functional/n/nonexistent_operator.py`: *check operator use*
+  - 📄 `pylint-main/tests/functional/n/nonlocal_and_global.py`: *Test that a name is both nonlocal and global in the same scope.*
+  - 📄 `pylint-main/tests/functional/n/nonlocal_without_binding.py`: *Checks that reversed() receive proper argument*
+  - 📄 `pylint-main/tests/functional/n/not_async_context_manager.py`: *Test that an async context manager receives a proper object.*
+  - 📄 `pylint-main/tests/functional/n/not_callable.py`: *callable object*
+  - 📄 `pylint-main/tests/functional/n/not_context_manager.py`: *Tests that onjects used in a with statement implement context manager protocol*
+  - 📄 `pylint-main/tests/functional/n/not_in_loop.py`: *Test that not-in-loop is detected properly.*
+  - 📄 `pylint-main/tests/functional/o/object_as_class_attribute.py`: *Test case for the problem described below :  - A class extends 'object'  - This class defines its own __init__()    * pylint will therefore check that baseclasses' init()      are called  - If this cl...*
+  - 📄 `pylint-main/tests/functional/o/overloaded_operator.py`: *#3291*
+  - 📄 `pylint-main/tests/functional/o/overridden_final_method_py38.py`: *Since Python version 3.8, a method decorated with typing.final cannot be overridden*
+  - 📄 `pylint-main/tests/functional/o/overridden_final_method_regression.py`: *Test a crash regression for the overridden-final-method checker on uninferable decorators*
+  - 📄 `pylint-main/tests/functional/p/positional_only_arguments_expected.py`: *Calling this function with the `banana` keyword should not emit     `positional-only-arguments-expected` since it is added to `**kwargs`.      >>> function_with_kwargs("Red apple", banana="Green banan...*
+  - 📄 `pylint-main/tests/functional/p/postponed/postponed_evaluation_pep585.py`: *Test PEP 585 works as expected, starting with Python 3.9*
+  - 📄 `pylint-main/tests/functional/p/potential_index_error.py`: *Tests for potential-index-error*
+  - 📄 `pylint-main/tests/functional/p/pragma_after_backslash.py`: *Test that a pragma has an effect when separated by a backslash.*
+  - 📄 `pylint-main/tests/functional/p/preferred_module.py`: *Test preferred modules.*
+  - 📄 `pylint-main/tests/functional/p/property_affectation_py26.py`: *Simple test case for an annoying behavior in pylint.*
+  - 📄 `pylint-main/tests/functional/p/property_with_parameters.py`: *MyClassBase.*
+  - 📄 `pylint-main/tests/functional/p/protected_access.py`: *Tests for protected_access*
+  - 📄 `pylint-main/tests/functional/p/protected_access_special_methods_off.py`: *Test that when check-protected-access-in-special-methods is False (default) no protected-access message emission for single underscore prefixed names inside special methods occur*
+  - 📄 `pylint-main/tests/functional/p/protected_access_special_methods_on.py`: *Test that check-protected-access-in-special-methods can be used to trigger protected-access message emission for single underscore prefixed names inside special methods.*
+  - 📄 `pylint-main/tests/functional/p/protocol_classes.py`: *A hashing algorithm, e.g. :func:`hashlib.sha256`.*
+  - 📄 `pylint-main/tests/functional/p/protocol_classes_abstract.py`: *Test that classes inheriting directly from Protocol should not warn about abstract-method.*
+  - 📄 `pylint-main/tests/functional/p/py_version_35.py`: *No warnings should be emitted for features that require Python > 3.5*
+  - 📄 `pylint-main/tests/functional/r/raising/raising_bad_type.py`: *Tests for raising-bad-type*
+  - 📄 `pylint-main/tests/functional/r/raising/raising_non_exception.py`: *The following code should emit a raising-non-exception.  Previously, it didn't, due to a bug in the check for bad-exception-cause, which prevented further checking on the Raise node.*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_2667.py`: *Add regression test for https://github.com/pylint-dev/pylint/issues/2667*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_2906.py`: *Recursion error for https://github.com/pylint-dev/pylint/issues/2906*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_3152.py`: *Check that we do not crash with a recursion error*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_3159.py`: *Check that we do not crash with a recursion error  https://github.com/pylint-dev/pylint/issues/3159*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_crash.py`: *Test that a recursion error does not happen  https://github.com/pylint-dev/pylint/issues/2463*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_crash_2683.py`: *Test for https://github.com/pylint-dev/pylint/issues/2683*
+  - 📄 `pylint-main/tests/functional/r/recursion/recursion_error_crash_astroid_623.py`: *Test that a recursion error does not happen  https://github.com/pylint-dev/astroid/issues/623*
+  - 📄 `pylint-main/tests/functional/r/redefine_loop.py`: *No message is emitted for variables overwritten in inner loops by default. See redefined-loop-name optional checker.*
+  - 📄 `pylint-main/tests/functional/r/redefined/redefined_builtin.py`: *Tests for redefining builtins.*
+  - 📄 `pylint-main/tests/functional/r/redefined/redefined_builtin_allowed.py`: *Tests for redefining builtins.*
+  - 📄 `pylint-main/tests/functional/r/redefined/redefined_except_handler.py`: *Tests for except handlers that shadow outer except handlers or exceptions.  See: https://github.com/pylint-dev/pylint/issues/5370*
+  - 📄 `pylint-main/tests/functional/r/redefined/redefined_slots.py`: *Checks that a subclass does not redefine a slot which has been defined in a parent class.*
+  - 📄 `pylint-main/tests/functional/r/redundant_u_string_prefix.py`: *"Checks for redundant u-prefixes for strings*
+  - 📄 `pylint-main/tests/functional/r/redundant_unittest_assert.py`: *If you are using assertTrue or assertFalse and the first argument is a constant (like a string), then the assert will always be true. Therefore, it should emit a warning message.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_2913.py`: *Module doc string.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_3416_unused_argument_raise.py`: *Test that we emit unused-argument when a function uses `raise  https://github.com/pylint-dev/pylint/issues/3416*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_3507_typing_alias_isinstance.py`: *https://github.com/pylint-dev/pylint/issues/3507 False-positive 'isinstance-second-argument-not-valid-type' for typing aliases in 'isinstance' calls.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_4439.py`: *AttributeError: 'Subscript' object has no attribute 'name'*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_4723.py`: *Latest version of astroid (2.6.3) causes RuntimeError: generator raised StopIteration #4723*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_6531_crash_index_error.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/6531.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_9074_refactor_loop_with_unary_variable.py`: *Regression test.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_9865_calling_bound_lambda.py`: *Regression for https://github.com/pylint-dev/pylint/issues/9865.*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_9875_enumerate.py`: *https://github.com/pylint-dev/pylint/issues/9875*
+  - 📄 `pylint-main/tests/functional/r/regression/regression___file___global.py`: *test no crash on __file__ global*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_issue_4631.py`: *Regression tests for StopIteration raised when using limit-inference-results=0*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_issue_4633.py`: *Regression tests for https://github.com/pylint-dev/pylint/issues/4633*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_no_member_1078.py`: *Make sure no-member is not emitted when modifying __doc__ via augmented assignment  https://github.com/pylint-dev/pylint/issues/1078*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_no_value_for_parameter.py`: *All good*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_posonly_args.py`: *Test linting.  This is only intended to test pylint support for python 3.8's positional-only arguments (PEP 570).*
+  - 📄 `pylint-main/tests/functional/r/regression/regression_property_no_member_3269.py`: *Calling a super property*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_10334.py`: *Test for slice object used as a decorator.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_10626.py`: *Test case for issue #10626: nested builtins.min / builtins.max calls*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_10627.py`: *Test for deleted index.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_10892.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/10892  Crash in ``_called_in_methods`` when ``klass.getattr()`` returns non-NodeNG objects (e.g. ``UninferableBase``) from the metaclass...*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_2567.py`: *Regression test for `no-member`. See: https://github.com/pylint-dev/pylint/issues/2567*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_2964.py`: *Regression test for `no-member`. See: https://github.com/pylint-dev/pylint/issues/2964*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_3976.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/3976  E1123: Unexpected keyword argument 'include_extras' in function call (unexpected-keyword-arg)*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_3979.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/3979*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_4126.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/4126.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_4660.py`: *Regression tests for https://github.com/pylint-dev/pylint/issues/4660*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_4982.py`: *Regression test for a crash reported in https://github.com/pylint-dev/pylint/issues/4982*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5030.py`: *Regression in astroid on ClassDef inference with two test cases. Fixed in https://github.com/pylint-dev/astroid/pull/1181*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5048.py`: *Crash regression in astroid on Compare node inference Fixed in https://github.com/pylint-dev/astroid/pull/1185*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5244.py`: *Test for the regression on inference of self referential __len__ Reported in https://github.com/pylint-dev/pylint/issues/5244*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5408.py`: *Regression test for issue 5408.  Recursion error for self-referencing class attribute. See: https://github.com/pylint-dev/pylint/issues/5408*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5461.py`: *Regression test for issue 5461 Crash on list comprehension with it used `type` as variable name  See: https://github.com/pylint-dev/pylint/issues/5461*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5479.py`: *Test for a regression on slots and annotated assignments. Reported in https://github.com/pylint-dev/pylint/issues/5479*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_5776.py`: *Test for a regression with Enums not being recognized when imported with an alias.  Reported in https://github.com/pylint-dev/pylint/issues/5776*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_8067.py`: *Regression tests for inferred.qname missing*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_8109.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/8109.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_8207.py`: *Regression test for 8207.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_8736.py`: *This does not crash in the functional tests, but it did when called directly.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_9751.py`: *pylint 3.2.4 regression https://github.com/pylint-dev/pylint/issues/9751*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_distutil_import_error_73.py`: *Regression test to check that distutils can be imported See https://github.com/pylint-dev/pylint/issues/73  See also: https://github.com/pylint-dev/pylint/issues/2955 https://github.com/pylint-dev/ast...*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_enum_1734.py`: *Get if the state is recoverable.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_no_member_7631.py`: *Regression test from https://github.com/pylint-dev/pylint/issues/7631 The following code should NOT raise no-member.*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_node_statement.py`: *Test to see we don't crash on this code in pandas. See: https://github.com/pandas-dev/pandas/blob/main/pandas/core/arrays/sparse/array.py Code written by Guido van Rossum here: https://github.com/pyth...*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_node_statement_two.py`: *Test to see we don't crash on this code in pandas. See: https://github.com/pandas-dev/pandas/blob/main/pandas/core/indexes/period.py Reported in https://github.com/pylint-dev/pylint/issues/5382*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_protected_access.py`: *Test for the regression on (outer)-class traversal for private methods MyClass does not have an outerclass which previously crashed the protected-access check*
+  - 📄 `pylint-main/tests/functional/r/regression_02/regression_too_many_arguments_2335.py`: *Test that `abc.ABCMeta.__new__` does not trigger too-many-function-arguments when referred  https://github.com/pylint-dev/pylint/issues/2335*
+  - 📄 `pylint-main/tests/functional/r/reimport.py`: *check reimport*
+  - 📄 `pylint-main/tests/functional/r/reimported.py`: *docstring*
+  - 📄 `pylint-main/tests/functional/r/renamed_import_logging_not_lazy.py`: *Fake logger*
+  - 📄 `pylint-main/tests/functional/r/repeated_keyword.py`: *Check that a keyword is not repeated in a function call  This is somehow related to redundant-keyword, but it's not the same.*
+  - 📄 `pylint-main/tests/functional/r/return_in_init.py`: *dummy class*
+  - 📄 `pylint-main/tests/functional/r/return_outside_function.py`: *This is grammatically correct, but it's still a SyntaxError*
+  - 📄 `pylint-main/tests/functional/s/self/self_cls_assignment.py`: *Warning about assigning self/cls variable.*
+  - 📄 `pylint-main/tests/functional/s/shallow_copy_environ.py`: *Tests for shallow-copy-environ*
+  - 📄 `pylint-main/tests/functional/s/signature_differs.py`: *Test that a method with variadics does not trigger the warning*
+  - 📄 `pylint-main/tests/functional/s/simplifiable/simplifiable_condition.py`: *Test that boolean conditions can be simplified*
+  - 📄 `pylint-main/tests/functional/s/simplifiable/simplifiable_if_expression.py`: *Test that some if expressions can be simplified.*
+  - 📄 `pylint-main/tests/functional/s/simplifiable/simplifiable_if_statement.py`: *Test that some if statement tests can be simplified.*
+  - 📄 `pylint-main/tests/functional/s/simplify_chained_comparison.py`: *Test that some boolean expression statement tests can be simplified.*
+  - 📄 `pylint-main/tests/functional/s/singledispatch/singledispatch_method.py`: *Tests for singledispatch-method*
+  - 📄 `pylint-main/tests/functional/s/singledispatch/singledispatchmethod_function.py`: *Tests for singledispatchmethod-function*
+  - 📄 `pylint-main/tests/functional/s/slots_checks.py`: *Checks that classes uses valid __slots__*
+  - 📄 `pylint-main/tests/functional/s/socketerror_import.py`: *ds*
+  - 📄 `pylint-main/tests/functional/s/star/star_needs_assignment_target.py`: *Test for a = *b*
+  - 📄 `pylint-main/tests/functional/s/statement_without_effect.py`: *Test for statements without effects.*
+  - 📄 `pylint-main/tests/functional/s/statement_without_effect_py312.py`: *Move this into statement_without_effect.py when python 3.12 is minimum.*
+  - 📄 `pylint-main/tests/functional/s/statement_without_effect_py36.py`: *Test for statements without effects.*
+  - 📄 `pylint-main/tests/functional/s/stop_iteration_inside_generator.py`: *Test that no StopIteration is raised inside a generator*
+  - 📄 `pylint-main/tests/functional/s/string/string_formatting.py`: *Test for Python 3 string formatting error*
+  - 📄 `pylint-main/tests/functional/s/string/string_formatting_error.py`: *test string format error*
+  - 📄 `pylint-main/tests/functional/s/string/string_formatting_failed_inference.py`: *Testing string format with a failed inference. This should not crash.*
+  - 📄 `pylint-main/tests/functional/s/string/string_formatting_failed_inference_py35.py`: *Testing string format with a failed inference. This should not crash.*
+  - 📄 `pylint-main/tests/functional/s/string/string_log_formatting.py`: *Test checking of log format strings*
+  - 📄 `pylint-main/tests/functional/s/subclassed_final_class_py38.py`: *Since Python version 3.8, a class decorated with typing.final cannot be subclassed.*
+  - 📄 `pylint-main/tests/functional/s/super/super_checks.py`: *old style*
+  - 📄 `pylint-main/tests/functional/s/super/super_init_not_called.py`: *Tests for super-init-not-called.*
+  - 📄 `pylint-main/tests/functional/s/super/super_init_not_called_extensions_py310.py`: *Tests for super-init-not-called.*
+  - 📄 `pylint-main/tests/functional/s/super/super_init_not_called_py38.py`: *Tests for super-init-not-called with Protocol.*
+  - 📄 `pylint-main/tests/functional/s/super/super_without_brackets.py`: *Tests for super-without-brackets*
+  - 📄 `pylint-main/tests/functional/s/superfluous_parens.py`: *Test the superfluous-parens warning.*
+  - 📄 `pylint-main/tests/functional/s/superfluous_parens_walrus_py38.py`: *Test the superfluous-parens warning with python 3.8 functionality (walrus operator)*
+  - 📄 `pylint-main/tests/functional/s/suspicious_str_strip_call.py`: *Suspicious str.strip calls.*
+  - 📄 `pylint-main/tests/functional/s/symlink/_binding/__init__.py`: *Example taken from issue #1470*
+  - 📄 `pylint-main/tests/functional/s/symlink/_binding/symlink_module.py`: *Example taken from issue #1470*
+  - 📄 `pylint-main/tests/functional/s/symlink/symlink_module/__init__.py`: *Example taken from issue #1470*
+  - 📄 `pylint-main/tests/functional/s/symlink/symlink_module/symlink_module.py`: *Example taken from issue #1470*
+  - 📄 `pylint-main/tests/functional/t/ternary.py`: *Test for old ternary constructs*
+  - 📄 `pylint-main/tests/functional/t/tokenize_error.py`: *The problem is the trailing line continuation at the end of the line, which produces a TokenError.*
+  - 📄 `pylint-main/tests/functional/t/tokenize_error_jython.py`: *A module that is accepted by Python but rejected by tokenize.  The problem is the trailing line continuation at the end of the line, which produces a TokenError.*
+  - 📄 `pylint-main/tests/functional/t/tokenize_error_py312.py`: *The problem is the trailing line continuation at the end of the line, which produces a TokenError.*
+  - 📄 `pylint-main/tests/functional/t/too/too_few_public_methods.py`: *docstring*
+  - 📄 `pylint-main/tests/functional/t/too/too_few_public_methods_37.py`: *A three dimensional point with x, y and z components.*
+  - 📄 `pylint-main/tests/functional/t/too/too_few_public_methods_excluded.py`: *This class inherits from a class that doesn't have enough methods,     and its parent is excluded via config, so it doesn't raise.*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_ancestors.py`: *Minimal MutableSequence.*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_ancestors_ignored_parents.py`: *0 parents*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_arguments.py`: *Test we don't emit a FP for https://github.com/pylint-dev/pylint/issues/2588*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_boolean_expressions.py`: *Checks for if statements containing too many boolean expressions*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_branches.py`: *Test for too many branches.*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_function_args.py`: *https://github.com/pylint-dev/pylint/issues/3675*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_instance_attributes_py37.py`: *InitVars should not count as instance attributes (see issue #3754) Default max_instance_attributes is 7*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_lines_disabled.py`: *Test that disabling too-many-lines on any line works.*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_locals.py`: *pylint will complain about too many local variables*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_nested_blocks.py`: *Checks the maximum block level is smaller than 6 in function definitions*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_positional_arguments.py`: *The max positional arguments default is 5. Regular methods don't count `self`.*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_public_methods.py`: *hehehe*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_return_statements.py`: *Not a problem*
+  - 📄 `pylint-main/tests/functional/t/too/too_many_star_expressions.py`: *Test for too-many-star-expressions.*
+  - 📄 `pylint-main/tests/functional/t/trailing_comma_tuple.py`: *Check trailing comma one element tuples.*
+  - 📄 `pylint-main/tests/functional/t/trailing_comma_tuple_9608.py`: *Check trailing comma tuple optimization.*
+  - 📄 `pylint-main/tests/functional/t/trailing_newlines.py`: *Regression test for trailing-newlines (C0304).*
+  - 📄 `pylint-main/tests/functional/t/trailing_whitespaces.py`: *Regression test for trailing-whitespace (C0303).*
+  - 📄 `pylint-main/tests/functional/t/try_except_raise.py`: *AAAException*
+  - 📄 `pylint-main/tests/functional/t/type/typealias_naming_style_default.py`: *Test cases for invalid-name for TypeAlias and related classes with default settings.*
+  - 📄 `pylint-main/tests/functional/t/type/typealias_naming_style_py312.py`: *PEP 695 generic typing nodes*
+  - 📄 `pylint-main/tests/functional/t/type/typealias_naming_style_rgx.py`: *Test cases for invalid-name for TypeAlias and related classes with non-default settings.*
+  - 📄 `pylint-main/tests/functional/t/type/typedDict.py`: *Test typing.TypedDict*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_double_variance.py`: *Test case for typevar-name-incorrect-variance with default settings*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_name_incorrect_variance.py`: *Test case for typevar-name-incorrect-variance.*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_name_mismatch.py`: *Test case for TypeVar name not matching assigned variable name.*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_naming_style_default.py`: *Test case for typevar-name-incorrect-variance with default settings*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_naming_style_py312.py`: *PEP 695 generic typing nodes*
+  - 📄 `pylint-main/tests/functional/t/type/typevar_naming_style_rgx.py`: *Test case for typevar-name-missing-variance with non-default settings*
+  - 📄 `pylint-main/tests/functional/t/typing_generic.py`: *Base*
+  - 📄 `pylint-main/tests/functional/t/typing_use.py`: *Return arg, concatenated with itself.*
+  - 📄 `pylint-main/tests/functional/u/unbalanced/unbalanced_dict_unpacking.py`: *Check possible unbalanced dict unpacking*
+  - 📄 `pylint-main/tests/functional/u/unbalanced/unbalanced_tuple_unpacking.py`: *Check possible unbalanced tuple unpacking*
+  - 📄 `pylint-main/tests/functional/u/unbalanced/unbalanced_tuple_unpacking_py30.py`: *Test that using starred nodes in unpacking does not trigger a false positive on Python 3.*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_all_variable_edge_case.py`: *Edge case: __all__ exists in module's locals, but cannot be inferred.  Other tests for undefined-all-variable in tests/functional/n/names_in__all__.py*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_loop_variable.py`: *https://github.com/pylint-dev/pylint/issues/6419*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_loop_variable_py311.py`: *Tests for undefined-loop-variable using Python 3.11 syntax.*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_loop_variable_py38.py`: *Tests for undefined-loop-variable with assignment expressions*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable.py`: *method doc*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_classes.py`: *Tests for undefined-variable related to classes*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_decorators.py`: *Tests for undefined-variable related to decorators*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_metaclass_nested.py`: *Tests for undefined-variable false positive when a name is used as a metaclass in a nested class inside a method, and then used again at module level.  https://github.com/pylint-dev/pylint/issues/1082...*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_py30.py`: *Test warnings about access to undefined variables for various Python 3 constructs.*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_py38.py`: *Tests for undefined variable with assignment expressions*
+  - 📄 `pylint-main/tests/functional/u/undefined/undefined_variable_typing.py`: *Tests for undefined-variable related to typing*
+  - 📄 `pylint-main/tests/functional/u/unexpected_keyword_arg.py`: *Tests for unexpected-keyword-arg*
+  - 📄 `pylint-main/tests/functional/u/unexpected_special_method_signature.py`: *Test for special methods implemented incorrectly.*
+  - 📄 `pylint-main/tests/functional/u/ungrouped_imports.py`: *Checks import order rule*
+  - 📄 `pylint-main/tests/functional/u/ungrouped_imports_isort_compatible.py`: *Checks import order rule with imports that isort could generate*
+  - 📄 `pylint-main/tests/functional/u/ungrouped_imports_suppression.py`: *Check ungrouped import and interaction with useless-suppression.  Previously disabling ungrouped-imports would always lead to useless-suppression.*
+  - 📄 `pylint-main/tests/functional/u/unhashable_member_py312.py`: *slices can be used as dict keys from python 3.12*
+  - 📄 `pylint-main/tests/functional/u/unicode/unicode_bidi_commenting_out.py`: *Example #1 of trojan unicode, see https://trojansource.codes/ Taken from https://github.com/nickboucher/trojan-source/tree/main/Python*
+  - 📄 `pylint-main/tests/functional/u/unicode/unicode_bidi_early_return.py`: *Example #2 of trojan unicode, see https://trojansource.codes/ Taken from https://github.com/nickboucher/trojan-source/tree/main/Python*
+  - 📄 `pylint-main/tests/functional/u/unicode/unicode_bidi_pep672.py`: *Example of trojan unicode, see https://trojansource.codes/ This example was taken from PEP672*
+  - 📄 `pylint-main/tests/functional/u/unidiomatic_typecheck.py`: *Warnings for using type(x) == Y or type(x) is Y instead of isinstance(x, Y).*
+  - 📄 `pylint-main/tests/functional/u/uninferable_all_object.py`: *Test that non-inferable __all__ variables do not make Pylint crash.*
+  - 📄 `pylint-main/tests/functional/u/unknown_encoding_jython.py`: *check correct unknown encoding declaration*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_direct_lambda_call.py`: *Test unnecessary direct calls to lambda expressions.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_dunder_call.py`: *Checks for unnecessary-dunder-call.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_dunder_call_async_py310.py`: *Checks for unnecessary-dunder-call on __aiter__/__anext__ with py-version=3.10.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_dunder_call_async_py39.py`: *Checks for unnecessary-dunder-call on __aiter__/__anext__ with py-version=3.9.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_ellipsis.py`: *Emit a warning when the ellipsis constant is used and can be avoided*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_lambda.py`: *test suspicious lambda expressions*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_lambda_assignment.py`: *Test assignment of lambda expressions to a variable.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_list_index_lookup.py`: *Tests for unnecessary-list-index-lookup.*
+  - 📄 `pylint-main/tests/functional/u/unnecessary/unnecessary_negation.py`: *Check exceeding negations in boolean expressions trigger warnings*
+  - 📄 `pylint-main/tests/functional/u/unpacking/unpacking.py`: *Code for checking the display of the module for unbalanced-tuple-unpacking and unpacking-non-sequence*
+  - 📄 `pylint-main/tests/functional/u/unpacking/unpacking_generalizations.py`: *Various tests for unpacking generalizations added in Python 3.5*
+  - 📄 `pylint-main/tests/functional/u/unpacking/unpacking_non_sequence.py`: *Check unpacking non-sequences in assignments.*
+  - 📄 `pylint-main/tests/functional/u/unpacking/unpacking_non_sequence_py310.py`: *Test returns from structural pattern matching cases.*
+  - 📄 `pylint-main/tests/functional/u/unpacking/unpacking_non_sequence_py37.py`: *https://github.com/pylint-dev/pylint/issues/4895*
+  - 📄 `pylint-main/tests/functional/u/unreachable.py`: *Empty generator functions should be allowed.*
+  - 📄 `pylint-main/tests/functional/u/unrecognized_inline_option.py`: *Check unknown option*
+  - 📄 `pylint-main/tests/functional/u/unspecified_encoding_py315.py`: *No warnings for using open() without specifying an encoding (Python 3.15+).*
+  - 📄 `pylint-main/tests/functional/u/unspecified_encoding_py38.py`: *Warnings for using open() without specifying an encoding*
+  - 📄 `pylint-main/tests/functional/u/unsubscriptable_object.py`: *Tests for unscubscriptable-object*
+  - 📄 `pylint-main/tests/functional/u/unsubscriptable_value.py`: *Checks that value used in a subscript supports subscription (i.e. defines __getitem__ method).*
+  - 📄 `pylint-main/tests/functional/u/unsubscriptable_value_py37.py`: *Checks that class used in a subscript supports subscription (i.e. defines __class_getitem__ method).*
+  - 📄 `pylint-main/tests/functional/u/unsupported/unsupported_assignment_operation.py`: *Checks that value used in a subscript support assignments (i.e. defines __setitem__ method).*
+  - 📄 `pylint-main/tests/functional/u/unsupported/unsupported_binary_operation.py`: *Test for unsupported-binary-operation.*
+  - 📄 `pylint-main/tests/functional/u/unsupported/unsupported_delete_operation.py`: *Checks that value used in a subscript support deletion (i.e. defines __delitem__ method).*
+  - 📄 `pylint-main/tests/functional/u/unsupported/unsupported_version_for_f_string.py`: *Tests for the use of f-strings whenever the py-version is set < 3.6*
+  - 📄 `pylint-main/tests/functional/u/unsupported/unsupported_version_for_final.py`: *Tests for the use of typing.final whenever the py-version is set < 3.8*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_argument.py`: *Should not raise unused-argument message because key is     used inside comprehension dict*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_import.py`: *unused import*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_import_class_def_keyword.py`: *Test false-positive for unused-import on class keyword arguments      https://github.com/pylint-dev/pylint/issues/3202*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_import_everything_disabled.py`: *Test that unused-import is not emitted here when everything else is disabled  https://github.com/pylint-dev/pylint/issues/3445 https://github.com/pylint-dev/pylint/issues/6089*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_import_positional_only_py38.py`: *Test that positional only argument annotations are properly marked as consumed  https://github.com/pylint-dev/pylint/issues/3462*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_import_py30.py`: *check unused import for metaclasses*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_module.py`: *Regression test for unused-module. Reported in https://bitbucket.org/logilab/pylint/issue/78/*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_name_from_wildcard_import.py`: *check unused import from a wildcard import*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_name_in_string_literal_type_annotation.py`: *Test if pylint sees names inside string literal type annotations. #3299*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_name_in_string_literal_type_annotation_py310.py`: *unused-variable shouldn't be emitted for Example.*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_name_in_string_literal_type_annotation_py39.py`: *unused-import shouldn't be emitted for graphlib or TopologicalSorter.*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_private_member.py`: *Regression test for issue 4638*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_typing_imports.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/1168  The problem was that we weren't handling keyword-only arguments annotations, which means we were never processing them.*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_variable.py`: *"yo*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_variable_after_inference.py`: *Regression test for https://github.com/pylint-dev/pylint/issues/6895*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_variable_future_and_annotations.py`: *Test `unused-variable` is not emitted for either case of `__future__.annotations` or `__all__`*
+  - 📄 `pylint-main/tests/functional/u/unused/unused_variable_py38.py`: *Tests for the unused-variable message in assignment expressions*
+  - 📄 `pylint-main/tests/functional/u/use/use_implicit_booleaness_not_comparison.py`: *Some assertions against empty dicts.*
+  - 📄 `pylint-main/tests/functional/u/use/use_implicit_booleaness_not_comparison_to_string.py`: *Cases where a comparison like `x != ""` is used in a boolean context.      It is safe and idiomatic to simplify `x != ""` to just `x`.*
+  - 📄 `pylint-main/tests/functional/u/use/use_implicit_booleaness_not_comparison_to_zero.py`: *Cases where a comparison like `x != 0` is used in a boolean context.      It is safe and idiomatic to simplify `x != 0` to just `x`.*
+  - 📄 `pylint-main/tests/functional/u/use/use_maxsplit_arg.py`: *Emit a message for accessing first/last element of string.split*
+  - 📄 `pylint-main/tests/functional/u/use/used_before_assignment_except_handler_for_try_with_return_py38.py`: *Tests for used-before-assignment with assignments in except handlers after try blocks with return statements. See: https://github.com/pylint-dev/pylint/issues/5500.*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment.py`: *Miscellaneous used-before-assignment cases*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_488.py`: *Test that a variable defined in a finally clause does not trigger a false positive*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_class_nested_under_function.py`: *https://github.com/pylint-dev/pylint/issues/4590*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_comprehension_homonyms.py`: *Homonym between filtered comprehension and assignment in except block.*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_conditional.py`: *used-before-assignment cases involving IF conditions*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_else_continue.py`: *If the else block continues, it is generally safe to rely on assignments in the except, inside the same for loop only.*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_else_return.py`: *If the else block returns, it is generally safe to rely on assignments in the except.*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_except_handler_for_try_with_return.py`: *Tests for used-before-assignment with assignments in except handlers after try blocks with return statements. See: https://github.com/pylint-dev/pylint/issues/5500.*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_issue2615.py`: *https://github.com/pylint-dev/pylint/issues/2615*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_issue4761.py`: *used-before-assignment (E0601)*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_issue85.py`: *https://github.com/pylint-dev/pylint/issues/85*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_nonlocal.py`: *Check for nonlocal and used-before-assignment*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_postponed_evaluation.py`: *Tests for used-before-assignment when postponed evaluation of annotations is enabled*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_py310.py`: *Tests for used-before-assignment with python 3.10's pattern matching*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_py311.py`: *assert_never() introduced in 3.11*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_py312.py`: *Tests for used-before-assignment with Python 3.12 generic typing syntax (PEP 695)*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_py313.py`: *Tests for used-before-assignment with Python 3.13 type var defaults (PEP 696)*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_py37.py`: *Tests for used-before-assignment with functions added in python 3.7*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_ternary.py`: *Tests for used-before-assignment false positive from ternary expression with walrus operator*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_type_annotations.py`: *Tests for annotation of variables and potential use before assignment*
+  - 📄 `pylint-main/tests/functional/u/used/used_before_assignment_typing.py`: *Tests for used-before-assignment for typing related issues*
+  - 📄 `pylint-main/tests/functional/u/used_02/used_before_assignment_py313.py`: *Tests for used-before-assignment with Python 3.13 type var defaults (PEP 696)*
+  - 📄 `pylint-main/tests/functional/u/useless/useless_else_on_loop.py`: *Check for else branches on loops with break and return only.*
+  - 📄 `pylint-main/tests/functional/u/useless/useless_object_inheritance.py`: *Check if a class inherits from object. In python3 every class implicitly inherits from object, therefore give refactoring message to  remove object from bases*
+  - 📄 `pylint-main/tests/functional/u/useless/useless_suppression.py`: *Tests for useless suppressions*
+  - 📄 `pylint-main/tests/functional/u/useless/useless_with_lock.py`: *Tests for the useless-with-lock message*
+  - 📄 `pylint-main/tests/functional/u/using_constant_test.py`: *Verify if constant tests are used inside if statements.*
+  - 📄 `pylint-main/tests/functional/w/with_used_before_assign.py`: *Regression test for https://bitbucket.org/logilab/pylint/issue/128/attributeerror-when-parsing*
+  - 📄 `pylint-main/tests/functional/w/with_using_generator.py`: *Testing with statements that use generators. This should not crash.*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_order.py`: *Checks import order rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_order2.py`: *Checks import order rule in a right case*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position.py`: *Checks import order rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position10.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position11.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position12.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position13.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position14.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position15.py`: *Checks import position rule with pep-0008*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position16.py`: *Checks import position rule with async def*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position17.py`: *Checks import position rule for for/while blocks.*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position18.py`: *Checks import position rule for with blocks.*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position19.py`: *Checks import position rule for match blocks.*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position2.py`: *Checks import order rule with nested non_import sentence*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position20.py`: *Checks wrong-import-position pragma scoping on non-import statements.*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position3.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position4.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position5.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position6.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position7.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position8.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/w/wrong_import_position9.py`: *Checks import position rule*
+  - 📄 `pylint-main/tests/functional/y/yield_assign.py`: *https://www.logilab.org/ticket/8771*
+  - 📄 `pylint-main/tests/functional/y/yield_from_iterable.py`: *Check that `yield from`-statement takes an iterable.*
+  - 📄 `pylint-main/tests/functional/y/yield_from_outside_func.py`: *This is grammatically correct, but it's still a SyntaxError*
+  - 📄 `pylint-main/tests/functional/y/yield_inside_async_function.py`: *Test that `yield` or `yield from` can't be used inside an async function.*
+  - 📄 `pylint-main/tests/functional/y/yield_outside_func.py`: *This is grammatically correct, but it's still a SyntaxError*
+  - 📄 `pylint-main/tests/functional/y/yield_return_mix.py`: *module doc*
+  - 📄 `pylint-main/tests/input/__init__.py`: *test*
+  - 📄 `pylint-main/tests/input/func_3k_removed_stuff_py_30.py`: *test relative import*
+  - 📄 `pylint-main/tests/input/func_i0011.py`: *check warning on local disabling*
+  - 📄 `pylint-main/tests/input/func_i0012.py`: *check warning on local enabling*
+  - 📄 `pylint-main/tests/input/func_i0013.py`: *disable-all is usable as an inline option*
+  - 📄 `pylint-main/tests/input/func_i0014.py`: *disable-all is usable as an inline option*
+  - 📄 `pylint-main/tests/input/func_i0020.py`: *Test for reporting of suppressed messages.*
+  - 📄 `pylint-main/tests/input/func_i0022.py`: *Deprecated suppression style.*
+  - 📄 `pylint-main/tests/input/func_return_yield_mix_py_33.py`: *pylint should detect yield and return mix inside generators*
+  - 📄 `pylint-main/tests/input/func_w0122_py_30.py`: *test global statement*
+  - 📄 `pylint-main/tests/input/func_w0401.py`: *test cyclic import*
+  - 📄 `pylint-main/tests/input/func_w0401_disabled.py`: *test cyclic import*
+  - 📄 `pylint-main/tests/input/func_w0401_disabled_in_func.py`: *Test disabling of cyclic import check inside a function*
+  - 📄 `pylint-main/tests/input/func_w0401_package/__init__.py`: *Our big package.*
+  - 📄 `pylint-main/tests/input/func_w0401_package/all_the_things.py`: *All the things!*
+  - 📄 `pylint-main/tests/input/func_w0401_package/thing1.py`: *The first thing.*
+  - 📄 `pylint-main/tests/input/func_w0401_package/thing2.py`: *The second thing.*
+  - 📄 `pylint-main/tests/input/func_w0801.py`: *test code similarities by default docstring are not considered*
+  - 📄 `pylint-main/tests/input/ignore_except_pass_by_default.py`: *#5575: by default no W0704 warning on bare pass in except*
+  - 📄 `pylint-main/tests/input/not__init__.py`: *test*
+  - 📄 `pylint-main/tests/input/similar_cls_a.py`: *Overridden method example.*
+  - 📄 `pylint-main/tests/input/similar_cls_b.py`: *Overridden method example.*
+  - 📄 `pylint-main/tests/input/similar_empty_func_1.py`: *Valid function definition with docstring only.*
+  - 📄 `pylint-main/tests/input/similar_empty_func_2.py`: *Valid function definition with docstring only.*
+  - 📄 `pylint-main/tests/input/similar_lines_a.py`: *A file designed to have lines of similarity when compared to similar_lines_b  We use lorm-ipsum to generate 'random' code.*
+  - 📄 `pylint-main/tests/input/similar_lines_b.py`: *The sister file of similar_lines_a, another file designed to have lines of similarity when compared to its sister file  As with the sister file, we use lorm-ipsum to generate 'random' code.*
+  - 📄 `pylint-main/tests/input/w0401_cycle.py`: *w0401 dependency*
+  - 📄 `pylint-main/tests/input/w0801_same.py`: *test code similarities by default docstring are not considered*
+  - 📄 `pylint-main/tests/lint/test_caching.py`: *test__get_pdata_path but specifically for *nix system paths.*
+  - 📄 `pylint-main/tests/lint/test_pylinter.py`: *Test PyLinter open() adds ignored modules to Astroid manager deny list.*
+  - 📄 `pylint-main/tests/lint/test_run_pylint.py`: *Check that appropriate exit code is used with invalid argument.*
+  - 📄 `pylint-main/tests/lint/test_utils.py`: *Test that we also create an issue template if the offending exception isn't from astroid.*
+  - 📄 `pylint-main/tests/lint/unittest_expand_modules.py`: *Generates reusable list of modules for our package.*
+  - 📄 `pylint-main/tests/lint/unittest_lint.py`: *Create a temp directory and change the current location to it.      This is supposed to be used with a *with* statement.*
+  - 📄 `pylint-main/tests/message/test_no_removed_msgid_or_symbol_used.py`: *Tests that we're not using deleted msgid or symbol.      This could cause occasional bugs, but more importantly confusion and inconsistencies     when searching for old msgids online. See https://gith...*
+  - 📄 `pylint-main/tests/message/unittest_message_definition.py`: *MessageDefinition:msg-symbol-one (W1234): message one msg description*
+  - 📄 `pylint-main/tests/message/unittest_message_definition_store.py`: *:msg-symbol (W1234): *message*   msg description. This message belongs to the achecker checker.  :duplicate-keyword-arg (E1234): *Duplicate keyword argument %r in %s call*   Used when a function call ...*
+  - 📄 `pylint-main/tests/message/unittest_message_id_store.py`: *We can get message id even with capitalization problem.*
+  - 📄 `pylint-main/tests/primer/test_primer_stdlib.py`: *Test that pylint does not produce any crashes or fatal errors on stdlib modules.*
+  - 📄 `pylint-main/tests/pyreverse/conftest.py`: *Provides default command-line arguments for tests.*
+  - 📄 `pylint-main/tests/pyreverse/functional/class_diagrams/inheritance/simple_inheritance.py`: *parent class*
+  - 📄 `pylint-main/tests/pyreverse/functional/class_diagrams/property_decorator/property_decorator.py`: *Test class for property decorators with annotated return type*
+  - 📄 `pylint-main/tests/pyreverse/functional/class_diagrams/relationships/comprehensions.py`: *A component class.*
+  - 📄 `pylint-main/tests/pyreverse/test_diadefs.py`: *Unit test for the extensions.diadefslib modules.*
+  - 📄 `pylint-main/tests/pyreverse/test_diagrams.py`: *Unit test for the diagrams modules.*
+  - 📄 `pylint-main/tests/pyreverse/test_inspector.py`: *For the visitors.diadefs module.*
+  - 📄 `pylint-main/tests/pyreverse/test_main.py`: *Unittest for the main module.*
+  - 📄 `pylint-main/tests/pyreverse/test_printer_factory.py`: *Unit tests for pylint.pyreverse.printer_factory.*
+  - 📄 `pylint-main/tests/pyreverse/test_utils.py`: *Tests for pylint.pyreverse.utils.*
+  - 📄 `pylint-main/tests/pyreverse/test_writer.py`: *Unit test for ``DiagramWriter``.*
+  - 📄 `pylint-main/tests/regrtest_data/absimp/__init__.py`: *a package with absolute import activated*
+  - 📄 `pylint-main/tests/regrtest_data/absimp/string.py`: *https://www.logilab.org/ticket/70495 https://www.logilab.org/ticket/70565*
+  - 📄 `pylint-main/tests/regrtest_data/bad_package/wrong.py`: *Test that pylint doesn't crash when a relative import depends on the local __init__, which contains an expected syntax error.*
+  - 📄 `pylint-main/tests/regrtest_data/classdoc_usage.py`: *ds*
+  - 📄 `pylint-main/tests/regrtest_data/dataclasses_pyreverse/__init__.py`: *Class for keeping track of an item in inventory.*
+  - 📄 `pylint-main/tests/regrtest_data/decimal_inference.py`: *hum E1011 on .prec member is justifiable since Context instance are built using setattr/locals :(  2007/02/17 update: .prec attribute is now detected by astroid :o)*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_all/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_all/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_all/third.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file/third.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file_double/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file_double/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_file_double/third.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_begin/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_begin/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_disable_all/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_disable_all/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_end/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_end/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_middle/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_line_middle/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope/third.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope_double/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope_double/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope_double/third.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope_second_function/first.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/duplicate_code/raw_strings_disable_scope_second_function/second.py`: *A raw docstring.*
+  - 📄 `pylint-main/tests/regrtest_data/fail_on.py`: *Pylint score:  -1.67*
+  - 📄 `pylint-main/tests/regrtest_data/fail_on_info_only.py`: *Pylint score:  -1.67*
+  - 📄 `pylint-main/tests/regrtest_data/fail_under_minus10.py`: *Pylint score:  -10*
+  - 📄 `pylint-main/tests/regrtest_data/fail_under_plus7_5.py`: *"     pylint score:  +7.50*
+  - 📄 `pylint-main/tests/regrtest_data/func_block_disable_msg.py`: *pylint option block-disable*
+  - 📄 `pylint-main/tests/regrtest_data/ignore_option_10669/test/__init__.py`: *many issues here*
+  - 📄 `pylint-main/tests/regrtest_data/import_package_subpackage_module.py`: *I found some of my scripts trigger off an AttributeError in pylint 0.8.1 (with common 0.12.0 and astroid 0.13.1).  Traceback (most recent call last):   File "/usr/bin/pylint", line 4, in ?     lint.Ru...*
+  - 📄 `pylint-main/tests/regrtest_data/long_test_file.py`: *This file is used for bad-option-value's test. We needed a module that isn’t restricted by line numbers as the tests use various line numbers to test the behaviour.  Using an empty module creates issu...*
+  - 📄 `pylint-main/tests/regrtest_data/max_inferable_limit_for_classes/main.py`: *This example is based on sqlalchemy.  See https://github.com/pylint-dev/pylint/issues/5679*
+  - 📄 `pylint-main/tests/regrtest_data/module_global.py`: *was causing infinite recursion*
+  - 📄 `pylint-main/tests/regrtest_data/numarray_import.py`: *#10077*
+  - 📄 `pylint-main/tests/regrtest_data/numarray_inf.py`: *#3216*
+  - 📄 `pylint-main/tests/regrtest_data/package/AudioTime.py`: *test preceded by the AudioTime class in __init__.py*
+  - 📄 `pylint-main/tests/regrtest_data/package/__init__.py`: *package's __init__ file*
+  - 📄 `pylint-main/tests/regrtest_data/package/subpackage/__init__.py`: *package.subpackage*
+  - 📄 `pylint-main/tests/regrtest_data/package/subpackage/module.py`: *package.subpackage.module*
+  - 📄 `pylint-main/tests/regrtest_data/package_all/__init__.py`: *Check for E0603 for missing submodule found in __all__*
+  - 📄 `pylint-main/tests/regrtest_data/package_all/notmissing.py`: *empty*
+  - 📄 `pylint-main/tests/regrtest_data/pep420/wrapper/project/namespace/package/logging/__init__.py`: *A drop-in replacement for `logging`.*
+  - 📄 `pylint-main/tests/regrtest_data/pep420/wrapper/project/namespace/package/logging/wrapper/__init__.py`: *A wrapper for original logging module*
+  - 📄 `pylint-main/tests/regrtest_data/precedence_test.py`: *# package/__init__.py   class AudioTime(object):     DECIMAL = 3    # package/AudioTime.py   class AudioTime(object):     pass    # test.py   from package import AudioTime   # E0611 - No name 'DECIMAL...*
+  - 📄 `pylint-main/tests/regrtest_data/special_attr_scope_lookup_crash.py`: *A*
+  - 📄 `pylint-main/tests/regrtest_data/uses_module_with_stub.py`: *If the stub is preferred over the .py, this might emit not-an-iterable*
+  - 📄 `pylint-main/tests/regrtest_data/wrong_import_position.py`: *Test that wrong-import-position is properly reset when other errors are disabled.*
+  - 📄 `pylint-main/tests/reporters/unittest_json_reporter.py`: *Test for the JSON reporter.*
+  - 📄 `pylint-main/tests/reporters/unittest_reporting.py`: *Test the default msg-template setting.*
+  - 📄 `pylint-main/tests/test_check_parallel.py`: *Puts the check_parallel system under test.*
+  - 📄 `pylint-main/tests/test_func.py`: *Functional/non regression tests for pylint.*
+  - 📄 `pylint-main/tests/test_functional.py`: *Functional full-module tests for PyLint.*
+  - 📄 `pylint-main/tests/test_functional_directories.py`: *Test that the directory structure of the functional tests is correct.*
+  - 📄 `pylint-main/tests/test_import_graph.py`: *DOC files are correctly generated, and the graphname is the basename.*
+  - 📄 `pylint-main/tests/test_pylint_runners.py`: *Check the runners with arguments as parameter instead of sys.argv.*
+  - 📄 `pylint-main/tests/test_regr.py`: *Non regression tests for pylint, which requires a too specific configuration to be incorporated in the automatic functional test framework.*
+  - 📄 `pylint-main/tests/test_self.py`: *Normalize path to the tests directory.*
+  - 📄 `pylint-main/tests/test_similar.py`: *Runs the tests and sees if output code is as expected.*
+  - 📄 `pylint-main/tests/testutils/_primer/test_comparator.py`: *Test Comparator with each fixture directory.*
+  - 📄 `pylint-main/tests/testutils/_primer/test_package_to_lint.py`: *Test that the PackageToLint is instantiated correctly.*
+  - 📄 `pylint-main/tests/testutils/_primer/test_primer.py`: *Test the primer commands.*
+  - 📄 `pylint-main/tests/testutils/data/functional/broken_output_ok_test/exec_used.py`: *This is an example for a functional test with - an output that is broken - the functional test itself is right  So it should be updated.*
+  - 📄 `pylint-main/tests/testutils/data/functional/broken_output_wrong_test/exec_used.py`: *This is an example for a functional test with - an output that is broken - the functional test itself is wrong  So it cannot be updated.*
+  - 📄 `pylint-main/tests/testutils/data/functional/no_output_ok_test/exec_used.py`: *This is an example for a functional test with - an output that does not exist - the functional test itself is right  So it should be created*
+  - 📄 `pylint-main/tests/testutils/data/functional/no_output_wrong_test/exec_used.py`: *This is an example for a functional test with - an output that does not exist - the functional test itself is wrong  So it cannot be created.*
+  - 📄 `pylint-main/tests/testutils/data/functional/ok_output_ok_test/exec_used.py`: *This is an example for a functional test with - an output that is right - the functional test itself is right  Nothing should be done.*
+  - 📄 `pylint-main/tests/testutils/data/functional/ok_output_wrong_test/exec_used.py`: *This is an example for a functional test with - an output that is right - the functional test itself is wrong  Nothing should be done.*
+  - 📄 `pylint-main/tests/testutils/data/functional/wrong_output_ok_test/exec_used.py`: *This is an example for a functional test with - an output that is wrong (but not broken) - the functional test itself is right  So it needs to be updated.*
+  - 📄 `pylint-main/tests/testutils/data/functional/wrong_output_wrong_test/exec_used.py`: *This is an example for a functional test with - an output that is wrong (but not broken) - the functional test itself is wrong  So it can't be updated.*
+  - 📄 `pylint-main/tests/testutils/data/init_hook.py`: *This file should never be tested as the init-hook in the configuration file prevents the test runner from getting here.*
+  - 📄 `pylint-main/tests/testutils/data/m/minimal_messages_config.py`: *Dummy test file to test the --minimal-messages-config option.  This file is tested in ``test_minimal_messages_config_enabled`` and ``test_minimal_messages_config_excluded_file``.*
+  - 📄 `pylint-main/tests/testutils/test_functional_testutils.py`: *Tests for the functional test framework.*
+  - 📄 `pylint-main/tests/testutils/test_lint_module_output_update.py`: *There is a fail before the output need to be updated.*
+  - 📄 `pylint-main/tests/testutils/test_output_line.py`: *Test that the OutputLine NamedTuple is instantiated correctly.*
+  - 📄 `pylint-main/tests/utils/unittest_utils.py`: *Decoding_stream should fall back to *some* decoding when given an     unknown encoding.*
+
+----------------------------------------
+
+## 📦 REPO: pywebview-master
+**Funkció / Leírás:** # Android test suite Since pytest based cannot run on Android, this is an alternative browser based Mocha test suite that can be run on Android devices. Tests are written in JavaScript and run in a browser environment. These tests must pass on other platforms as well, but the focus is on Android compatibility. ## Running the tests Run `main.py` to start the test runner. This will open a browser window and run the tests. To test on Android, build the app with `main.py` as an entry point and inclu...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `pywebview-master/docs/guide/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/architecture.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/debugging.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/dom.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/faq.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/freezing.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/installation.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/interdomain.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/security.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/usage.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/docs/guide/web_engine.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/examples/cef.py`: *Create a CEF window with custom Chrome settings. Available only on Windows.*
+  - 📄 `pywebview-master/examples/change_url.py`: *Change URL ten seconds after the first URL is loaded.*
+  - 📄 `pywebview-master/examples/confirm_close.py`: *A window with a quit confirmation dialog.*
+  - 📄 `pywebview-master/examples/confirmation_dialog.py`: *A window with a confirmation dialog.*
+  - 📄 `pywebview-master/examples/cookies.py`: *A cookies and local storage example.*
+  - 📄 `pywebview-master/examples/debug.py`: *A debug window example that opens DevTools.*
+  - 📄 `pywebview-master/examples/destroy_window.py`: *Programmatically destroy created window after five seconds.*
+  - 📄 `pywebview-master/examples/dom_events.py`: *This example demonstrates how to expose Python functions to the Javascript domain.*
+  - 📄 `pywebview-master/examples/dom_manipulation.py`: *This example demonstrates how to manipulate DOM in Python.*
+  - 📄 `pywebview-master/examples/dom_traversal.py`: *This example demonstrates how to traverse DOM in Python.*
+  - 📄 `pywebview-master/examples/downloads.py`: *Enable file downloads*
+  - 📄 `pywebview-master/examples/drag_drop.py`: *This example demonstrates how to expose Python functions to the Javascript domain.*
+  - 📄 `pywebview-master/examples/drag_region.py`: *Demonstrates the use of dynamic draggable regions in a frameless window using pywebview.*
+  - 📄 `pywebview-master/examples/evaluate_js.py`: *Run Javascript code from Python.*
+  - 📄 `pywebview-master/examples/evaluate_js_async.py`: *Run asynchronous Javascript code and invoke a callback.*
+  - 📄 `pywebview-master/examples/events.py`: *Subscribe and unsubscribe to pywebview events.*
+  - 📄 `pywebview-master/examples/expose.py`: *Exposing Python functions to the Javascript domain.*
+  - 📄 `pywebview-master/examples/flask_app/gui/index.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/examples/flask_app/src/backend/app.py`: *Application stub*
+  - 📄 `pywebview-master/examples/flask_app/src/backend/server.py`: *Render index.html. Initialization is performed asynchronously in initialize() function*
+  - 📄 `pywebview-master/examples/focus.py`: *Create a non-focusable window that can be useful for onscreen floating tools.*
+  - 📄 `pywebview-master/examples/frameless.py`: *Create a frameless window. The window can be moved around by dragging any point.*
+  - 📄 `pywebview-master/examples/fullscreen.py`: *Create a fullscreen window.*
+  - 📄 `pywebview-master/examples/get_current_url.py`: *Print current URL after page is loaded.*
+  - 📄 `pywebview-master/examples/get_elements.py`: *Get DOM elements using selectors.*
+  - 📄 `pywebview-master/examples/headers.py`: *Subscribe and unsubscribe to pywebview events.*
+  - 📄 `pywebview-master/examples/hide_window.py`: *Programmatically hide and show window.*
+  - 📄 `pywebview-master/examples/http_server.py`: *A built-in HTTP server example.*
+  - 📄 `pywebview-master/examples/icon.py`: *Set window icon using `webview.start(icon=<file_path>). This is supported only on GTK and QT. For other platforms, icon is set during freezing.*
+  - 📄 `pywebview-master/examples/js_api.py`: *Create an application without a HTTP server. The application uses Javascript API object to communicate between Python and Javascript.*
+  - 📄 `pywebview-master/examples/links.py`: *Demonstrate a difference between different link types*
+  - 📄 `pywebview-master/examples/load_css.py`: *Loading custom CSS in a webview window*
+  - 📄 `pywebview-master/examples/load_html.py`: *Loading new HTML after the window is created*
+  - 📄 `pywebview-master/examples/loading_animation.py`: *Create a loading animation that is displayed before application is loaded.*
+  - 📄 `pywebview-master/examples/localhost_ssl.py`: *Use SSL with a local HTTP server.*
+  - 📄 `pywebview-master/examples/localization.py`: *Localize system text string used by pywebview. For a full list of used string, refer to the `webview/localization.py` file.*
+  - 📄 `pywebview-master/examples/menu.py`: *Create an application menu.*
+  - 📄 `pywebview-master/examples/min_size.py`: *Set minimum window dimensions.*
+  - 📄 `pywebview-master/examples/move_window.py`: *Set window coordinates and move window after its creation.*
+  - 📄 `pywebview-master/examples/multiple_servers.py`: *Create multiple windows, some of which have their own servers, both before and after `webview.start()` is called.*
+  - 📄 `pywebview-master/examples/multiple_windows.py`: *Create multiple windows.*
+  - 📄 `pywebview-master/examples/multiprocess.py`: *Example of running pywebview in a separate process with shared state. Main thread is not blocked in this example.*
+  - 📄 `pywebview-master/examples/on_top.py`: *Create a window that stays on top of other windows.*
+  - 📄 `pywebview-master/examples/open_file_dialog.py`: *Create an open file dialog after page content is loaded.*
+  - 📄 `pywebview-master/examples/py2app_setup.py`: *An example of py2app setup.py script for freezing your pywebview application  Usage:     `python setup.py py2app`*
+  - 📄 `pywebview-master/examples/pystray_icon.py`: *Run pywebview alongside with pystray to display a system tray icon.*
+  - 📄 `pywebview-master/examples/qt_test.py`: *Create a pywebview windows using QT (normally GTK is preferred)*
+  - 📄 `pywebview-master/examples/remote_debugging.py`: *Enable remote debugging when using `edgechromium`. This can be used to write tests for the application using Playwright. See [https://playwright.dev/docs/webview2](https://playwright.dev/docs/webview2...*
+  - 📄 `pywebview-master/examples/resize.py`: *Resize window.*
+  - 📄 `pywebview-master/examples/run_js.py`: *Run Javascript code from Python.*
+  - 📄 `pywebview-master/examples/save_file_dialog.py`: *Create a save file dialog after a delay.*
+  - 📄 `pywebview-master/examples/screens.py`: *Get available display information using `webview.screens`*
+  - 📄 `pywebview-master/examples/settings.py`: *Use application flags to modify default behaviour of pywebview*
+  - 📄 `pywebview-master/examples/simple_browser.py`: *The most basic example of creating a webview window.*
+  - 📄 `pywebview-master/examples/state.py`: *Demonstrate usage of the state object to share state between Python and JavaScript.*
+  - 📄 `pywebview-master/examples/todos/main.py`: *An example of serverless app architecture*
+  - 📄 `pywebview-master/examples/toggle_fullscreen.py`: *Switch application window to a full-screen mode after five seconds..*
+  - 📄 `pywebview-master/examples/transparent.py`: *Create a transparent frameless window with custom chrome.*
+  - 📄 `pywebview-master/examples/user_agent.py`: *Change the user-agent of a window.*
+  - 📄 `pywebview-master/examples/vibrancy.py`: *This example demonstrates how to set vibrancy on macOS.*
+  - 📄 `pywebview-master/examples/window_state.py`: *Minimize, restore and maximize window programmatically*
+  - 📄 `pywebview-master/examples/window_title_change.py`: *Change window title every three seconds.*
+  - 📄 `pywebview-master/tests/android/main.py`: *Evaluate Python code in the context of this module.*
+  - 📄 `pywebview-master/tests/android/start_http.py`: *This script starts a simple no-caching HTTP server that serves files from the current directory.*
+  - 📄 `pywebview-master/tests/test_dom.py`: *<html>             <body>                 <div id="container">                     <div id="child1" class="test" data-id="blz" tabindex="3">DUDE</div>                     <div id="child2" class="test"...*
+  - 📄 `pywebview-master/tests/test_download.py`: *<html>   <body>     <button id="start_download" onclick="click_handler()">Click me!</button>   </body>   <script>     function click_handler(){       const a = document.createElement('a'); // Create "...*
+  - 📄 `pywebview-master/tests/test_evaluate_js.py`: *document.body.style.backgroundColor = '#212121';         // comment         function test() {             return 2 + 2;         }         test();*
+  - 📄 `pywebview-master/tests/test_get_elements.py`: *<html>     <body>       <h1 id="heading">Heading</h1>       <div class="content">Content 1</div>       <div class="content">Content 2</div>     </body>   </html>*
+  - 📄 `pywebview-master/tests/test_multi_window.py`: *document.body.style.backgroundColor = '#212121';         // comment         function test() {             return 2 + 5;         }         test();*
+  - 📄 `pywebview-master/tests/test_run_js.py`: *"this is only a test"*
+  - 📄 `pywebview-master/tests/test_screens.py`: *Test that screens have a scale property.*
+  - 📄 `pywebview-master/tests/test_serialization.py`: *<!DOCTYPE html> <html> <head>  </head> <body style="width: 100%; height: 100vh; display: flex;">  <script> {test_value_string} var circular = {{key: "test"}} circular.circular = circular var testObjec...*
+  - 📄 `pywebview-master/tests/test_state.py`: *Test dictionary-style access: state['key']*
+  - 📄 `pywebview-master/tests/test_util.py`: *Tests for the parse_file_type function*
+  - 📄 `pywebview-master/tests/util.py`: *"     A test running function that creates a window and runs a thread function in it. Test logic is to be placed in the     thread function. The function will wait for the thread function to finish an...*
+  - 📄 `pywebview-master/webview/__init__.py`: *pywebview is a lightweight cross-platform wrapper around a webview component that allows to display HTML content in its own dedicated window. Works on Windows, OS X and Linux and compatible with Pytho...*
+  - 📄 `pywebview-master/webview/dom/dom.py`: *{parent_command};             var template = document.createElement('template');             template.innerHTML = {json.dumps(html)}.trim();             var newElement = template.content.firstChild;  ...*
+  - 📄 `pywebview-master/webview/dom/element.py`: *var element;              if ('{self._node_id}' === 'document') {{                 element = document;             }} else if ('{self._node_id}' === 'window') {{                 element = window;     ...*
+  - 📄 `pywebview-master/webview/dom/propsdict.py`: *{self.__element._query_command};                 var styles = JSON.parse('{escape_string(converted_style)}');                  for (var key in styles) {{                     element.style[key] = style...*
+  - 📄 `pywebview-master/webview/guilib.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `pywebview-master/webview/menu.py`: *Args:             title: the menu or submenu title             items: the contents of the menu (can consist of Menu, MenuAction, or MenuSeparator instances)*
+  - 📄 `pywebview-master/webview/platforms/android/__init__.py`: *Event handler for the `on_create` event which is fired after         initialization (after build() has been called) but before the         application has started running.*
+  - 📄 `pywebview-master/webview/platforms/android/app.py`: *Initializes the application; it will be called only once.         If this method returns a widget (tree), it will be used as the root         widget and added to the window.          :return:         ...*
+  - 📄 `pywebview-master/webview/platforms/android/event.py`: *Register an event type with the dispatcher.         Registering event types allows the dispatcher to validate event handler         names as they are attached and to search attached objects for suitab...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/__init__.py`: *This package will help reduce overhead startup time of pywebview android application on android. It will be responsible for defining android and api signature to reduce the over head cost of pyjnius f...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/app.py`: *Represents a builder for creating AlertDialog instances in the Android platform.      This class provides a fluent API for constructing and customizing AlertDialog instances     with various settings ...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/content.py`: *Represents the Android Context Java class providing access to application-specific     resources and services.      This class serves as a bridge to interact with the Android framework and various    ...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/net.py`: *Represents a URI reference as defined in RFC 2396, composed of components such as     scheme, authority, path, query, and fragment.      The Uri class provides methods to work with uniform resource id...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/os.py`: *Represents the Android environment class for interacting with the external storage and system paths.      This class provides access to system-defined constants and methods for     interacting with th...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/view.py`: *Represents an Android view class with constants for system UI visibility flags.      Provides direct references to various system UI visibility constants, which     are used to control the appearance ...*
+  - 📄 `pywebview-master/webview/platforms/android/jclass/webkit.py`: *Represents a Java WebView client wrapper for interaction with Python.      This class serves as a bridge between a Java WebView client in the Android     platform and Python. It allows setting callbac...*
+  - 📄 `pywebview-master/webview/platforms/android/jinterface/__init__.py`: *All Java interfaces should go to this package.*
+  - 📄 `pywebview-master/webview/platforms/android/jinterface/pywebview.py`: *Represents a wrapper for event callbacks between Python and Java.      This class enables interaction between Python and Java by implementing     a Java interface and providing a callback mechanism. T...*
+  - 📄 `pywebview-master/webview/platforms/android/jinterface/view.py`: *Represents a Python implementation of an Android `OnKeyListener`.      This class provides an interface for handling key events in an Android environment     using Python. It acts as a bridge between ...*
+  - 📄 `pywebview-master/webview/platforms/android/jinterface/webkit.py`: *Represents a callback to receive a value from Java code.      This class implements the Android ValueCallback interface in order to receive     values from a Java environment. It's particularly useful...*
+  - 📄 `pywebview-master/webview/platforms/cocoa.py`: *Disable back navigation on pressing the Delete key:*
+  - 📄 `pywebview-master/webview/platforms/gtk.py`: *Convert hex color (#RRGGBB or #RGB) to Gdk.RGBA object.*
+  - 📄 `pywebview-master/webview/platforms/mshtml.py`: *By default hosted IE control emulates IE7 regardless which version of IE is installed. To fix this, a proper value     must be set for the executable.     See http://msdn.microsoft.com/en-us/library/e...*
+  - 📄 `pywebview-master/webview/platforms/qt.py`: *Handler for SIGINT signal (Ctrl+C).      Qt applications don't handle SIGINT by default because Python signal handlers     can only be called when the Python interpreter is running. Since the Qt event...*
+  - 📄 `pywebview-master/webview/platforms/win32.py`: *Calculate the DPI scale factor for a screen.      Args:         device_name: The device name (e.g., "\\\\.\\DISPLAY1")         logical_width: The logical width in pixels (DPI-scaled)         logical_h...*
+  - 📄 `pywebview-master/webview/platforms/winforms.py`: *Handler for SIGINT signal (Ctrl+C).      Sets a flag that's checked by the timer in the GUI thread. This is necessary because     the signal handler runs in the main thread, but Application.Exit() mus...*
+  - 📄 `pywebview-master/webview/screen.py`: *X coordinate in physical pixels.*
+  - 📄 `pywebview-master/webview/state.py`: *Internal method to set state values, used by both __setattr__ and __setitem__*
+  - 📄 `pywebview-master/webview/util.py`: *(C) 2014-2019 Roman Sirokov and contributors Licensed under BSD license  http://github.com/r0x0r/pywebview/*
+  - 📄 `pywebview-master/webview/window.py`: *Decorator to call a pywebview API, checking for _webview_ready and raisings     appropriate Exceptions on failure.*
+
+----------------------------------------
+
+## 📦 REPO: pywidevine-master
+**Funkció / Leírás:** <p align="center"> <img src="docs/images/widevine_icon_24.png"> <a href="https://github.com/devine-dl/pywidevine">pywidevine</a> <br/> <sup><em>Python Widevine CDM implementation</em></sup> </p> <p align="center"> <a href="https://github.com/devine-dl/pywidevine/blob/master/LICENSE"> <img src="https://img.shields.io/:license-GPL%203.0-blue.svg" alt="License"> </a>
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `pywidevine-master/pywidevine/cdm.py`: *Initialize a Widevine Content Decryption Module (CDM).*
+  - 📄 `pywidevine-master/pywidevine/device.py`: *This is the device key data that is needed for the CDM (Content Decryption Module).          Parameters:             type_: Device Type             security_level: Security level from 1 (the highest r...*
+  - 📄 `pywidevine-master/pywidevine/exceptions.py`: *Exceptions used by pywidevine.*
+  - 📄 `pywidevine-master/pywidevine/key.py`: *Load Key from a KeyContainer object.*
+  - 📄 `pywidevine-master/pywidevine/license_protocol_pb2.py`: *Generated protocol buffer code.*
+  - 📄 `pywidevine-master/pywidevine/main.py`: *pywidevine—Python Widevine CDM implementation.*
+  - 📄 `pywidevine-master/pywidevine/pssh.py`: *MP4 PSSH Box-related utilities.     Allows you to load, create, and modify various kinds of DRM system headers.*
+  - 📄 `pywidevine-master/pywidevine/remotecdm.py`: *Remote Accessible CDM using pywidevine's serve schema.*
+  - 📄 `pywidevine-master/pywidevine/utils.py`: *Get the path of the first found binary name.*
+
+----------------------------------------
+
+## 📦 REPO: rzweb-main
+**Funkció / Leírás:** # RzWeb RzWeb is a browser-based reverse engineering interface powered by Rizin compiled to WebAssembly. Drop a binary into the app and analyze it locally in your browser with a persistent session, terminal access, cached re-open support, and dedicated views for the main analysis surfaces. ## Screenshots **Homepage** ![Homepage](public/Homepage.png)
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: selenium-wire-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `selenium-wire-master/seleniumwire/__init__.py`: *Top-level package for Selenium Wire.*
+  - 📄 `selenium-wire-master/seleniumwire/backend.py`: *Create a new proxy backend.      Args:         addr: The address the proxy server will listen on. Default 127.0.0.1.         port: The port the proxy server will listen on. Default 0 - which means    ...*
+  - 📄 `selenium-wire-master/seleniumwire/handler.py`: *Mitmproxy add-on which is responsible for request modification     and capture.*
+  - 📄 `selenium-wire-master/seleniumwire/har.py`: *Handles generation of HAR archives.  This code has been taken from the har_dump.py addon in the mitmproxy project.*
+  - 📄 `selenium-wire-master/seleniumwire/inspect.py`: *Mixin class that provides functions to inspect and modify browser requests.*
+  - 📄 `selenium-wire-master/seleniumwire/modifier.py`: *This class is responsible for modifying request and response attributes.      DEPRECATED. Use request and response interceptors instead.      Instances of this class are designed to be stateful and th...*
+  - 📄 `selenium-wire-master/seleniumwire/request.py`: *Houses the classes used to transfer request and response data between components.*
+  - 📄 `selenium-wire-master/seleniumwire/server.py`: *Run and manage a mitmproxy server instance.*
+  - 📄 `selenium-wire-master/seleniumwire/storage.py`: *Create a new storage instance.      Args:         memory_only: When True, an in-memory implementation will be used which stores             request data in memory only and nothing on disk. Default Fal...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/addonmanager.py`: *Cut off a traceback at the function with the given name.     The func_name's frame is excluded.      Args:         tb: traceback object, as returned by sys.exc_info()[2]         func_name: function na...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/addons/core.py`: *Byte size limit of HTTP request and response bodies. Understands             k/m/g suffixes, i.e. 3m for 3 megabytes.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/addons/streambodies.py`: *Stream data to the client if response body exceeds the given             threshold. If streamed, the body will not be stored in any way.             Understands k/m/g suffixes, i.e. 3m for 3 megabytes...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/addons/upstream_auth.py`: *This addon handles authentication to systems upstream from us for the     upstream proxy and reverse proxy mode.      NOTE: due to timing issues, upstream authentication has been moved     to the HTTP...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/certs.py`: *-----BEGIN DH PARAMETERS----- MIICCAKCAgEAyT6LzpwVFS3gryIo29J5icvgxCnCebcdSe/NHMkD8dKJf8suFCg3 O2+dguLakSVif/t6dhImxInJk230HmfC8q93hdcg/j8rLGJYDKu3ik6H//BAHKIv j5O9yjU3rXCfmVJQic2Nne39sg3CreAepEts2TvY...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/command.py`: *This module manages and invokes typed commands.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/command_lexer.py`: *'" \r\n\t*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/connections.py`: *A client connection      Attributes:         address: Remote address         tls_established: True if TLS is established, False otherwise         clientcert: The TLS client certificate         mitmcer...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/contrib/kaitaistruct/google_protobuf.py`: *Google Protocol Buffers (AKA protobuf) is a popular data     serialization scheme used for communication protocols, data storage,     etc. There are implementations are available for almost every     ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/contrib/kaitaistruct/ico.py`: *Microsoft Windows uses specific file format to store applications     icons - ICO. This is a container that contains one or more image     files (effectively, DIB parts of BMP files or full PNG files ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/contrib/kaitaistruct/vlq_base128_le.py`: *A variable-length unsigned integer using base128 encoding. 1-byte groups     consists of 1-bit flag of continuation and 7-bit value, and are ordered     "least significant group first", i.e. in "littl...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/contrib/wbxml/ASWBXMLByteQueue.py`: *Created to debug the dequeueing of bytes*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/controller.py`: *The only way for the mitmproxy server to communicate with the master         is to use the channel it has been given.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/coretypes/bidi.py`: *A wee utility class for keeping bi-directional mappings, like field         constants in protocols. Names are attributes on the object, dict-like         access maps values to names:          CONST = ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/coretypes/multidict.py`: *If a user accesses multidict["foo"], this method         reduces all values for "foo" to a single value that is returned.         For example, HTTP headers are folded, whereas we will just take       ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/coretypes/serializable.py`: *Abstract Base Class that defines an API to save an object's state and restore it later on.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/exceptions.py`: *We try to be very hygienic regarding the exceptions we throw:  - Every exception that might be externally visible to users shall be a subclass   of MitmproxyException.p - Every exception in the base n...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/flow.py`: *An Error.          This is distinct from an protocol error response (say, a HTTP code 500),         which is represented by a normal HTTPResponse object. This class is         responsible for indicati...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/flowfilter.py`: *The following operators are understood:          ~q          Request         ~s          Response      Headers:          Patterns are matched against "name: value" strings. Field names are         all...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/http.py`: *An HTTPFlow is a collection of objects representing a single HTTP     transaction.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/log.py`: *The central logger, exposed to scripts as mitmproxy.ctx.log.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/master.py`: *The master handles mitmproxy's main event loop.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/check.py`: *Checks if the passed bytes are a valid DNS hostname or an IPv4/IPv6 address.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/cookies.py`: *A flexible module for cookie parsing and manipulation.  This module differs from usual standards-compliant cookie modules in a number of ways. We try to be as permissive as possible, and to retain eve...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/encoding.py`: *Utility functions for decoding response bodies.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/headers.py`: *Header class which allows both convenient access to individual headers as well as     direct access to the underlying raw data. Provides a full dictionary interface.      Example:      .. code-block::...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/http1/assemble.py`: *Args:         request_data (seleniumwire.thirdparty.mitmproxy.net.http.request.RequestData)*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/http1/read.py`: *Retrieve all tokens for a header key. A number of different headers         follow a pattern where each header line can containe comma-separated         tokens, and headers can be set multiple times.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/message.py`: *Version string, e.g. "HTTP/1.1"*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/multipart.py`: *Takes a multipart boundary encoded string and returns list of (key, value) tuples.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/request.py`: *An HTTP request.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/response.py`: *An HTTP response.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/url.py`: *URL-parsing function that checks that             - port is an integer 0-65535             - host is a valid IDNA-encoded hostname with no null-bytes             - path is valid ASCII          Args:  ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/http/user_agents.py`: *A small collection of useful user-agent header strings. These should be     kept reasonably current to reflect common usage.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/server_spec.py`: *Parse scheme, host and port from a string.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/socks.py`: *:param fail_early: If true, a SocksError will be raised if the first byte does not indicate socks5.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/tcp.py`: *Starts or resets the log.              This will store all bytes read or written.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/tls.py`: *Map a reasonable SSL version specification into the format OpenSSL expects. Don't ask... https://bugs.launchpad.net/pyopenssl/+bug/1020632/comments/3*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/websockets/frame.py`: *A WebSocket frame contains an initial length_code, and an optional          extended length code to represent the actual length if length code is          larger than 125*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/websockets/masker.py`: *Data sent from the server must be masked to prevent malicious clients     from sending data over the wire in predictable patterns.      Servers do not have to mask data they send to the client.     ht...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/net/websockets/utils.py`: *Collection of WebSocket protocol utility functions (RFC6455) Spec: https://tools.ietf.org/html/rfc6455*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/options.py`: *Add all certificates of the upstream server to the certificate chain             that will be served to the mitmproxy client, as extras.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/optmanager.py`: *The base implementation for Options.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/platform/__init__.py`: *Initialize transparent mode.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/platform/osx.py`: *Doing this the "right" way by using DIOCNATLOOK on the pf device turns out     to be a pain. Apple has made a number of modifications to the data     structures returned, and compiling userspace tools...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/platform/pf.py`: *Parse the pfctl state output s, to look up the destination host         matching the client (address, port).          Returns an (address, port) tuple, or None.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/platform/windows.py`: *TransparentProxy API: Returns the pickled server address, port tuple     for each received pickled client address, port tuple.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/__init__.py`: *In mitmproxy, protocols are implemented as a set of layers, which are composed on top each other. The first layer is usually the mitmproxy mode, e.g. transparent mitmproxy or normal HTTP mitmproxy. Ne...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/base.py`: *Dummy class that provides type hinting in PyCharm, which simplifies development a lot.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/http.py`: *"Fake" ServerConnection to represent state after a CONNECT request to an upstream mitmproxy.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/http2.py`: *Do not immediately terminate the other connection.             Some streams might be still sending data to the client.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/tls.py`: *The TLS layer implements transparent TLS connections.      It exposes the following API to child layers:          - :py:meth:`set_server_tls` to modify TLS settings for the server connection.         ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/protocol/websocket.py`: *WebSocket layer to intercept, modify, and forward WebSocket messages.          Only version 13 is supported (as specified in RFC6455).         Only HTTP/1.1-initiated connections are supported.       ...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/root_context.py`: *The outermost context provided to the root layer.     As a consequence, every layer has access to methods and attributes defined here.      Attributes:         client_conn:             The :py:class:`...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/server/server.py`: *Raises ServerException if there's a startup problem.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/stateobject.py`: *An object with serializable state.      State attributes can either be serializable types(str, tuple, bool, ...)     or StateObject instances themselves.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/tcp.py`: *A TCPFlow is a simplified representation of a TCP session.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/types.py`: *Returns a list of completion strings for a given prefix. The strings             returned don't necessarily need to be suffixes of the prefix, since             completers will do prefix filtering the...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/arg_check.py`: *--confdir -Z --body-size-limit --stream --palette --palette-transparent --follow --order --no-mouse --reverse --http2-priority --no-http2-priority --no-websocket --websocket --spoof-source-address --u...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/bits.py`: *Set a bit in a byte to 1 if value is truthy, 0 if not.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/data.py`: *Change the data object to a path relative to the module.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/human.py`: *Parse a size with an optional k/m/... suffix.     Invalid values raise a ValueError. For added convenience, passing `None` returns `None`.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/sliding_window.py`: *Sliding window for an iterator.      Example:         >>> for prev, i, nxt in window(range(10), 1, 1):         >>>     print(prev, i, nxt)          None 0 1         0 1 2         1 2 3         2 3 Non...*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/strutils.py`: *Returns,         str_or_bytes unmodified, if*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/utils/typecheck.py`: *Return the type of a sequence, e.g. typing.List*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/version.py`: *Return a detailed version string, sourced either from VERSION or obtained dynamically using git.*
+  - 📄 `selenium-wire-master/seleniumwire/thirdparty/mitmproxy/websocket.py`: *A WebSocket message sent from one endpoint to the other.*
+  - 📄 `selenium-wire-master/seleniumwire/undetected_chromedriver/webdriver.py`: *Extends the undetected_chrome Chrome webdriver to provide additional     methods for inspecting requests.*
+  - 📄 `selenium-wire-master/seleniumwire/utils.py`: *Get the upstream proxy configuration from the options dictionary.     This will be overridden with any configuration found in the environment     variables HTTP_PROXY, HTTPS_PROXY, NO_PROXY      The c...*
+  - 📄 `selenium-wire-master/seleniumwire/webdriver.py`: *Attributes common to all webdriver types.*
+  - 📄 `selenium-wire-master/setup.py`: *The setup script.*
+  - 📄 `selenium-wire-master/tests/__init__.py`: *Unit test package for seleniumwire.*
+  - 📄 `selenium-wire-master/tests/end2end/test_end2end.py`: *End to end tests for Selenium Wire.*
+  - 📄 `selenium-wire-master/tests/inject_message.py`: *This addon will inject a message in the form of an html comment  at the end of the html body.*
+  - 📄 `selenium-wire-master/tests/seleniumwire/test_backend.py`: *This integration test uses a single instance of the backend proxy     server for the whole test suite. This makes it quicker, since the server     isn't restarted between tests, but it also means that...*
+  - 📄 `selenium-wire-master/tests/seleniumwire/test_handler.py`: *If the handshake request was not saved (has no id) then         we don't expect the websocket message to be saved.*
+  - 📄 `selenium-wire-master/tests/seleniumwire/test_modifier.py`: *Should not update the Host header if it does not already exist.*
+  - 📄 `selenium-wire-master/tests/seleniumwire/test_utils.py`: *Context manager used to temporarily set environment vars.*
+  - 📄 `selenium-wire-master/tests/utils.py`: *Create and manage a httpbin server.      Creating a new instance of this class will spawn a httpbin server     in a subprocess. Clients should call the shutdown() method when they     are finished wit...*
+
+----------------------------------------
+
+## 📦 REPO: shaka-packager-main
+**Funkció / Leírás:** pssh-box - Utility to parse and generate PSSH boxes =================================================== ## Prerequisite - Python 3. ## Build the utility using Shaka Packager build setup The utility needs to be built before being used, i.e. do not use the script in
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `shaka-packager-main/docs/source/conf.py`: *Shaka Packager documentation build configuration file.  This file is execfile()d with the current directory set to its containing dir.  Note that not all possible configuration values are present in t...*
+  - 📄 `shaka-packager-main/docs/source/tutorials/ffmpeg_piping.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/app/test/packager_app.py`: *Test wrapper for the sample packager binaries.*
+  - 📄 `shaka-packager-main/packager/app/test/packager_test.py`: *Tests utilizing the sample packager binary.*
+  - 📄 `shaka-packager-main/packager/app/test/test_env.py`: *Packager testing global objects and attributes.  Please do not refer to this module directly. Please set attributes either by updating the default values below, or by passing the requested flags throu...*
+  - 📄 `shaka-packager-main/packager/media/base/byte_queue.cc`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/byte_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/offset_byte_queue.cc`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/offset_byte_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/offset_byte_queue_unittest.cc`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/producer_consumer_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/base/producer_consumer_queue_unittest.cc`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/chunking/sync_point_queue.cc`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/media/chunking/sync_point_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `shaka-packager-main/packager/tools/generate_license_notice.py`: *This script is used to generate license notice string for packager.*
+  - 📄 `shaka-packager-main/packager/tools/git/check_formatting.py`: *Presubmit script to check clang format.  Install as pre-commit hook:      cp packager/tools/git/check_formatting.py .git/hooks/pre-commit  Steps to install clang-format on your system if you don't hav...*
+  - 📄 `shaka-packager-main/packager/tools/git/check_pylint.py`: *Lints all Python sources in the repo, excluding third-party code.*
+  - 📄 `shaka-packager-main/packager/tools/pssh/pssh-box.py`: *A utility to parse and generate PSSH boxes.*
+  - 📄 `shaka-packager-main/packager/version/generate_version_string.py`: *This script is used to generate version string for packager.*
+
+----------------------------------------
+
+## 📦 REPO: shift-refactor-master
+**Funkció / Leírás:** Shift Refactor -------------- `shift-refactor` is a suite of utility functions designed to analyze and modify JavaScript source files. It originated as a tool to reverse engineer obfuscated JavaScript but is general-purpose enough for arbitrary transformations. ### Who is this for? Anyone who works with JavaScript ASTs (Abstract Syntax Trees). If you're not familiar with ASTs, here are a few use cases where they come in useful:
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `shift-refactor-master/etc/api-extractor.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `shift-refactor-master/scripts/api-extractor.ts`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: synchrony-master
+**Funkció / Leírás:** # synchrony ![rip javascript-obfuscator](/.github/hm.png) javascript cleaner & deobfuscator (primarily [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)/[obfuscator.io](https://obfuscator.io)) API reference is available at <https://relative.github.io/synchrony> ## Usage note
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: tartube-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `tartube-master/setup.py`: *Standard python setup file.*
+  - 📄 `tartube-master/tartube/classes.py`: *Classes imported and slightly modified for use by Tartube.*
+  - 📄 `tartube-master/tartube/config.py`: *Configuration window classes.*
+  - 📄 `tartube-master/tartube/dialogue.py`: *Dialogue manager classes.*
+  - 📄 `tartube-master/tartube/downloads.py`: *Download and livestream operation classes.*
+  - 📄 `tartube-master/tartube/ffmpeg_tartube.py`: *FFmpeg manager classes.*
+  - 📄 `tartube-master/tartube/files.py`: *File manager classes.*
+  - 📄 `tartube-master/tartube/formats.py`: *Constant variables used in various parts of the code.*
+  - 📄 `tartube-master/tartube/info.py`: *Info operation classes.*
+  - 📄 `tartube-master/tartube/mainapp.py`: *Main application class.*
+  - 📄 `tartube-master/tartube/mainwin.py`: *Main window class and related classes.*
+  - 📄 `tartube-master/tartube/media.py`: *Media data classes.*
+  - 📄 `tartube-master/tartube/options.py`: *Module that contains a class storing download options.*
+  - 📄 `tartube-master/tartube/process.py`: *Process operation classes.*
+  - 📄 `tartube-master/tartube/refresh.py`: *Refresh operation classes.*
+  - 📄 `tartube-master/tartube/tidy.py`: *Tidy operation classes.*
+  - 📄 `tartube-master/tartube/ttutils.py`: *Utility functions used by code copied from youtube-dl-gui.*
+  - 📄 `tartube-master/tartube/updates.py`: *Update operation classes.*
+  - 📄 `tartube-master/tartube/wizwin.py`: *Wizard window classes.*
+  - 📄 `tartube-master/tartube/xdg_tartube.py`: *XDG Base Directory Specification variables.  xdg_cache_home(), xdg_config_home(), xdg_data_home(), and xdg_state_home() return pathlib.Path objects containing the value of the environment variable nam...*
+
+----------------------------------------
+
+## 📦 REPO: undetected-chromedriver-master
+**Funkció / Leírás:** # undetected_chromedriver # https://github.com/ultrafunkamsterdam/undetected-chromedriver Optimized Selenium Chromedriver patch which does not trigger anti-bot services like Distill Network / Imperva / DataDome / Botprotect.io Automatically downloads the driver binary and patches it. * Tested until current chrome beta versions * Works also on Brave Browser and many other Chromium based browsers, but you need to know what you're doing and needs some tweaking.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `undetected-chromedriver-master/example/example.py`: *let container = document.querySelector('#rso');         let el = document.createElement('div');         el.style = 'width:500px;display:block;background:red;color:white;z-index:999;transition:all 2s e...*
+  - 📄 `undetected-chromedriver-master/setup.py`: *888                                                  888         d8b          888                                                  888         Y8P          888                                         ...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/__init__.py`: *888                                                  888         d8b          888                                                  888         Y8P          888                                         ...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/devtool.py`: *This is a dict-like object structure, which you should subclass     Only properties defined in the class context are used on initialization.      See example*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/dprocess.py`: *Starts a fully independent subprocess (with no parent)     :param executable: executable     :param args: arguments to the executable, eg: ['--param1_key=param1_val', '-vvv' ...]     :return: pid of t...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/options.py`: *Sets the browser profile folder to use, or creates a new profile         at given <path>.          Parameters         ----------         path: str             the path to a chrome profile folder      ...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/patcher.py`: *Args:             executable_path: None = automatic                              a full file path to the chromedriver executable             force: False                     terminate processes which ...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/reactor.py`: *Parameters         ----------         event_name: str             example "Network.responseReceived"          callback: callable             callable which accepts 1 parameter: the message object dict...*
+  - 📄 `undetected-chromedriver-master/undetected_chromedriver/webelement.py`: *returns direct child elements of current element         :param tag: str,  if supplied, returns <tag> nodes only*
+
+----------------------------------------
+
+## 📦 REPO: undetected-playwright-python-main
+**Funkció / Leírás:** # This repo has moved to [Kaliiiiiiiiii-Vinyzu/patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `undetected-playwright-python-main/.pre-commit-config.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/CODE_OF_CONDUCT.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/CONTRIBUTING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/ROLLING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/SECURITY.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/build_patched.py`: *// atm ignores world_name         if (this._isolatedContext == undefined) {           var worldName = "utility"           var result = await this._page._delegate._mainFrameSession._client.send('Page.c...*
+  - 📄 `undetected-playwright-python-main/conda_build_config.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_clear_completed_button.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_counter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_editing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_item.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_mark_all_as_completed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_new_todo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_persistence.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/test_routing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/mvctests/utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/examples/todomvc/requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/local-requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/main.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/main_sync.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/meta.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/patch_check.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/pyproject.toml`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/scripts/documentation_provider.py`: *{class_name}.{to_snake_case(original_method_name)}')         if method.get("comment"):             print(f"{indent}{self.beautify_method_comment(method['comment'], indent)}")         signature_no_retu...*
+  - 📄 `undetected-playwright-python-main/scripts/expected_api_mismatch.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/scripts/generate_api.py`: *# Copyright (c) Microsoft Corporation. # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of...*
+  - 📄 `undetected-playwright-python-main/scripts/generate_async_api.py`: *return {prefix}{arguments(value, len(prefix))}{suffix}*
+  - 📄 `undetected-playwright-python-main/scripts/generate_sync_api.py`: *return {prefix}{arguments(value, len(prefix))}{suffix}*
+  - 📄 `undetected-playwright-python-main/scripts/update_api.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/scripts/update_versions.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/setup.cfg`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/setup.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/beforeunload.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/client.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/consolelog.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/csp.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/dom.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/download-blob.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/drag-n-drop.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/dummy_bad_browser_executable.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/error.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/es6/es6import.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/es6/es6module.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/es6/es6pathimport.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/file-to-upload-2.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/file-to-upload.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/child-redirect.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/frame.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/frameset.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/nested-frames.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/one-frame.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/redirect-my-parent.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/script.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/frames/two-frames.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/geolocation.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/global-var.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/grid.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/har-sha1-main-response.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/har.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/historyapi.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/injectedfile.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/injectedstyle.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/animating-button.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/button.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/checkbox.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/fileupload-multi.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/fileupload.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/keyboard.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/mouse-helper.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/rotatedButton.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/scrollable.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/select.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/textarea.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/input/touches.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/mobile.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/networkidle.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/networkidle.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/offscreenbuttons.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/one-style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/one-style.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/playground.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/popup/popup.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/popup/window-open.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/react.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/react/react-dom@16.13.1.production.min.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/react/react@16.13.1.production.min.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/sectionselectorengine.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/self-request.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/empty/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/fetch/style.css`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/fetch/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/fetch/sw.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/fetchdummy/sw.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/serviceworkers/fetchdummy/sw.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/shadow.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/simple-extension/content-script.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/simple-extension/index.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/simple-extension/manifest.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/simple.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/title.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/worker/worker.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/worker/worker.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/assets/wrappedlink.html`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/conftest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_accessibility.py`: *<head>       <title>Accessibility Test</title>     </head>     <body>       <h1>Inputs</h1>       <input placeholder="Empty input" autofocus />       <input placeholder="readonly input" readonly />   ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_add_init_script.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_assertions.py`: *setTimeout(() => {             document.title = 'great title';         }, 2000);*
+  - 📄 `undetected-playwright-python-main/tests/async/test_asyncio.py`: *async () => {             const response = await fetch('/');             await response.text();         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext.py`: *() => {             localStorage.setItem('name', 'page1')             document.cookie = 'name=page1'         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_add_cookies.py`: *timestamp => {     const date = new Date(timestamp);     document.cookie = `username=John Doe;expires=${date.toUTCString()}`;     return document.cookie;   }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_clearcookies.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_cookies.py`: *() => {     document.cookie = 'username=John Doe';     return document.cookie;   }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_events.py`: *() => {             const win = window.open('');             win.console.log('hello');         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_proxy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_service_worker_policy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsercontext_storage_state.py`: *() => {             localStorage["name1"] = "value1"             document.cookie = "username=John Doe"             return document.cookie         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsertype_connect.py`: *e => {             const events = [];             e.addEventListener('input', () => events.push('input'));             e.addEventListener('change', () => events.push('change'));             return eve...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_browsertype_connect_cdp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_check.py`: *<input type='radio'>one</input>       <input id='two' type='radio'>two</input>       <input type='radio'>three</input>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_chromium_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_click.py`: *<svg height="100" width="100">             <circle onclick="javascript:window.__CLICKED=42" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />         </svg>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_console.py`: *() => {       // A pair of time/timeEnd generates only one Console API call.       console.time('calling console.time');       console.timeEnd('calling console.time');       console.trace('calling con...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_defaultbrowsercontext.py`: *() => {     document.cookie = 'username=John Doe';     return document.cookie;   }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_device_descriptors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_dispatch_event.py`: *<svg height="100" width="100">         <circle onclick="javascript:window.__CLICKED=42" cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />       </svg>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_download.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_element_handle.py`: *<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">              <rect id="theRect" x="30" y="50" width="200" height="300"></rect>            </svg>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_element_handle_wait_for_element_state.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_emulation_focus.py`: *() => {       document.onclick = () => window.click_count = (window.click_count || 0) + 1;     }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_evaluate.py`: *() => {                 const a = { };                 a[Symbol('foo4')] = 42;                 return a;             }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_expect_misc.py`: *<div id=big style="height: 10000px;"></div>       <div id=small>foo</div>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_fetch_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_fetch_global.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_fill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_focus.py`: *<input id="input-1">       <button id="button">button</button>       <a href id="link">link</a>       <input id="input-2">*
+  - 📄 `undetected-playwright-python-main/tests/async/test_frames.py`: *() => {             frame = document.getElementById('frame1')             frame.src = './empty.html'             return new Promise(x => frame.onload = x)         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_geolocation.py`: *() => new Promise(resolve => navigator.geolocation.getCurrentPosition(position => {       resolve({latitude: position.coords.latitude, longitude: position.coords.longitude});     }))*
+  - 📄 `undetected-playwright-python-main/tests/async/test_har.py`: *async (body) => {             const response = await fetch('/echo', { method: 'POST', body });             return await response.text();         };*
+  - 📄 `undetected-playwright-python-main/tests/async/test_headful.py`: *src => {     let fulfill;     const promise = new Promise(x => fulfill = x);     const iframe = document.createElement('iframe');     document.body.appendChild(iframe);     iframe.onload = fulfill;   ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_ignore_https_errors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_input.py`: *e => {         reader = new FileReader()         promise = new Promise(fulfill => reader.onload = fulfill)         reader.readAsText(e.files[0])         return promise.then(() => reader.result)     }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_interception.py`: *<form action='/rredirect' method='post'>         <input type="hidden" id="foo" name="foo" value="FOOBAR">       </form>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_issues.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_jshandle.py`: *arg => {             if (arg.foo !== 42)             throw new Error('Not a 42');             arg.foo = 17;             if (arg.foo !== 17)             throw new Error('Not 17');             delete ar...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_keyboard.py`: *() => {         const lastEvent = {         repeat: false,         location: -1,         code: '',         key: '',         metaKey: false,         keyIdentifier: 'unsupported'         };         docu...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_launcher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_listeners.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_locators.py`: *() => {         window['double'] = false;         const button = document.querySelector('button');         button.addEventListener('dblclick', event => {         window['double'] = true;         });  ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_navigation.py`: *() => {         window.addEventListener('beforeunload', () => history.replaceState(null, 'initial', window.location.href), false)     }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_network.py`: *async url => {                 const data = await fetch(url);                 return data.text();             }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_page.py`: *() => {                 fetch('/digits/1.png')                 fetch('/digits/2.png')                 fetch('/digits/3.png')             }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_base_url.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_network_request.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_network_response.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_page_select_option.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_pdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_popup.py`: *url => {             win = window.open(url)             return win.navigator.userAgent         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_proxy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_queryselector.py`: *{             create(root, target) {                 return target.nodeName;             },             query(root, selector) {                 return root.querySelector(selector);             },     ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_request_continue.py`: *() => fetch('/sleep.zzz', { method: 'POST', body: 'birdy' })*
+  - 📄 `undetected-playwright-python-main/tests/async/test_request_fulfill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_resource_timing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_screenshot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_selector_generator.py`: *<div>         <div></div>         <div>           <div></div>           <div></div>         </div>       </div>       <div>         <div class='foo bar:0' data-custom-id='One'>         </div>         ...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_selectors_get_by.py`: *<label id=label for=control>Hello my wo"rld</label><input id=control />*
+  - 📄 `undetected-playwright-python-main/tests/async/test_selectors_misc.py`: *<div class=foo>hello</div><div class=bar>world</div>         <span class=foo>hello2</span><span class=bar>world2</span>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_selectors_text.py`: *<div id=div1>hello<span>world</span></div>         <div id=div2>hello</div>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_tap.py`: *<div id="a" style="background: lightblue; width: 50px; height: 50px">a</div>             <div id="b" style="background: pink; width: 50px; height: 50px">b</div>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/async/test_wait_for_function.py`: *() => {             if (!window['__RELOADED'])                 window.location.reload();             return true;         }*
+  - 📄 `undetected-playwright-python-main/tests/async/test_wait_for_url.py`: *<a onclick='javascript:pushState()'>SPA</a>         <script>             function pushState() { history.pushState({}, '', 'wow.html') }         </script>*
+  - 📄 `undetected-playwright-python-main/tests/async/test_websocket.py`: *port => {         let cb;         const result = new Promise(f => cb = f);         const ws = new WebSocket('ws://localhost:' + port + '/ws');         ws.addEventListener('message', data => { ws.close...*
+  - 📄 `undetected-playwright-python-main/tests/async/test_worker.py`: *() => new Worker(URL.createObjectURL(new Blob([`       setTimeout(() => {         // Do a console.log just to check that we do not confuse it with an error.         console.log('hey');         throw n...*
+  - 📄 `undetected-playwright-python-main/tests/async/utils.py`: *async ({ frame_id, url }) => {                 const frame = document.createElement('iframe');                 frame.src = url;                 frame.id = frame_id;                 document.body.appen...*
+  - 📄 `undetected-playwright-python-main/tests/common/test_events.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/common/test_signals.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/common/test_threads.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/conftest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/server.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/conftest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_accessibility.py`: *<head>       <title>Accessibility Test</title>     </head>     <body>       <h1>Inputs</h1>       <input placeholder="Empty input" autofocus />       <input placeholder="readonly input" readonly />   ...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_add_init_script.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_assertions.py`: *setTimeout(() => {             document.title = 'great title';         }, 2000);*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsercontext_events.py`: *() => {                 const win = window.open('');                 win.console.log('hello');                 }*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsercontext_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsercontext_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsercontext_service_worker_policy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsercontext_storage_state.py`: *() => {             localStorage["name1"] = "value1"             document.cookie = "username=John Doe"             return document.cookie         }*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsertype_connect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_browsertype_connect_cdp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_check.py`: *<input type='radio'>one</input>       <input id='two' type='radio'>two</input>       <input type='radio'>three</input>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_console.py`: *() => {       // A pair of time/timeEnd generates only one Console API call.       console.time('calling console.time');       console.timeEnd('calling console.time');       console.trace('calling con...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_element_handle.py`: *<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">              <rect id="theRect" x="30" y="50" width="200" height="300"></rect>            </svg>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_element_handle_wait_for_element_state.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_expect_misc.py`: *<div id=big style="height: 10000px;"></div>       <div id=small>foo</div>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_fetch_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_fetch_global.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_fill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_har.py`: *async (body) => {             const response = await fetch('/echo', { method: 'POST', body });             return response.text();         };*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_input.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_listeners.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_locator_get_by.py`: *<div>     <input placeholder="Hello">     <input placeholder="Hello World">   </div>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_locators.py`: *() => {         window['double'] = false;         const button = document.querySelector('button');         button.addEventListener('dblclick', event => {         window['double'] = true;         });  ...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_network.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_page_network_response.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_page_request_fallback.py`: *async url => {                 const data = await fetch(url, {                     headers: {                     foo: 'a',                     bar: 'b',                     }                 });     ...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_page_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_page_select_option.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_pdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_queryselector.py`: *{             create(root, target) {                 return target.nodeName;             },             query(root, selector) {                 return root.querySelector(selector);             },     ...*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_request_fulfill.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_request_intercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_resource_timing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_selectors_misc.py`: *<div class=foo>hello</div><div class=bar>world</div>         <span class=foo>hello2</span><span class=bar>world2</span>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_sync.py`: *<h1 id="foo">Bar</h1>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_tap.py`: *<div id="a" style="background: lightblue; width: 50px; height: 50px">a</div>             <div id="b" style="background: pink; width: 50px; height: 50px">b</div>*
+  - 📄 `undetected-playwright-python-main/tests/sync/test_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/test_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/sync/utils.py`: *async ({ frame_id, url }) => {                 const frame = document.createElement('iframe');                 frame.src = url;                 frame.id = frame_id;                 document.body.appen...*
+  - 📄 `undetected-playwright-python-main/tests/test_installation.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/tests/test_reference_count_async.py`: *async () => alert()*
+  - 📄 `undetected-playwright-python-main/tests/utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/__init__.py`: *Python package `undetected_playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, ca...*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/__main__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/__pyinstaller/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/__pyinstaller/hook-playwright.async_api.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/__pyinstaller/hook-playwright.sync_api.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_accessibility.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_api_structures.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_artifact.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_assertions.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_async_base.py`: *Registers the function ``f`` to the event name ``event``.*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_browser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_browser_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_browser_type.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_cdp_session.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_connection.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_console_message.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_download.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_driver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_element_handle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_errors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_event_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_fetch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_file_chooser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_frame.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_har_router.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_helper.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_impl_to_api_mapping.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_input.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_js_handle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_json_pipe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_local_utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_locator.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_map.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_network.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_object_factory.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_page.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_path_utils.py`: *Returns the callee (`__file__`) directory name*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_playwright.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_selectors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_set_input_files_helpers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_str_utils.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_stream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_sync_base.py`: *Registers the function ``f`` to the event name ``event``.*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_tracing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_transport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_waiter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_web_error.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/_impl/_writable_stream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/async_api/__init__.py`: *Python package `undetected_playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, ca...*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/async_api/_context_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/undetected_playwright/async_api/_generated.py`: *Request.url          URL of the request.          Returns         -------         str*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/sync_api/__init__.py`: *Python package `undetected_playwright` is a Python library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, ca...*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/sync_api/_context_manager.py`: *It looks like you are using Playwright Sync API inside the asyncio loop. Please use the Async API instead.*
+  - 📄 `undetected-playwright-python-main/undetected_playwright/sync_api/_generated.py`: *Request.url          URL of the request.          Returns         -------         str*
+  - 📄 `undetected-playwright-python-main/upload.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/utils/docker/build.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/utils/docker/publish_docker.sh`: (Fő feldolgozó / logikai modul)
+  - 📄 `undetected-playwright-python-main/utils/linting/check_file_header.py`: *# Copyright (c) Microsoft Corporation. # # Licensed under the Apache License, Version 2.0 (the "License"); # you may not use this file except in compliance with the License. # You may obtain a copy of...*
+
+----------------------------------------
+
+## 📦 REPO: unicorn-master
+**Funkció / Leírás:** # Testing See [this](../docs/Testing.md)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `unicorn-master/bindings/python/setup.py`: *Copy the C sources into the source directory.     This rearranges the source files under the python distribution     directory.*
+  - 📄 `unicorn-master/bindings/python/tests/test_network_auditing.py`: *---------------- | START REPORT | ----------------*
+  - 📄 `unicorn-master/bindings/python/tests/test_tricore.py`: *Created for Unicorn Engine by Eric Poole <eric.poole@aptiv.com>, 2022    Copyright 2022 Aptiv*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py2.py`: *"TranslationBlock*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py3/arch/arm.py`: *AArch32 classes and structures.*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py3/arch/arm64.py`: *AArch64 classes and structures.*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py3/arch/intel.py`: *Intel architecture classes and structures.*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py3/arch/types.py`: *Common types and structures.*
+  - 📄 `unicorn-master/bindings/python/unicorn/unicorn_py3/unicorn.py`: *New and improved Unicorn Python bindings by elicn based on Nguyen Anh Quynnh's work*
+  - 📄 `unicorn-master/qemu/include/qemu/queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `unicorn-master/qemu/include/qemu/rcu_queue.h`: (Fő feldolgozó / logikai modul)
+  - 📄 `unicorn-master/tests/regress/arm64_reg_rw_w0_w30.py`: *Testing the functionality to read/write 32-bit registers in AArch64     See issue #716*
+  - 📄 `unicorn-master/tests/regress/emu_stop_segfault.py`: *See https://github.com/unicorn-engine/unicorn/issues/65*
+  - 📄 `unicorn-master/tests/regress/ensure_typedef_consts_generated.py`: *See https://github.com/unicorn-engine/unicorn/issues/161  Ensure that constants which are specified via a typedef, rather than an enum, are included in the bindings by the script for autogenerating ma...*
+  - 📄 `unicorn-master/tests/regress/high_mem.py`: *Mapping memory at high addresses should work when TLB mode         is set to VIRTUAL.*
+  - 📄 `unicorn-master/tests/regress/hook_add_crash.py`: *https://github.com/unicorn-engine/unicorn/issues/165*
+  - 📄 `unicorn-master/tests/regress/hook_code_add_del.py`: *https://github.com/unicorn-engine/unicorn/issues/334*
+  - 📄 `unicorn-master/tests/regress/hook_raises_exception.py`: *Counts number of hook calls.*
+  - 📄 `unicorn-master/tests/regress/jmp_ebx_hang.py`: *See https://github.com/unicorn-engine/unicorn/issues/82*
+  - 📄 `unicorn-master/tests/regress/reg_write_sign_extension.py`: *See https://github.com/unicorn-engine/unicorn/issues/98*
+  - 📄 `unicorn-master/tests/regress/regress.py`: *Regress test case dummy class.*
+  - 📄 `unicorn-master/tests/regress/x86_64_msr.py`: *set the given model-specific register (MSR) to the given value.     this will clobber some memory at the given scratch address, as it emits some code.*
+
+----------------------------------------
+
+## 📦 REPO: video_downloader_knowledge
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `video_downloader_knowledge/processed_repos.txt`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: video_downloader_knowledge-(1)
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `video_downloader_knowledge-(1)/processed_repos.txt`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: wabt-main
+**Funkció / Leírás:** # Running the benchmark Use the command `make benchmark` to run the benchmark.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `wabt-main/scripts/check_clean.py`: *Check for clean checkout. This is run after tests during CI to ensure the generated source code in src/prebuilt has been updated.*
+  - 📄 `wabt-main/test/gen-spec-js.py`: *Convert a JSON descrption of a spec test into a JavaScript.*
+  - 📄 `wabt-main/test/run-tests.py`: *Given an argument list beginning with a `*.py` file, return one with that          uses sys.executable as arg[0].*
+
+----------------------------------------
+
+## 📦 REPO: wails-master
+**Funkció / Leírás:** # Website This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. ### Installation ``` $ npm ```
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `wails-master/website/docs/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/current/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.10/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.11.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.12.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.3.1/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.4.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.5.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.6.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.7.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.8.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.8.1/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/ja/docusaurus-plugin-content-docs/version-v2.9.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/current/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.10/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.11.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.12.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.3.1/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.4.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.5.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.6.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.7.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.8.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.8.1/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/i18n/zh-Hans/docusaurus-plugin-content-docs/version-v2.9.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/versioned_docs/version-v2.11.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `wails-master/website/versioned_docs/version-v2.12.0/guides/_category_.json`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: wasm-ast-master
+**Funkció / Leírás:** # WebAssembly AST Parser ## LICENSE This software is licensed under the MIT License. Copyright Fedor Indutny, 2015. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: wasm-toolkit-main
+**Funkció / Leírás:** # Grafana You can run this with `docker-compose up`. It is pre-configured to point at the loki, prometheus, jaeger endpoints, it will need adjustment if the grafana is running on a different machine/network to the telemetry collection infrastructure.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: wasm_workshop-master
+**Funkció / Leírás:** ### For code reviewers All `wasm` files in that directory where created by compiling the corresponding `wat` file using the command (using `hntrie.wat`/`hntrie.wasm` as example): wat2wasm hntrie.wat -o hntrie.wasm Assuming:
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: wasmfx-tools-main
+**Funkció / Leírás:** # Playground This is a simple online playground for `wasm-tools parse` and `print`, available at https://bytecodealliance.github.io/wasm-tools/parse / https://bytecodealliance.github.io/wasm-tools/print respectively. ## Building In addition to `cargo`, you'll need to have `node` and [`cargo-component`](https://github.com/bytecodealliance/cargo-Component) installed and on your path. Then
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: wasminspect-main
+**Funkció / Leírás:** # Wasminspect: An Interactive Debugger for WebAssembly
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: whisper.cpp-master
+**Funkció / Leírás:** # whisper.cpp/tests/librispeech training and evaluating automatic speech recognition systems. This directory contains a set of tools to evaluate the recognition performance of whisper.cpp on LibriSpeech corpus. ## Quick Start
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `whisper.cpp-master/examples/ffmpeg-transcode.cpp`: (Fő feldolgozó / logikai modul)
+  - 📄 `whisper.cpp-master/examples/python/whisper_processor.py`: *Processes an audio file using a specified model and returns the processed string.      :param wav_file: Path to the WAV file     :param model_name: Name of the model to use     :return: Processed stri...*
+  - 📄 `whisper.cpp-master/ggml/src/ggml-cuda/template-instances/generate_cu_files.py`: *// This file has been autogenerated by generate_cu_files.py, do not edit manually.  #include "../fattn-tile.cuh"  DECL_FATTN_TILE_CASE({head_size_kq}, {head_size_v});*
+  - 📄 `whisper.cpp-master/ggml/src/ggml-virtgpu/regenerate_remoting.py`: *# Generated by Claude AI  Script to completely regenerate the GGML remoting codebase from YAML configuration.  This script reads api_functions.yaml and regenerates all the header files and implementat...*
+  - 📄 `whisper.cpp-master/ggml/src/ggml-webgpu/wgsl-shaders/embed_wgsl.py`: *Replace #include "file" lines in the text with the contents of that file.     Searches for files relative to input_dir.*
+  - 📄 `whisper.cpp-master/tests/earnings21/normalizers/basic.py`: *Replace any other markers, symbols, and punctuations with a space,     and drop any diacritics (category 'Mn' and some manual mappings)*
+  - 📄 `whisper.cpp-master/tests/earnings21/normalizers/english.py`: *Convert any spelled-out numbers into arabic numbers, while handling:      - remove any commas     - keep the suffixes such as: `1960s`, `274th`, `32nd`, etc.     - spell out currency symbols after the...*
+  - 📄 `whisper.cpp-master/tests/librispeech/normalizers/basic.py`: *Replace any other markers, symbols, and punctuations with a space,     and drop any diacritics (category 'Mn' and some manual mappings)*
+  - 📄 `whisper.cpp-master/tests/librispeech/normalizers/english.py`: *Convert any spelled-out numbers into arabic numbers, while handling:      - remove any commas     - keep the suffixes such as: `1960s`, `274th`, `32nd`, etc.     - spell out currency symbols after the...*
+
+----------------------------------------
+
+## 📦 REPO: youtube-dl-master
+**Funkció / Leírás:** #installation) - [DESCRIPTION](#description) - [OPTIONS](#options) - [CONFIGURATION](#configuration) - [OUTPUT TEMPLATE](#output-template) - [FORMAT SELECTION](#format-selection) - [VIDEO SELECTION](#video-selection) - [FAQ](#faq) - [DEVELOPER INSTRUCTIONS](#developer-instructions) - [EMBEDDING YOUTUBE-DL](#embedding-youtube-dl) - [BUGS](#bugs) - [COPYRIGHT](#copyright)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `youtube-dl-master/devscripts/check-porn.py`: *This script employs a VERY basic heuristic ('porn' in webpage.lower()) to check if we are not 'age_limit' tagging some porn site  A second approach implemented relies on a list of porn domains, to act...*
+  - 📄 `youtube-dl-master/devscripts/cli_to_api.py`: *This script displays the API parameters corresponding to a yt-dl command line  Example: $ ./cli_to_api.py -f best {u'format': 'best'} $*
+  - 📄 `youtube-dl-master/devscripts/gh-pages/update-feed.py`: *\     <?xml version="1.0" encoding="utf-8"?>     <feed xmlns="http://www.w3.org/2005/Atom">         <link rel="self" href="http://ytdl-org.github.io/youtube-dl/update/releases.atom" />         <title>...*
+  - 📄 `youtube-dl-master/devscripts/make_lazy_extractors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/devscripts/utils.py`: *Get the version without importing the package*
+  - 📄 `youtube-dl-master/docs/module_guide.rst`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/test/helper.py`: *Remove a file if it exists*
+  - 📄 `youtube-dl-master/test/test_YoutubeDL.py`: *Test addition of missing upload/release/_date from /release_/timestamp*
+  - 📄 `youtube-dl-master/test/test_age_restriction.py`: *Returns true if the file has been downloaded*
+  - 📄 `youtube-dl-master/test/test_download.py`: *Identify each test with the `add_ie` attribute, if available.*
+  - 📄 `youtube-dl-master/test/test_downloader_external.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/test/test_downloader_http.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/test/test_http.py`: *Forcibly allow HTTP server to send non percent-encoded non-ASCII characters in headers.         This is against what is defined in RFC 3986: but we need to test that we support this         since some...*
+  - 📄 `youtube-dl-master/test/test_utils.py`: *ffmpeg -i 'ñ€ß'"'"'.mp4'*
+  - 📄 `youtube-dl-master/test/test_youtube_lists.py`: *Make sure the info has '_type' set to 'playlist'*
+  - 📄 `youtube-dl-master/youtube_dl/YoutubeDL.py`: *YoutubeDL class.      YoutubeDL objects are the ones responsible of downloading the     actual video file and writing it to disk if the user has requested     it, among some other tasks. In most cases...*
+  - 📄 `youtube-dl-master/youtube_dl/aes.py`: *PKCS#7 padding      @param {int[]} data        cleartext     @returns {int[]}           padding data*
+  - 📄 `youtube-dl-master/youtube_dl/compat.py`: *unquote_to_bytes('abc%20def') -> b'abc def'.*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/__init__.py`: *Get the downloader class that can handle the info dict.*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/common.py`: *File Downloader class.      File downloader objects are the ones responsible of downloading the     actual video file and writing it to disk.      File downloaders accept a lot of parameters. In order...*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/dash.py`: *Download segments in a DASH manifest*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/external.py`: *Either overwrite this or implement _make_cmd*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/f4m.py`: *Reader for Flv files     The file format is documented in https://www.adobe.com/devnet/f4v.html*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/fragment.py`: *A base file downloader class for fragmented media (e.g. f4m/m3u8 manifests).      Available options:      fragment_retries:   Number of times to retry a fragment for HTTP error (DASH                  ...*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/hls.py`: *A limited implementation that does not require ffmpeg*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/http.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/downloader/ism.py`: *Download segments in a ISM manifest*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/niconico.py`: *Downloading niconico douga from DMC with heartbeat*
+  - 📄 `youtube-dl-master/youtube_dl/downloader/rtmp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/downloader/rtsp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/__init__.py`: *Return a list of supported extractors.     The order does matter; the first extractor matched is the one handling the URL.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/abc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/abcnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/abcotvs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/academicearth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/acast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/adn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/adobeconnect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/adobepass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/adobetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/adultswim.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aenetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/afreecatv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/airmozilla.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aliexpress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aljazeera.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/allocine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/alphaporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/alsace20tv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/amara.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/amcnetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/americastestkitchen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/amp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/animeondemand.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/anvato.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aol.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/apa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aparat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/appleconnect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/applepodcasts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/appletrailers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/archiveorg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/arcpublishing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ard.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/arkena.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/arnes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/arte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/asiancrush.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/atresplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/atttechchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/atvat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/audimedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/audioboom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/audiomack.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/awaan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/aws.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/azmedien.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/baidu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bandaichannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bandcamp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/beatport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/beeg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/behindkink.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bellmedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bfi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bfmtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bibeltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bigflix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bigo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bild.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bilibili.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/biobiochiletv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/biqle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bitchute.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bleacherreport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/blerp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bloomberg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bokecc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bongacams.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bostonglobe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/box.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bpb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/br.py`: *{   viewer {     clip(id: "%s") {       title       description       duration       createdAt       ageRestriction       videoFiles {         edges {           node {             publicLocation      ...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/bravotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/breakcom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/brightcove.py`: *Build a Brightcove url from a xml string containing         <object class="BrightcoveExperience">{params}</object>*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/businessinsider.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/buzzfeed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/byutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/c56.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/caffeine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/callin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/camdemy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cammodels.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/camtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/camwithher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/canalc2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/canalplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/canvas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/carambatv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cartoonnetwork.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbsinteractive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbslocal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbsnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cbssports.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ccc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ccma.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cctv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cda.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ceskatelevize.py`: *Convert millisecond-based subtitles to SRT*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/channel9.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/charlierose.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/chaturbate.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/chilloutzone.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/chirbit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cinchcast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cinemax.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ciscolive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cjsw.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/clipchamp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cliphunter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/clippit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cliprs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/clipsyndicate.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/closertotruth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cloudflarestream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cloudy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/clubic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/clyp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cmt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cnbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cnn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/comedycentral.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/common.py`: *Information Extractor class.      Information extractors are the classes that, given a URL, extract     information about the video (or videos) the URL refers to. This     information includes the rea...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/commonmistakes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/commonprotocols.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/condenast.py`: *Condé Nast is a media group, some of its sites use a custom HTML5 player     that works the same in all of them.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/contv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/corus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/coub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cpac.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cracked.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/crackle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/crooksandliars.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/crunchyroll.py`: *[V4+ Styles] Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shad...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cspan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ctsnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ctv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ctvnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cultureunplugged.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/curiositystream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/cwtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dailymail.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dailymotion.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/daum.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dbtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dctp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/deezer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/defense.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/democracynow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dfb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dhm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/digg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/digiteka.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/discovery.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/discoverygo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/discoverynetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/discoveryvr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/disney.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dispeak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dlf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dotsub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/douyutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/drbonanza.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dreisat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dropbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/drtuber.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/drtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dumpert.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dvtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/dw.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eagleplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ebaumsworld.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/echomsk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/egghead.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ehow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eighttracks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/einthusan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eitb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ellentube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/elpais.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/embedly.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/engadget.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/epidemicsound.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eporner.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eroprofile.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/escapist.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/espn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/esri.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/europa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/expotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/expressen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/extractors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/extremetube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/eyedotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/facebook.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/faz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fc2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fczenit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fifa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/filmon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/filmweb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/firsttv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fivemin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fivetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/flickr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/folketinget.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/footyroom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/formula1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fourtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fox9.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/foxgay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/foxnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/foxsports.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/franceculture.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/franceinter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/francetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/freesound.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/freespeech.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/freshlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/frontendmasters.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fujitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/funimation.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/funk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/fusion.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gaia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gameinformer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gamespot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gamestar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gaskrank.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gazeta.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gbnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gdcvault.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gedidigital.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/generic.py`: *Report information extraction.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gfycat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/giantbomb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/giga.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gigya.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/glide.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/globalplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/globo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/go.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/godtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/golem.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/googledrive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/googlepodcasts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/googlesearch.py`: *Get a specified number of results for a query*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/goshgay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/gputechconf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/groupon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hbo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hearthisat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/heise.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hellporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/helsinki.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hentaistigma.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hidive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/historicfilms.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hitbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hitrecord.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hketv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hornbunny.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hotnewhiphop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hotstar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/howcast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/howstuffworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hrfernsehen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hrti.py`: *Base Information Extractor for Croatian Radiotelevision         video on demand site https://hrti.hrt.hr         Reverse engineered from the JavaScript app in app.min.js*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/huajiao.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/huffpost.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hungama.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/hypem.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ign.py`: *Extractor for some of the IGN sites, like www.ign.com, es.ign.com de.ign.com.     Some videos of it.ign.com are also supported*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/iheart.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/imdb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/imggaming.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/imgur.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ina.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/inc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/indavideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/infoq.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/instagram.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/internazionale.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/internetvideoarchive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/iprima.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/iqiyi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ir90tv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/itv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ivi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ivideon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/iwara.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/izlesene.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/jamendo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/jeuxvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/joj.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/jove.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/jwplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kakao.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kaltura.py`: *(?xs)                     kWidget\.(?:thumb)?[Ee]mbed\(                     \{.*?                         (?P<q1>['"])wid(?P=q1)\s*:\s*                         (?P<q2>['"])_?(?P<partner_id>(?:(?!(?P=q...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kankan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/karaoketv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/karrierevideos.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/keezmovies.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ketnet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/khanacademy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kickstarter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kinja.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kinopoisk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kommunetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/konserthusetplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/krasview.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ku6.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kusi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/kuwo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/la7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/laola1tv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lbry.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lci.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lcp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lecture2go.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lecturio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/leeco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lego.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lemonde.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lenta.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/libraryofcongress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/libsyn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lifenews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/limelight.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/line.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/linkedin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/linuxacademy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/litv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/livejournal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/livestream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lnkgo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/localnews8.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lovehomeporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lrt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/lynda.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/m6.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mailru.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/malltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mangomolo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/manyvids.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/maoritv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/markiza.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/massengeschmacktv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/matchtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mdr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/medaltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/medialaan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mediaset.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mediasite.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/medici.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/megaphone.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/meipai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/melonvod.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/meta.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/metacafe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/metacritic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mgoon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/miaopai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/microsoftvirtualacademy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/minds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ministrygrid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/minoto.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/miomio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mitele.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mixcloud.py`: *Encrypt/Decrypt XOR cipher. Both ways are possible because it's XOR.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mlb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mnet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/moevideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mofosex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mojvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/morningstar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/motherless.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/motorsport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/movieclips.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/moviezine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/movingimage.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/msn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/muenchentv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mwave.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/mychannels.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/myspace.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/myspass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/myvi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/myvideoge.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/myvidster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nationalgeographic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/naver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nba.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ndr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ndtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nerdcubed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/neteasemusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/netzkino.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/newgrounds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/newstube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nextmedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nexx.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nfl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nhk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nhl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nick.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/niconico.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ninecninemedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ninegag.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ninenow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nintendo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/njpwworld.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nobelprize.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nonktube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/noovo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/normalboots.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nosvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nova.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nowness.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/noz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/npo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/npr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nrk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nrl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ntvcojp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ntvde.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ntvru.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nuevo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nuvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nytimes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/nzz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/odatv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/odnoklassniki.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/oktoberfesttv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/once.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ondemandkorea.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/onet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/onionstudios.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ooyala.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/openload.py`: *PhantomJS wrapper class      This class is experimental.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ora.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/orf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/outsidetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/packtpub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/palcomp3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pandoratv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/parliamentliveuk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/patreon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pearvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/peekvids.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/peertube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/people.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/performgroup.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/periscope.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/philharmoniedeparis.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/phoenix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/photobucket.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/picarto.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/piksel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pinkbike.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pinterest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pladform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/platzi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playplustv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/plays.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playstuff.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playtvak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/playwire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pluralsight.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/podomatic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pokemon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/polskieradio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/popcorntimes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/popcorntv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/porn91.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/porncom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pornhd.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pornhub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pornotube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pornovoisines.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pornoxo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pr0gramm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/presstv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/prosiebensat1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/puhutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/puls4.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/pyvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/qqmusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/r7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/radiobremen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/radiocanada.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/radiode.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/radiofrance.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/radiojavan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/raywenderlich.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rbgtum.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rbmaradio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/redbulltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/reddit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/redtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/regiotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rentv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/restudy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/reuters.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/reverbnation.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rmcdecouverte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ro220.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rockstargames.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/roosterteeth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rottentomatoes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/roxwel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rozhlas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtbf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtl2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtlnl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtve.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtvnh.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rtvs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ruhd.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rumble.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rutube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/rutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ruutu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ruv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/s4c.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/safari.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/samplefocus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sapo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/savefrom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/screencast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/screencastomatic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/scrippsnetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/scte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/seeker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/senateisvp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sendtonews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/servus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sevenplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sexu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/seznamzpravy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/shahid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/shared.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/showroomlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/simplecast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sina.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sixplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sky.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/skyit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/skylinewebcams.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/skynewsarabia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/slideshare.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/slideslive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/slutload.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/snotr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sohu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sonyliv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/soundcloud.py`: *Information extractor for soundcloud.com        To access the media, the uid of the song and a stream token        must be extracted from the page source and the script must make        a request to m...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/soundgasm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/southpark.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spankbang.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spankwire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spiegel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spike.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sport5.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sportbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sportdeutschland.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spotify.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/spreaker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/springboardplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sprout.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/srgssr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/srmediathek.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/stanfordoc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/steam.py`: *(?x)         https?://store\.steampowered\.com/             (agecheck/)?             (?P<urltype>video|app)/ #If the page is only for videos or for a game             (?P<gameID>\d+)/?             (?P...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/stitcher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/storyfire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/streamable.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/streamcloud.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/streamcz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/streamsb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/streetvoice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/stretchinternet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/stv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sunporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sverigesradio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/svt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/swrmediathek.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/syfy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/sztvhu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tagesschau.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tdslifeway.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teachable.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teachertube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teachingchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teamcoco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teamtreehouse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/techtalks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ted.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tele13.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tele5.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telebruxelles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telecinco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telegraaf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telemb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telequebec.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/teletask.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/telewebion.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tennistv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tenplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/testurl.py`: *Allows addressing of the test cases as test:yout.*be_1*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tf1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tfo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/theintercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/theplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thescene.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thestar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thesun.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/theweatherchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thisamericanlife.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thisav.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thisoldhouse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/thisvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/threeqsdn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tiktok.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tinypic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tmz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tnaflix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/toggle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tonline.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/toongoggles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/toutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/toypics.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/traileraddict.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/trilulilu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/trovo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/trunews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/trutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tube8.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tubitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tudou.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tumblr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tunein.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tunepk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/turbo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/turner.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv2dk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv2hu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv4.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv5mondeplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tv5unis.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tva.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvanouvelles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvigle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvland.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvn24.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvnet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvnoe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvnow.py`: *TODO: new apigw.tvnow.de based version of TVNowIE. Replace old TVNowIE with it when api.tvnow.de is shut down. This version can't bypass premium checks though. class TVNowIE(TVNowNewBaseIE):     _VALI...*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tvplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/tweakers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twentyfourvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twentymin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twentythreevideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twitcasting.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twitch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/twitter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/udemy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/udn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ufctv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/uktvplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/umg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/unistra.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/unity.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/uol.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/uplynk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/urort.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/urplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/usanetwork.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/usatoday.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ustream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ustudio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/varzesh3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vbox7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/veehd.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/veoh.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vesti.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vevo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vh1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vidbit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viddler.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/videa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/videodetective.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/videofyme.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/videomore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/videopress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vidio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vidlii.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vidme.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vier.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viewlift.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viidea.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viki.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vimeo.py`: *Information extractor for vimeo.com.*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vimple.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viqeo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/viu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vodlocker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vodpl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vodplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/voicerepublic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/voot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/voxmedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vrak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vrt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vrv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vshare.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vtm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vuclip.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vvvvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vyborymos.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/vzaar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wakanim.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/walla.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/washingtonpost.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/watchbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/watchindianporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wdr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/webcaster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/webofstories.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/weibo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/weiqitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/whyp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wistia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/worldstarhiphop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wsj.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/wwe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xbef.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xboxclips.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xfileshare.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xhamster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xiami.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ximalaya.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xminus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xnxx.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xstream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xuite.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xvideos.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/xxxymovies.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yahoo.py`: *Get a specified number of results for a query*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yandexdisk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yandexmusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yandexvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yapfiles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yesjapan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yinyuetai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/ynet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/youjizz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/youku.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/younow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/youporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yourporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/yourupload.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/youtube.py`: *Provide base functions for Youtube extractors*
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zapiks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zattoo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zhihu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zingmp3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zoom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/extractor/zype.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/jsinterp.py`: *Simulate JS's ternary operator (cndn?if_true:if_false)*
+  - 📄 `youtube-dl-master/youtube_dl/postprocessor/common.py`: *Post Processor class.      PostProcessor objects can be added to downloaders with their     add_post_processor() method. When the downloader has finished a     successful download, it will take its in...*
+  - 📄 `youtube-dl-master/youtube_dl/postprocessor/ffmpeg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dl-master/youtube_dl/postprocessor/metadatafromtitle.py`: *Converts a string like            '%(title)s - %(artist)s'         to a regex like            '(?P<title>.+)\ \-\ (?P<artist>.+)'*
+  - 📄 `youtube-dl-master/youtube_dl/postprocessor/xattrpp.py`: *Set extended attributes on downloaded file (if xattr support is found).*
+  - 📄 `youtube-dl-master/youtube_dl/update.py`: *Update the program file with the latest version from the repository*
+  - 📄 `youtube-dl-master/youtube_dl/utils.py`: *Get preferred encoding.      Returns the best encoding scheme for the system, based on     locale.getpreferredencoding() and some further tweaks.*
+
+----------------------------------------
+
+## 📦 REPO: youtube-dlp-gui-installer-main
+**Funkció / Leírás:** Automatic installer for [yt-dlp-gui](https://github.com/kannagi0303/yt-dlp-gui) ### Auto dowload Requirements for #yt-dlp-gui -   [Yt-dlp](https://github.com/yt-dlp/yt-dlp) -   [FFMPEG](https://ffmpeg.org/download.html#build-windows) -  [Yt-dlp-gui](https://github.com/kannagi0303/yt-dlp-gui) -  [Aria2](https://github.com/aria2/aria2) yt-dlp-gui requires downloading and putting ffmpeg and yt-dlp.exe in the same or system folder, this script automates the process and creates shortcuts in the home ...
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `youtube-dlp-gui-installer-main/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dlp-gui-installer-main/yt-dlp-gui-installer.ps1`: (Fő feldolgozó / logikai modul)
+  - 📄 `youtube-dlp-gui-installer-main/yt-dlp-gui-uninstaller.ps1`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: youwee-main
+**Funkció / Leírás:** # Youwee <div align="center"> [![English](https://img.shields.io/badge/lang-English-blue)](README.md) [![Tiếng Việt](https://img.shields.io/badge/lang-Tiếng_Việt-red)](docs/README.vi.md) [![简体中文](https://img.shields.io/badge/lang-简体中文-green)](docs/README.zh-CN.md) [![Français](https://img.shields.io/badge/lang-Français-0055A4)](docs/README.fr.md) [![Русский](https://img.shields.io/badge/lang-Русский-1F5FBF)](docs/README.ru.md) [![Vote for next language](https://img.shields.io/badge/Vote-Next_Lan...
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------
+
+## 📦 REPO: yt-channel-downloader-main
+**Funkció / Leírás:** # YT Channel Downloader **YT Channel Downloader** is an intuitive desktop application built to simplify the process of downloading YouTube media content. Leveraging the robustness of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and enriched with a modern PyQt 6 GUI, this tool offers a seamless experience to download your favorite content. ![YT Channel Downloader Screenshot (Windows)](docs/images/yt-chan-dl-win.gif) ![YT Channel Downloader Screenshot (Windows)](docs/images/ytdl-settings_win.png)
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `yt-channel-downloader-main/.codacy.yaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/CHANGELOG.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/CONTRIBUTING.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/packaging/icons/icon.iconset/Contents.json`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/pyproject.toml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/requirements.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/scripts/cookie_check.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/__init__.py`: *YT Channel Downloader package.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/__main__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/assets/resources_rc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/YTChannel.py`: *Resolve channel, playlist, and single-video sources into app list entries.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/auto_update_worker.py`: *Background worker to check for updates without blocking the UI.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/browser_config.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/checkbox_delegate.py`: *A delegate that places a fully functioning QCheckBox cell of     the column to which it's applied.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/custom_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/download_thread.py`: *A QThread subclass that handles downloading videos from YouTube with     specificformats and qualities.      Attributes:         download_progress_signal (Signal): Signal emitted during the download  ...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/enums.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/fetch_progress_dialog.py`: *This module defines a `FetchProgressDialog` class that represents a dialog for tracking the progress of fetching a list of items from a YouTube channel. It handles starting the fetch process, displayi...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/ffmpeg_checker.py`: *Return additional locations where ffmpeg might live.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/get_list_thread.py`: *A thread class for fetching a list of videos from a YouTube channel or     a single video.      This class inherits from QThread and is used to retrieve either all     videos from a given YouTube chan...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/js_warning_tracker.py`: *Tracks whether yt-dlp reported missing JavaScript runtime.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/logger.py`: *Configure the shared application logger once and return it.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/login_prompt_dialog.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/mainwindow.py`: *Main application window for the YouTube Channel Downloader.      This class manages the primary UI components, their styling, signal     connections, and interactions with other modules, such as Setti...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/node_runtime_notifier.py`: *Encapsulates detection and prompting for an optional JS runtime.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/progress_bar_delegate.py`: *Delegate rendering a gradient progress bar inside table cells.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/quiet_ydl_logger.py`: *Minimal yt-dlp-compatible logger that suppresses noisy output.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/release_info.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/runtime_info.py`: *Detect whether the application is running from source (python -m yt_channel_downloader)     or from a frozen/packaged bundle (e.g. PyInstaller).*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/runtime_mode.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/selection_size_worker.py`: *Background worker to compute selection size totals without blocking UI.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/settings.py`: *#     * {         #         font-family: "Arial";         #         font-size: 14pt;         #     }         #     SettingsDialog {         #         background-color: #f0f0f0;         #         borde...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/settings_manager.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/support_prompt.py`: *Encapsulates support prompt thresholds and dialog presentation.      The prompt offers three choices:     - Support: snooze longer (e.g., 500 downloads)     - I'm not yet sure: shorter snooze (e.g., 5...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/thumbnail_loader.py`: *Fetch thumbnails asynchronously and emit scaled pixmaps.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/update_context.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/update_fetch_error.py`: *Raised when the GitHub release metadata cannot be retrieved.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/update_result.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/update_status.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/updater.py`: *Simple updater helper that adapts its messaging based on how the app is     being executed (source checkout vs. frozen bundle).      A more sophisticated implementation can extend this class with real...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/utils.py`: *Finds the best video format from a list of formats based on the target     resolution and an optional target container extension.      Parameters:     - formats (list of dicts): A list of format dicti...*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/validators.py`: *Helpers for validating YouTube URLs and extracting lightweight metadata.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/videoitem.py`: *This module defines the VideoItem class used to represent video items in a list view, including methods to initialize and manage UI elements for each item.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/youtube_auth_manager.py`: *Manage browser-cookie based YouTube authentication for yt-dlp calls.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/classes/youtube_cookies_dialog.py`: *Dialog allowing the user to configure cookies-from-browser settings.*
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/config/constants.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/ui/ui_about.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/ui/ui_form.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/ui/ui_login_prompt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/src/yt_channel_downloader/ui/ui_settings.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/tests/test_codacy_regressions.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/tests/test_mainwindow_progress_restore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/tests/test_playlist_fetch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/tests/test_smoke.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-channel-downloader-main/tests/test_support_prompt.py`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: yt-dlp-gui-master
+**Funkció / Leírás:** Nincs elérhető README összegzés.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `yt-dlp-gui-master/LICENSE.txt`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/App.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/App.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/App/App.Path.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/AssemblyInfo.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/ActualSize.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/BrowserBehavior.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Duration.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Filesize.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Icons.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Icons.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Menu.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/Menu.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/TextBoxNumber.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/TextEditor.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/TextEditor.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/TextView.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Controls/TextView.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.Env.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.PropertyCopy.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.Resources.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.Shell.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.Tools.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Util.UrlValid.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Web.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/Yaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Libs/YamlDescription.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Chapters.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Config.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Cookies.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Format.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Lang.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Subs.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Thumb.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/VTask.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Models/Video.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Themes/CustomUI.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Themes/CustomUI.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Themes/DarkTheme.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Themes/DarkTheme.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/ViewModels/Main.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/About.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/About.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/Main.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/Main.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/Release.xaml`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Views/Release.xaml.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Wrappers/DLP.cs`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-gui-master/yt-dlp-gui/Wrappers/FFMPEG.cs`: (Fő feldolgozó / logikai modul)
+
+----------------------------------------
+
+## 📦 REPO: yt-dlp-master
+**Funkció / Leírás:** # YoutubeIE PO Token Provider Framework As part of the YouTube extractor, we have a framework for providing PO Tokens programmatically. This can be used by plugins. Refer to the [PO Token Guide](https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide) for more information on PO Tokens. > [!TIP] > If publishing a PO Token Provider plugin to GitHub, add the [yt-dlp-pot-provider](https://github.com/topics/yt-dlp-pot-provider) topic to your repository to help users find it.
+
+**Kritikus Fájlok és Szerepük:**
+  - 📄 `yt-dlp-master/bundle/pyinstaller.py`: *@returns (name, path)*
+  - 📄 `yt-dlp-master/devscripts/check-porn.py`: *This script employs a VERY basic heuristic ('porn' in webpage.lower()) to check if we are not 'age_limit' tagging some porn site  A second approach implemented relies on a list of porn domains, to act...*
+  - 📄 `yt-dlp-master/devscripts/make_lazy_extractors.py`: *find the correct sorting and add the required base classes so that subclasses can be correctly created*
+  - 📄 `yt-dlp-master/devscripts/make_readme.py`: *yt-dlp --help | make_readme.py This must be run in a console of correct width*
+  - 📄 `yt-dlp-master/devscripts/setup_variables.py`: *`environment` must contain these keys:         REPOSITORY, INPUTS, PROCESSED, PYPI_PROJECT,         SOURCE_PYPI_PROJECT, SOURCE_PYPI_SUFFIX,         TARGET_PYPI_PROJECT, TARGET_PYPI_SUFFIX,         SO...*
+  - 📄 `yt-dlp-master/devscripts/tomlparse.py`: *Simple parser for spec compliant toml files  A simple toml parser for files that comply with the spec. Should only be used to parse `pyproject.toml` for `install_deps.py`.  IMPORTANT: INVALID FILES OR...*
+  - 📄 `yt-dlp-master/devscripts/utils.py`: *Get the version without importing the package*
+  - 📄 `yt-dlp-master/test/conftest.py`: *usage: pytest.mark.skip_handler('my_handler', 'reason')*
+  - 📄 `yt-dlp-master/test/helper.py`: *Remove a file if it exists*
+  - 📄 `yt-dlp-master/test/test_age_restriction.py`: *Returns true if the file has been downloaded*
+  - 📄 `yt-dlp-master/test/test_cookies.py`: *based on https://chromium.googlesource.com/chromium/src/+/refs/heads/main/base/nix/xdg_util_unittest.cc*
+  - 📄 `yt-dlp-master/test/test_download.py`: *Identify each test with the `add_ie` attribute, if available.*
+  - 📄 `yt-dlp-master/test/test_downloader_external.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/test_downloader_http.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/test_http_proxy.py`: *Modified version of urllib3 SSLTransport to support server side SSL          This allows us to chain multiple TLS connections.*
+  - 📄 `yt-dlp-master/test/test_jsinterp.py`: *# Unsupported         self._test('''             function f() {                 if (0!=0) {return 1}                 else if (1==0) {return 2}                 else {return 10}             }         ''...*
+  - 📄 `yt-dlp-master/test/test_networking.py`: *Forcibly allow HTTP server to send non percent-encoded non-ASCII characters in headers.         This is against what is defined in RFC 3986, however we need to test we support this         since some ...*
+  - 📄 `yt-dlp-master/test/test_socks.py`: *return a dict of socks_info*
+  - 📄 `yt-dlp-master/test/test_utils.py`: *ffmpeg -i 'ñ€ß'"'"'.mp4'*
+  - 📄 `yt-dlp-master/test/test_youtube_lists.py`: *Make sure the info has '_type' set to 'playlist'*
+  - 📄 `yt-dlp-master/test/testdata/plugin_packages/testpackage/yt_dlp_plugins/extractor/package.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/reload_plugins/yt_dlp_plugins/extractor/normal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/yt_dlp_plugins/extractor/_ignore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/yt_dlp_plugins/extractor/ignore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/yt_dlp_plugins/extractor/normal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/yt_dlp_plugins/extractor/override.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/yt_dlp_plugins/extractor/overridetwo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/test/testdata/zipped_plugins/yt_dlp_plugins/extractor/zipped.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/YoutubeDL.py`: *YoutubeDL class.      YoutubeDL objects are the ones responsible of downloading the     actual video file and writing it to disk if the user has requested     it, among some other tasks. In most cases...*
+  - 📄 `yt-dlp-master/yt_dlp/__init__.py`: *@param verbose      -1: quiet, 0: normal, 1: verbose*
+  - 📄 `yt-dlp-master/yt_dlp/aes.py`: *Decrypt bytes with AES-CBC using pycryptodome*
+  - 📄 `yt-dlp-master/yt_dlp/compat/__init__.py`: *Convert urllib Request to a networking Request*
+  - 📄 `yt-dlp-master/yt_dlp/compat/_deprecated.py`: *Deprecated - New code should avoid these*
+  - 📄 `yt-dlp-master/yt_dlp/compat/_legacy.py`: *Do not use!*
+  - 📄 `yt-dlp-master/yt_dlp/compat/compat_utils.py`: *Passthrough parent module into a child module, creating the parent if necessary*
+  - 📄 `yt-dlp-master/yt_dlp/compat/imghdr.py`: *Detect format of image (Currently supports jpeg, png, webp, gif only)     Ref: https://github.com/python/cpython/blob/3.11/Lib/imghdr.py     Ref: https://www.w3.org/Graphics/JPEG/itu-t81.pdf*
+  - 📄 `yt-dlp-master/yt_dlp/cookies.py`: *Return a context manager with a print method. (Optional)*
+  - 📄 `yt-dlp-master/yt_dlp/dependencies/__init__.py`: *Imports all optional dependencies for the project. An attribute "_yt_dlp__identifier" may be inserted into the module if it uses an ambiguous namespace*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/__init__.py`: *Get the downloader class that can handle the info dict.*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/bunnycdn.py`: *Downloads from BunnyCDN with required pings     Note, this is not a part of public API, and will be removed without notice.     DO NOT USE*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/common.py`: *File Downloader class.      File downloader objects are the ones responsible of downloading the     actual video file and writing it to disk.      File downloaders accept a lot of parameters. In order...*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/dash.py`: *Download segments in a DASH manifest. External downloaders can take over     the fragment downloads by supporting the 'dash_frag_urls' protocol*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/external.py`: *Either overwrite this or implement _make_cmd*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/f4m.py`: *Reader for Flv files     The file format is documented in https://www.adobe.com/devnet/f4v.html*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/fc2.py`: *Downloads FC2 live without being stopped. <br>     Note, this is not a part of public API, and will be removed without notice.     DO NOT USE*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/fragment.py`: *A base file downloader class for fragmented media (e.g. f4m/m3u8 manifests).      Available options:      fragment_retries:   Number of times to retry a fragment for HTTP error                        ...*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/hls.py`: *Download segments in a m3u8 manifest. External downloaders can take over     the fragment downloads by supporting the 'm3u8_frag_urls' protocol and     re-defining 'supports_manifest' function*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/http.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/downloader/ism.py`: *Download segments in a ISM manifest*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/mhtml.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/downloader/niconico.py`: *Downloads niconico live without being stopped*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/rtmp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/downloader/rtsp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/downloader/soop.py`: *Downloads Soop subscription VODs with required cookie refresh requests     Note, this is not a part of public API, and will be removed without notice.     DO NOT USE*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/websocket.py`: *A sink to ffmpeg for downloading fragments in any form*
+  - 📄 `yt-dlp-master/yt_dlp/downloader/youtube_live_chat.py`: *Downloads YouTube live chats fragment by fragment*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/__init__.py`: *Return a list of supported extractors.     The order does matter; the first extractor matched is the one handling the URL.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/_extractors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/abc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/abcnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/abcotvs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/abematv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/academicearth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/acast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/acfun.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/adn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/adobeconnect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/adobepass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/adobetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/adultswim.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aenetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aeonco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/afreecatv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/agalega.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/agora.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/airtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aitube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/alibaba.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aliexpress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aljazeera.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/allocine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/allstar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/alphaporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/alsace20tv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/altcensored.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/alura.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amadeustv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amara.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amazon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amazonminitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amcnetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/americastestkitchen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/amp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/anchorfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/angel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/antenna.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/anvato.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aol.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/apa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aparat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/appleconnect.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/applepodcasts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/appletrailers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/archiveorg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/arcpublishing.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ard.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/arnes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/art19.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/arte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/asobichannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/asobistage.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/atresplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/atscaleconf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/atvat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/audimedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/audioboom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/audiodraft.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/audiomack.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/audius.py`: *Selecting one of the currently available API hosts*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/awaan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/aws.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/axs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/azmedien.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/baidu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/banbye.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bandcamp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bandlab.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bannedvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bbc.py`: *Extract single video from model structure*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/beacon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/beatbump.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/beatport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/beeg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/behindkink.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/berufetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bfi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bfmtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bibeltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bigflix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bigo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bild.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bilibili.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/biobiochiletv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bitchute.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bitmovin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/blackboardcollaborate.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bleacherreport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/blerp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/blogger.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bloomberg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bluesky.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bokecc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bongacams.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/boosty.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bostonglobe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/box.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/boxcast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bpb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/br.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/brainpop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/breitbart.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/brightcove.py`: *Build a Brightcove url from a xml string containing         <object class="BrightcoveExperience">{params}</object>*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/brilliantpala.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/btvplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bundesliga.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bundestag.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/bunnycdn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/businessinsider.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/buzzfeed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/byutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/c56.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/caffeinetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/callin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/caltrans.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cam4.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/camdemy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/camfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cammodels.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/camsoda.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/camtasia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/canal1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/canalalpha.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/canalc2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/canalplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/canalsurmas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/caracoltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cbsnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cbssports.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ccc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ccma.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cctv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cda.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cellebrite.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ceskatelevize.py`: *Convert millisecond-based subtitles to SRT*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cgtn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/charlierose.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/chaturbate.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/chilloutzone.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/chzzk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cinemax.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cinetecamilano.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cineverse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ciscolive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ciscowebex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cjsw.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/clipchamp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/clippit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cliprs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/closertotruth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cloudflarestream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cloudycdn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/clubic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/clyp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cnbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cnn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/comedycentral.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/common.py`: *Information Extractor class.      Information extractors are the classes that, given a URL, extract     information about the video (or videos) the URL refers to. This     information includes the rea...*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/commonmistakes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/commonprotocols.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/condenast.py`: *Condé Nast is a media group, some of its sites use a custom HTML5 player     that works the same in all of them.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/contv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/corus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/coub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cozytv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cpac.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cracked.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/craftsy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/croatianfilm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/crooksandliars.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/crowdbunker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/crtvg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cspan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ctsnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ctvnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cultureunplugged.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/curiositystream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/cybrary.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dacast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dailymail.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dailymotion.py`: *Randomize our HTTP header fingerprint to bust the HTTP Error 403 block*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dailywire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/damtomo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dangalplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/daum.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/daystar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dbtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dctp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/democracynow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/detik.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/deuxm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dfb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dhm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/digitalconcerthall.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/digiteka.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/digiview.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/discogs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/disney.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dispeak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dlf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/douyutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dplay.py`: *Subclasses must set _PRODUCT, _DISCO_API_PARAMS*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/drbonanza.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dreisat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/drooble.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dropbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dropout.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/drtalks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/drtuber.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/drtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/duboku.py`: *Return the content of the tag with the specified attribute in the passed HTML document*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dumpert.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/duoplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dvtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/dw.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ebaumsworld.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ebay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/egghead.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eggs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eighttracks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eitb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/elementorembed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/elonet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/elpais.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eltrecetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/embedly.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/epicon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/epidemicsound.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/epoch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eporner.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/erocast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eroprofile.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/err.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ertgr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/espn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ettutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/europa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/europeantour.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eurosport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/euscreen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/expressen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/extractors.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/eyedotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/facebook.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fancode.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fathom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/faulio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/faz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fc2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fczenit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fifa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/filmarchiv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/filmon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/filmweb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/firsttv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fivetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/flextv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/flickr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/floatplane.py`: *Subclasses must set _RESULT_IE, _BASE_URL and _PAGE_SIZE*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/folketinget.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/footyroom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/formula1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fourtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fox9.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/foxnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/foxsports.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fptplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/francaisfacile.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/franceinter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/francetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/freesound.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/freespeech.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/freetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/frontendmasters.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/frontro.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fujitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/funk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/funker530.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/fuyintv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gab.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gaia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gamedevtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gamejolt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gamespot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gamestar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gaskrank.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gazeta.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gbnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gdcvault.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gedidigital.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/generic.py`: *Report information extraction.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/genericembeds.py`: *For common cases of quoted/escaped html parts in the webpage*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/genius.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/germanupa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/getcourseru.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gettr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/giantbomb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/glide.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/globalplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/globo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/glomex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gmanetwork.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/go.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/godresource.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/godtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gofile.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/golem.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/goodgame.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/googledrive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/googlepodcasts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/googlesearch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/goplay.py`: *The login credentials are invalid*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gopro.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/goshgay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gotostage.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gputechconf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/graspop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/gronkh.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/groupon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/harpodeon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hbo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hearthisat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/heise.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hellporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hidive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/historicfilms.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hitrecord.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hketv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hollywoodreporter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/holodex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hotnewhiphop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hotstar.py`: *The "hotstar:" prefix is no longer in use, but this is kept for backward compatibility*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hrefli.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hrfensehen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hrti.py`: *Base Information Extractor for Croatian Radiotelevision         video on demand site https://hrti.hrt.hr         Reverse engineered from the JavaScript app in app.min.js*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/huajiao.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/huffpost.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hungama.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/huya.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hypem.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hypergryph.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/hytale.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/icareus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ichinanalive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/idagio.py`: *Subclasses must set _API_URL_TMPL and define _parse_playlist_metadata*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/idolplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ign.py`: *Extractor for some of the IGN sites, like www.ign.com, es.ign.com de.ign.com.     Some videos of it.ign.com are also supported*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/iheart.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ilpost.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/iltalehti.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/imdb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/imggaming.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/imgur.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ina.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/inc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/indavideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/infoq.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/instagram.py`: *Source: https://stackoverflow.com/questions/24437823/getting-instagram-post-url-from-media-id*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/internazionale.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/internetvideoarchive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/iprima.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/iqiyi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/islamchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/israelnationalnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/itprotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/itv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ivi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ivideon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ivoox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/iwara.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ixigua.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/izlesene.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jamendo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/japandiet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jeuxvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jiosaavn.py`: *Subclasses using this method must set _ENTRY_IE*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jixie.py`: *API Reference:         https://jixie.atlassian.net/servicedesk/customer/portal/2/article/1339654214?src=-1456335525,         https://scripts.jixie.media/jxvideo.3.1.min.js*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/joj.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jove.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jstream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jtbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/jwplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kakao.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kaltura.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kankanews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/karaoketv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kelbyone.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kenh14.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/khanacademy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kick.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kicker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kickstarter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kika.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kinja.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kinopoisk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kommunetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kompas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/koo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/krasview.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ku6.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kukululive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/kuwo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/la7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/laracasts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lastfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/laxarxames.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lbry.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lci.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lcp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/learningonscreen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lecture2go.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lecturio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/leeco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lefigaro.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lego.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lemonde.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lenta.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/libraryofcongress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/libsyn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lifenews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/likee.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/linkedin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/liputan6.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/listennotes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/litv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/livejournal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/livestream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/livestreamfails.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lnk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/locipo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/loco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/loom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lovehomeporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lrt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lsm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lumni.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/lynda.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/maariv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/magellantv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/magentamusik.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mailru.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mainstreaming.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mangomolo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/manyvids.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/maoritv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/markiza.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/massengeschmacktv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/masters.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/matchitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/matchtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mave.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mbn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mdr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/medaltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediaite.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediaklikk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/medialaan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediaset.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediasite.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediastream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mediaworksnz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/medici.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/megaphone.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/megatvcom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/meipai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/melonvod.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/metacritic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/microsoftembed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/microsoftstream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/minds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/minoto.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mir24tv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mirrativ.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mirrorcouk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mixch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mixcloud.py`: *Encrypt/Decrypt XOR cipher. Both ways are possible because it's XOR.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mixlr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mlb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mlssoccer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mocha.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mojevideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mojvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/monstercat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/motherless.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/motorsport.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/moviepilot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/moview.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/moviezine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/movingimage.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/msn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/muenchentv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/murrtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/museai.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/musescore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/musicdex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mux.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mx3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mxplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/myspace.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/myspass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/myvideoge.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/myvidster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/mzaalo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/n1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nascar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nate.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nationalgeographic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/naver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nba.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nbc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ndr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ndtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nebula.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nekohacker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nerdcubed.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/netapp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/neteasemusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/netverse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/netzkino.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/newgrounds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/newspicks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/newsy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nexx.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nfb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nfhsnetwork.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nfl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nhk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nhl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nick.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/niconico.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/niconicochannelplus.py`: *API parameters:             sort:                 -released_at         公開日が新しい順 (newest to oldest)                  released_at         公開日が古い順 (oldest to newest)                 -number_of_vod_views ...*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ninaprotocol.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ninecninemedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ninegag.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ninenews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ninenow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nintendo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nitter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nobelprize.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/noice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nonktube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/noodlemagazine.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nosnl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nova.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/novaplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nowcanal.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nowness.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/noz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/npo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/npr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nrk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nrl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ntvcojp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ntvde.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ntvru.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nubilesporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nuevo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nuum.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nuvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nytimes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nzherald.py`: *The initial webpage may include the brightcove player embed url*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nzonscreen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/nzz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/odkmedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/odnoklassniki.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/oftv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/oktoberfesttv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/olympics.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/on24.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ondemandkorea.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/onefootball.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/onenewsnz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/oneplace.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/onet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/onionstudios.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/onsen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/opencast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/openload.py`: *PhantomJS wrapper class      This class is experimental.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/openrec.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ora.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/orf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/outsidetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/owncloud.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/packtpub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/palcomp3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pandatv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/panopto.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/parler.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/parlview.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/parti.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/patreon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pearvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/peekvids.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/peertube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/peertv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/peloton.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/performgroup.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/periscope.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pgatour.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/philharmoniedeparis.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/phoenix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/photobucket.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pialive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/piapro.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/picarto.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/piksel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pinkbike.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pinterest.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/piramidetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/planetmarathi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/platzi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/playerfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/playplustv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/playsuisse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/playtvak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/playwire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pluralsight.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/plutotv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/plvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/plyr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/podbayfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/podchaser.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/podomatic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pokergo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/polsatgo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/polskieradio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/popcorntimes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/popcorntv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornflip.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornhub.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornotube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornovoisines.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pornoxo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pr0gramm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/prankcast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/premiershiprugby.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/presstv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/projectveritas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/prosiebensat1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/prx.py`: *Extract entries from paginated list API         @param entry_func: Function to generate entry from response item*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/puhutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/puls4.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/pyvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/qdance.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/qingting.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/qqmusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/r7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiko.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiocanada.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiocomercial.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiode.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiofrance.py`: *Subclasses must set _METADATA_KEY*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiojavan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiokapital.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radioradicale.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radiozet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/radlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rai.py`: *check if the target is in the range of number +/- percent*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/raywenderlich.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rbgtum.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rcs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rcti.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rds.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/redbee.py`: *Ref: https://apidocs.emp.ebsd.ericsson.net         Subclasses must set _REDBEE_CUSTOMER, _REDBEE_BUSINESS_UNIT*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/redbulltv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/reddit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/redge.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/redgifs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/redtube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rentv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/restudy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/reuters.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/reverbnation.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rheinmaintv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ridehome.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rinsefm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rmcdecouverte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rockstargames.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rokfin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/roosterteeth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rottentomatoes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/roya.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rozhlas.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rte.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtl2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtlnl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtnews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtrfm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rts.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtvcplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtve.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtvs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rtvslo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rudovideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rule34video.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rumble.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/rutube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ruutu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ruv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/s4c.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/safari.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/saitosan.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/samplefocus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sapo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sauceplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sbscokr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/screen9.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/screencast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/screencastify.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/screencastomatic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/screenrec.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/scrippsnetworks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/scrolller.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sejmpl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/senalcolombia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/senategov.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sendtonews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/servus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sevenplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sexu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/seznamzpravy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/shahid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sharepoint.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sharevideos.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/shemaroome.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/shiey.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/showroomlive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sibnet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/simplecast.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sina.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/skeb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sky.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/skyit.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/skylinewebcams.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/skynewsarabia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/skynewsau.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/slideshare.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/slideslive.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/slutload.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/smotrim.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/snapchat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/snotr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/softwhiteunderbelly.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sohu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sonyliv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/soundcloud.py`: *Information extractor for soundcloud.com        To access the media, the uid of the song and a stream token        must be extracted from the page source and the script must make        a request to m...*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/soundgasm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/southpark.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sovietscloset.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/spankbang.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/spiegel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sport5.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sportbox.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sportdeutschland.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/spreaker.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/springboardplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sproutvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/srgssr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/srmediathek.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stacommu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stageplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stanfordoc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/startrek.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/startv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/steam.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stitcher.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/storyfire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/streaks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/streamable.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/streamcz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/streetvoice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stretchinternet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stripchat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/stv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/subsplash.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/substack.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sunporno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sverigesradio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/svt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/swearnet.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/syvdk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/sztvhu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tagesschau.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/taptap.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tarangplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tass.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tbs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tbsjp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teachable.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teachertube.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teachingchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teamcoco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teamtreehouse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ted.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tele13.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tele5.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telebruxelles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telecaribe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telecinco.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telegraaf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telegram.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telemb.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telemundo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telequebec.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/teletask.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/telewebion.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tempo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tencent.py`: *Subclasses must set _API_URL, _APP_VERSION, _PLATFORM, _HOST, _REFERER*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tennistv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tenplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/testurl.py`: *Allows addressing of the test cases as test:yout.*be_1*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tf1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tfo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thechosen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/theguardian.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thehighwire.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/theholetv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/theintercept.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/theplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thestar.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thesun.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/theweatherchannel.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thisamericanlife.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thisoldhouse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/thisvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/threeqsdn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/threespeak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tiktok.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tmz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tnaflix.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toggle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toggo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tonline.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toongoggles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toutiao.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toutv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/toypics.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/traileraddict.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/triller.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/trovo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/trtcocuk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/trtworld.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/trueid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/trunews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/truth.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tube8.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tubetugraz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tubitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tumblr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tunein.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/turner.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv2.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv24ua.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv2dk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv2hu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv4.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv5mondeplus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tv5unis.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tva.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvanouvelles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvc.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tver.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvigle.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tviplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvn24.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvnoe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvopengr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvplayer.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tvw.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/tweakers.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/twentymin.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/twentythreevideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/twitcasting.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/twitch.py`: *Subclasses must define _make_variables() and _extract_entry(),         as well as set _OPERATION_NAME, _ENTRY_KIND, _EDGE_KIND, and _NODE_KIND*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/twitter.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/txxx.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/udemy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/udn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ufctv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ukcolumn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/uktvplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/uliza.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/umg.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/unistra.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/unitednations.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/unity.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/unsupported.py`: *Sites that are known to use DRM for all their videos      Add to this list only if:     * You are reasonably certain that the site uses DRM for ALL their videos     * Multiple users have asked about t...*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/uol.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/uplynk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/urort.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/urplay.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/usanetwork.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/usatoday.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ustream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ustudio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/utreon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/varzesh3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vbox7.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/veo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vevo.py`: *Accepts urls from vevo.com or in the format 'vevo:{id}'     (currently used by MTVIE and MySpaceIE)*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vgtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vh1.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vice.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viddler.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videocampus_sachsen.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videodetective.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videofyme.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videoken.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videomore.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/videopress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vidflex.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vidio.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vidlii.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vidly.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vidyard.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viewlift.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viidea.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vimeo.py`: *@returns (url, smuggled_data, headers)*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vimm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viously.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viqeo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/visir.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/viu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vocaroo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vodpl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vodplatform.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/voicy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/volejtv.py`: *Subclasses must set _API_FILTER, _PAGE_SIZE*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/voxmedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vrsquare.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vrt.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vtm.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vuclip.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/vvvvid.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/walla.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/washingtonpost.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wat.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wdr.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/webcamerapl.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/webcaster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/webofstories.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/weibo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/weiqitv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/weverse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wevidi.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/weyyak.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/whowatch.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/whyp.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wikimedia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wimbledon.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wimtv.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wistia.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wordpress.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/worldstarhiphop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wppilot.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wrestleuniverse.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wsj.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wwe.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/wykop.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xboxclips.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xhamster.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xiaohongshu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/ximalaya.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xinpianchang.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xminus.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xnxx.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xstream.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xvideos.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/xxxymovies.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yahoo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yandexdisk.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yandexmusic.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yandexvideo.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yapfiles.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yappy.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yfanefa.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/yle_areena.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youjizz.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youku.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/younow.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youporn.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_base.py`: *Provide base functions for Youtube extractors*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_clip.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_mistakes.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_notifications.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_redirect.py`: *Base class for feed extractors     Subclasses must re-define the _FEED_NAME property.*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_search.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_tab.py`: *Gets the availability of a given playlist/tab.         Note: Unless YouTube tells us explicitly, we do not assume it is public         @param data: response*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/_video.py`: *@returns (manifest_url, manifest_stream_number, is_live) or None*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/bun.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/deno.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/ejs.py`: *To be implemented by subclasses*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/node.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/quickjs.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/vendor/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/vendor/_info.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_director.py`: *Sorts available providers by preference, given a request*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/_registry.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/jsc/provider.py`: *PUBLIC API*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/README.md`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/__init__.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/_builtin/memory_cache.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/_builtin/webpo_cachespec.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/_director.py`: *Sorts available cache providers by preference, given a request*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/_provider.py`: *Check if the provider is available (e.g. all required dependencies are available)         This is used to determine if the provider should be used and to provide debug information.          IMPORTANT:...*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/_registry.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/cache.py`: *PUBLIC API*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/provider.py`: *PUBLIC API*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/youtube/pot/utils.py`: *PUBLIC API*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zaiko.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zapiks.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zattoo.py`: *@returns    (ondemand_token, ondemand_type, info_dict)*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zdf.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zee5.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zeenews.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zenporn.py`: *This function is a reverse engineering from the website javascript*
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zetland.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zhihu.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zingmp3.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zoom.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/extractor/zype.py`: (Fő feldolgozó / logikai modul)
+  - 📄 `yt-dlp-master/yt_dlp/jsinterp.py`: *Converts an integer to a signed 32-bit integer*
+  - 📄 `yt-dlp-master/yt_dlp/networking/_helper.py`: *Unified redirect method handling*
+  - 📄 `yt-dlp-master/yt_dlp/networking/_requests.py`: *Ensure unified redirect method handling with our urllib redirect handler.*
+  - 📄 `yt-dlp-master/yt_dlp/networking/_urllib.py`: *Handler for HTTP requests and responses.      This class, when installed with an OpenerDirector, automatically adds     the standard headers to every HTTP request and handles gzipped, deflated and    ...*
+  - 📄 `yt-dlp-master/yt_dlp/networking/_websockets.py`: *Websockets request handler     https://websockets.readthedocs.io     https://github.com/python-websockets/websockets*
+  - 📄 `yt-dlp-master/yt_dlp/networking/common.py`: *RequestDirector class      Helper class that, when given a request, forward it to a RequestHandler that supports it.      Preference functions in the form of func(handler, request) -> int     can be r...*
+  - 📄 `yt-dlp-master/yt_dlp/networking/exceptions.py`: *raised when a handler cannot handle a request*
+  - 📄 `yt-dlp-master/yt_dlp/networking/impersonate.py`: *A target for browser impersonation.      Parameters:     @param client: the client to impersonate     @param version: the client version to impersonate     @param os: the client OS to impersonate     ...*
+  - 📄 `yt-dlp-master/yt_dlp/networking/websocket.py`: *Send a message to the server.          @param message: The message to send. A string (str) is sent as a text frame, bytes is sent as a binary frame.*
+  - 📄 `yt-dlp-master/yt_dlp/options.py`: *Adds config and returns whether to continue*
+  - 📄 `yt-dlp-master/yt_dlp/plugins.py`: *Dummy loader for virtual namespace packages*
+  - 📄 `yt-dlp-master/yt_dlp/postprocessor/common.py`: *Post Processor class.      PostProcessor objects can be added to downloaders with their     add_post_processor() method. When the downloader has finished a     successful download, it will take its in...*
+  - 📄 `yt-dlp-master/yt_dlp/postprocessor/ffmpeg.py`: *Get corresponding item from a mapping string like 'A>B/C>D/E'     @returns    (target, error_message)*
+  - 📄 `yt-dlp-master/yt_dlp/postprocessor/metadataparser.py`: *Each action can be:                 (Actions.INTERPRET, from, to) OR                 (Actions.REPLACE, field, search, replace)*
+  - 📄 `yt-dlp-master/yt_dlp/postprocessor/xattrpp.py`: *Set extended attributes on downloaded file (if xattr support is found)      More info about extended attributes for media:         http://freedesktop.org/wiki/CommonExtendedAttributes/         http://...*
+  - 📄 `yt-dlp-master/yt_dlp/update.py`: *@returns (variant, executable_path)*
+  - 📄 `yt-dlp-master/yt_dlp/utils/_deprecated.py`: *Deprecated - New code should avoid these*
+  - 📄 `yt-dlp-master/yt_dlp/utils/_legacy.py`: *No longer used and new code should not use. Exists only for API compat.*
+  - 📄 `yt-dlp-master/yt_dlp/utils/_utils.py`: *Get preferred encoding.      Returns the best encoding scheme for the system, based on     locale.getpreferredencoding() and some further tweaks.*
+  - 📄 `yt-dlp-master/yt_dlp/utils/networking.py`: *Store and access keys case-insensitively.     The constructor can take multiple dicts, in which keys in the latter are prioritised.      Retains a case sensitive mapping of the headers, which can be a...*
+  - 📄 `yt-dlp-master/yt_dlp/utils/traversal.py`: *Safely traverse nested `dict`s and `Iterable`s      >>> obj = [{}, {"key": "value"}]     >>> traverse_obj(obj, (1, "key"))     'value'      Each of the provided `paths` is tested and the first produci...*
+  - 📄 `yt-dlp-master/yt_dlp/webvtt.py`: *A partial parser for WebVTT segments. Interprets enough of the WebVTT stream to be able to assemble a single stand-alone subtitle file, suitably adjusting timestamps on the way, while everything else ...*
+
+----------------------------------------
+
+## 📦 REPO: ytdlnis-main
+**Funkció / Leírás:** ### Only the links above are the only trusted sources of YTDLnis. Everything else is not related to me.
+
+**Kritikus Fájlok és Szerepük:**
+  - *(Nincs specifikus dokumentált Python script, valószínűleg csak C/C++ alap vagy nyers modell mappa)*
+
+----------------------------------------

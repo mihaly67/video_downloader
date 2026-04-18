@@ -61,14 +61,20 @@ def run_autonomous_scout():
                 # Hozzáadjuk, de csak az első legfontosabb részt (max 500 karakter)
                 repo_insights[repo]["description"] = desc[:500] + ("..." if len(desc) > 500 else "")
 
-        # 2. Fájl szintű tudás kinyerése (Python / Kód Docstringek)
-        if filepath.endswith(".py"):
-            # Keresünk docstringet (tripla idézőjeles kommenteket) ami leírja, mit csinál a fájl/osztály
-            doc_match = re.search(r'"""(.*?)"""', content, re.DOTALL)
-            if doc_match:
-                file_desc = doc_match.group(1).strip().replace('\n', ' ')
-                # Csak a lényeget
-                repo_insights[repo]["files"][filepath] = file_desc[:200] + ("..." if len(file_desc) > 200 else "")
+                        # 2. Fájl szintű tudás kinyerése (Kód Docstringek vagy tartalom-részletek)
+        file_desc = ""
+        # Keresünk docstringet (tripla idézőjeles kommenteket)
+        doc_match = re.search(r'"""(.*?)"""', content, re.DOTALL)
+        if doc_match:
+            file_desc = doc_match.group(1).strip().replace('\n', ' ')
+        elif content.strip():
+            # Ha nincs docstring (pl. JS, C, m3u), vegyük az első 150 karaktert a tartalomból (kommentekből ha van)
+            first_lines = [l.strip() for l in content.splitlines() if l.strip() and not l.startswith('{') and not l.startswith('import')]
+            if first_lines:
+                file_desc = " ".join(first_lines)[:150]
+
+        if file_desc:
+            repo_insights[repo]["files"][filepath] = file_desc[:200] + ("..." if len(file_desc) > 200 else "")
 
     conn.close()
 
@@ -94,7 +100,7 @@ def run_autonomous_scout():
                 if desc:
                     f.write(f"  - 📄 `{filepath}`: *{desc}*\n")
                     file_count += 1
-                elif "downloader" in filepath or "extract" in filepath or "queue" in filepath or "ffmpeg" in filepath or "playwright" in filepath or "gui" in filepath:
+                elif "downloader" in filepath or "extract" in filepath or "queue" in filepath or "ffmpeg" in filepath or "playwright" in filepath or "gui" in filepath or "m3u" in filepath or "mpd" in filepath or "hls" in filepath or "dash" in filepath or "js" in filepath:
                      f.write(f"  - 📄 `{filepath}`: (Fő feldolgozó / logikai modul)\n")
                      file_count += 1
 

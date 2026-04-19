@@ -50,6 +50,9 @@ A felhős LLM platformok (DevBox, Cloudflare, Docker) azonnal lelövik a munkame
 ## 5. AGENT MEMÓRIA ÉS ANTI-HALLUCINÁCIÓ (STATE HYDRATION)
 Egy 100-500 fordulós beszélgetés végére a memóriád (Context Window) betelik vagy összezavarodik. Ezt az `ENVIRONMENT_SETUP/agent_memory_manager.py` és a hozzá tartozó `.jsonl` fájl védi ki.
 
+*   **ÚJ SESSION INDÍTÁSA / KÖTELEZŐ OLVASÁS:** Új feladat kapásakor **TILOS** a `set_plan` eszközzel tervet készíteni vagy elkezdeni dolgozni, amíg le nem futtattad a memóriamenenedzsert a `python3 ENVIRONMENT_SETUP/agent_memory_manager.py --action read --limit 5` (vagy szükség esetén a `python3 tools/skills/semantic_memory_search.py --keyword`) paranccsal, hogy megértsd, hol tart a projekt! Ezt minden új Agent példánynak kötelező megtennie, ez a "0. LÉPÉS"!
+*   **KÖTELEZŐ SŰRÍTÉS (CONDENSE):** A munkamenet hosszantartó életképessége érdekében minden logikai blokk (vagy 5-10 forduló) lezárásakor kötelező egy tömör összefoglalót írni a memóriába: `python3 ENVIRONMENT_SETUP/agent_memory_manager.py --action write --category "Context_Summary" --content "..."`
+*   **SESSION LEZÁRÁSA:** A Pre-Commit szakaszban mindig hívd meg az `--action end_session` parancsot a memóriamenedzserben.
 *   **FOLYAMATOS VISSZAJELZÉS ÉS HEALTH CHECK:** A háttérdémon a terminálba írja a szívverését, hogy te (és a felhasználó) is vizuálisan ellenőrizhessétek a rendszer stabilitását. Szakaszok végén vagy ha bizonytalan a rendszer állapota, futtasd a `python3 ENVIRONMENT_SETUP/agent_health_checker.py` parancsot.
 
 ---

@@ -21,7 +21,7 @@ class VideoDownloader:
             'outtmpl': '%(title)s.%(ext)s',
             'progress_hooks': [self._progress_hook],
             'nocheckcertificate': True,
-            'ignoreerrors': True,
+            'ignoreerrors': False,
             'quiet': True,
             'no_warnings': True,
             'merge_output_format': 'mp4',
@@ -83,10 +83,16 @@ class VideoDownloader:
         logger.info(f"Letöltés indítása: {url}")
         try:
             with yt_dlp.YoutubeDL(self.ydl_opts) as ydl:
-                ydl.download([url])
-            return True
+                try:
+                    res = ydl.extract_info(url, download=True)
+                    return True
+                except Exception as inner_e:
+                    logger.error(f"Hiba a letöltés során: {inner_e}")
+                    if self.ui_callback:
+                        self.ui_callback({'status': 'error', 'error': str(inner_e)})
+                    return False
         except Exception as e:
-            logger.error(f"Hiba a letöltés során: {e}")
+            logger.error(f"Hiba az ydl inicializálásakor: {e}")
             if self.ui_callback:
                 self.ui_callback({'status': 'error', 'error': str(e)})
             return False

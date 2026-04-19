@@ -1,0 +1,8 @@
+/app/src/core/test_ui.py:47: DeprecationWarning: app() is deprecated since version 0.80.0. Use run() instead.
+  ft.app(target=main)
+
+(flet:70726): Gtk-WARNING **: 09:03:01.767: cannot open display:
+Installing flet-cli 0.84.0 package...OK
+Installing flet-desktop 0.84.0 package...OK
+http://127.0.0.1:8000
+Preparing Flet v0.84.0 for the first use. This is a one-time operation...

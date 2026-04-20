@@ -16,7 +16,7 @@ class DownloadQueueManager:
         """
         self.ui_callback = ui_callback
         self.max_concurrent = max_concurrent
-        self.queue: asyncio.Queue[str] = asyncio.Queue()
+        self.queue: asyncio.Queue[dict] = asyncio.Queue()
         self.loop = asyncio.get_running_loop()
 
         # A háttér worker-ek listája
@@ -39,12 +39,19 @@ class DownloadQueueManager:
         """
         logger.info(f"[Worker {worker_id}] Elindult.")
         while True:
-            url = await self.queue.get()
+            task = await self.queue.get()
+            url = task.get("url")
+            headers = task.get("headers", {})
+
             logger.info(f"[Worker {worker_id}] Új feladat kapva: {url}")
 
             try:
                 # Inicializáljuk a downloadert az aktuális callback-el
                 downloader = VideoDownloader(ui_callback=self.enqueue_progress)
+
+                # Ha vannak egyedi fejlécek, hozzáadjuk (Session Injection)
+                if headers:
+                    downloader.update_session_headers(headers)
 
                 # Futtatjuk a blokkoló letöltést egy külön szálon (Thread pool)
                 success = await asyncio.to_thread(downloader.download, url)
@@ -59,12 +66,13 @@ class DownloadQueueManager:
             finally:
                 self.queue.task_done()
 
-    async def add_task(self, url: str):
+    async def add_task(self, url: str, headers: Dict[str, str] = None):
         """
         Új letöltési feladat hozzáadása a sorhoz.
         """
-        await self.queue.put(url)
-        logger.info(f"Url hozzáadva a sorhoz: {url}")
+        task = {"url": url, "headers": headers or {}}
+        await self.queue.put(task)
+        logger.info(f"Feladat hozzáadva a sorhoz: {url}")
 
     async def shutdown(self):
         """

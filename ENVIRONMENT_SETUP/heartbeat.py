@@ -16,7 +16,6 @@ def run_daemon():
 
     try:
         while True:
-
             # Szívverés fájl frissítése
             with open(keepalive_file, "w") as f:
                 f.write(str(time.time()))
@@ -32,8 +31,8 @@ def run_daemon():
             print(f"💓 [Keep-Alive] Updated .agent_heartbeat at {time.strftime('%H:%M:%S')}", flush=True)
             sys.stdout.flush()
 
-
-            time.sleep(10)
+            # Módosított várakozási idő: 10 perc
+            time.sleep(600)
     except KeyboardInterrupt:
         print("💓 [Keep-Alive Daemon] Leállítva.")
 

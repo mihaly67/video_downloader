@@ -31,11 +31,17 @@ class VideoDownloader:
         """
         Session injector: a Sniffer által generált fejlécek beállítása.
         """
-        if headers:
-            self.ydl_opts['http_headers'] = headers
+        http_headers = {}
+        if headers.get('User-Agent'):
+            http_headers['User-Agent'] = headers.get('User-Agent')
+        if headers.get('Referer'):
+            http_headers['Referer'] = headers.get('Referer')
+        if headers.get('Cookie'):
+            http_headers['Cookie'] = headers.get('Cookie')
+
+        if http_headers:
+            self.ydl_opts['http_headers'] = http_headers
             logger.info("Session headers frissítve a yt-dlp számára.")
-        if cookies:
-            pass # yt-dlp has a 'cookiefile' opt. Might need a temp file if dealing with raw cookies.
 
     def _progress_hook(self, d: Dict[str, Any]) -> None:
         """

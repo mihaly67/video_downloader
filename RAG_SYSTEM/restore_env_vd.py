@@ -65,7 +65,7 @@ ENVIRONMENT_RESOURCES = {
         "preserve_dir": False
     },
     "RAG_buider_agents_skill_dev_RAG": {
-        "id": "1hNl4JYrms427u94H48kpkb39OJ5C5AhN",
+        "id": "19ScN_Kfih1wNo2Ih7iAPYA4xilC4eX18",
         "file": "rag_builder_agents_skill_dev_rag.zip",
         "extract_to": os.path.dirname(os.path.abspath(__file__)),
         "check_file": "RAG_CHATBOT_CSV_DATA_LLM_github.db",

@@ -33,7 +33,7 @@ async def main():
     print("🚀 Video Downloader - CLI Teszt & Sniffer Demonstráció")
     print("--------------------------------------------------")
 
-    url = "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4" # teszt videó
+    url = "https://www.youtube.com/watch?v=C7KPQQ997hc&t=454s" # teszt videó
     print(f"\n1. LÉPÉS: Sniffer indítása a következő URL-en: {url}")
     print("Ez egy valós böngészőt nyit meg a háttérben (Stealth módban)...")
 
@@ -42,7 +42,7 @@ async def main():
     # Itt most rögtön egy letölthető mp4-et adunk meg, de a Sniffer .m3u8-akat keres, így ezen nem fog találni semmit.
     # Ez a teszt bemutatja a folyamatot.
 
-    result = await sniffer.sniff("https://demo.theoplayer.com/clear-key-drm-cenc-m3u8")
+    result = await sniffer.sniff(url)
 
     headers = {}
     download_url = url

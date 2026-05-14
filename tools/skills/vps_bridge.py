@@ -13,6 +13,7 @@ def run_on_vps(cmd):
     """
     ssh_cmd = ["ssh", "-o", "StrictHostKeyChecking=no", f"{VPS_USER}@{VPS_HOST}", cmd]
 
+    
     if VPS_PWD:
         ssh_cmd = ["sshpass", "-p", VPS_PWD] + ssh_cmd
 
@@ -31,6 +32,10 @@ def upload_to_vps(local_file, remote_target):
     if VPS_PWD:
         scp_cmd = ["sshpass", "-p", VPS_PWD] + scp_cmd
 
+    
+    if VPS_PWD:
+        scp_cmd = ["sshpass", "-p", VPS_PWD] + scp_cmd
+        
     try:
         subprocess.run(scp_cmd, check=True, capture_output=True, text=True)
         return True, "Feltöltés sikeres."
@@ -44,6 +49,7 @@ if __name__ == '__main__':
         print("  python3 vps_bridge.py --upload <local_file> <remote_target>")
         sys.exit(1)
 
+        
     if sys.argv[1] == '--upload' and len(sys.argv) == 4:
         success, msg = upload_to_vps(sys.argv[2], sys.argv[3])
         if success:

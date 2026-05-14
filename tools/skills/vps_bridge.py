@@ -1,3 +1,4 @@
+import os
 
 import sys
 import subprocess
@@ -11,6 +12,7 @@ def run_on_vps(cmd):
     Futtat egy shell parancsot a VPS-en SSH-n (vagy sshpass-on) keresztül.
     """
     ssh_cmd = ["ssh", "-o", "StrictHostKeyChecking=no", f"{VPS_USER}@{VPS_HOST}", cmd]
+
     
     if VPS_PWD:
         ssh_cmd = ["sshpass", "-p", VPS_PWD] + ssh_cmd
@@ -26,6 +28,10 @@ def upload_to_vps(local_file, remote_target):
     Feltölt egy fájlt a VPS-re SCP (vagy sshpass+SCP) használatával.
     """
     scp_cmd = ["scp", "-o", "StrictHostKeyChecking=no", local_file, f"{VPS_USER}@{VPS_HOST}:{remote_target}"]
+
+    if VPS_PWD:
+        scp_cmd = ["sshpass", "-p", VPS_PWD] + scp_cmd
+
     
     if VPS_PWD:
         scp_cmd = ["sshpass", "-p", VPS_PWD] + scp_cmd
@@ -42,6 +48,7 @@ if __name__ == '__main__':
         print("  python3 vps_bridge.py 'parancs a vps-en'")
         print("  python3 vps_bridge.py --upload <local_file> <remote_target>")
         sys.exit(1)
+
         
     if sys.argv[1] == '--upload' and len(sys.argv) == 4:
         success, msg = upload_to_vps(sys.argv[2], sys.argv[3])

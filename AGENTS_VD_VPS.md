@@ -1,0 +1,5 @@
+1. Futtatás új session-nél: Minden új munkamenetnél automatikusan futtasd a saját restore_env_mx.py fájlodat, miután beállítottad a szükséges környezeti változókat (pl. VPS_PWD="<your_password>" vagy VPS_SSH_KEY).
+2. Idegenvezető: Ha felléptél a VPS-re, futtathatod a python3 tools/skills/vps_tour_guide.py parancsot a VPS Jules_mx mappájából, hogy megkapd a legfrissebb környezeti információkat (bár a legtöbbet ez az útmutató már tartalmazza).
+3. Időzóna és Év: Nagyon fontos! Állítsd be a rendszeredet szigorúan Budapest (Közép-Európa) időzónára, a jelenlegi év pedig 2026!
+4. Memória: Ha a te repód is használ agent_memory.jsonl-t (az ENVIRONMENT_SETUP/agent_memory_manager.py segítségével), azt szigorúan a te repód nevére mentsd (pl. VPS-re szinkronizálva a saját Jules_vd mappádba), soha ne írj bele mások memóriájába!
+5. Letöltött Videók Kezelése: Mivel a te fókuszod a videók letöltése, a letöltött fájlokat javasolt egyenesen a VPS-re menteni vagy áttölteni a te /home/misi/Jules_vd mappádba, hogy ne terheld túl a lokális sandboxodat.

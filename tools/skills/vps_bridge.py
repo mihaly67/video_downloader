@@ -3,9 +3,13 @@ import os
 import sys
 import subprocess
 
-VPS_HOST = os.environ.get("VPS_HOST", "5.189.163.88")
+VPS_HOST = os.environ.get("VPS_HOST")
 VPS_PWD = os.environ.get("VPS_PWD")
-VPS_USER = os.environ.get("VPS_USER", "misi")
+VPS_USER = os.environ.get("VPS_USER")
+
+if not VPS_HOST or not VPS_USER:
+    print("Hiba: VPS_HOST vagy VPS_USER környezeti változó nincs beállítva!", file=sys.stderr)
+    sys.exit(1)
 
 def run_on_vps(cmd):
     """

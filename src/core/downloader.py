@@ -27,6 +27,23 @@ class VideoDownloader:
             'merge_output_format': 'mp4',
         }
 
+    def enable_proxy(self, proxy_url: str):
+        """
+        Proxy beállítása geo-blokkolás és IP tiltások ellen.
+        :param proxy_url: A proxy szerver címe (pl. http://user:pass@ip:port)
+        """
+        self.ydl_opts['proxy'] = proxy_url
+        self.ydl_opts['geo_bypass'] = True
+        logger.info(f"Proxy beállítva a yt-dlp számára: {proxy_url}")
+
+    def disable_proxy(self):
+        """
+        Proxy kikapcsolása.
+        """
+        if 'proxy' in self.ydl_opts:
+            del self.ydl_opts['proxy']
+            logger.info("Proxy kikapcsolva a yt-dlp számára.")
+
     def update_session_headers(self, headers: Dict[str, str], cookies: Dict[str, str] = None) -> None:
         """
         Session injector: a Sniffer által generált fejlécek beállítása.

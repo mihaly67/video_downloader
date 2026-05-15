@@ -33,6 +33,7 @@ class VideoDownloader:
         :param proxy_url: A proxy szerver címe (pl. http://user:pass@ip:port)
         """
         self.ydl_opts['proxy'] = proxy_url
+        self.ydl_opts['geo_bypass'] = True
         logger.info(f"Proxy beállítva a yt-dlp számára: {proxy_url}")
 
     def disable_proxy(self):

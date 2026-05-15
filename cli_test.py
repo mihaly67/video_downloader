@@ -33,7 +33,7 @@ async def main():
     print("🚀 Video Downloader - CLI Teszt & Sniffer Demonstráció")
     print("--------------------------------------------------")
 
-    url = "https://www.youtube.com/watch?v=C7KPQQ997hc&t=454s" # teszt videó
+    url = "https://videa.hu/videok/film-animacio/vaklarma.-D3eAuhfMmWb7Yc6R" # teszt videó
     print(f"\n1. LÉPÉS: Sniffer indítása a következő URL-en: {url}")
     print("Ez egy valós böngészőt nyit meg a háttérben (Stealth módban)...")
 

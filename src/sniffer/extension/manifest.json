@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Jules Video Sniffer",
+  "version": "1.0.0",
+  "description": "Elkapja az m3u8, mpd es mas video streameket, cookie-kat, es tovabbitja a lokalis letolto motornak.",
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "cookies",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

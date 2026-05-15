@@ -2,6 +2,7 @@ import flet as ft
 import asyncio
 from typing import Dict, Any
 
+
 class VideoDownloaderApp:
     def __init__(self, page: ft.Page, queue_manager):
         self.page = page
@@ -17,21 +18,21 @@ class VideoDownloaderApp:
         self.url_input = ft.TextField(
             label="Videó vagy m3u8 URL beillesztése",
             expand=True,
-            border_color=ft.colors.BLUE_400
+            border_color=ft.colors.BLUE_400,
         )
         self.download_btn = ft.ElevatedButton(
             "Letöltés hozzáadása",
             icon=ft.icons.DOWNLOAD,
             on_click=self.on_download_clicked,
             bgcolor=ft.colors.BLUE_700,
-            color=ft.colors.WHITE
+            color=ft.colors.WHITE,
         )
 
         # Extension figyelmezteto sav
         self.extension_status = ft.Text(
             "Chrome Kiegészítő (Jules Sniffer) integráció aktív: várjuk az URL-eket a böngészőből...",
             color=ft.colors.GREEN_400,
-            italic=True
+            italic=True,
         )
 
         self.downloads_list = ft.ListView(expand=True, spacing=10, auto_scroll=True)
@@ -43,10 +44,13 @@ class VideoDownloaderApp:
 
     def setup_ui(self):
         # Fejléc
-        header = ft.Row([
-            ft.Icon(ft.icons.VIDEO_LIBRARY, size=40, color=ft.colors.BLUE_400),
-            ft.Text("Jules Downloader", size=30, weight=ft.FontWeight.BOLD)
-        ], alignment=ft.MainAxisAlignment.CENTER)
+        header = ft.Row(
+            [
+                ft.Icon(ft.icons.VIDEO_LIBRARY, size=40, color=ft.colors.BLUE_400),
+                ft.Text("Jules Downloader", size=30, weight=ft.FontWeight.BOLD),
+            ],
+            alignment=ft.MainAxisAlignment.CENTER,
+        )
 
         # Bemeneti sor
         input_row = ft.Row([self.url_input, self.download_btn])
@@ -58,7 +62,7 @@ class VideoDownloaderApp:
             self.extension_status,
             ft.Divider(height=20, color=ft.colors.GREY_800),
             ft.Text("Letöltések:", size=20, weight=ft.FontWeight.BOLD),
-            self.downloads_list
+            self.downloads_list,
         )
 
     async def on_download_clicked(self, e):
@@ -76,49 +80,57 @@ class VideoDownloaderApp:
         """
         Ezt a metódust hívja meg a Queue Manager a fő Event Loop-on (UI thread) belül.
         """
-        filename = event.get('filename')
+        filename = event.get("filename")
         if not filename:
             return
 
-        status = event.get('status')
+        status = event.get("status")
 
         # Ha a fájl még nincs a listában, adjuk hozzá
         if filename not in self.progress_rows:
             pb = ft.ProgressBar(value=0.0, expand=True, color=ft.colors.BLUE_400)
-            status_text = ft.Text("Indítás...", width=150, text_align=ft.TextAlign.RIGHT)
+            status_text = ft.Text(
+                "Indítás...", width=150, text_align=ft.TextAlign.RIGHT
+            )
 
-            row = ft.Row([
-                ft.Text(filename[-50:], expand=True, tooltip=filename),
-                pb,
-                status_text
-            ])
-            self.progress_rows[filename] = {'row': row, 'pb': pb, 'status_text': status_text}
+            row = ft.Row(
+                [
+                    ft.Text(filename[-50:], expand=True, tooltip=filename),
+                    pb,
+                    status_text,
+                ]
+            )
+            self.progress_rows[filename] = {
+                "row": row,
+                "pb": pb,
+                "status_text": status_text,
+            }
             self.downloads_list.controls.append(row)
             self.page.update()
 
         # UI elemek frissítése
         ui_elements = self.progress_rows[filename]
 
-        if status == 'downloading':
-            percent = event.get('percent', 0.0)
-            speed = event.get('speed', 0) or 0
+        if status == "downloading":
+            percent = event.get("percent", 0.0)
+            speed = event.get("speed", 0) or 0
             speed_mb = speed / (1024 * 1024)
 
-            ui_elements['pb'].value = percent / 100.0
-            ui_elements['status_text'].value = f"{percent:.1f}% ({speed_mb:.1f} MB/s)"
-            ui_elements['status_text'].color = ft.colors.WHITE
+            ui_elements["pb"].value = percent / 100.0
+            ui_elements["status_text"].value = f"{percent:.1f}% ({speed_mb:.1f} MB/s)"
+            ui_elements["status_text"].color = ft.colors.WHITE
 
-        elif status == 'finished':
-            ui_elements['pb'].value = 1.0
-            ui_elements['pb'].color = ft.colors.GREEN_400
-            ui_elements['status_text'].value = "Befejezve!"
-            ui_elements['status_text'].color = ft.colors.GREEN_400
+        elif status == "finished":
+            ui_elements["pb"].value = 1.0
+            ui_elements["pb"].color = ft.colors.GREEN_400
+            ui_elements["status_text"].value = "Befejezve!"
+            ui_elements["status_text"].color = ft.colors.GREEN_400
 
-        elif status == 'error':
-            error_msg = event.get('error', 'Ismeretlen hiba')
-            ui_elements['pb'].color = ft.colors.RED_400
-            ui_elements['status_text'].value = "Hiba!"
-            ui_elements['status_text'].color = ft.colors.RED_400
-            ui_elements['row'].controls[0].tooltip = error_msg
+        elif status == "error":
+            error_msg = event.get("error", "Ismeretlen hiba")
+            ui_elements["pb"].color = ft.colors.RED_400
+            ui_elements["status_text"].value = "Hiba!"
+            ui_elements["status_text"].color = ft.colors.RED_400
+            ui_elements["row"].controls[0].tooltip = error_msg
 
         self.page.update()

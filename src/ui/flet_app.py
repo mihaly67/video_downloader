@@ -22,7 +22,7 @@ class VideoDownloaderApp:
         )
         self.download_btn = ft.ElevatedButton(
             "Letöltés hozzáadása",
-            icon=ft.icons.DOWNLOAD,
+            icon=ft.Icons.DOWNLOAD,
             on_click=self.on_download_clicked,
             bgcolor=ft.Colors.BLUE_700,
             color=ft.Colors.WHITE,
@@ -46,7 +46,7 @@ class VideoDownloaderApp:
         # Fejléc
         header = ft.Row(
             [
-                ft.Icon(ft.icons.VIDEO_LIBRARY, size=40, color=ft.Colors.BLUE_400),
+                ft.Icon(ft.Icons.VIDEO_LIBRARY, size=40, color=ft.Colors.BLUE_400),
                 ft.Text("Jules Downloader", size=30, weight=ft.FontWeight.BOLD),
             ],
             alignment=ft.MainAxisAlignment.CENTER,

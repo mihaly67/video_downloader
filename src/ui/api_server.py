@@ -29,20 +29,28 @@ class LocalExtensionServer:
         try:
             data = await request.json()
             url = data.get("url")
-            manifest_type = data.get("manifestType")
+            manifest_type = data.get("manifestType", "Link")
             cookies_str = data.get("cookies_str")
+            page_url = data.get("pageUrl", "")
+            user_agent = data.get("userAgent", "")
 
             logger.info(
-                f"Új stream érkezett az Extensionből: {url} (Típus: {manifest_type})"
+                f"Új stream/link érkezett az Extensionből: {url} (Típus: {manifest_type})"
             )
 
             # Netscape cookies.txt generálása a yt-dlp-nek, ha kaptunk
             if cookies_str:
-                self._save_netscape_cookies(cookies_str)
+                self._save_netscape_cookies(cookies_str, page_url)
+
+            headers = {}
+            if user_agent:
+                headers['User-Agent'] = user_agent
+            if page_url:
+                headers['Referer'] = page_url
 
             # Bepusholjuk a queue-ba
             if url:
-                await self.queue_manager.add_task(url)
+                await self.queue_manager.add_task(url, headers=headers)
                 return web.json_response(
                     {"status": "success", "message": "Hozzáadva a letöltési sorhoz."}
                 )
@@ -54,10 +62,17 @@ class LocalExtensionServer:
             logger.error(f"Hiba az API szerverben: {e}")
             return web.json_response({"status": "error", "message": str(e)}, status=500)
 
-    def _save_netscape_cookies(self, raw_cookie_str):
-        # Egyszerű HTTP cookie string (név=érték; név=érték) konvertálása és mentése
-        # Bár a yt-dlp a Netscape formátumot szereti, gyakran egy egyszerű --cookies fájlt is elfogad ha jól formázott.
-        # Itt egy dummy Netscape formátumot generálunk a lehallgatott kulcs-értékekből a YouTube miatt.
+    def _save_netscape_cookies(self, raw_cookie_str, page_url):
+        from urllib.parse import urlparse
+        domain = ".youtube.com" # Alapértelmezett fallback
+        try:
+            if page_url:
+                parsed_domain = urlparse(page_url).netloc
+                if parsed_domain:
+                    domain = "." + parsed_domain.replace("www.", "")
+        except Exception:
+            pass
+
         try:
             with open("cookies.txt", "w") as f:
                 f.write("# Netscape HTTP Cookie File\n")
@@ -70,11 +85,9 @@ class LocalExtensionServer:
                         name, val = p.split("=", 1)
                         name = name.strip()
                         val = val.strip()
-                        # Dummy YouTube entry
-                        f.write(
-                            f".youtube.com\\tTRUE\\t/\\tTRUE\\t2000000000\\t{name}\\t{val}\n"
-                        )
-            logger.info("Cookies.txt frissítve az Extension alapján.")
+                        if name and val:
+                            f.write(f"{domain}\tTRUE\t/\tTRUE\t2000000000\t{name}\t{val}\n")
+            logger.info(f"Cookies.txt frissítve az Extension alapján (Domain: {domain}).")
         except Exception as e:
             logger.error(f"Sütik mentése sikertelen: {e}")
 

@@ -1,6 +1,5 @@
 const LOCAL_PYTHON_SERVER = "http://localhost:8000/api/add_stream";
 
-// Memóriában tároljuk a nemrég talált linkeket, hogy elkerüljük a duplikációt
 const recentStreams = new Set();
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
@@ -11,11 +10,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         // Ne küldjünk minden egyes m3u8 chunk-ot, csak egyedit
         if (recentStreams.has(payload.url)) return;
         recentStreams.add(payload.url);
-        setTimeout(() => recentStreams.delete(payload.url), 10000); // 10 mp után elfelejti
+        setTimeout(() => recentStreams.delete(payload.url), 10000);
 
         console.log("[Background] Új Stream elkapva:", payload);
 
-        // Cookies kinyerése a Chrome-ból az adott domainhez
         chrome.cookies.getAll({ url: payload.pageUrl }, (cookies) => {
             let cookieStr = "";
             let cookieDict = {};
@@ -24,11 +22,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 cookieDict[c.name] = c.value;
             });
 
-            // Továbbítjuk a lokális Python letöltő Flet Backendnek
             sendToLocalApp({
                 ...payload,
                 cookies_str: cookieStr,
-                cookies_dict: cookieDict
+                cookies_dict: cookieDict,
+                userAgent: navigator.userAgent
             });
         });
     }

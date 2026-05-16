@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <title>Jules Sniffer</title>
     <style>
-        body { width: 250px; font-family: sans-serif; text-align: center; padding: 10px; background-color: #212121; color: white; }
+        body { width: 280px; font-family: sans-serif; text-align: center; padding: 15px; background-color: #212121; color: white; margin: 0;}
         h3 { margin-top: 0; color: #ffeb3b; }
-        .info { font-size: 12px; color: #bdbdbd; margin-bottom: 10px;}
-        .status { padding: 5px; background: #4caf50; border-radius: 5px; font-weight: bold; color: #000; }
+        .info { font-size: 13px; color: #bdbdbd; margin-bottom: 15px;}
+        .status { padding: 8px; background: #4caf50; border-radius: 5px; font-weight: bold; color: #000; margin-bottom: 15px; }
+        button { background-color: #1976d2; color: white; border: none; padding: 10px 16px; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; transition: background-color 0.3s;}
+        button:hover { background-color: #1565c0; }
     </style>
 </head>
 <body>
     <h3>Jules Video Sniffer</h3>
-    <div class="info">Automatikusan elfogja és továbbítja a YouTube, Xamateur, stb. stream linkeket és session cookie-kat a lokális Python Core-nak.</div>
-    <div class="status">Keresés aktív...</div>
+    <div class="status">Keresés a háttérben aktív...</div>
+    <div class="info">Ha a videó nem jelenik meg a Flet alkalmazásban, kattints a gombra, hogy az oldal URL-jét küldd be a letöltőbe!</div>
+    <button id="send-btn">Aktuális oldal küldése letöltésre</button>
+    <script src="popup.js"></script>
 </body>
 </html>

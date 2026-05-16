@@ -18,20 +18,20 @@ class VideoDownloaderApp:
         self.url_input = ft.TextField(
             label="Videó vagy m3u8 URL beillesztése",
             expand=True,
-            border_color=ft.colors.BLUE_400,
+            border_color=ft.Colors.BLUE_400,
         )
         self.download_btn = ft.ElevatedButton(
             "Letöltés hozzáadása",
             icon=ft.icons.DOWNLOAD,
             on_click=self.on_download_clicked,
-            bgcolor=ft.colors.BLUE_700,
-            color=ft.colors.WHITE,
+            bgcolor=ft.Colors.BLUE_700,
+            color=ft.Colors.WHITE,
         )
 
         # Extension figyelmezteto sav
         self.extension_status = ft.Text(
             "Chrome Kiegészítő (Jules Sniffer) integráció aktív: várjuk az URL-eket a böngészőből...",
-            color=ft.colors.GREEN_400,
+            color=ft.Colors.GREEN_400,
             italic=True,
         )
 
@@ -46,7 +46,7 @@ class VideoDownloaderApp:
         # Fejléc
         header = ft.Row(
             [
-                ft.Icon(ft.icons.VIDEO_LIBRARY, size=40, color=ft.colors.BLUE_400),
+                ft.Icon(ft.icons.VIDEO_LIBRARY, size=40, color=ft.Colors.BLUE_400),
                 ft.Text("Jules Downloader", size=30, weight=ft.FontWeight.BOLD),
             ],
             alignment=ft.MainAxisAlignment.CENTER,
@@ -57,10 +57,10 @@ class VideoDownloaderApp:
 
         self.page.add(
             header,
-            ft.Divider(height=20, color=ft.colors.TRANSPARENT),
+            ft.Divider(height=20, color=ft.Colors.TRANSPARENT),
             input_row,
             self.extension_status,
-            ft.Divider(height=20, color=ft.colors.GREY_800),
+            ft.Divider(height=20, color=ft.Colors.GREY_800),
             ft.Text("Letöltések:", size=20, weight=ft.FontWeight.BOLD),
             self.downloads_list,
         )
@@ -88,7 +88,7 @@ class VideoDownloaderApp:
 
         # Ha a fájl még nincs a listában, adjuk hozzá
         if filename not in self.progress_rows:
-            pb = ft.ProgressBar(value=0.0, expand=True, color=ft.colors.BLUE_400)
+            pb = ft.ProgressBar(value=0.0, expand=True, color=ft.Colors.BLUE_400)
             status_text = ft.Text(
                 "Indítás...", width=150, text_align=ft.TextAlign.RIGHT
             )
@@ -118,19 +118,19 @@ class VideoDownloaderApp:
 
             ui_elements["pb"].value = percent / 100.0
             ui_elements["status_text"].value = f"{percent:.1f}% ({speed_mb:.1f} MB/s)"
-            ui_elements["status_text"].color = ft.colors.WHITE
+            ui_elements["status_text"].color = ft.Colors.WHITE
 
         elif status == "finished":
             ui_elements["pb"].value = 1.0
-            ui_elements["pb"].color = ft.colors.GREEN_400
+            ui_elements["pb"].color = ft.Colors.GREEN_400
             ui_elements["status_text"].value = "Befejezve!"
-            ui_elements["status_text"].color = ft.colors.GREEN_400
+            ui_elements["status_text"].color = ft.Colors.GREEN_400
 
         elif status == "error":
             error_msg = event.get("error", "Ismeretlen hiba")
-            ui_elements["pb"].color = ft.colors.RED_400
+            ui_elements["pb"].color = ft.Colors.RED_400
             ui_elements["status_text"].value = "Hiba!"
-            ui_elements["status_text"].color = ft.colors.RED_400
+            ui_elements["status_text"].color = ft.Colors.RED_400
             ui_elements["row"].controls[0].tooltip = error_msg
 
         self.page.update()

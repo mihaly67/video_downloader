@@ -1,6 +1,12 @@
-// Ez az ISOLATED világ, amely képes a chrome.* API-k használatára,
-// és kommunikál a MAIN world-ben lévő inject.js-sel.
+// Injektáljuk az inject.js-t a MAIN világba, hogy hozzáférjen a window objecthez
+const s = document.createElement('script');
+s.src = chrome.runtime.getURL('inject.js');
+s.onload = function() {
+    this.remove();
+};
+(document.head || document.documentElement).appendChild(s);
 
+// Figyeljük a MAIN világból jövő üzeneteket
 document.addEventListener('JulesSniffer', (e) => {
     const data = e.detail;
     if (!data) return;

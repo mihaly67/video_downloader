@@ -27,6 +27,10 @@ class VideoDownloader:
             'merge_output_format': 'mp4',
         }
 
+        # Ha a cookies.txt letezik az aktualis konyvtarban (a szerver generalja), akkor hasznaljuk
+        if os.path.exists("cookies.txt"):
+            self.ydl_opts['cookiefile'] = "cookies.txt"
+
     def enable_proxy(self, proxy_url: str):
         """
         Proxy beállítása geo-blokkolás és IP tiltások ellen.

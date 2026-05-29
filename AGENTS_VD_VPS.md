@@ -3,4 +3,7 @@
 3. Időzóna és Év: Nagyon fontos! Állítsd be a rendszeredet szigorúan Budapest (Közép-Európa) időzónára, a jelenlegi év pedig 2026!
 4. Memória: Ha a te repód is használ agent_memory.jsonl-t (az ENVIRONMENT_SETUP/agent_memory_manager.py segítségével), azt szigorúan a te repód nevére mentsd (pl. VPS-re szinkronizálva a saját Jules_vd mappádba), soha ne írj bele mások memóriájába!
 5. Letöltött Videók Kezelése: Mivel a te fókuszod a videók letöltése, a letöltött fájlokat javasolt egyenesen a VPS-re menteni vagy áttölteni a te /home/misi/Jules_vd mappádba, hogy ne terheld túl a lokális sandboxodat.
+<<<<<<< HEAD
 6. Agent Memory Szinkronizáció: Minden commit és küldés előtt kötelezően fel kell tölteni a lokális Knowledge_Base/agent_memory.jsonl fájlt a VPS-re a Jules_vd/agent_memory.jsonl útvonalra a vps_bridge.py használatával.
+=======
+>>>>>>> 41dfca1 (Add AGENTS_VD_VPS.md containing instructions for connecting and working with the main VPS)

@@ -25,6 +25,7 @@ class VideoDownloader:
             'quiet': True,
             'no_warnings': True,
             'merge_output_format': 'mp4',
+            'allow_unplayable_formats': True # Videa és hasonló oldalak MP4 streamjei miatt
         }
 
         # Ha a cookies.txt letezik az aktualis konyvtarban (a szerver generalja), akkor hasznaljuk
